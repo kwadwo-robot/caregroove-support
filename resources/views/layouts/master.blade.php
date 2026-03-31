@@ -960,8 +960,7 @@
                         <a href="tel:07874240205">07874 240205</a>
                     </div>
                     <div class="top-bar-item">
-                        <i class="fas fa-envelope"></i>
-                        <a href="mailto:info@caregroovesupport.co.uk">info@caregroovesupport.co.uk</a>
+                        <a href="{{ route('careers') }}" style="background: linear-gradient(135deg, #0066cc, #2d8659); color: white; padding: 8px 20px; border-radius: 20px; text-decoration: none; font-weight: 600; font-size: 0.9rem; display: inline-block; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 5px 15px rgba(0,0,0,0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">Apply For Job</a>
                     </div>
                 </div>
             </div>
