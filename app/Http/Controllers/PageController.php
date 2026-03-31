@@ -29,27 +29,6 @@ class PageController extends Controller
         return view('pages.careers');
     }
 
-    public function submitJobApplication(Request $request)
-    {
-        $validated = $request->validate([
-            'name' => 'required|string|max:255',
-            'email' => 'required|email',
-            'phone' => 'required|string|max:20',
-            'position' => 'required|string|max:255',
-            'experience' => 'required|string|min:20',
-            'cv' => 'nullable|file|mimes:pdf,doc,docx|max:5120',
-        ]);
-
-        try {
-            Mail::to('info@caregroovesupport.co.uk')->send(new JobApplicationMail($validated, $request->file('cv')));
-            Mail::to($validated['email'])->send(new JobApplicationMail($validated, null, true));
-        } catch (\Exception $e) {
-            \Log::error('Job application email failed: ' . $e->getMessage());
-        }
-
-        return redirect()->route('careers')->with('success', 'Thank you for your application. We will review it and get back to you soon!');
-    }
-
     public function contact()
     {
         return view('pages.contact');
