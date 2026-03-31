@@ -149,55 +149,7 @@
     </div>
 </section>
 
-<!-- Requirements Section -->
-<section style="padding: 80px 0;">
-    <div class="container">
-        <h3 style="color: #0066cc; font-weight: 700; margin-bottom: 2rem; font-family: 'Outfit', sans-serif; font-size: 1.5rem;" data-aos="fade-up">What We're Looking For</h3>
-        
-        <div style="display: flex; gap: 0.5rem; align-items: flex-start; justify-content: space-between;">
-            <div style="flex: 1.2; min-width: 0;">
-                <ul style="list-style: none; padding: 0; margin-bottom: 2rem;">
-                    <li style="padding: 1rem 0; padding-left: 2.5rem; position: relative; color: #555; font-size: 1.05rem;" data-aos="fade-up" data-aos-delay="0">
-                        <i class="fas fa-check" style="position: absolute; left: 0; color: #2d8659; font-weight: bold; font-size: 1.2rem;"></i>
-                        Compassion and empathy for service users
-                    </li>
-                    <li style="padding: 1rem 0; padding-left: 2.5rem; position: relative; color: #555; font-size: 1.05rem;" data-aos="fade-up" data-aos-delay="100">
-                        <i class="fas fa-check" style="position: absolute; left: 0; color: #2d8659; font-weight: bold; font-size: 1.2rem;"></i>
-                        Commitment to our core values
-                    </li>
-                    <li style="padding: 1rem 0; padding-left: 2.5rem; position: relative; color: #555; font-size: 1.05rem;" data-aos="fade-up" data-aos-delay="200">
-                        <i class="fas fa-check" style="position: absolute; left: 0; color: #2d8659; font-weight: bold; font-size: 1.2rem;"></i>
-                        Relevant qualifications and experience
-                    </li>
-                    <li style="padding: 1rem 0; padding-left: 2.5rem; position: relative; color: #555; font-size: 1.05rem;" data-aos="fade-up" data-aos-delay="300">
-                        <i class="fas fa-check" style="position: absolute; left: 0; color: #2d8659; font-weight: bold; font-size: 1.2rem;"></i>
-                        Enhanced DBS clearance
-                    </li>
-                    <li style="padding: 1rem 0; padding-left: 2.5rem; position: relative; color: #555; font-size: 1.05rem;" data-aos="fade-up" data-aos-delay="400">
-                        <i class="fas fa-check" style="position: absolute; left: 0; color: #2d8659; font-weight: bold; font-size: 1.2rem;"></i>
-                        Professional attitude and reliability
-                    </li>
-                </ul>
-            </div>
 
-            <div style="flex: 1; min-width: 0;">
-                <div class="service-card" style="background: #f0f8ff; border: 2px solid #0066cc; box-shadow: 0 4px 15px rgba(0, 102, 204, 0.1);" data-aos="fade-left">
-                    <h3 style="color: #0066cc; margin-bottom: 1rem; font-family: 'Outfit', sans-serif; font-weight: 700;">Contact HR</h3>
-                    <p style="margin-bottom: 1.5rem; color: #555; font-size: 0.95rem;">For career inquiries, please contact:</p>
-                    <p style="margin-bottom: 1rem; display: flex; align-items: center; color: #333;">
-                        <i class="fas fa-envelope" style="color: #0066cc; margin-right: 0.8rem; font-size: 1.3rem; flex-shrink: 0;"></i>
-                        <a href="mailto:info@caregroovesupport.co.uk" style="color: #0066cc; text-decoration: none; font-weight: 600; font-size: 0.95rem;">info@caregroovesupport.co.uk</a>
-                    </p>
-                    <p style="margin-bottom: 1.5rem; display: flex; align-items: center; color: #333;">
-                        <i class="fas fa-phone" style="color: #0066cc; margin-right: 0.8rem; font-size: 1.3rem; flex-shrink: 0;"></i>
-                        <a href="tel:07874240205" style="color: #0066cc; text-decoration: none; font-weight: 600; font-size: 0.95rem;">07874240205</a>
-                    </p>
-                    <a href="#apply-form" class="btn-primary-custom" style="width: 100%; text-align: center; display: block; background: linear-gradient(135deg, #0066cc, #2d8659); border: none; margin-top: 1rem;">Apply Now</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <!-- Application Form Section -->
 <section id="apply-form" style="padding: 80px 0; background: #f8f9fa;">
