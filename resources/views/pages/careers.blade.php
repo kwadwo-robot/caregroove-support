@@ -74,7 +74,7 @@
         <!-- Care Workers / Support Workers -->
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; margin-bottom: 3rem;" data-aos="fade-up">
             <div style="min-width: 0;">
-                <img src="{{ asset('images/vector-personal-care.webp') }}" alt="Care Workers" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+                <img src="{{ asset('images/vector-visiting-care.webp') }}" alt="Care Workers" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
             </div>
             <div style="min-width: 0;">
                 <h4 style="color: #0066cc; margin-bottom: 1rem; font-size: 1.3rem; font-weight: 700;">Care Workers / Support Workers</h4>
@@ -93,7 +93,7 @@
         <!-- Senior Care Workers -->
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; margin-bottom: 3rem;" data-aos="fade-up">
             <div style="min-width: 0;">
-                <img src="{{ asset('images/vector-visiting-care.webp') }}" alt="Senior Care Workers" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+                <img src="{{ asset('images/vector-live-in-care.webp') }}" alt="Senior Care Workers" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
             </div>
             <div style="min-width: 0;">
                 <h4 style="color: #0066cc; margin-bottom: 1rem; font-size: 1.3rem; font-weight: 700;">Senior Care Workers</h4>
@@ -112,7 +112,7 @@
         <!-- Care Coordinators -->
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; margin-bottom: 3rem;" data-aos="fade-up">
             <div style="min-width: 0;">
-                <img src="{{ asset('images/vector-supported-living.webp') }}" alt="Care Coordinators" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+                <img src="{{ asset('images/vector-respite-care.webp') }}" alt="Care Coordinators" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
             </div>
             <div style="min-width: 0;">
                 <h4 style="color: #0066cc; margin-bottom: 1rem; font-size: 1.3rem; font-weight: 700;">Care Coordinators</h4>
@@ -131,7 +131,7 @@
         <!-- Specialist Care Professionals -->
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; margin-bottom: 3rem;" data-aos="fade-up">
             <div style="min-width: 0;">
-                <img src="{{ asset('images/vector-dementia-care.webp') }}" alt="Specialist Care Professionals" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+                <img src="{{ asset('images/vector-mental-health.webp') }}" alt="Specialist Care Professionals" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
             </div>
             <div style="min-width: 0;">
                 <h4 style="color: #0066cc; margin-bottom: 1rem; font-size: 1.3rem; font-weight: 700;">Specialist Care Professionals</h4>
