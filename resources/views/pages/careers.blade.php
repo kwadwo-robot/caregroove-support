@@ -91,7 +91,7 @@
         </div>
 
         <!-- Senior Care Workers -->
-        <div style="display: flex; gap: 2rem; align-items: center; margin-bottom: 3rem; flex-direction: row-reverse;" data-aos="fade-up">
+        <div style="display: flex; gap: 2rem; align-items: center; margin-bottom: 3rem;" data-aos="fade-up">
             <div style="flex: 1; min-width: 0;">
                 <img src="{{ asset('images/homecare.jpg') }}" alt="Senior Care Workers" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
             </div>
@@ -129,7 +129,7 @@
         </div>
 
         <!-- Specialist Care Professionals -->
-        <div style="display: flex; gap: 2rem; align-items: center; margin-bottom: 3rem; flex-direction: row-reverse;" data-aos="fade-up">
+        <div style="display: flex; gap: 2rem; align-items: center; margin-bottom: 3rem;" data-aos="fade-up">
             <div style="flex: 1; min-width: 0;">
                 <img src="{{ asset('images/vector-mental-health.webp') }}" alt="Specialist Care Professionals" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
             </div>
