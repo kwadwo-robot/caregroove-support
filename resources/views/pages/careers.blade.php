@@ -84,9 +84,9 @@
                     <li style="padding: 0.5rem 0; color: #555;"><i class="fas fa-check" style="color: #2d8659; margin-right: 0.8rem;"></i>Build meaningful relationships with service users</li>
                     <li style="padding: 0.5rem 0; color: #555;"><i class="fas fa-check" style="color: #2d8659; margin-right: 0.8rem;"></i>Maintain accurate care records</li>
                 </ul>
-                <a href="#apply-form" style="background: linear-gradient(135deg, #0066cc, #2d8659); color: white; padding: 12px 30px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; transition: all 0.3s ease;">
+                <button onclick="openApplicationModal('Care Workers / Support Workers')" style="background: linear-gradient(135deg, #0066cc, #2d8659); color: white; padding: 12px 30px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; transition: all 0.3s ease; border: none; cursor: pointer;">
                     <i class="fas fa-arrow-right" style="margin-right: 0.5rem;"></i>Apply for This Position
-                </a>
+                </button>
             </div>
         </div>
 
@@ -103,9 +103,9 @@
                     <li style="padding: 0.5rem 0; color: #555;"><i class="fas fa-check" style="color: #2d8659; margin-right: 0.8rem;"></i>Ensure quality care standards</li>
                     <li style="padding: 0.5rem 0; color: #555;"><i class="fas fa-check" style="color: #2d8659; margin-right: 0.8rem;"></i>Mentor and develop care workers</li>
                 </ul>
-                <a href="#apply-form" style="background: linear-gradient(135deg, #0066cc, #2d8659); color: white; padding: 12px 30px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; transition: all 0.3s ease;">
+                <button onclick="openApplicationModal('Senior Care Workers')" style="background: linear-gradient(135deg, #0066cc, #2d8659); color: white; padding: 12px 30px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; transition: all 0.3s ease; border: none; cursor: pointer;">
                     <i class="fas fa-arrow-right" style="margin-right: 0.5rem;"></i>Apply for This Position
-                </a>
+                </button>
             </div>
         </div>
 
@@ -122,9 +122,9 @@
                     <li style="padding: 0.5rem 0; color: #555;"><i class="fas fa-check" style="color: #2d8659; margin-right: 0.8rem;"></i>Manage service user information</li>
                     <li style="padding: 0.5rem 0; color: #555;"><i class="fas fa-check" style="color: #2d8659; margin-right: 0.8rem;"></i>Liaise with families and healthcare professionals</li>
                 </ul>
-                <a href="#apply-form" style="background: linear-gradient(135deg, #0066cc, #2d8659); color: white; padding: 12px 30px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; transition: all 0.3s ease;">
+                <button onclick="openApplicationModal('Care Coordinators')" style="background: linear-gradient(135deg, #0066cc, #2d8659); color: white; padding: 12px 30px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; transition: all 0.3s ease; border: none; cursor: pointer;">
                     <i class="fas fa-arrow-right" style="margin-right: 0.5rem;"></i>Apply for This Position
-                </a>
+                </button>
             </div>
         </div>
 
@@ -141,23 +141,29 @@
                     <li style="padding: 0.5rem 0; color: #555;"><i class="fas fa-check" style="color: #2d8659; margin-right: 0.8rem;"></i>Support complex care needs</li>
                     <li style="padding: 0.5rem 0; color: #555;"><i class="fas fa-check" style="color: #2d8659; margin-right: 0.8rem;"></i>Provide training and guidance to teams</li>
                 </ul>
-                <a href="#apply-form" style="background: linear-gradient(135deg, #0066cc, #2d8659); color: white; padding: 12px 30px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; transition: all 0.3s ease;">
+                <button onclick="openApplicationModal('Specialist Care Professionals')" style="background: linear-gradient(135deg, #0066cc, #2d8659); color: white; padding: 12px 30px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; transition: all 0.3s ease; border: none; cursor: pointer;">
                     <i class="fas fa-arrow-right" style="margin-right: 0.5rem;"></i>Apply for This Position
-                </a>
+                </button>
             </div>
         </div>
     </div>
 </section>
 
+<!-- Application Modal -->
+<div id="applicationModal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); animation: fadeIn 0.3s ease;">
+    <div style="background-color: white; margin: 5% auto; padding: 0; border-radius: 12px; width: 90%; max-width: 600px; max-height: 90vh; overflow-y: auto; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3); animation: slideIn 0.3s ease;">
+        <!-- Modal Header -->
+        <div style="background: linear-gradient(135deg, #0066cc, #2d8659); color: white; padding: 2rem; border-radius: 12px 12px 0 0; display: flex; justify-content: space-between; align-items: center;">
+            <h2 style="margin: 0; font-size: 1.5rem; font-weight: 700;">Apply for Position</h2>
+            <button onclick="closeApplicationModal()" style="background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; padding: 0; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center;">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
 
+        <!-- Modal Body -->
+        <div style="padding: 2rem;">
+            <p style="color: #555; margin-bottom: 1.5rem; font-size: 0.95rem;">Position: <strong id="selectedPosition" style="color: #0066cc;"></strong></p>
 
-<!-- Application Form Section -->
-<section id="apply-form" style="padding: 80px 0; background: #f8f9fa;">
-    <div class="container">
-        <h3 style="color: #0066cc; font-weight: 700; margin-bottom: 2rem; font-family: 'Outfit', sans-serif; font-size: 1.5rem;" data-aos="fade-up">Apply for a Position</h3>
-        <p style="margin-bottom: 3rem; color: #555; font-size: 1.05rem; max-width: 800px;" data-aos="fade-up">Ready to join our team? Fill out the application form below and upload your CV. We look forward to hearing from you!</p>
-
-        <div style="max-width: 700px; margin: 0 auto; background: white; padding: 2.5rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);" data-aos="fade-up">
             @if($errors->any())
                 <div style="background: #fee; border: 1px solid #fcc; color: #c33; padding: 1rem; border-radius: 8px; margin-bottom: 1.5rem;">
                     <ul style="margin: 0; padding-left: 1.5rem;">
@@ -176,49 +182,110 @@
 
             <form method="POST" action="{{ route('careers.submit') }}" enctype="multipart/form-data">
                 @csrf
+
                 <div style="margin-bottom: 1.5rem;">
-                    <label style="display: block; margin-bottom: 0.5rem; color: #333; font-weight: 600;">Full Name *</label>
-                    <input type="text" name="name" value="{{ old('name') }}" placeholder="Enter your full name" required style="width: 100%; padding: 0.9rem; border: 1px solid #ddd; border-radius: 8px; font-family: 'Outfit', sans-serif; font-size: 1rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #333;">Full Name *</label>
+                    <input type="text" name="name" required placeholder="Enter your full name" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 6px; font-size: 0.95rem; font-family: 'Outfit', sans-serif;">
                 </div>
 
                 <div style="margin-bottom: 1.5rem;">
-                    <label style="display: block; margin-bottom: 0.5rem; color: #333; font-weight: 600;">Email Address *</label>
-                    <input type="email" name="email" value="{{ old('email') }}" placeholder="your@email.com" required style="width: 100%; padding: 0.9rem; border: 1px solid #ddd; border-radius: 8px; font-family: 'Outfit', sans-serif; font-size: 1rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #333;">Email Address *</label>
+                    <input type="email" name="email" required placeholder="your@email.com" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 6px; font-size: 0.95rem; font-family: 'Outfit', sans-serif;">
                 </div>
 
                 <div style="margin-bottom: 1.5rem;">
-                    <label style="display: block; margin-bottom: 0.5rem; color: #333; font-weight: 600;">Phone Number *</label>
-                    <input type="tel" name="phone" value="{{ old('phone') }}" placeholder="07874240205" required style="width: 100%; padding: 0.9rem; border: 1px solid #ddd; border-radius: 8px; font-family: 'Outfit', sans-serif; font-size: 1rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #333;">Phone Number *</label>
+                    <input type="tel" name="phone" required placeholder="07874240205" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 6px; font-size: 0.95rem; font-family: 'Outfit', sans-serif;">
                 </div>
 
                 <div style="margin-bottom: 1.5rem;">
-                    <label style="display: block; margin-bottom: 0.5rem; color: #333; font-weight: 600;">Position Applied For *</label>
-                    <select name="position" required style="width: 100%; padding: 0.9rem; border: 1px solid #ddd; border-radius: 8px; font-family: 'Outfit', sans-serif; font-size: 1rem;">
-                        <option value="">Select a position</option>
-                        <option value="Care Workers / Support Workers" {{ old('position') == 'Care Workers / Support Workers' ? 'selected' : '' }}>Care Workers / Support Workers</option>
-                        <option value="Senior Care Workers" {{ old('position') == 'Senior Care Workers' ? 'selected' : '' }}>Senior Care Workers</option>
-                        <option value="Care Coordinators" {{ old('position') == 'Care Coordinators' ? 'selected' : '' }}>Care Coordinators</option>
-                        <option value="Specialist Care Professionals" {{ old('position') == 'Specialist Care Professionals' ? 'selected' : '' }}>Specialist Care Professionals</option>
-                    </select>
+                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #333;">Position Applied For *</label>
+                    <input type="hidden" name="position" id="positionInput" value="">
+                    <input type="text" id="positionDisplay" disabled style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 6px; font-size: 0.95rem; font-family: 'Outfit', sans-serif; background: #f5f5f5;">
                 </div>
 
                 <div style="margin-bottom: 1.5rem;">
-                    <label style="display: block; margin-bottom: 0.5rem; color: #333; font-weight: 600;">Relevant Experience *</label>
-                    <textarea name="experience" rows="4" placeholder="Tell us about your relevant experience and qualifications..." required style="width: 100%; padding: 0.9rem; border: 1px solid #ddd; border-radius: 8px; font-family: 'Outfit', sans-serif; font-size: 1rem; resize: vertical;">{{ old('experience') }}</textarea>
+                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #333;">Relevant Experience *</label>
+                    <textarea name="experience" required placeholder="Tell us about your relevant experience and qualifications..." style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 6px; font-size: 0.95rem; font-family: 'Outfit', sans-serif; min-height: 120px; resize: vertical;"></textarea>
                 </div>
 
-                <div style="margin-bottom: 2rem;">
-                    <label style="display: block; margin-bottom: 0.5rem; color: #333; font-weight: 600;">Upload CV (PDF, DOC, DOCX - Max 5MB)</label>
-                    <input type="file" name="cv" accept=".pdf,.doc,.docx" style="width: 100%; padding: 0.9rem; border: 1px solid #ddd; border-radius: 8px; font-family: 'Outfit', sans-serif; font-size: 1rem;">
+                <div style="margin-bottom: 1.5rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #333;">Upload CV (PDF, DOC, DOCX - Max 5MB) *</label>
+                    <input type="file" name="cv" required accept=".pdf,.doc,.docx" style="width: 100%; padding: 0.75rem; border: 1px solid #ddd; border-radius: 6px; font-size: 0.95rem; font-family: 'Outfit', sans-serif;">
                     <small style="color: #999; display: block; margin-top: 0.5rem;">Optional but recommended</small>
                 </div>
 
-                <button type="submit" style="background: linear-gradient(135deg, #0066cc, #2d8659); color: white; border: none; padding: 1rem 2rem; border-radius: 8px; font-size: 1.05rem; font-weight: 600; cursor: pointer; font-family: 'Outfit', sans-serif; transition: all 0.3s ease; width: 100%;">
-                    Submit Application
-                </button>
+                <div style="display: flex; gap: 1rem; margin-top: 2rem;">
+                    <button type="submit" style="flex: 1; background: linear-gradient(135deg, #0066cc, #2d8659); color: white; padding: 0.75rem 1.5rem; border-radius: 6px; border: none; font-weight: 600; cursor: pointer; font-size: 0.95rem; transition: all 0.3s ease;">
+                        <i class="fas fa-paper-plane" style="margin-right: 0.5rem;"></i>Submit Application
+                    </button>
+                    <button type="button" onclick="closeApplicationModal()" style="flex: 1; background: #f0f0f0; color: #333; padding: 0.75rem 1.5rem; border-radius: 6px; border: none; font-weight: 600; cursor: pointer; font-size: 0.95rem; transition: all 0.3s ease;">
+                        Cancel
+                    </button>
+                </div>
             </form>
         </div>
     </div>
-</section>
+</div>
+
+<style>
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+#applicationModal input:focus,
+#applicationModal textarea:focus {
+    outline: none;
+    border-color: #0066cc;
+    box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+}
+
+button[onclick*="openApplicationModal"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+</style>
+
+<script>
+function openApplicationModal(position) {
+    document.getElementById('applicationModal').style.display = 'block';
+    document.getElementById('selectedPosition').textContent = position;
+    document.getElementById('positionInput').value = position;
+    document.getElementById('positionDisplay').value = position;
+    document.body.style.overflow = 'hidden';
+}
+
+function closeApplicationModal() {
+    document.getElementById('applicationModal').style.display = 'none';
+    document.body.style.overflow = 'auto';
+}
+
+// Close modal when clicking outside of it
+window.onclick = function(event) {
+    const modal = document.getElementById('applicationModal');
+    if (event.target === modal) {
+        closeApplicationModal();
+    }
+}
+
+// Close modal on Escape key
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        closeApplicationModal();
+    }
+});
+</script>
 
 @endsection
