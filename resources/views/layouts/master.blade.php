@@ -68,9 +68,9 @@
         }
 
         .navbar-brand img {
-            height: 72px;
+            height: 100px;
             width: auto;
-            max-width: 210px;
+            max-width: 280px;
             object-fit: contain;
         }
 
@@ -998,7 +998,7 @@
             <a class="navbar-brand" href="{{ route('home') }}">
                 <picture>
                     <source srcset="/images/caregroove-logo.jpeg" type="image/webp">
-                    <img src="/images/caregroove-logo.jpeg" alt="CareGroove Support Ltd" loading="eager" fetchpriority="high" style="height: 72px; width: auto; max-width: 210px; object-fit: contain;">
+                    <img src="/images/caregroove-logo.jpeg" alt="CareGroove Support Ltd" loading="eager" fetchpriority="high" style="height: 100px; width: auto; max-width: 280px; object-fit: contain;">
                 </picture>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
