@@ -72,11 +72,11 @@
         <p style="margin-bottom: 3rem; color: #555; font-size: 1.05rem;" data-aos="fade-up">We regularly recruit for various positions across our organization. Current opportunities may include:</p>
 
         <!-- Care Workers / Support Workers -->
-        <div style="display: flex; gap: 2rem; align-items: center; margin-bottom: 3rem;" data-aos="fade-up">
-            <div style="flex: 1; min-width: 0;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; margin-bottom: 3rem;" data-aos="fade-up">
+            <div style="min-width: 0;">
                 <img src="{{ asset('images/support-workers.jpg') }}" alt="Care Workers" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
             </div>
-            <div style="flex: 1; min-width: 0;">
+            <div style="min-width: 0;">
                 <h4 style="color: #0066cc; margin-bottom: 1rem; font-size: 1.3rem; font-weight: 700;">Care Workers / Support Workers</h4>
                 <p style="color: #555; margin-bottom: 1rem; line-height: 1.6;">We're seeking experienced and compassionate care workers to provide direct support to service users. You should have relevant experience, appropriate qualifications, and a genuine commitment to person-centred care. Our care workers are the backbone of our organization, delivering quality support across all our services.</p>
                 <ul style="list-style: none; padding: 0; margin: 0; margin-bottom: 1.5rem;">
@@ -91,11 +91,11 @@
         </div>
 
         <!-- Senior Care Workers -->
-        <div style="display: flex; gap: 2rem; align-items: center; margin-bottom: 3rem;" data-aos="fade-up">
-            <div style="flex: 1; min-width: 0;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; margin-bottom: 3rem;" data-aos="fade-up">
+            <div style="min-width: 0;">
                 <img src="{{ asset('images/homecare.jpg') }}" alt="Senior Care Workers" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
             </div>
-            <div style="flex: 1; min-width: 0;">
+            <div style="min-width: 0;">
                 <h4 style="color: #0066cc; margin-bottom: 1rem; font-size: 1.3rem; font-weight: 700;">Senior Care Workers</h4>
                 <p style="color: #555; margin-bottom: 1rem; line-height: 1.6;">Experienced care professionals with leadership skills to supervise teams and ensure quality care delivery. Senior care workers play a crucial role in maintaining our high standards of care and supporting the professional development of their teams.</p>
                 <ul style="list-style: none; padding: 0; margin: 0; margin-bottom: 1.5rem;">
@@ -110,11 +110,11 @@
         </div>
 
         <!-- Care Coordinators -->
-        <div style="display: flex; gap: 2rem; align-items: center; margin-bottom: 3rem;" data-aos="fade-up">
-            <div style="flex: 1; min-width: 0;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; margin-bottom: 3rem;" data-aos="fade-up">
+            <div style="min-width: 0;">
                 <img src="{{ asset('images/vector-personal-care.webp') }}" alt="Care Coordinators" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
             </div>
-            <div style="flex: 1; min-width: 0;">
+            <div style="min-width: 0;">
                 <h4 style="color: #0066cc; margin-bottom: 1rem; font-size: 1.3rem; font-weight: 700;">Care Coordinators</h4>
                 <p style="color: #555; margin-bottom: 1rem; line-height: 1.6;">Administrative and coordination roles supporting care delivery and service management. Care coordinators are essential in ensuring smooth operations and effective communication between teams, service users, and families.</p>
                 <ul style="list-style: none; padding: 0; margin: 0; margin-bottom: 1.5rem;">
@@ -129,11 +129,11 @@
         </div>
 
         <!-- Specialist Care Professionals -->
-        <div style="display: flex; gap: 2rem; align-items: center; margin-bottom: 3rem;" data-aos="fade-up">
-            <div style="flex: 1; min-width: 0;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: center; margin-bottom: 3rem;" data-aos="fade-up">
+            <div style="min-width: 0;">
                 <img src="{{ asset('images/vector-mental-health.webp') }}" alt="Specialist Care Professionals" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
             </div>
-            <div style="flex: 1; min-width: 0;">
+            <div style="min-width: 0;">
                 <h4 style="color: #0066cc; margin-bottom: 1rem; font-size: 1.3rem; font-weight: 700;">Specialist Care Professionals</h4>
                 <p style="color: #555; margin-bottom: 1rem; line-height: 1.6;">Professionals with expertise in specific care areas such as mental health, dementia, or complex needs. Our specialist team brings advanced knowledge and specialized skills to deliver exceptional care for individuals with unique requirements.</p>
                 <ul style="list-style: none; padding: 0; margin: 0; margin-bottom: 1.5rem;">
