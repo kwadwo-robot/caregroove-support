@@ -177,21 +177,28 @@
 
         /* Apply For Job Button */
         .apply-job-btn {
-            background: linear-gradient(135deg, #0066cc, #2d8659);
-            color: white;
-            padding: 8px 20px;
-            border-radius: 20px;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 0.9rem;
-            display: inline-block;
-            transition: all 0.3s ease;
+            background: linear-gradient(135deg, #0066cc, #2d8659) !important;
+            color: white !important;
+            padding: 8px 20px !important;
+            border-radius: 20px !important;
+            text-decoration: none !important;
+            font-weight: 600 !important;
+            font-size: 0.9rem !important;
+            display: inline-block !important;
+            transition: all 0.3s ease !important;
+            white-space: nowrap !important;
+            border: none !important;
         }
 
         .apply-job-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-            color: white;
+            transform: translateY(-2px) !important;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2) !important;
+            color: white !important;
+        }
+
+        .top-bar .top-bar-item .apply-job-btn {
+            padding: 8px 20px !important;
+            font-size: 0.85rem !important;
         }
 
         /* Hero Section */
