@@ -981,6 +981,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('home') }}"><i class="fas fa-home"></i> Home</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="homecareDropdown" role="button" data-bs-toggle="dropdown">
                             <i class="fas fa-clinic-medical"></i> Homecare
@@ -1038,7 +1041,7 @@
                         <img src="/images/caregroove-logo.png" alt="CareGroove Support Ltd Logo" style="width: 100px; height: 100px; object-fit: contain;">
                     </div>
                     <p style="color: #ccc; font-size: 0.88rem; line-height: 1.8; margin-bottom: 1rem;">CareGroove Support Ltd is a trusted care provider across England, delivering compassionate, person-centred care that supports individuals to live safely, independently, and with dignity — in their own homes or within care environments.</p>
-                    <p style="color: #aaa; font-size: 0.82rem;">Registered in England &amp; Wales. Regulated by the CQC.</p>
+                    {{-- <p style="color: #aaa; font-size: 0.82rem;">Registered in England &amp; Wales. Regulated by the CQC.</p> --}}
                 </div>
                 <div class="col-md-3 mb-4">
                     <h5>Quick Links</h5>
@@ -1069,9 +1072,9 @@
                         <p style="display: flex; align-items: center;"><i class="fas fa-phone" style="color: #0066cc; margin-right: 0.5rem; flex-shrink: 0;"></i><a href="tel:07874240205" style="color: #ccc;">07874240205</a></p>
                         <p style="display: flex; align-items: center;"><i class="fas fa-envelope" style="color: #0066cc; margin-right: 0.5rem; flex-shrink: 0;"></i><a href="mailto:info@caregroovesupport.co.uk" style="color: #ccc;">info@caregroovesupport.co.uk</a></p>
                     </div>
-                    <div style="margin-top: 1.5rem;">
+                    {{-- <div style="margin-top: 1.5rem;">
                         <img src="/images/cqc-logo.png" alt="Regulated by Care Quality Commission" style="width: 140px; height: auto; border-radius: 6px;">
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <div class="footer-bottom">

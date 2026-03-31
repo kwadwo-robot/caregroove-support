@@ -9,6 +9,7 @@ Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/careers', [PageController::class, 'careers'])->name('careers');
 Route::get('/contact', [PageController::class, 'contact'])->name('contact');
 Route::post('/contact', [PageController::class, 'submitContact'])->name('contact.submit');
+Route::post('/careers', [PageController::class, 'submitJobApplication'])->name('careers.submit');
 
 // Homecare Services
 Route::get('/services/homecare/live-in', [PageController::class, 'homecareLiveIn'])->name('services.homecare.live-in');

@@ -74,64 +74,76 @@
         <!-- Care Workers / Support Workers -->
         <div style="display: flex; gap: 2rem; align-items: center; margin-bottom: 3rem;" data-aos="fade-up">
             <div style="flex: 1; min-width: 0;">
-                <img src="{{ asset('images/vector-personal-care.webp') }}" alt="Care Workers" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+                <img src="{{ asset('images/care-workers.webp') }}" alt="Care Workers" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
             </div>
             <div style="flex: 1; min-width: 0;">
                 <h4 style="color: #0066cc; margin-bottom: 1rem; font-size: 1.3rem; font-weight: 700;">Care Workers / Support Workers</h4>
                 <p style="color: #555; margin-bottom: 1rem; line-height: 1.6;">We're seeking experienced and compassionate care workers to provide direct support to service users. You should have relevant experience, appropriate qualifications, and a genuine commitment to person-centred care. Our care workers are the backbone of our organization, delivering quality support across all our services.</p>
-                <ul style="list-style: none; padding: 0; margin: 0;">
+                <ul style="list-style: none; padding: 0; margin: 0; margin-bottom: 1.5rem;">
                     <li style="padding: 0.5rem 0; color: #555;"><i class="fas fa-check" style="color: #2d8659; margin-right: 0.8rem;"></i>Provide direct personal care and support</li>
                     <li style="padding: 0.5rem 0; color: #555;"><i class="fas fa-check" style="color: #2d8659; margin-right: 0.8rem;"></i>Build meaningful relationships with service users</li>
                     <li style="padding: 0.5rem 0; color: #555;"><i class="fas fa-check" style="color: #2d8659; margin-right: 0.8rem;"></i>Maintain accurate care records</li>
                 </ul>
+                <a href="#apply-form" style="background: linear-gradient(135deg, #0066cc, #2d8659); color: white; padding: 12px 30px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; transition: all 0.3s ease;">
+                    <i class="fas fa-arrow-right" style="margin-right: 0.5rem;"></i>Apply for This Position
+                </a>
             </div>
         </div>
 
         <!-- Senior Care Workers -->
         <div style="display: flex; gap: 2rem; align-items: center; margin-bottom: 3rem; flex-direction: row-reverse;" data-aos="fade-up">
             <div style="flex: 1; min-width: 0;">
-                <img src="{{ asset('images/vector-personal-care.webp') }}" alt="Senior Care Workers" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+                <img src="{{ asset('images/senior-care-workers.webp') }}" alt="Senior Care Workers" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
             </div>
             <div style="flex: 1; min-width: 0;">
                 <h4 style="color: #0066cc; margin-bottom: 1rem; font-size: 1.3rem; font-weight: 700;">Senior Care Workers</h4>
                 <p style="color: #555; margin-bottom: 1rem; line-height: 1.6;">Experienced care professionals with leadership skills to supervise teams and ensure quality care delivery. Senior care workers play a crucial role in maintaining our high standards of care and supporting the professional development of their teams.</p>
-                <ul style="list-style: none; padding: 0; margin: 0;">
+                <ul style="list-style: none; padding: 0; margin: 0; margin-bottom: 1.5rem;">
                     <li style="padding: 0.5rem 0; color: #555;"><i class="fas fa-check" style="color: #2d8659; margin-right: 0.8rem;"></i>Lead and supervise care teams</li>
                     <li style="padding: 0.5rem 0; color: #555;"><i class="fas fa-check" style="color: #2d8659; margin-right: 0.8rem;"></i>Ensure quality care standards</li>
                     <li style="padding: 0.5rem 0; color: #555;"><i class="fas fa-check" style="color: #2d8659; margin-right: 0.8rem;"></i>Mentor and develop care workers</li>
                 </ul>
+                <a href="#apply-form" style="background: linear-gradient(135deg, #0066cc, #2d8659); color: white; padding: 12px 30px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; transition: all 0.3s ease;">
+                    <i class="fas fa-arrow-right" style="margin-right: 0.5rem;"></i>Apply for This Position
+                </a>
             </div>
         </div>
 
         <!-- Care Coordinators -->
         <div style="display: flex; gap: 2rem; align-items: center; margin-bottom: 3rem;" data-aos="fade-up">
             <div style="flex: 1; min-width: 0;">
-                <img src="{{ asset('images/vector-personal-care.webp') }}" alt="Care Coordinators" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+                <img src="{{ asset('images/care-coordinators.webp') }}" alt="Care Coordinators" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
             </div>
             <div style="flex: 1; min-width: 0;">
                 <h4 style="color: #0066cc; margin-bottom: 1rem; font-size: 1.3rem; font-weight: 700;">Care Coordinators</h4>
                 <p style="color: #555; margin-bottom: 1rem; line-height: 1.6;">Administrative and coordination roles supporting care delivery and service management. Care coordinators are essential in ensuring smooth operations and effective communication between teams, service users, and families.</p>
-                <ul style="list-style: none; padding: 0; margin: 0;">
+                <ul style="list-style: none; padding: 0; margin: 0; margin-bottom: 1.5rem;">
                     <li style="padding: 0.5rem 0; color: #555;"><i class="fas fa-check" style="color: #2d8659; margin-right: 0.8rem;"></i>Coordinate care schedules and rotas</li>
                     <li style="padding: 0.5rem 0; color: #555;"><i class="fas fa-check" style="color: #2d8659; margin-right: 0.8rem;"></i>Manage service user information</li>
                     <li style="padding: 0.5rem 0; color: #555;"><i class="fas fa-check" style="color: #2d8659; margin-right: 0.8rem;"></i>Liaise with families and healthcare professionals</li>
                 </ul>
+                <a href="#apply-form" style="background: linear-gradient(135deg, #0066cc, #2d8659); color: white; padding: 12px 30px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; transition: all 0.3s ease;">
+                    <i class="fas fa-arrow-right" style="margin-right: 0.5rem;"></i>Apply for This Position
+                </a>
             </div>
         </div>
 
         <!-- Specialist Care Professionals -->
         <div style="display: flex; gap: 2rem; align-items: center; margin-bottom: 3rem; flex-direction: row-reverse;" data-aos="fade-up">
             <div style="flex: 1; min-width: 0;">
-                <img src="{{ asset('images/vector-personal-care.webp') }}" alt="Specialist Care Professionals" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+                <img src="{{ asset('images/specialist-care.webp') }}" alt="Specialist Care Professionals" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
             </div>
             <div style="flex: 1; min-width: 0;">
                 <h4 style="color: #0066cc; margin-bottom: 1rem; font-size: 1.3rem; font-weight: 700;">Specialist Care Professionals</h4>
                 <p style="color: #555; margin-bottom: 1rem; line-height: 1.6;">Professionals with expertise in specific care areas such as mental health, dementia, or complex needs. Our specialist team brings advanced knowledge and specialized skills to deliver exceptional care for individuals with unique requirements.</p>
-                <ul style="list-style: none; padding: 0; margin: 0;">
+                <ul style="list-style: none; padding: 0; margin: 0; margin-bottom: 1.5rem;">
                     <li style="padding: 0.5rem 0; color: #555;"><i class="fas fa-check" style="color: #2d8659; margin-right: 0.8rem;"></i>Provide specialized care expertise</li>
                     <li style="padding: 0.5rem 0; color: #555;"><i class="fas fa-check" style="color: #2d8659; margin-right: 0.8rem;"></i>Support complex care needs</li>
                     <li style="padding: 0.5rem 0; color: #555;"><i class="fas fa-check" style="color: #2d8659; margin-right: 0.8rem;"></i>Provide training and guidance to teams</li>
                 </ul>
+                <a href="#apply-form" style="background: linear-gradient(135deg, #0066cc, #2d8659); color: white; padding: 12px 30px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-block; transition: all 0.3s ease;">
+                    <i class="fas fa-arrow-right" style="margin-right: 0.5rem;"></i>Apply for This Position
+                </a>
             </div>
         </div>
     </div>
@@ -180,9 +192,79 @@
                         <i class="fas fa-phone" style="color: #0066cc; margin-right: 0.8rem; font-size: 1.3rem; flex-shrink: 0;"></i>
                         <a href="tel:07874240205" style="color: #0066cc; text-decoration: none; font-weight: 600; font-size: 0.95rem;">07874240205</a>
                     </p>
-                    <a href="{{ route('contact') }}" class="btn-primary-custom" style="width: 100%; text-align: center; display: block; background: linear-gradient(135deg, #0066cc, #2d8659); border: none; margin-top: 1rem;">Apply Now</a>
+                    <a href="#apply-form" class="btn-primary-custom" style="width: 100%; text-align: center; display: block; background: linear-gradient(135deg, #0066cc, #2d8659); border: none; margin-top: 1rem;">Apply Now</a>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<!-- Application Form Section -->
+<section id="apply-form" style="padding: 80px 0; background: #f8f9fa;">
+    <div class="container">
+        <h3 style="color: #0066cc; font-weight: 700; margin-bottom: 2rem; font-family: 'Outfit', sans-serif; font-size: 1.5rem;" data-aos="fade-up">Apply for a Position</h3>
+        <p style="margin-bottom: 3rem; color: #555; font-size: 1.05rem; max-width: 800px;" data-aos="fade-up">Ready to join our team? Fill out the application form below and upload your CV. We look forward to hearing from you!</p>
+
+        <div style="max-width: 700px; margin: 0 auto; background: white; padding: 2.5rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);" data-aos="fade-up">
+            @if($errors->any())
+                <div style="background: #fee; border: 1px solid #fcc; color: #c33; padding: 1rem; border-radius: 8px; margin-bottom: 1.5rem;">
+                    <ul style="margin: 0; padding-left: 1.5rem;">
+                        @foreach($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
+
+            @if(session('success'))
+                <div style="background: #efe; border: 1px solid #cfc; color: #3c3; padding: 1rem; border-radius: 8px; margin-bottom: 1.5rem;">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+            <form method="POST" action="{{ route('careers.submit') }}" enctype="multipart/form-data">
+                @csrf
+                <div style="margin-bottom: 1.5rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; color: #333; font-weight: 600;">Full Name *</label>
+                    <input type="text" name="name" value="{{ old('name') }}" placeholder="Enter your full name" required style="width: 100%; padding: 0.9rem; border: 1px solid #ddd; border-radius: 8px; font-family: 'Outfit', sans-serif; font-size: 1rem;">
+                </div>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; color: #333; font-weight: 600;">Email Address *</label>
+                    <input type="email" name="email" value="{{ old('email') }}" placeholder="your@email.com" required style="width: 100%; padding: 0.9rem; border: 1px solid #ddd; border-radius: 8px; font-family: 'Outfit', sans-serif; font-size: 1rem;">
+                </div>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; color: #333; font-weight: 600;">Phone Number *</label>
+                    <input type="tel" name="phone" value="{{ old('phone') }}" placeholder="07874240205" required style="width: 100%; padding: 0.9rem; border: 1px solid #ddd; border-radius: 8px; font-family: 'Outfit', sans-serif; font-size: 1rem;">
+                </div>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; color: #333; font-weight: 600;">Position Applied For *</label>
+                    <select name="position" required style="width: 100%; padding: 0.9rem; border: 1px solid #ddd; border-radius: 8px; font-family: 'Outfit', sans-serif; font-size: 1rem;">
+                        <option value="">Select a position</option>
+                        <option value="Care Workers / Support Workers" {{ old('position') == 'Care Workers / Support Workers' ? 'selected' : '' }}>Care Workers / Support Workers</option>
+                        <option value="Senior Care Workers" {{ old('position') == 'Senior Care Workers' ? 'selected' : '' }}>Senior Care Workers</option>
+                        <option value="Care Coordinators" {{ old('position') == 'Care Coordinators' ? 'selected' : '' }}>Care Coordinators</option>
+                        <option value="Specialist Care Professionals" {{ old('position') == 'Specialist Care Professionals' ? 'selected' : '' }}>Specialist Care Professionals</option>
+                    </select>
+                </div>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; color: #333; font-weight: 600;">Relevant Experience *</label>
+                    <textarea name="experience" rows="4" placeholder="Tell us about your relevant experience and qualifications..." required style="width: 100%; padding: 0.9rem; border: 1px solid #ddd; border-radius: 8px; font-family: 'Outfit', sans-serif; font-size: 1rem; resize: vertical;">{{ old('experience') }}</textarea>
+                </div>
+
+                <div style="margin-bottom: 2rem;">
+                    <label style="display: block; margin-bottom: 0.5rem; color: #333; font-weight: 600;">Upload CV (PDF, DOC, DOCX - Max 5MB)</label>
+                    <input type="file" name="cv" accept=".pdf,.doc,.docx" style="width: 100%; padding: 0.9rem; border: 1px solid #ddd; border-radius: 8px; font-family: 'Outfit', sans-serif; font-size: 1rem;">
+                    <small style="color: #999; display: block; margin-top: 0.5rem;">Optional but recommended</small>
+                </div>
+
+                <button type="submit" style="background: linear-gradient(135deg, #0066cc, #2d8659); color: white; border: none; padding: 1rem 2rem; border-radius: 8px; font-size: 1.05rem; font-weight: 600; cursor: pointer; font-family: 'Outfit', sans-serif; transition: all 0.3s ease; width: 100%;">
+                    Submit Application
+                </button>
+            </form>
         </div>
     </div>
 </section>
