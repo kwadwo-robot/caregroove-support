@@ -997,8 +997,8 @@
         <div class="container">
             <a class="navbar-brand" href="{{ route('home') }}">
                 <picture>
-                    <source srcset="/images/logo-caregroove.png" type="image/png">
-                    <img src="/images/logo-caregroove.png" alt="CareGroove Support Ltd" loading="eager" fetchpriority="high" style="height: 72px; width: auto; max-width: 210px; object-fit: contain;">
+                    <source srcset="/images/caregroove-logo.jpeg" type="image/webp">
+                    <img src="/images/caregroove-logo.jpeg" alt="CareGroove Support Ltd" loading="eager" fetchpriority="high" style="height: 72px; width: auto; max-width: 210px; object-fit: contain;">
                 </picture>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
