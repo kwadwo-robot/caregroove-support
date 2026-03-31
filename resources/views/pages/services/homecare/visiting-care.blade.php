@@ -1,0 +1,115 @@
+@extends('layouts.master')
+@section('title', 'Visiting Care Services - CareGroove Support Ltd')
+@section('content')
+<section style="background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/vector-personal-care.webp') center/cover no-repeat; min-height: 400px; display: flex; align-items: center; color: white;">
+    <div class="container">
+        <h1 style="font-size: 3rem; font-weight: 800; margin-bottom: 1rem;">Visiting Care Services</h1>
+        <p style="font-size: 1.2rem; opacity: 0.95;">Flexible, professional care visits tailored to your schedule</p>
+    </div>
+</section>
+
+<!-- Visiting Care Overview - Image Left, Card Right (Blue Background) -->
+<section style="padding: 80px 0;">
+    <div class="container">
+        <div style="display: flex; gap: 3rem; align-items: center;">
+            <div data-aos="fade-left" style="flex: 1; display: flex; align-items: center;">
+                <img src="/images/vector-live-in-care.webp" alt="Visiting Care" style="width: 100%; height: 480px; object-fit: cover; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);">
+            </div>
+            <div data-aos="fade-right" style="flex: 1; background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%); color: white; padding: 3rem; border-radius: 12px;">
+                <h2 style="font-size: 2.5rem; color: white; font-weight: 800; margin-bottom: 1.5rem;">Flexible Care When You Need It</h2>
+                <p style="color: rgba(255, 255, 255, 0.95); font-size: 1.05rem; line-height: 1.8; margin-bottom: 1.5rem;">
+                    Our visiting care service provides professional support on a flexible schedule. Whether you need daily visits, several times a week, or occasional assistance, we tailor our service to fit your lifestyle and requirements.
+                </p>
+                <p style="color: rgba(255, 255, 255, 0.95); font-size: 1.05rem; line-height: 1.8; margin-bottom: 2rem;">
+                    Our experienced carers visit your home to provide personal care, household support, and companionship. This service is ideal for individuals who want to maintain independence while receiving professional assistance with specific tasks.
+                </p>
+                <a href="{{ route('contact') }}" style="background: white; color: #0066cc; border: none; padding: 0.8rem 2rem; border-radius: 6px; font-size: 1rem; font-weight: 700; text-decoration: none; display: inline-block; transition: all 0.3s ease;">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Personal Care Section - Image Left, Card Right (Green Background) -->
+<section style="padding: 80px 0;">
+    <div class="container">
+        <div style="display: flex; gap: 3rem; align-items: center;">
+            <div data-aos="fade-left" style="flex: 1; display: flex; align-items: center;">
+                <img src="/images/vector-personal-care.webp" alt="Personal Care" style="width: 100%; height: 480px; object-fit: cover; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);">
+            </div>
+            <div data-aos="fade-right" style="flex: 1; background: linear-gradient(135deg, #2d8659 0%, #1f5a3f 100%); color: white; padding: 3rem; border-radius: 12px;">
+                <h3 style="font-size: 2rem; color: white; font-weight: 800; margin-bottom: 1.5rem;">Personal Care Support</h3>
+                <p style="color: rgba(255, 255, 255, 0.95); font-size: 1.05rem; line-height: 1.8; margin-bottom: 1.5rem;">
+                    Our personal care service provides compassionate assistance with daily living activities, helping you maintain your dignity and independence.
+                </p>
+                <ul style="color: rgba(255, 255, 255, 0.95); font-size: 1rem; line-height: 2; margin-bottom: 2rem; list-style: none; padding: 0;">
+                    <li style="margin-bottom: 0.8rem;"><i class="fas fa-check-circle" style="color: #fff; margin-right: 0.8rem;"></i>Bathing and showering assistance</li>
+                    <li style="margin-bottom: 0.8rem;"><i class="fas fa-check-circle" style="color: #fff; margin-right: 0.8rem;"></i>Dressing and grooming support</li>
+                    <li style="margin-bottom: 0.8rem;"><i class="fas fa-check-circle" style="color: #fff; margin-right: 0.8rem;"></i>Toileting assistance</li>
+                    <li style="margin-bottom: 0.8rem;"><i class="fas fa-check-circle" style="color: #fff; margin-right: 0.8rem;"></i>Medication reminders</li>
+                    <li style="margin-bottom: 0.8rem;"><i class="fas fa-check-circle" style="color: #fff; margin-right: 0.8rem;"></i>Mobility and transferring support</li>
+                </ul>
+                <a href="{{ route('contact') }}" style="background: white; color: #2d8659; border: none; padding: 0.8rem 2rem; border-radius: 6px; font-size: 1rem; font-weight: 700; text-decoration: none; display: inline-block; transition: all 0.3s ease;">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Domestic Care Section - Image Left, Card Right (Blue Background) -->
+<section style="padding: 80px 0;">
+    <div class="container">
+        <div style="display: flex; gap: 3rem; align-items: center;">
+            <div data-aos="fade-left" style="flex: 1; display: flex; align-items: center;">
+                <img src="/images/vector-domestic-care.webp" alt="Domestic Care" style="width: 100%; height: 480px; object-fit: cover; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);">
+            </div>
+            <div data-aos="fade-right" style="flex: 1; background: linear-gradient(135deg, #0066cc 0%, #0052a3 100%); color: white; padding: 3rem; border-radius: 12px;">
+                <h3 style="font-size: 2rem; color: white; font-weight: 800; margin-bottom: 1.5rem;">Domestic Care & Household Support</h3>
+                <p style="color: rgba(255, 255, 255, 0.95); font-size: 1.05rem; line-height: 1.8; margin-bottom: 1.5rem;">
+                    Our domestic care service helps you maintain a clean, safe, and comfortable home environment, allowing you to focus on what matters most.
+                </p>
+                <ul style="color: rgba(255, 255, 255, 0.95); font-size: 1rem; line-height: 2; margin-bottom: 2rem; list-style: none; padding: 0;">
+                    <li style="margin-bottom: 0.8rem;"><i class="fas fa-check-circle" style="color: #fff; margin-right: 0.8rem;"></i>Meal preparation and cooking</li>
+                    <li style="margin-bottom: 0.8rem;"><i class="fas fa-check-circle" style="color: #fff; margin-right: 0.8rem;"></i>Light housekeeping and cleaning</li>
+                    <li style="margin-bottom: 0.8rem;"><i class="fas fa-check-circle" style="color: #fff; margin-right: 0.8rem;"></i>Laundry and ironing</li>
+                    <li style="margin-bottom: 0.8rem;"><i class="fas fa-check-circle" style="color: #fff; margin-right: 0.8rem;"></i>Shopping and errands</li>
+                    <li style="margin-bottom: 0.8rem;"><i class="fas fa-check-circle" style="color: #fff; margin-right: 0.8rem;"></i>Garden maintenance</li>
+                </ul>
+                <a href="{{ route('contact') }}" style="background: white; color: #0066cc; border: none; padding: 0.8rem 2rem; border-radius: 6px; font-size: 1rem; font-weight: 700; text-decoration: none; display: inline-block; transition: all 0.3s ease;">Get Started</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Respite Care Section - Image Left, Card Right (Green Background) -->
+<section style="padding: 80px 0;">
+    <div class="container">
+        <div style="display: flex; gap: 3rem; align-items: center;">
+            <div data-aos="fade-left" style="flex: 1; display: flex; align-items: center;">
+                <img src="/images/vector-respite-care.webp" alt="Respite Care" style="width: 100%; height: 480px; object-fit: cover; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);">
+            </div>
+            <div data-aos="fade-right" style="flex: 1; background: linear-gradient(135deg, #2d8659 0%, #1f5a3f 100%); color: white; padding: 3rem; border-radius: 12px;">
+                <h3 style="font-size: 2rem; color: white; font-weight: 800; margin-bottom: 1.5rem;">Respite Care for Family Carers</h3>
+                <p style="color: rgba(255, 255, 255, 0.95); font-size: 1.05rem; line-height: 1.8; margin-bottom: 1.5rem;">
+                    Caring for a loved one can be demanding. Our respite care service provides temporary, professional care to give family carers a well-deserved break while ensuring your loved one receives quality support.
+                </p>
+                <ul style="color: rgba(255, 255, 255, 0.95); font-size: 1rem; line-height: 2; margin-bottom: 2rem; list-style: none; padding: 0;">
+                    <li style="margin-bottom: 0.8rem;"><i class="fas fa-check-circle" style="color: #fff; margin-right: 0.8rem;"></i>Short-term care breaks</li>
+                    <li style="margin-bottom: 0.8rem;"><i class="fas fa-check-circle" style="color: #fff; margin-right: 0.8rem;"></i>Flexible scheduling</li>
+                    <li style="margin-bottom: 0.8rem;"><i class="fas fa-check-circle" style="color: #fff; margin-right: 0.8rem;"></i>Continuity of care</li>
+                    <li style="margin-bottom: 0.8rem;"><i class="fas fa-check-circle" style="color: #fff; margin-right: 0.8rem;"></i>Support for family carers</li>
+                    <li style="margin-bottom: 0.8rem;"><i class="fas fa-check-circle" style="color: #fff; margin-right: 0.8rem;"></i>Peace of mind</li>
+                </ul>
+                <a href="{{ route('contact') }}" style="background: white; color: #2d8659; border: none; padding: 0.8rem 2rem; border-radius: 6px; font-size: 1rem; font-weight: 700; text-decoration: none; display: inline-block; transition: all 0.3s ease;">Find Out More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section style="background: linear-gradient(135deg, #0066cc 0%, #0052a3 50%, #2d8659 100%); color: white; text-align: center; padding: 120px 0;">
+    <div class="container">
+        <h2 style="font-size: 2.8rem; margin-bottom: 1.5rem; font-family: 'Outfit', sans-serif; font-weight: 800;">Ready for Visiting Care?</h2>
+        <p style="font-size: 1.2rem; margin-bottom: 2.5rem; opacity: 0.95;">Contact us to arrange flexible visiting care that suits your needs.</p>
+        <a href="{{ route('contact') }}" style="background: white; color: #0066cc; border: none; padding: 1rem 2.5rem; border-radius: 8px; font-size: 1.1rem; font-weight: 600; text-decoration: none; display: inline-block; transition: all 0.3s ease;">Get in Touch</a>
+    </div>
+</section>
+@endsection

@@ -1,0 +1,25 @@
+/* Fix navbar to show all menu items including Supported Living */
+.navbar-nav {
+    flex-wrap: nowrap !important;
+    overflow: visible !important;
+}
+
+.navbar-nav .nav-item {
+    flex: 0 1 auto;
+    white-space: nowrap;
+}
+
+.navbar-nav .nav-link {
+    padding: 0.5rem 0.7rem !important;
+    font-size: 0.95rem !important;
+}
+
+.navbar-nav .nav-item.dropdown > .nav-link::after {
+    margin-left: 0.2rem;
+}
+
+/* Ensure all nav items are visible */
+.navbar-nav .nav-item {
+    display: flex !important;
+    visibility: visible !important;
+}

@@ -1,0 +1,1374 @@
+Return-Path: <hsbcdirectcommswelcome@marketingsupport.hsbc.co.uk>
+Delivered-To: info@caregroovesupport.co.uk
+Received: from premium25.web-hosting.com
+	by premium25.web-hosting.com with LMTP
+	id sJczGyK1w2n77QYArvfGlQ
+	(envelope-from <hsbcdirectcommswelcome@marketingsupport.hsbc.co.uk>)
+	for <info@caregroovesupport.co.uk>; Wed, 25 Mar 2026 06:12:50 -0400
+Return-path: <hsbcdirectcommswelcome@marketingsupport.hsbc.co.uk>
+Envelope-to: info@caregroovesupport.co.uk
+Delivery-date: Wed, 25 Mar 2026 06:12:50 -0400
+Received: from [198.54.122.200] (port=38753 helo=asp-relay-shared.jellyfish.systems)
+	by premium25.web-hosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.1)
+	(envelope-from <hsbcdirectcommswelcome@marketingsupport.hsbc.co.uk>)
+	id 1w5LEI-00000002Ad6-33bx
+	for info@caregroovesupport.co.uk;
+	Wed, 25 Mar 2026 06:12:50 -0400
+Authentication-Results: asp-relay-shared.jellyfish.systems;
+	dkim=pass header.d=marketingsupport.hsbc.co.uk header.s=profusion header.b=R5GASVcd;
+	dmarc=pass (policy=reject) header.from=hsbc.co.uk;
+	spf=pass (asp-relay-shared.jellyfish.systems: domain of hsbcdirectcommswelcome@marketingsupport.hsbc.co.uk designates 195.68.228.140 as permitted sender) smtp.mailfrom=hsbcdirectcommswelcome@marketingsupport.hsbc.co.uk
+Received: from mta140.fwdto.net (mta140.fwdto.net [195.68.228.140])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by asp-relay-shared.jellyfish.systems (Postfix) with ESMTPS id 4fgjQM6Vbbz14m7
+	for <info@caregroovesupport.co.uk>; Wed, 25 Mar 2026 10:12:43 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	s=profusion;
+	d=marketingsupport.hsbc.co.uk;
+	h=domainkey-signature:from:subject:date:to:reply-to:mime-version:x-mailer:message-id:content-type;
+	bh=UVAEBd7MO7I0BpEAxGi3C/AuiLFQL7iPUxevwn4CS2U=;
+	b=R5GASVcdPIvwxYHdCmbe1RTu4orFOGaIXxRJEdodmkwBUGaUelUiEET6JQsCPsr0hOqtSkJdjYzuzuOi6O7eZBbc7Kz6mTl0btvMoxTlIQvJJ32Ezq3Iqqn/D1ybHZaa/OlKGypTHyktIAF10O5Z6yZSONINcdC3mXroUHLJC30=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns;
+	s=profusion;
+	d=marketingsupport.hsbc.co.uk;
+	h=From:Subject:Date:To:Reply-To:MIME-Version:X-mailer:Message-ID:Content-Type;
+	b=C+x2XaNilwmjXVEqPo5LPgKl9UOCyM+YEifggDsFIPuBVHiUVmmyWBCUTTyfle5mxYPBBp8zhkRO7XixGxV3CPgPZIrJKjqIvyeLD5JOvaMucVPXQamvxHP1TupsGuC/dtHVjtOhuy93xVyeNkmtXZw7QOvNADUPgmHf3Sr7qLA=
+From: "HSBC UK Bank plc" <contactcentre@marketingsupport.hsbc.co.uk>
+Subject: Important information about your new account
+Date: Wed, 25 Mar 2026 10:12:37 GMT
+To: <info@caregroovesupport.co.uk>
+Reply-To: "HSBC UK Bank plc" <contactcentre@marketingsupport.hsbc.co.uk>
+MIME-Version: 1.0
+X-mailer: nlserver, Build 6.7.0
+Message-ID: <NM62A136EAA116C9AE4directcommswelcome@marketingsupport.hsbc.co.uk>
+Content-Type: multipart/alternative;
+	charset="windows-1252";
+	boundary="----=_NextPart_606_1A03B833.1A03B833"
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_606_1A03B833.1A03B833
+Content-Type: text/plain;
+	charset="windows-1252"
+Content-Transfer-Encoding: 8bit
+
+Here's what you need to know
+
+********************************************************************
+
+HSBC UK
+
+********************************************************************
+
+
+If you are reading this message either your email client can't view images or you have set it to view text only.
+
+In order to view our personalised email to you, please visit the link below:
+ http://marketingsupport.hsbc.co.uk/r/?id=t2a136eaa,116c9ae4,132d5902&e=cDE9JTQwdWVKZXpBa294aEc5dE0yZGRGVDhreDNMa2hxWFBXSHlNY1pJYlFDayUyQkN3JTNE&s=qwFA7HnhybFeQmwzxL3Ot1QqLUt0gfbQPVhNJFT8mu8 
+
+
+********************************************************************
+
+Website terms:
+http://marketingsupport.hsbc.co.uk/r/?id=t2a136eaa,116c9ae4,132d5903
+
+Legal:
+http://marketingsupport.hsbc.co.uk/r/?id=t2a136eaa,116c9ae4,132d5904
+
+Contact us:
+http://marketingsupport.hsbc.co.uk/r/?id=t2a136eaa,116c9ae4,132d5905
+
+Find a branch:
+http://marketingsupport.hsbc.co.uk/r/?id=t2a136eaa,116c9ae4,132d5906
+
+Security Centre:
+http://marketingsupport.hsbc.co.uk/r/?id=t2a136eaa,116c9ae4,132d5907
+
+********************************************************************
+
+HSBC UK Bank plc. Registered in England and Wales with number 09928412. Registered Office: 1 Centenary Square, Birmingham, B1 1HQ, United Kingdom. Authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority. Our Financial Services Register number is 765112.
+
+Privacy Notice
+
+We maintain strict security standards and procedures to prevent unauthorised access to information about you. HSBC will never contact you by email or otherwise to ask you to validate personal information such as your user ID, password or account numbers. If you get such a request, please call our online security team on 0345 600 2290.
+
+To make sure we are communicating effectively, we may monitor your interest in our emails. We may be able to tell when you've opened them, and how you've interacted with them. This includes information about how long you spend reading our emails and which links you select. We may also collect technical information about your device and internet connection, and set cookies. We use trusted service providers to help us. For more details, read our Privacy Notice and our Cookie Notice.
+
+Privacy Notice:
+http://marketingsupport.hsbc.co.uk/r/?id=t2a136eaa,116c9ae4,132d5908
+
+Cookie Notice:
+http://marketingsupport.hsbc.co.uk/r/?id=t2a136eaa,116c9ae4,132d5909
+
+This email is confidential. It may also be legally privileged. If you aren't the addressee you may not copy, forward, disclose or use any part of it. If you got this message in error, please delete it and all copies from your system and notify the sender immediately by return email. Internet communications can't be guaranteed to be timely, secure, error or virus free. We don't accept liability for any errors or omissions. Please don't reply to this email. Should you wish to get in touch, contact us:
+http://marketingsupport.hsbc.co.uk/r/?id=t2a136eaa,116c9ae4,132d590a
+
+eRFB2630 MCP59819 AC64400
+
+------=_NextPart_606_1A03B833.1A03B833
+Content-Type: text/html;
+	charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"en" dir=3D"ltr" xmlns:v=3D"urn:schemas-microsoft-com:vml" xml=
+ns:o=3D"urn:schemas-microsoft-com:office:office">
+<head>
+<meta charset=3D"utf-8">
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1">
+<meta name=3D"format-detection" content=3D"telephone=3Dno, date=3Dno, addre=
+ss=3Dno, email=3Dno, url=3Dno">
+<meta name=3D"x-apple-disable-message-reformatting">
+<meta name=3D"color-scheme" content=3D"light dark">
+<meta name=3D"supported-color-schemes" content=3D"light dark">
+<!--[if (gte mso 9)|(IE)]><!-->
+<link rel=3D"preconnect" href=3D"https://fonts.googleapis.com">
+<link href=3D"https://fonts.googleapis.com/css2=3Ffamily=3DLato:wght@400;70=
+0&family=3DRoboto:wght@400;700;900&display=3Dswap" rel=3D"stylesheet">
+<!--<![endif]-->
+<title>HSBC UK</title>
+<!--[if mso]>
+<noscript>
+<xml>
+<o:OfficeDocumentSettings>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+</noscript>
+<style>
+table { border-collapse: collapse; mso-table-lspace: 0px; mso-table-rspace:=
+ 0px; }
+tr {font-size:0px;line-height:0px;}
+sup { font-size:86%;line-height:100%;mso-text-raise: 0%;}
+li {margin-left:-23px !important}
+//Use only when using a non-websafe font
+body { margin: 0 !important; padding: 0 !important; font-family: Helvetica,=
+ sans-serif !important;}
+body, table, td, a, span, p, h1, h2, h3, h4 { font-family: Helvetica, sans-=
+serif !important;} 
+</style>
+<![endif]-->
+<!--[if mso]>
+<style>
+=2Esup1 { font-size:86%;line-height:100%;mso-text-raise: 0%;}
+=2Esup2 { font-size:86%;line-height:100%;mso-text-raise: 4%;}
+=2Ew188{width:194px !important;}
+=2Ew86{width:90px !important;}
+=2Ew88{width:93px !important;}
+</style>
+<!--<![endif]-->
+<style>
+@font-face {
+font-family: Universe Next HSBC;
+font-weight: 400;
+src: url(https://assets.fwdto.net/hsbc/rbwm/general/UniversNextforHSBCW15-R=
+g.woff) format("woff")
+}
+@font-face {
+font-family: Universe Next HSBC;
+font-weight: 700;
+src: url(https://assets.fwdto.net/hsbc/rbwm/general/UniversNextforHSBCW15-B=
+d.woff) format("woff")
+}
+@font-face {
+font-family: Universe Next HSBC;
+font-weight: 300;
+src: url(https://assets.fwdto.net/hsbc/rbwm/general/UniversNextforHSBCW15-L=
+t.woff) format("woff")
+}
+:root {
+color-scheme: light dark;
+supported-color-schemes: light dark;
+}
+/* Fix for Outlook links color fix for links and visited links */
+span.MsoHyperlink {color: inherit !important;mso-style-priority: 99 !import=
+ant;text-decoration: underline !important;}
+span.MsoHyperlinkFollowed {color: inherit !important;mso-style-priority: 99=
+ !important;text-decoration: underline !important;}
+/* normalise link attributes in Outlook app iOS/Android - to match the pare=
+nt element */
+body[data-outlook-cycle] a {color: inherit !important;text-decoration: none=
+ !important;}
+/* normalise link attributes in Apple Mail / iOS Mail apps - to match the p=
+arent element */
+=2Eapplelink a{color: #464646 !important;text-decoration: none !important;}
+=2Eapplelink1 a{color: #303030 !important;text-decoration: none !important;=
+}
+a[x-apple-data-detectors] {color: inherit!important;text-decoration: none!i=
+mportant;font-size: inherit!important;font-family: inherit!important;font-w=
+eight: inherit!important;line-height: inherit!important;}
+#root [x-apple-data-detectors=3Dtrue],a[x-apple-data-detectors=3Dtrue]{
+color: inherit !important;text-decoration: inherit !important;}
+#main #inner a[x-apple-data-detectors]{color: inherit !important;
+text-decoration: inherit !important;}
+a[href^=3Dtel], #MessageViewBody a, a[x-apple-data-detectors], #body a, .li=
+nk {color: inherit;text-decoration: none;font-size: inherit;
+font-family: inherit;font-weight: inherit;line-height: inherit;}
+[data-outlook-cycle] [x-apple-data-detectors-type=3D"calendar-event"] {colo=
+r: inherit !important;-webkit-text-decoration-color: inherit !important;tex=
+t-decoration: none !important;}
+/* normalise link attributes in Gmail - to match the parent element */
+u + #body a {color: inherit;text-decoration: none;font-size: inherit;font-w=
+eight: inherit;line-height: inherit;}
+#preheader,#preview-spacer {display: none;display:none!important;}
+ul {padding-left: 17px !important;}
+ol {padding-left: 17px !important;}
+hr{margin: 0 !important;}
+input{display: none;}
+u ~ div img + div > div {display:none}
+=2Efaux-absolute{max-height:0;position:relative;opacity:0.999;}
+=2Einteractive-content {display: none;mso-hide: all;} 
+=2Efallback-container {display: block;}
+sup {font-size: 66%; line-height: 1; vertical-align: top; mso-text-raise: 5=
+%; }
+=2Ehide{display: none !important;}
+img+div{display: none;}
+/* place in media query for Yahoo */
+@media only screen and (min-width: 180px),screen and (max-width: 200px) { .=
+bg{background-color: red !important;} }
+
+@media only screen and (max-width: 580px){
+=2Eheight15{height: 10px !important;}
+=2Emt15{margin-top: 15px !important;}
+=2Elh250{line-height: 250% !important;}
+=2Epb34{padding-bottom: 34px !important;}
+=2Epb32{padding-bottom: 32px !important;}
+=2Emr0{margin-right: 0px !important;}
+=2Ept6{padding-top: 6px !important;}
+=2Elhight28{font-size: 14px !important; line-height: 38px !important;}
+=2Eml0{margin-left: 0px !important;}
+=2Emb18{margin-bottom: 18px !important;}
+=2Emb38{margin-bottom: 35px !important;}
+=2Emt35{margin-top: 35px !important;}
+=2Eh32{height: 32px !important;}
+=2Emb31{margin-bottom: 31px !important;}
+=2Emb32{margin-bottom: 32px !important;}
+=2Epb29{padding-bottom: 29px !important;}
+=2Emlr20{margin-left: 13px !important; margin-right: 13px !important;}
+=2Emb17{margin-bottom: 17px !important;}
+=2Ew38{width:30px !important;}
+=2Emb20{margin-bottom: 19px !important;}
+=2Ew242{width:295px !important;}
+=2Ew241{width:295px !important;}
+=2Ew30{width:30px !important;}
+=2Epl0{padding-left: 0px !important;}
+=2Ew80{width:80% !important;}
+=2Ew335{width:335px !important;}
+=2Ept32{padding-top: 32px !important;}
+=2Emb33{margin-bottom: 30px !important;}
+=2Ew276{width: 358px !important;}
+=2Emt22{margin-top: 22px !important;}
+=2Emt22{margin-top: 22px !important;}
+=2Ew30{width: 30px !important;}
+=2Emt3{margin-top: 2px !important;}
+=2Emt0{margin-top: 0px !important;}
+=2Emt30{margin-top: 7px !important;}
+=2Emb0{margin-bottom: 0px !important;}
+=2Emb16{margin-bottom: 15px !important;}
+=2Emb17{margin-bottom: 16px !important;}
+=2Emtb18{margin-bottom: 31px !important; margin-top: 31px !important;}
+=2Emt16{margin-top: 16px !important;}
+=2Emtp12{margin-top: 14px !important;}
+=2Epb20{padding-bottom: 20px !important;}
+=2Embt30{margin-bottom: 38px !important;}
+=2Em0{margin: 0 auto !important;}
+=2Emob{font-size: 12px !important; line-height: 16px !important;}
+=2Epdb40{padding-bottom: 20px !important; padding-top: 0px !important;}
+=2Emt20{margin-top: 20px !important;}
+=2Eplr15{margin-left: 24px !important; margin-right: 24px !important;}
+=2Epad{padding-left: 15px!important; padding-right: 15px!important;}
+=2Eh {display: none !important;}
+=2Ew320{width: 400px !important;} 
+=2Ew100 {width: 100%!important; min-width: 100%!important; max-width: 1000p=
+x!important; height: auto!important;}
+=2Enomob {display: none!important;width: 0px!important;height: 0px!importan=
+t;}
+=2Eshow {display: block!important;overflow: visible!important;float: none!i=
+mportant;width: 100%!important;height: auto!important;max-height: inherit!i=
+mportant;}
+=2Etable{display: table !important; width: 100% !important;}/*Add this in t=
+r*/
+=2Edisplay-footer {display: table-footer-group!important;width: 100%!import=
+ant;min-width: 100%!important;}
+=2Edisplay-header {display: table-header-group!important;width: 50%!importa=
+nt;min-width: 100%!important;}
+=2Edrop {width: 100%!important;float: left!important;display: block!importa=
+nt;}
+=2Eblock{display: block!important;}
+u + .body .w172{width: 194px !important;}
+div u + .body .w172{width: 210px !important;}
+div u + .body .w160{width: 172px !important;}
+}
+@media only screen and (min-width: 180px),screen and (max-width: 200px) { .=
+bg{background-color: red !important;} }
+/*Mobile CSS*/
+@media only screen and (max-width: 410px){
+=2Eheight15{height: 10px !important;}
+=2Emt15{margin-top: 15px !important;}
+=2Elh250{line-height: 250% !important;}
+=2Emb32{margin-bottom: 30px !important;}
+=2Ew38{width:38px !important;}
+=2Ew242{width:214px !important;}
+=2Ew241{width:214px !important;}
+=2Ew335{width:276px !important;}
+=2Ew276{width: 276px !important;}
+=2Ew320{width: 320px !important;}
+}
+</style>
+<style>
+u + .body .gmail-blend-screen { background:#000; mix-blend-mode:screen; }
+u + .body .gmail-blend-difference { background:#000; mix-blend-mode:differe=
+nce; }
+</style>
+<style>
+@media (prefers-color-scheme: dark ) {
+=2Eredtext{color: #db0011 !important;}
+=2Emainbg { background-color: #000 !important; }
+=2Edarkmode { background-color: #272623 !important; }
+=2Egrey { background-color: #656461 !important; }
+h1, h2, p, span, a, td, b, ul, li, ol, h6, .mob { color: #ffffff !important=
+; }
+=2Edarktext h1, .darktext h2, .darktext p, .darktext span{ color: #000 !imp=
+ortant; }
+=2EtextBlue{color: #223c83 !important;}
+=2EtextBlack{color: #000 !important;}
+=2Egreytext{color: #ffffff !important;}
+=2Egreyclr{color: #333333 !important;}
+=2Eredtext a{color: #ff0009 !important;}
+=2Eborder{border: 1px solid #ffffff !important;}
+/* OUTLOOK APP (ANDROID) DARK MODE STYLES */
+[data-ogsc] .mainbg { background-color: #000 !important; }
+[data-ogsc] .darkmode { background-color: #272623 !important; }
+[data-ogsc] h1, [data-ogsc] h2, [data-ogsc] h6, [data-ogsc] td, [data-ogsc]=
+ p, [data-ogsc] span, [data-ogsc] a, [data-ogsc] b, [data-ogsc] ul, [data-o=
+gsc] li, [data-ogsc] ol { color: #ffffff !important; }
+[data-ogsc] .darktext h1, [data-ogsc] .darktext h2, [data-ogsc] .darktext p=
+, [data-ogsc] .darktext span, .darktext li{ color: #000 !important; }
+[data-ogsc].textBlue{color: #223c83 !important;}
+[data-ogsc].border{border: 1px solid #ffffff !important;}
+[data-ogsc].textBlack{color: #000 !important;}
+[data-ogsc].greytext{color: #ffffff !important;}
+[data-ogsc].grey{background-color: #656461 !important;}
+[data-ogsc].redtext a{color: #ff0009 !important;}
+[data-ogsc].redtext{color: #db0011!important;}
+[data-ogsc].greyclr{color: #333333 !important;}
+}
+</style>
+</head>
+<body class=3D"body mainbg" style=3D"margin: 0; padding: 0; background-colo=
+r: #e8e8e8;">
+
+<div style=3D"display: none; height: 0;" id=3D"scriptArea">
+
+
+
+
+
+    
+</div>
+
+<div id=3D"preheader" style=3D"display: none; font-size: 0; line-height: 0;=
+ mso-hide: all; color: #e3e3e3;">Here's what you need to know</div>
+<div id=3D"preview-spacer" style=3D"display: none; font-size: 0; line-heigh=
+t: 0; mso-hide: all; color: #e3e3e3;">&#847; &#847; &#847; &#847; &#847; &#=
+847;&#847; &#847; &#847; &#847; &#847; &#847;&#847; &#847; &#847; &#847; &#=
+847; &#847;&#847; &#847; &#847; &#847; &#847; &#847;&#847; &#847; &#847; &#=
+847; &#847; &#847;&#847; &#847; &#847; &#847; &#847; &#847;&#847; &#847; &#=
+847; &#847; &#847; &#847;&#847; &#847; &#847; &#847; &#847; &#847;&#847; &#=
+847; &#847; &#847; &#847; &#847;&#847; &#847; &#847; &#847; &#847; &#847;&#=
+847; &#847; &#847; &#847; &#847; &#847;&#847; &#847; &#847; &#847; &#847; &=
+#847;&#847; &#847; &#847; &#847; &#847; &#847;&#847; &#847; &#847; &#847; &=
+#847; &#847;&#847; &#847; &#847; &#847; &#847; &#847;&#847; &#847; &#847; &=
+#847; &#847; &#847;&#847; &#847; &#847; &#847; &#847; &#847;&#847; &#847; &=
+#847; &#847; &#847; &#847;&#847; &#847; &#847; &#847; &#847; &#847;&#847; &=
+#847; &#847; &#847; &#847; &#847;&#847; &#847; &#847; &#847; &#847; &#847;&=
+#847; &#847; &#847; &#847; &#847; &#847;&#847; &#847; &#847; &#847; &#847; =
+&#847;&#847; &#847; &#847; &#847; &#847; &#847;&#847; &#847; &#847; &#847; =
+&#847; &#847;&#847; &#847; &#847; &#847; &#847; &#847;&#847; &#847; &#847; =
+&#847; &#847; &#847;&#847; &#847; &#847; &#847; &#847; &#847;</div>
+<div role=3D"article" aria-roledescription=3D"email" aria-label=3D"email na=
+me" lang=3D"en" dir=3D"ltr" style=3D"font-size:16px; font-size:1rem; font-s=
+ize:max(16px, 1rem)">
+<!--[if !mso]><!-->
+<input type=3D"checkbox" class=3D"interactivity-beacon" checked=3D"checked"=
+ style=3D"display: none;"/>
+<!--<![endif]-->
+<table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=
+=3D"presentation" class=3D"mainbg">
+    <tr>
+        <td align=3D"center">
+            <div id=3D"main">
+                <div id=3D"inner">
+                    <table width=3D"768" border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" role=3D"presentation" style=3D"width: 768px;" class=3D"darkm=
+ode w320" bgcolor=3D"#ffffff">
+                        <tbody>
+                            <tr>
+                                <td class=3D"mainbg" bgcolor=3D"#F2F2F2" st=
+yle=3D"padding-top: 15px; padding-bottom: 15px;" align=3D"right">
+                                <p style=3D"margin: 0 45px; font-size:16px;=
+ line-height:20px; color:#333333;font-family: 'Universe Next HSBC', Arial, =
+Helvetica, 'Sans-serif'; font-weight: 400;" class=3D"plr15"><span>Trouble v=
+iewing this email=3F <a href=3D"http://marketingsupport.hsbc.co.uk/r/=3Fid=
+=3Dh2a136eaa,116c9ae4,132d58ea&e=3DcDE9JTQwdWVKZXpBa294aEc5dE0yZGRGVDhreDNM=
+a2hxWFBXSHlNY1pJYlFDayUyQkN3JTNE&s=3Dg7C_tJ9ubmn3KMHaDnm2Az3SImE9u0B7uj91dc=
+OsDHE" target=3D"_blank" style=3D"font-family: 'Universe Next HSBC', Arial,=
+ Helvetica, 'Sans-serif'; color: #333333; text-decoration: underline;" aria=
+-label=3D"View in browser"><strong style=3D"font-weight: normal"><span styl=
+e=3D"text-decoration: underline; color: #333333;">View in browser</span></s=
+trong></a></span></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align=3D"left">
+                                    <table width=3D"100%" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" role=3D"presentation">
+                                        <tbody>
+                                            <tr>
+                                                <td class=3D"pdb40" valign=
+=3D"top" style=3D"padding-top: 20px; padding-bottom: 0px;">
+                                                    
+                                                    <!-- Logo -->
+                                                    <p style=3D"margin: 0; =
+margin-bottom: 28px; margin-left: 45px; margin-top: 8px;" class=3D"plr15 mt=
+b18">
+                                                        <a href=3D"http://m=
+arketingsupport.hsbc.co.uk/r/=3Fid=3Dh2a136eaa,116c9ae4,132d58eb" title=3D"=
+HSBC UK" target=3D"_blank"><img src=3D"https://assets.fwdto.net/hsbc/rbwm/2=
+02308_msc_welcome_pack/logo_desk_v2.jpg" alt=3D"HSBC UK" width=3D"155" styl=
+e=3D"display: block; border: 0;" class=3D"w128"/></a>
+                                                    </p>
+                                                
+                                                    <!-- Banner -->
+                                                    <p style=3D"margin: 0;"=
+><img src=3D"https://assets.fwdto.net/hsbc/rbwm/202403_wco_master_template/=
+basic_Inter_DT.jpg" alt=3D"Ready to begin=3F" width=3D"768" class=3D"nomob"=
+ style=3D"display: block; border: 0;" /><!--[if mso]><!--><span class=3D"sh=
+ow" style=3D"display: none; max-height: 0px; overflow: hidden;margin: 0;"><=
+img src=3D"https://assets.fwdto.net/hsbc/rbwm/202403_wco_master_template/ba=
+sic_Inter_DT.jpg" width=3D"320" style=3D"width: 100%; max-width: 400px; dis=
+play:block; border: 0px;" border=3D"0" alt=3D"Ready to begin=3F"/></span><!=
+--<![endif]--></p>
+
+                                                
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align=3D"center">
+                                                    <table width=3D"678" bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"width:678px;" class=
+=3D"w276">
+                            <tbody>
+                                <tr>
+                                    <td align=3D"left">
+                                        <!--common for all versions-->
+                                        <p style=3D"margin: 0px; font-famil=
+y: 'Universe Next HSBC', Arial, Helvetica, 'Sans-serif'; font-size: 33px; l=
+ine-height: 37px; color: #333333; margin-top: 36px; font-weight: 350;" clas=
+s=3D"mt16">
+                                            Ready to begin=3F
+                                        </p>
+                                        <p style=3D"margin: 0; font-family:=
+ 'Universe Next HSBC', Arial, Helvetica, 'Sans-serif'; font-size: 16px; lin=
+e-height: 20px; color: #333333; margin-top: 34px; font-weight: 400;">
+                                            Hi Mr Suetor,
+                                        </p>
+                                        <p style=3D"margin: 0; font-family:=
+ 'Universe Next HSBC', Arial, Helvetica, 'Sans-serif'; font-size: 16px; lin=
+e-height: 20px; color: #333333; margin-top: 14px; margin-bottom: 13px; font=
+-weight: 400;" class=3D"mb16 mtp12">
+                                            Welcome and thanks for choosing=
+ us.
+                                        </p>
+
+                                        <!-- Intro -->
+                                        <p style=3D"margin: 0; font-family:=
+'Universe Next HSBC', Arial, Helvetica, 'Sans-serif'; font-size: 16px; line=
+-height: 20px; color: #333333; margin-top: 0px; margin-bottom: 29px; font-w=
+eight: 400;" class=3D"mb33">Those are the two most important things we have=
+ to say. But read to the end for your important documents. Reading this inf=
+ormation will help you get the most from your new account.</p>
+
+    
+    
+    
+ 
+                                    </td>
+                                </tr>
+ 
+                                <tr><td style=3D"border-bottom:2px solid #d=
+7d7d5; font-size: 1px; line-height: 1px;"></td></tr>
+ 
+
+                                <!-- Account Ready to Use -->
+                                <tr>
+                                    <td style=3D"padding-top: 20px; padding=
+-bottom: 30px;" class=3D"pt32">
+                                        <table width=3D"100%" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0">
+                                            <tbody>
+                                                <tr>
+                                                    <td align=3D"center" va=
+lign=3D"top">
+                                                        <table width=3D"100=
+%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                            <tbody>
+                                                                <tr>
+
+                                                                    <td wid=
+th=3D"330" align=3D"left" valign=3D"top" style=3D"width: 330px; font-weight=
+: normal;" class=3D"drop">
+                                                                        <p =
+style=3D"margin: 0; margin-top: 15px;" class=3D"mt0"><img src=3D"https://as=
+sets.fwdto.net/hsbc/rbwm/202403_wco_master_template/inter_basic_dt1.png" al=
+t=3D"Your HSBC Basic Bank Account is ready to use" width=3D"330" height=3D"=
+auto" class=3D"h" style=3D"display: block; border: 0; width:330px;" /><!--[=
+if mso]><!--><span class=3D"show" style=3D"display: none; max-height: 0px; =
+overflow: hidden;margin: 0;"><img src=3D"https://assets.fwdto.net/hsbc/rbwm=
+/202403_wco_master_template/inter_basic_mb1.png" width=3D"276" style=3D"wid=
+th: 276px; display:block; border: 0px;" border=3D"0" alt=3D"Your HSBC Basic=
+ Bank Account is ready to use" class=3D"w335"/></span><!--<![endif]--></p>
+                                                                    </td>
+                                                                    <td wid=
+th=3D"18" style=3D"width: 18px;" class=3D"nomob">&nbsp;</td>
+                                                                    <td ali=
+gn=3D"left" valign=3D"top" class=3D"drop">
+
+                                                                        <p =
+style=3D"margin: 0; font-family: 'Universe Next HSBC', Arial, Helvetica, 'S=
+ans-serif'; font-size: 23px; line-height: 26px; color: #333333; margin-top:=
+ 16px; font-weight: 350;" class=3D"mt22">
+                                                                           =
+ Your HSBC Bank Account is ready to use
+                                                                        </p=
+>  
+
+                                                                        <p =
+style=3D"font-family: 'Universe Next HSBC', Arial, Helvetica, 'Sans-serif';=
+ font-size: 16px; line-height: 20px; color: #333333; margin-top: 35px; font=
+-weight: 400;">
+                                                                           =
+ This means you can shop online, pay bills and check your balance. You can =
+even apply for an unarranged overdraft through the HSBC UK Mobile Banking a=
+pp. If you need to know how to make or receive an international payment, th=
+ere's lots of information on our website.
+                                                                        </p=
+>
+
+
+                                                                        
+                                                                        
+                                                                        <!-=
+- CTA -->
+                                                                        <ta=
+ble border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation">
+                                                                           =
+ <tbody>
+                                                                           =
+ <tr>
+                                                                           =
+ <td valign=3D"middle" align=3D"left"><p style=3D"margin: 0px; font-family:=
+ 'Universe Next HSBC', Arial, Helvetica, 'Sans-serif'; font-size: 16px; lin=
+e-height: 20px; color: #333333; font-weight: 400;"><a href=3D"http://market=
+ingsupport.hsbc.co.uk/r/=3Fid=3Dh2a136eaa,116c9ae4,132d58ec&e=3DcDE9SEJVSzp=
+MSDpFMDpBRDowMDoyNTA5OjAwNjpNRU1PQg&s=3DRXHMFM8xVJ5DxjvO9Uhdn2qKNiHQq7oqrI2=
+1c5z27Bg" style=3D"text-decoration: none; color:#333333;" title=3D"Find out=
+ more" target=3D"_blank">Find out more</a></p></td>
+                                                                           =
+ <td width=3D"8" style=3D"width:8px;"></td>
+                                                                           =
+ <td width=3D"8" valign=3D"middle" style=3D"width: 8px; max-width: 8px; min=
+-width: 8px;" align=3D"left"><a href=3D"http://marketingsupport.hsbc.co.uk/=
+r/=3Fid=3Dh2a136eaa,116c9ae4,132d58ed&e=3DcDE9SEJVSzpMSDpFMDpBRDowMDoyNTA5O=
+jAwNjpNRU1PQg&s=3D6qEFNNQTAAFoEDorM7OFMSAsvlmdkQpiv7_PsMb1Bsg" target=3D"_b=
+lank" title=3D"Find out more"><p style=3D"margin: 0; margin-top: 0px;"><img=
+ src=3D"https://assets.fwdto.net/hsbc/rbwm/202210_onboarding_journey/arrow-=
+1.png" width=3D"9" height=3D"13" alt=3D"Find out more" style=3D"display: bl=
+ock; border: 0;"/></p></a></td>
+                                                                           =
+ </tr>
+                                                                           =
+ </tbody>
+                                                                        </t=
+able>
+                                                                        
+
+                                                                    </td>
+
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>  
+                                    </td>    
+                                </tr>
+
+
+
+                                <!-- Divider -->
+                                <tr>
+                                    <td style=3D"border-bottom: 2px solid #=
+d7d7d5; font-size: 1px; line-height: 1px;"></td>
+                                </tr>
+    
+ 
+ 
+                                <!-- How to apply for an overdraft -->
+                                 
+                                <tr>
+                                    <td style=3D"padding-top: 36px;"><p sty=
+le=3D"font-family: 'Universe Next HSBC', Arial, Helvetica, 'Sans-serif'; co=
+lor: #333333; mso-line-height-rule: exactly; font-size: 23px; line-height: =
+26px; margin: 0px 0px 34px 0px; font-weight: 350;">How to apply for an over=
+draft</p>
+                                    <p style=3D"font-family: 'Universe Next=
+ HSBC', Arial, Helvetica, 'Sans-serif'; color: #333333; mso-line-height-rul=
+e: exactly; font-size: 16px; line-height: 20px; margin: 0px 0px 28px 0px; f=
+ont-weight: 400;">Your account doesn't come with an arranged overdraft. To =
+apply for one, first open the HSBC UK Mobile Banking app. Select your accou=
+nt, then <strong>&lsquo;More&rsquo;</strong>, then <strong>&lsquo;Manage ar=
+ranged overdraft&rsquo;</strong>. Applications are subject to an assessment=
+ of your financial circumstances.</p>
+                                    </td>
+                                </tr>
+                                
+
+                                
+
+
+ 
+                                
+                                
+
+                                
+                                <!-- CONTACTLESS -->
+                                <tr><td style=3D"border-bottom:2px solid #d=
+7d7d5; font-size: 1px; line-height: 1px;"></td></tr>
+                                
+                                <tr>
+                                <td style=3D"padding-top: 20px; padding-bot=
+tom: 46px;" class=3D"pt32 pb29">
+                                <table width=3D"100%" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0">
+                                <tbody>
+                                <tr>
+                                <td align=3D"center" valign=3D"top">
+                                <table width=3D"100%" border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0">
+                                <tbody>
+                                <tr>
+                                <td align=3D"left" valign=3D"top" class=3D"=
+display-footer">
+                                <!--Basic_International, Bank International=
+, Bank_Non-Resident start-->
+                                <p style=3D"margin: 0; font-family: 'Univer=
+se Next HSBC', Arial, Helvetica, 'Sans-serif'; font-size: 23px; line-height=
+: 26px; color: #333333; margin-top: 14px; font-weight: 350;" class=3D"mt22"=
+>Make contactless payments right away</p>
+                                <!--Basic_International, Bank International=
+, Bank_Non-Resident end-->
+
+                                <!--Basic_International, Bank International=
+ start-->
+                                <p style=3D"margin: 0; font-family: 'Univer=
+se Next HSBC', Arial, Helvetica, 'Sans-serif'; font-size: 16px; line-height=
+: 20px; color: #333333; margin-top: 32px; margin-bottom: 34px; font-weight:=
+ 400;">There&rsquo;s no need to wait for your physical card, you can add yo=
+ur card to a digital wallet today and start making contactless payments. Yo=
+ur physical card will be with you in the next six working days. When it arr=
+ives, you&rsquo;ll be able to view your PIN in the app.</p>
+                                <!--Basic_International, Bank International=
+ end-->
+
+                                  
+                                <!--Bank_International start-->  
+                                <table border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" role=3D"presentation">
+                                <tbody>
+                                <tr>
+                                <td valign=3D"middle" align=3D"left"><p sty=
+le=3D"margin: 0px; font-family: 'Universe Next HSBC', Arial, Helvetica, 'Sa=
+ns-serif'; font-size: 16px; line-height: 20px; color: #333333; font-weight:=
+ 400;"><a href=3D"http://marketingsupport.hsbc.co.uk/r/=3Fid=3Dh2a136eaa,11=
+6c9ae4,132d58f2&e=3DcDE9SEJVSzpMSDpFMDpBRDowMDoyNTA5OjAwNzpNRU1PQg&s=3DdA0x=
+KoUT-VBI_7SSoH1qkNWtW1eYWw9z0oMAysfiqeE" style=3D"text-decoration: none; co=
+lor:#333333;" title=3D"Learn about digital wallets" target=3D"_blank">Learn=
+ about digital wallets</a></p></td>
+                                <td width=3D"8" style=3D"width:8px;"></td>
+                                <td width=3D"8" valign=3D"middle" style=3D"=
+width: 8px; max-width: 8px; min-width: 8px;" align=3D"left"><a href=3D"http=
+://marketingsupport.hsbc.co.uk/r/=3Fid=3Dh2a136eaa,116c9ae4,132d58f3&e=3DcD=
+E9SEJVSzpMSDpFMDpBRDowMDoyNTA5OjAwNzpNRU1PQg&s=3DEi9PD3h7tmU-i30MAQ0U_UW_4O=
+Lno_Xml75NSSu6RU8" target=3D"_blank" title=3D"Learn about digital wallets">=
+<p style=3D"margin: 0; margin-top: 0px;"><img src=3D"https://assets.fwdto.n=
+et/hsbc/rbwm/202210_onboarding_journey/arrow-1.png" width=3D"9" height=3D"1=
+3" alt=3D"Learn about digital wallets" style=3D"display: block; border: 0;"=
+/></p></a></td>
+                                </tr>
+                                </tbody>
+                                </table>
+                                <!--Bank_International end-->  
+                                  
+
+
+                                </td>
+                                <td width=3D"14" style=3D"width: 14px;" cla=
+ss=3D"nomob">&nbsp;</td>
+                                <td width=3D"330" align=3D"right" valign=3D=
+"top" style=3D"width: 330px; font-weight: normal;" class=3D"display-header"=
+><p style=3D"margin: 0; margin-top: 15px;" class=3D"mt0"><img src=3D"https:=
+//assets.fwdto.net/hsbc/rbwm/202403_wco_master_template/inter_basic_dt2.png=
+" alt=3D"HSBC UK Debit" width=3D"330" height=3D"auto" class=3D"h" style=3D"=
+display: block; border: 0; width:330px;" /><!--[if mso]><!--><span class=3D=
+"show" style=3D"display: none; max-height: 0px; overflow: hidden;margin: 0;=
+"><img src=3D"https://assets.fwdto.net/hsbc/rbwm/202403_wco_master_template=
+/inter_basic_mb2.png" width=3D"276" style=3D"width: 276px;display:block; bo=
+rder: 0px;" border=3D"0" alt=3D"HSBC UK Debit" class=3D"w335"/></span><!--<=
+![endif]--></p></td>
+                                </tr>
+                                </tbody>
+                                </table>
+                                </td>
+                                </tr>
+                                </tbody>
+                                </table>  
+                                </td>    
+                                </tr>
+                                
+
+                                
+                                <!-- IBAN -->
+                                <tr><td style=3D"border-bottom:2px solid #d=
+7d7d5; font-size: 1px; line-height: 1px;"></td></tr>
+                                <tr>
+                                    <td align=3D"center" valign=3D"top" sty=
+le=3D"padding-top: 32px; padding-bottom: 30px;">
+                                        <table width=3D"100%" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0">
+                                            <tbody>
+                                                <tr>
+                                                    <td align=3D"center" va=
+lign=3D"top">
+                                                        <table width=3D"100=
+%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"width: 100%;">
+                                                        <tbody>
+                                                        <tr>
+                                                        <td align=3D"left" =
+style=3D"border: 1px solid #D9D9D9; border-bottom: none; border-collapse:co=
+llapse; text-align: left; background-color: #f3f3f3; color: #333333; paddin=
+g-left: 28px;" class=3D"grey brdwhitebottom"><p style=3D"font-family: 'Univ=
+erse Next HSBC', Arial, Helvetica, 'Sans-serif'; color: #333333; mso-line-h=
+eight-rule: exactly; font-size: 23px; line-height: 26px; margin: 36px 4px 3=
+2px 4px; font-weight: 350;">How to see your IBAN or BIC</p></td>
+                                                        </tr>
+                                                        <tr>
+                                                        <td style=3D"border=
+: 1px solid #D9D9D9; border-collapse:collapse;font-family: Arial, Helvetica=
+, sans-serif; font-size: 16px; line-height: 20px; font-weight: normal; back=
+ground-color: #ffffff;" class=3D"darkmode">
+                                                        <table align=3D"cen=
+ter" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=
+=3D"width: 100%;">
+                                                        <tbody>
+                                                        <tr><td align=3D"ce=
+nter" valign=3D"top">
+                                                        <table width=3D"100=
+%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                        <tbody>
+                                                        <tr>
+                                                        <td style=3D"paddin=
+g: 0px; padding-top: 34px;">
+                                                        <p style=3D"font-fa=
+mily: 'Universe Next HSBC', Arial, Helvetica, 'Sans-serif'; color: #333333;=
+ mso-line-height-rule: exactly; font-size: 16px; line-height: 20px; margin:=
+ 0px 34px 46px 30px; font-weight: 400;" class=3D"mb31">Open the HSBC UK Mob=
+ile Banking app, select your account, then go to &lsquo;Account details&rsq=
+uo; to find IBAN and BIC.</p>
+
+                                                        <p style=3D"font-fa=
+mily: 'Universe Next HSBC', Arial, Helvetica, 'Sans-serif'; color: #333333;=
+ mso-line-height-rule: exactly; font-size: 16px; line-height: 20px; margin:=
+ 0px 34px 12px 30px; font-weight: 400;" class=3D"mb31"><strong>When you&rsq=
+uo;ll need your IBAN or BIC</strong></p>
+
+                                                        <p style=3D"font-fa=
+mily: 'Universe Next HSBC', Arial, Helvetica, 'Sans-serif'; color: #333333;=
+ mso-line-height-rule: exactly; font-size: 16px; line-height: 20px; margin:=
+ 0px 34px 46px 30px; font-weight: 400;" class=3D"mb31">You&rsquo;ll need IB=
+AN (International Bank Account Number) and BIC (Bank Identifier Code) to se=
+nd or receive money from outside the UK (fees may apply).</p>
+                                                        </td>
+                                                        </tr>
+                                                        </tbody>
+                                                        </table>
+                                                        </td></tr>
+                                                        </tbody>
+                                                        </table>
+                                                        </td>
+                                                        </tr>
+                                                        </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                
+
+                                
+
+
+ 
+                                
+
+
+                                <!-- WE'RE IN THE APP -->
+                                <tr><td style=3D"border-bottom:2px solid #d=
+7d7d5; font-size: 1px; line-height: 1px;"></td></tr>
+                                <tr>
+                                    <td style=3D"padding-top: 20px; padding=
+-bottom: 44px;" class=3D"pt32">
+                                        <table width=3D"100%" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0">
+                                            <tbody>
+                                                <tr>
+                                                    <td align=3D"center" va=
+lign=3D"top">
+                                                        <table width=3D"100=
+%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td wid=
+th=3D"330" align=3D"left" valign=3D"top" style=3D"width: 330px; font-weight=
+: normal;" class=3D"drop"><p style=3D"margin: 0; margin-top: 12px;" class=
+=3D"mt0"><img src=3D"https://assets.fwdto.net/hsbc/rbwm/202403_wco_master_t=
+emplate/inter_basic_dt3.png " alt=3D"We're in the app if you need us" width=
+=3D"324" class=3D"h" height=3D"auto" style=3D"display: block; border: 0; wi=
+dth:324px;" /><!--[if mso]><!--><span class=3D"show" style=3D"display: none=
+; max-height: 0px; overflow: hidden;margin: 0;"><img src=3D"https://assets.=
+fwdto.net/hsbc/rbwm/202403_wco_master_template/inter_basic_mb3.png " width=
+=3D"276" style=3D"width: 276px; max-width: 276px; display:block; border: 0p=
+x;" border=3D"0" alt=3D"We're in the app if you need us" class=3D"w335"/></=
+span><!--<![endif]--></p></td>
+                                                                    <td wid=
+th=3D"12" style=3D"width: 12px;" class=3D"nomob">&nbsp;</td>
+                                                                    <td ali=
+gn=3D"left" valign=3D"top" class=3D"drop">
+                                                                        <p =
+style=3D"margin: 0; font-family: 'Universe Next HSBC', Arial, Helvetica, 'S=
+ans-serif'; font-size: 23px; line-height: 26px; color: #333333; margin-top:=
+ 16px; font-weight: 350;" class=3D"mt22">
+                                                                           =
+ We're in the app if you need us 
+                                                                        </p=
+>
+                                                                        <p =
+style=3D"margin: 0; font-family: 'Universe Next HSBC', Arial, Helvetica, 'S=
+ans-serif'; font-size: 16px; line-height: 20px; color: #333333; margin-top:=
+ 29px; margin-bottom: 32px; font-weight: 400;" class=3D"mt35 mb38">
+                                                                           =
+ Come to us for support and keep an eye out for in-app messages with our ba=
+nking tips. You can chat to us any time of day in the app but if you'd rath=
+er talk to us another way - by phone, through our website, or in person in =
+a branch - you absolutely can. 
+                                                                        </p=
+>
+
+
+                                                                        
+                                                                        <!-=
+- CTA -->
+                                                                        <ta=
+ble border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation">
+                                                                           =
+ <tbody>
+                                                                           =
+     <tr>
+                                                                           =
+         <td valign=3D"middle" align=3D"left"><p style=3D"margin: 0; margin=
+: 0px; font-family: 'Universe Next HSBC', Arial, Helvetica, 'Sans-serif'; f=
+ont-size: 16px; line-height: 20px; color: #333333; font-weight: 400;"><a hr=
+ef=3D"http://marketingsupport.hsbc.co.uk/r/=3Fid=3Dh2a136eaa,116c9ae4,132d5=
+8f6&e=3DcDE9SEJVSzpMSDpFMDpBRDowMDoyNTA5OjAwODpNRU1PQg&s=3Du2wVyvPp5jE5kPF9=
+5qS6bYH2Q3sRW7aFjlZoYprn1nM" style=3D"text-decoration: none; color:#333333;=
+" title=3D"Get support" target=3D"_blank">Get support</a></p></td>
+                                                                           =
+         <td width=3D"8" style=3D"width:8px;"></td>
+                                                                           =
+         <td valign=3D"middle" style=3D"width: 9px;" align=3D"right"><a hre=
+f=3D"http://marketingsupport.hsbc.co.uk/r/=3Fid=3Dh2a136eaa,116c9ae4,132d58=
+f7&e=3DcDE9SEJVSzpMSDpFMDpBRDowMDoyNTA5OjAwODpNRU1PQg&s=3Dv4vH9b_CvEpqF9fkp=
+0Kw_Tg2yKaGAVGT7JIoEst4ja8" target=3D"_blank" title=3D"Get support"><p styl=
+e=3D"margin: 0; margin-top: 0px;"><img src=3D"https://assets.fwdto.net/hsbc=
+/rbwm/202210_onboarding_journey/arrow-1.png" width=3D"9" height=3D"13" alt=
+=3D"Get support" style=3D"display: block; border: 0;"/></p></a></td>
+                                                                           =
+     </tr>
+                                                                           =
+ </tbody>
+                                                                        </t=
+able>
+                                                                        
+                                                                        
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>  
+                                    </td>    
+                                </tr>
+
+
+
+   
+                                <!--common for all versions-->  
+                                <tr><td style=3D"border-bottom:2px solid #d=
+7d7d5; font-size: 1px; line-height: 1px;"></td></tr>
+                                <tr>
+                                    <td style=3D"padding-top: 36px;">
+                                        <p style=3D"font-family: 'Universe =
+Next HSBC', Arial, Helvetica, 'Sans-serif'; color: #333333; mso-line-height=
+-rule: exactly; font-size: 23px; line-height: 26px; margin: 0px 0px 35px 0p=
+x; font-weight: 350;">Final thing, documents you&rsquo;ll want to keep:</p>
+
+                                        <p style=3D"font-family: 'Universe =
+Next HSBC', Arial, Helvetica, 'Sans-serif'; color: #333333; mso-line-height=
+-rule: exactly; font-size: 16px; line-height: 20px; margin: 0px 0px 28px 0p=
+x; font-weight: 400;">We&rsquo;d like to point you to a few important docum=
+ents. They&rsquo;re essential reading, because they explain what we&rsquo;l=
+l do and what we&rsquo;ll ask of you. Please save or print them for future =
+reference &ndash; these links will be available for three&nbsp;years. </p>
+
+
+                                        <p style=3D"font-family: 'Universe =
+Next HSBC', Arial, Helvetica, 'Sans-serif'; color: #333333; mso-line-height=
+-rule: exactly; font-size: 16px; line-height: 20px; margin: 0px 0px 28px 0p=
+x; font-weight: 400;">You can view or download a copy of our Privacy Notice=
+ at any time by visiting <a target=3D"_blank" href=3D"http://marketingsuppo=
+rt.hsbc.co.uk/r/=3Fid=3Dh2a136eaa,116c9ae4,132d58f8" style=3D"text-decorati=
+on: underline; color: #333333;" title=3D"Find out more" class=3D"greyclr"><=
+span class=3D"greyclr" style=3D"text-decoration: underline; color: #333333;=
+">hsbc.co.uk/privacy-notice</span></a>. If you prefer a paper copy, contact=
+ us and we&rsquo;ll send one in the post.</p>
+                                
+
+
+  
+
+                                    </td>
+                                </tr>
+                                <tr><td style=3D"border-bottom:2px solid #d=
+7d7d5; font-size: 1px; line-height: 1px;"></td></tr>
+
+
+                                <!-- Show Documents -->
+                                
+
+                                        <tr>
+                                            <td style=3D"padding-top: 32px;=
+">
+                                                <table width=3D"100%" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td width=3D"56=
+" align=3D"left" valign=3D"top" style=3D"width: 56px;" class=3D"w60"><p sty=
+le=3D"margin: 0px; margin-top: 4px;"><img src=3D"https://assets.fwdto.net/h=
+sbc/rbwm/202403_wco_master_template/icon1.png" width=3D"34" style=3D"width:=
+ 34px; height: auto; border: 0px; display: block;"/></p></td>
+                                                            <td class=3D"co=
+lwhite pb20" align=3D"left" style=3D"border-collapse: collapse; padding: 0;=
+ mso-line-height-rule: exactly; vertical-align: top; padding-top: 0px; padd=
+ing-bottom: 22px;" valign=3D"top"><p style=3D"font-family: 'Universe Next H=
+SBC', Arial, Helvetica, 'Sans-serif'; color: #333333; mso-line-height-rule:=
+ exactly; font-size: 23px; line-height: 26px; margin: 2px 0px 23px 0px;font=
+-weight: 350;">Personal Banking Terms and Conditions and Charges</p>
+                                                                <p style=3D=
+"font-family: 'Universe Next HSBC', Arial, Helvetica, 'Sans-serif'; color: =
+#333333; mso-line-height-rule: exactly; font-size: 16px; line-height: 20px;=
+ margin: 0px 0px 22px 0px; font-weight: 400;"></p>
+                                                                <!--CTA-->
+                                                                <table bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation">
+                                                                    <tbody>
+                                                                        <tr=
+>
+                                                                           =
+ <td valign=3D"middle" align=3D"left"><p style=3D"margin: 0; margin: 0px; f=
+ont-family: 'Universe Next HSBC', Arial, Helvetica, 'Sans-serif'; font-size=
+: 16px; line-height: 20px; color: #333333; font-weight: 400;"><a href=3D"ht=
+tps://welcomepack.hsbc.co.uk/revisions/08dd6c66-a6fb-462c-8cb8-490227d05060=
+/browse=3Fcid=3DHBUK:LH:E0:AD:00:2509:009:MEMOB" style=3D"text-decoration: =
+none; color:#333333;" title=3D"Learn more" target=3D"_blank">Learn more</a>=
+</p></td>
+                                                                           =
+ <td width=3D"8" style=3D"width:8px;"></td>
+                                                                           =
+ <td valign=3D"middle" style=3D"width: 9px;" align=3D"right"><a href=3D"htt=
+ps://welcomepack.hsbc.co.uk/revisions/08dd6c66-a6fb-462c-8cb8-490227d05060/=
+browse=3Fcid=3DHBUK:LH:E0:AD:00:2509:009:MEMOB" target=3D"_blank" title=3D"=
+Learn more"><p style=3D"margin: 0; margin-top: 0px;"><img src=3D"https://as=
+sets.fwdto.net/hsbc/rbwm/202210_onboarding_journey/arrow-1.png" width=3D"9"=
+ height=3D"13" alt=3D"Learn more" style=3D"display: block; border: 0;"/></p=
+></a></td>
+                                                                        </t=
+r>
+                                                                    </tbody=
+>
+                                                                </table>
+        
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+
+                                        <tr><td style=3D"border-bottom:2px =
+solid #d7d7d5; font-size: 1px; line-height: 1px;"></td></tr>
+
+                                    
+
+                                        <tr>
+                                            <td style=3D"padding-top: 32px;=
+">
+                                                <table width=3D"100%" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td width=3D"56=
+" align=3D"left" valign=3D"top" style=3D"width: 56px;" class=3D"w60"><p sty=
+le=3D"margin: 0px; margin-top: 4px;"><img src=3D"https://assets.fwdto.net/h=
+sbc/rbwm/202403_wco_master_template/icon2.png" width=3D"34" style=3D"width:=
+ 34px; height: auto; border: 0px; display: block;"/></p></td>
+                                                            <td class=3D"co=
+lwhite pb20" align=3D"left" style=3D"border-collapse: collapse; padding: 0;=
+ mso-line-height-rule: exactly; vertical-align: top; padding-top: 0px; padd=
+ing-bottom: 22px;" valign=3D"top"><p style=3D"font-family: 'Universe Next H=
+SBC', Arial, Helvetica, 'Sans-serif'; color: #333333; mso-line-height-rule:=
+ exactly; font-size: 23px; line-height: 26px; margin: 2px 0px 23px 0px;font=
+-weight: 350;">Making Sense of Overdrafts</p>
+                                                                <p style=3D=
+"font-family: 'Universe Next HSBC', Arial, Helvetica, 'Sans-serif'; color: =
+#333333; mso-line-height-rule: exactly; font-size: 16px; line-height: 20px;=
+ margin: 0px 0px 22px 0px; font-weight: 400;">An introduction to our overdr=
+aft services.</p>
+                                                                <!--CTA-->
+                                                                <table bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation">
+                                                                    <tbody>
+                                                                        <tr=
+>
+                                                                           =
+ <td valign=3D"middle" align=3D"left"><p style=3D"margin: 0; margin: 0px; f=
+ont-family: 'Universe Next HSBC', Arial, Helvetica, 'Sans-serif'; font-size=
+: 16px; line-height: 20px; color: #333333; font-weight: 400;"><a href=3D"ht=
+tps://welcomepack.hsbc.co.uk/revisions/08dd2f2a-4b5c-4b77-8c9a-e66eff29167d=
+/browse=3Fcid=3DHBUK:LH:E0:AD:00:2509:010:MEMOB" style=3D"text-decoration: =
+none; color:#333333;" title=3D"Learn more" target=3D"_blank">Learn more</a>=
+</p></td>
+                                                                           =
+ <td width=3D"8" style=3D"width:8px;"></td>
+                                                                           =
+ <td valign=3D"middle" style=3D"width: 9px;" align=3D"right"><a href=3D"htt=
+ps://welcomepack.hsbc.co.uk/revisions/08dd2f2a-4b5c-4b77-8c9a-e66eff29167d/=
+browse=3Fcid=3DHBUK:LH:E0:AD:00:2509:010:MEMOB" target=3D"_blank" title=3D"=
+Learn more"><p style=3D"margin: 0; margin-top: 0px;"><img src=3D"https://as=
+sets.fwdto.net/hsbc/rbwm/202210_onboarding_journey/arrow-1.png" width=3D"9"=
+ height=3D"13" alt=3D"Learn more" style=3D"display: block; border: 0;"/></p=
+></a></td>
+                                                                        </t=
+r>
+                                                                    </tbody=
+>
+                                                                </table>
+        
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+
+                                        <tr><td style=3D"border-bottom:2px =
+solid #d7d7d5; font-size: 1px; line-height: 1px;"></td></tr>
+
+                                    
+
+                                        <tr>
+                                            <td style=3D"padding-top: 32px;=
+">
+                                                <table width=3D"100%" borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td width=3D"56=
+" align=3D"left" valign=3D"top" style=3D"width: 56px;" class=3D"w60"><p sty=
+le=3D"margin: 0px; margin-top: 4px;"><img src=3D"https://assets.fwdto.net/h=
+sbc/rbwm/202403_wco_master_template/icon3.png" width=3D"34" style=3D"width:=
+ 34px; height: auto; border: 0px; display: block;"/></p></td>
+                                                            <td class=3D"co=
+lwhite pb20" align=3D"left" style=3D"border-collapse: collapse; padding: 0;=
+ mso-line-height-rule: exactly; vertical-align: top; padding-top: 0px; padd=
+ing-bottom: 22px;" valign=3D"top"><p style=3D"font-family: 'Universe Next H=
+SBC', Arial, Helvetica, 'Sans-serif'; color: #333333; mso-line-height-rule:=
+ exactly; font-size: 23px; line-height: 26px; margin: 2px 0px 23px 0px;font=
+-weight: 350;">Financial Services Compensation Scheme</p>
+                                                                <p style=3D=
+"font-family: 'Universe Next HSBC', Arial, Helvetica, 'Sans-serif'; color: =
+#333333; mso-line-height-rule: exactly; font-size: 16px; line-height: 20px;=
+ margin: 0px 0px 22px 0px; font-weight: 400;">How your money is protected.<=
+/p>
+                                                                <!--CTA-->
+                                                                <table bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation">
+                                                                    <tbody>
+                                                                        <tr=
+>
+                                                                           =
+ <td valign=3D"middle" align=3D"left"><p style=3D"margin: 0; margin: 0px; f=
+ont-family: 'Universe Next HSBC', Arial, Helvetica, 'Sans-serif'; font-size=
+: 16px; line-height: 20px; color: #333333; font-weight: 400;"><a href=3D"ht=
+tps://welcomepack.hsbc.co.uk/revisions/08dc8bc9-330b-4b28-84a8-03bff7875cec=
+/browse=3Fcid=3DHBUK:LH:E0:AD:00:2509:011:MEMOB" style=3D"text-decoration: =
+none; color:#333333;" title=3D"Learn more" target=3D"_blank">Learn more</a>=
+</p></td>
+                                                                           =
+ <td width=3D"8" style=3D"width:8px;"></td>
+                                                                           =
+ <td valign=3D"middle" style=3D"width: 9px;" align=3D"right"><a href=3D"htt=
+ps://welcomepack.hsbc.co.uk/revisions/08dc8bc9-330b-4b28-84a8-03bff7875cec/=
+browse=3Fcid=3DHBUK:LH:E0:AD:00:2509:011:MEMOB" target=3D"_blank" title=3D"=
+Learn more"><p style=3D"margin: 0; margin-top: 0px;"><img src=3D"https://as=
+sets.fwdto.net/hsbc/rbwm/202210_onboarding_journey/arrow-1.png" width=3D"9"=
+ height=3D"13" alt=3D"Learn more" style=3D"display: block; border: 0;"/></p=
+></a></td>
+                                                                        </t=
+r>
+                                                                    </tbody=
+>
+                                                                </table>
+        
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+
+                                        <tr><td style=3D"border-bottom:2px =
+solid #d7d7d5; font-size: 1px; line-height: 1px;"></td></tr>
+
+                                    
+
+ 
+ 
+
+
+                                                            <!--Signoff -->
+                                                            <tr>
+                                                                <td>
+                                                                    <p styl=
+e=3D"margin: 0; font-family: 'Universe Next HSBC', Arial, Helvetica, 'Sans-=
+serif'; font-size: 16px; line-height: 20px; color: #202020; margin-top: 35p=
+x; margin-left: 0px; margin-right: 0px; margin-bottom: 32px; font-weight: 4=
+00;">Thanks for joining us,<br><strong>Your HSBC UK Banking Team</strong></=
+p>  
+
+                                                                    <p clas=
+s=3D"mt30 mbt30 mlr15" style=3D"margin-top: 0px; margin-bottom: 30px;"><img=
+ src=3D"https://assets.fwdto.net/hsbc/rbwm/202403_wco_master_template/logo_=
+bottom.jpg" alt=3D"HSBC UK | Opening up a world of opportunity" width=3D"36=
+3" style=3D"display: block; border: 0;" class=3D"w100 banner" /></p>
+                                                                </td>
+                                                            </tr>
+
+
+                                                        </tbody>
+                                                    </table>
+                                                </td>  
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!--footer start-->
+                            <tr>
+                                <td style=3D"padding: 22px 0px 0px 0px; bac=
+kground-color: #d9d9d9;" align=3D"center" class=3D"mainbg pt6">
+                                    <table align=3D"center" style=3D"border=
+-collapse: collapse; border: 0; mso-table-lspace: 0; mso-table-rspace: 0; b=
+order-spacing: 0; margin: 0; width: 88%; padding: 0;" width=3D"88%">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <p class=3D"greytext lh=
+250" style=3D"margin: 0px; font-family: 'Universe Next HSBC', Arial, Helvet=
+ica, 'Sans-serif'; color: #333333; font-size: 14px; line-height: 18px;">
+                                                    <a class=3D"lh250" href=
+=3D"http://marketingsupport.hsbc.co.uk/r/=3Fid=3Dh2a136eaa,116c9ae4,132d58f=
+9" title=3D"Website terms" target=3D"_blank" style=3D"color: #333333; text-=
+decoration: underline; font-size: 14px; line-height: 18px; font-family: 'Un=
+iverse Next HSBC', Arial, Helvetica, 'Sans-serif'; color: #333333;"><span c=
+lass=3D"nolink greytext" style=3D"color: #333333; text-decoration: underlin=
+e; font-weight: 400;">Website terms</span></a>
+                                                    <span>&nbsp;&nbsp;&nbsp=
+;</span>
+                                                    <a class=3D"lh250" href=
+=3D"http://marketingsupport.hsbc.co.uk/r/=3Fid=3Dh2a136eaa,116c9ae4,132d58f=
+a" title=3D"Legal" target=3D"_blank" style=3D"color: #333333; text-decorati=
+on: underline; font-size: 14px; line-height: 18px; font-family: 'Universe N=
+ext HSBC', Arial, Helvetica, 'Sans-serif'; color: #333333;"><span class=3D"=
+nolink greytext" style=3D"color: #333; text-decoration: underline; font-wei=
+ght: 400;">Legal</span></a>
+                                                    <span>&nbsp;&nbsp;&nbsp=
+;</span>
+                                                    <a class=3D"lh250" href=
+=3D"http://marketingsupport.hsbc.co.uk/r/=3Fid=3Dh2a136eaa,116c9ae4,132d58f=
+c" title=3D"Contact us" target=3D"_blank" style=3D"color: #333333; text-dec=
+oration: underline; font-size: 14px; line-height: 18px; font-family: 'Unive=
+rse Next HSBC', Arial, Helvetica, 'Sans-serif'; color: #333333;"><span clas=
+s=3D"nolink greytext" style=3D"color: #333333; text-decoration: underline; =
+font-weight: 400;">Contact&nbsp;us</span></a>
+                                                    <span>&nbsp;&nbsp;&nbsp=
+;</span>
+                                                    <a class=3D"lh250" href=
+=3D"http://marketingsupport.hsbc.co.uk/r/=3Fid=3Dh2a136eaa,116c9ae4,132d58f=
+d" title=3D"Find a branch" target=3D"_blank" style=3D"color: #333333; text-=
+decoration: underline; font-size: 14px; line-height: 18px; font-family: 'Un=
+iverse Next HSBC', Arial, Helvetica, 'Sans-serif'; color: #333333;"><span c=
+lass=3D"nolink greytext" style=3D"color: #333333; text-decoration: underlin=
+e; font-weight: 400;">Find&nbsp;a&nbsp;branch</span></a>
+                                                    <span>&nbsp;&nbsp;&nbsp=
+;</span>
+                                                    <a class=3D"lh250" href=
+=3D"http://marketingsupport.hsbc.co.uk/r/=3Fid=3Dh2a136eaa,116c9ae4,132d58f=
+e" title=3D"Security Centre" target=3D"_blank" style=3D"color: #333333; tex=
+t-decoration: underline; font-size: 14px; line-height: 18px; font-family: '=
+Universe Next HSBC', Arial, Helvetica, 'Sans-serif'; color: #333333;"><span=
+ class=3D"nolink greytext" style=3D"color: #333333; text-decoration: underl=
+ine; font-weight: 400;">Security&nbsp;Centre</span></a>
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height=3D"20" style=3D"=
+height: 20px; font-size: 1px; line-height: 1px;" class=3D"height15">&nbsp;<=
+/td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <p class=3D"greytext" s=
+tyle=3D"margin: 0; margin-top: 0px;margin-bottom: 0; font-family: 'Universe=
+ Next HSBC', Arial, Helvetica, 'Sans-serif'; color: #333333; mso-line-heigh=
+t-rule: exactly; font-size: 14px; line-height: 20px; font-weight: 400;">HSB=
+C UK Bank plc. Registered in England and Wales with number 09928412. Regist=
+ered Office: <span class=3D"applelink">1 <span></span>Ce<span></span>nte<sp=
+an></span>na<span></span>r<span></span>y Sq<span></span>ua<span></span>re, =
+Bi<span></span>rm<span></span>ing<span></span>ha<span></span>m, B<span></sp=
+an>1 1<span></span>H<span></span>Q, Un<span></span>it<span></span>ed Ki<spa=
+n></span>n<span></span>gdo<span></span>m</span>. Authorised by the Prudenti=
+al Regulation Authority and regulated by the Financial Conduct Authority an=
+d the Prudential Regulation Authority. Our Financial Services Register numb=
+er is 765112. </p>
+
+                                                    <p class=3D"greytext" s=
+tyle=3D"margin-bottom: 0; margin-top: 14px; font-family: 'Universe Next HSB=
+C', Arial, Helvetica, 'Sans-serif'; color: #333333; mso-line-height-rule: e=
+xactly; font-size: 14px; line-height: 20px; font-weight: 400;"><a href=3D"h=
+ttp://marketingsupport.hsbc.co.uk/r/=3Fid=3Dh2a136eaa,116c9ae4,132d58fb" ta=
+rget=3D"_blank" title=3D"Privacy notice" style=3D"color: #333333; text-deco=
+ration: none;"><span style=3D"color: #333333;" class=3D"nolink greytext"><s=
+trong>Privacy notice</strong></span></a></p>
+
+                                                    <p class=3D"greytext" s=
+tyle=3D"margin-bottom: 0; margin-top: 14px; font-family: 'Universe Next HSB=
+C', Arial, Helvetica, 'Sans-serif'; color: #333333; mso-line-height-rule: e=
+xactly; font-size: 14px; line-height: 20px; font-weight: 400;">We maintain =
+strict security standards and procedures to prevent unauthorised access to =
+information about you. HSBC will never contact you by email or otherwise to=
+ ask you to validate personal information such as your user ID, password or=
+ account numbers. If you get such a request, please call our online securit=
+y team on <a href=3D"tel:03456002290" target=3D"_blank" style=3D"color: #33=
+3333; text-decoration: none;" class=3D"greytext nolink1" title=3D"Call">034=
+5&nbsp;600&nbsp;2290</a>.</p>
+
+                                                    <p class=3D"greytext" s=
+tyle=3D"margin-bottom: 0; margin-top: 14px; font-family: 'Universe Next HSB=
+C', Arial, Helvetica, 'Sans-serif'; color: #333333; mso-line-height-rule: e=
+xactly; font-size: 14px; line-height: 20px; font-weight: 400;">To make sure=
+ we are communicating effectively, we may monitor your interest in our emai=
+ls. We may be able to tell when you&rsquo;ve opened them, and how you&rsquo=
+;ve interacted with them. This includes information about how long you spen=
+d reading our emails and which links you select. We may also collect techni=
+cal information about your device and internet connection, and set cookies.=
+ We use trusted service providers to help us. For more details, read our <a=
+ class=3D"greytext" href=3D"http://marketingsupport.hsbc.co.uk/r/=3Fid=3Dh2=
+a136eaa,116c9ae4,132d58ff" style=3D"color: #333333; text-decoration: underl=
+ine;" title=3D"Privacy Notice" target=3D"_blank"><span style=3D"text-decora=
+tion: underline; color: #333333;" class=3D"nolink">Privacy&nbsp;Notice</spa=
+n></a> and our <a class=3D"greytext" href=3D"http://marketingsupport.hsbc.c=
+o.uk/r/=3Fid=3Dh2a136eaa,116c9ae4,132d5900" style=3D"color: #333333; text-d=
+ecoration: underline;" title=3D"Cookie Notice" target=3D"_blank"><span styl=
+e=3D"text-decoration: underline; color: #333333;" class=3D"nolink">Cookie&n=
+bsp;Notice</span></a>.</p>
+
+                                                    <p class=3D"greytext" s=
+tyle=3D"margin-bottom: 14px; margin-top: 14px; font-family: 'Universe Next =
+HSBC', Arial, Helvetica, 'Sans-serif'; color: #333333; mso-line-height-rule=
+: exactly; font-size: 14px; line-height: 20px; font-weight: 400;">This emai=
+l is confidential. It may also be legally privileged. If you aren&rsquo;t t=
+he addressee you may not copy, forward, disclose or use any part of it. If =
+you got this message in error, please delete it and all copies from your sy=
+stem and notify the sender immediately by return email. Internet communicat=
+ions can&rsquo;t be guaranteed to be timely, secure, error or virus free. W=
+e don&rsquo;t accept liability for any errors or omissions. Please don&rsqu=
+o;t reply to this email. Should you wish to get in touch, <a href=3D"http:/=
+/marketingsupport.hsbc.co.uk/r/=3Fid=3Dh2a136eaa,116c9ae4,132d5901" target=
+=3D"_blank" title=3D"contact us" style=3D"color: #333333; text-decoration: =
+underline;"><span style=3D"color: #333333;" class=3D"nolink greytext">conta=
+ct&nbsp;us</span></a>.</p>
+
+                                                    <p class=3D"greytext" s=
+tyle=3D"margin: 0; margin-top: 0px;margin-bottom: 14px; font-family: 'Unive=
+rse Next HSBC', Arial, Helvetica, 'Sans-serif'; color: #333333; mso-line-he=
+ight-rule: exactly; font-size: 14px; line-height: 20px; font-weight: 400;">=
+&copy; HSBC Bank plc 2026</p>
+
+                                                    <p class=3D"greytext" s=
+tyle=3D"margin: 0; margin-top: 0px;margin-bottom: 32px; font-family: 'Unive=
+rse Next HSBC', Arial, Helvetica, 'Sans-serif'; color: #333333; mso-line-he=
+ight-rule: exactly; font-size: 14px; line-height: 20px; font-weight: 400;">
+                                                    eRFB2630  MCP59819 AC64=
+400
+
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+</div>
+<img height=3D'0' width=3D'0' alt=3D'' src=3D'http://marketingsupport.hsbc.=
+co.uk/r/=3Fid=3Dh2a136eaa,116c9ae4,1'/></body>
+</html>
+
+------=_NextPart_606_1A03B833.1A03B833--
+

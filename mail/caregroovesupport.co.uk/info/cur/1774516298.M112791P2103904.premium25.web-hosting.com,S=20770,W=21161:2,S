@@ -1,0 +1,391 @@
+Return-Path: <Armaan.Uddin@t2group.co.uk>
+Delivered-To: info@caregroovesupport.co.uk
+Received: from premium25.web-hosting.com
+	by premium25.web-hosting.com with LMTP
+	id SB5eBEr4xGlgGiAArvfGlQ
+	(envelope-from <Armaan.Uddin@t2group.co.uk>)
+	for <info@caregroovesupport.co.uk>; Thu, 26 Mar 2026 05:11:38 -0400
+Return-path: <Armaan.Uddin@t2group.co.uk>
+Envelope-to: info@caregroovesupport.co.uk
+Delivery-date: Thu, 26 Mar 2026 05:11:38 -0400
+Received: from [198.54.122.200] (port=62550 helo=asp-relay-shared.jellyfish.systems)
+	by premium25.web-hosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.1)
+	(envelope-from <Armaan.Uddin@t2group.co.uk>)
+	id 1w5gkc-000000091mi-0YGc
+	for info@caregroovesupport.co.uk;
+	Thu, 26 Mar 2026 05:11:37 -0400
+Authentication-Results: asp-relay-shared.jellyfish.systems;
+	dkim=pass header.d=t2group.co.uk header.s=selector2 header.b=fI5htjJm;
+	arc=pass ("microsoft.com:s=arcselector10001:i=1");
+	spf=pass (asp-relay-shared.jellyfish.systems: domain of Armaan.Uddin@t2group.co.uk designates 52.101.83.113 as permitted sender) smtp.mailfrom=Armaan.Uddin@t2group.co.uk;
+	dmarc=pass (policy=quarantine) header.from=t2group.co.uk
+Received: from GVXPR05CU001.outbound.protection.outlook.com (mail-swedencentralazon11023113.outbound.protection.outlook.com [52.101.83.113])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange ECDHE (secp384r1) server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by asp-relay-shared.jellyfish.systems (Postfix) with ESMTPS id 4fhJ1H6vh5zC1yx
+	for <info@caregroovesupport.co.uk>; Thu, 26 Mar 2026 09:11:31 +0000 (UTC)
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=ZfDOg/JbWVR2ZEzrW98hVgopX7n08wwEwgxzKBS5Rzf+IkYP+wb6LxbZYj0tIz7mzg/jCC/W1oQY05HHCzxV5NzDcHUOtYs6GdtpbpPSksizd+xg5gHzyRP0e3SqPiTlGdPPPWQVVtFiZ4GwGCfJ2mpIyZhFojL59ezME8ZGgeQX+RMkExCk0XNmY/16Mvr6Qrjpu9NiFLR+sdn8IahKE2c6GgyRVrf6pETzCBAx0iXUzJmaJXTKfDjwz33h8r9REgQEL1Q/48LzhYO9xLTZQkIQI1HTHHQG9/8fZoo29ZzVY8nXlpoYGznTfdhfMq8PYHoB0U1SgdjF90QPSpH51Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=qA1JWbnJBpBC0FvOLikNEFj0MKB0EYVWB9Om3PAooYU=;
+ b=gT17RKKmKFvkH0WpxsAn4eanbs0mMcmdgq1zGRQB3IVeu8wJBIYtVeCnoxThbsy6JwMskBqwkCdBo53K/dw+2XupGo4ieyulDEySYkWnyzJULK/9fHfCr/gi8kJ/niOQW8UaonBb4C+FWdy4QelKS+IEe0srQkLTCvEnJvvDBhlN93TNkblgpVNaGZpDFCjjCXUYK8nPI7ZwIghqx9D3an7t7xrRTpWWgl0oGCkUcKZOWDsBI1k1tR38Sk4jGE2k4UAwPglbazvq7CjiOvjToEx6P4TDaz1TpFRzd5h7lcQLoL9jjJaIyo5LfMPfYtPlqUqLCTIObq66mXg0k9Zaig==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=t2group.co.uk; dmarc=pass action=none
+ header.from=t2group.co.uk; dkim=pass header.d=t2group.co.uk; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=t2group.co.uk;
+ s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=qA1JWbnJBpBC0FvOLikNEFj0MKB0EYVWB9Om3PAooYU=;
+ b=fI5htjJmJXDn45Zig7iz1UMWtMB6fzdCFMGn/XlrHYcmqzOmE1fuDumLHKNb3U4m5xnv7YtMNyyyd2sh6YqigOlmPoqhnHqnVM2qpVVahYQg3l1mt+eQwzLwweLI156ycTOuekdlU20qVSLzJw46hDH+05aHXHTFp8hVZOPOeig=
+Received: from GVXPR08MB11699.eurprd08.prod.outlook.com (2603:10a6:150:312::7)
+ by DB4PR08MB8175.eurprd08.prod.outlook.com (2603:10a6:10:381::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9745.20; Thu, 26 Mar
+ 2026 09:11:26 +0000
+Received: from GVXPR08MB11699.eurprd08.prod.outlook.com
+ ([fe80::74c9:3c04:cdee:e6b2]) by GVXPR08MB11699.eurprd08.prod.outlook.com
+ ([fe80::74c9:3c04:cdee:e6b2%2]) with mapi id 15.20.9745.019; Thu, 26 Mar 2026
+ 09:11:26 +0000
+From: Armaan Uddin <Armaan.Uddin@t2group.co.uk>
+To: "info@caregroovesupport.co.uk" <info@caregroovesupport.co.uk>
+Subject: Funded Qualifications 
+Thread-Topic: Funded Qualifications 
+Thread-Index: AQHcutO6+MsJ2tVdokmOHbdX6+gbpg==
+Date: Thu, 26 Mar 2026 09:11:26 +0000
+Message-ID:
+ <GVXPR08MB1169920CC46501582AEADF01C9D4BA@GVXPR08MB11699.eurprd08.prod.outlook.com>
+Accept-Language: en-GB, en-US
+Content-Language: en-GB
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+undefined: 1710344
+drawingcanvaselements: []
+composetype: newMail
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: GVXPR08MB11699:EE_|DB4PR08MB8175:EE_
+x-ms-office365-filtering-correlation-id: 5692f515-738a-45e9-8a58-08de8b17a8cb
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam:
+ BCL:0;ARA:13230040|376014|366016|7049299003|69100299015|3109299003|31052699007|39142699007|1800799024|38070700021|56012099003|18002099003|8096899003|55112099003;
+x-microsoft-antispam-message-info:
+ rmT9DkQuNCfOdOIuHZTTlpEkGgyrlRYT0kw8MEZX4h1ttsPdtTeQrjknwzJAOJrgvbm4w9zBZvp+1/qu4gCyQb5qE90c30mrfoW5lHX4GdFYgxOU8KxRQqalx5KZuDudcqkpIdVBIk2t2ONs0C16WLeR3Lpq90hzeVsqEb/rnGVS+wcbiCSUYP833dLMbL0p4tdoROvHPg1MZWDmjvvPtGXL3aoNNLIZ2sY3SWAjpb1OdDIBDsE9NFjmVAyjVWHDZCpt7S/CbggJtcUPmCJzrCoAQUw/EH5yAZ788dNr56EDXl9Hl72RH487RbaPSKHP22p/nyZC26WWg7WAuAYsniwgT+6yInLsFGj7tUACnxjgeaL/RcJbYGdk9Zk+uBl5YEpFG5eyhRmUI6m/3dq1Tjclja8dUFl4Tbms7CD6fZgo+6f/L/z17qA1uko0JpCjw9KGZSvbul/DllntsKNbqMRL08QBWsH6ngL5MMtjk9j6fNL9RF4cD8f0dwBEuW8UpbTXPS+mEVwW7CdoG3Kr7rblXzR9k5ExrbXdK1Y0H09R8ul6XNmEEe//wyCUEf4d7ylrr5ARLpm80WZQzxNPC0I37by8Pt6qdRVR8b6BSmspMthGJxK/B7HjcFArlQq1CNEXU2rA3sFNS367AlUF1WRWg+pjIxWh1Neob9mkklLNI1B4re+6pNeaq/hYe8Ucqq4tpI/EgCLvcEHTiSYOTR02RQSfQXET7OgoKFxAYex7hUdJrpw1DRdILqbcjpNKlOQYg0uEDRx/+UnfG9LYId5cgXJ2s6G+MZb+85XG6N0=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:GVXPR08MB11699.eurprd08.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230040)(376014)(366016)(7049299003)(69100299015)(3109299003)(31052699007)(39142699007)(1800799024)(38070700021)(56012099003)(18002099003)(8096899003)(55112099003);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?Windows-1252?Q?WRTOd7tpm+wItyBiRB5xcLWFDivMnNSZHOHW6PqYJ/efwR6oZW+Tsu2k?=
+ =?Windows-1252?Q?k38r/To+NwXfH3L/h/+AavemGxiI0R9cla5vUjFg/yN+zsOx3lw5Ts9I?=
+ =?Windows-1252?Q?/IMKGUKigdetqrON7trut/9EGWGGG2FYnIGB491pMklPkhflrSS7La8I?=
+ =?Windows-1252?Q?AjC4xPVrTnIMPrPD4vE7YLmu65CU1N3MiikRDhI8jj4OgEH0hlbKSzRo?=
+ =?Windows-1252?Q?W617BE+Lsa+Yi+BHXfTkwLmOk8+TdFEycWff2eNMfUR7oe5KYMDTJuUh?=
+ =?Windows-1252?Q?3p9VxMPEE4IOBsfLCVbDOVEZXpfJkm28unlZL7y5W5xXFEZtT2k3xoLS?=
+ =?Windows-1252?Q?Dewbt2rPKEbHXQfwocRy3kfZO6CeaWuP7dxTLlAC26sPpfDn+5cxMbro?=
+ =?Windows-1252?Q?u6zK0YNcLJhnVw9XP0YI9W+7yNzwB+8CLF3jzoLj2oOgae9xhVqd9OKf?=
+ =?Windows-1252?Q?Hue+S6OWb4oAEaiLh3WplV4MY/ywQ4C3uJfG/JJngwDpaJaoYlQrjDtZ?=
+ =?Windows-1252?Q?6AVZ4vgI9yD2tjJbNWkX4MjiUdOzwAHG/3sAkp/XFRvDhzSpxkx2+j1E?=
+ =?Windows-1252?Q?MT6UlMstQjmct2DAqc4RBqfLTUUvGJWuzV8qD9/3pzdKhI2FXTCm0V9G?=
+ =?Windows-1252?Q?ZGyWFkvL1j/TSI2t6t4afaJl83CzKb0z47Bwo3wM2KOxVn8eqtwVTN6s?=
+ =?Windows-1252?Q?3MKzvl85gQFB1xGGYfvwbXU4iBntMav8WfVNatBiThDbgycPzTx0oz7I?=
+ =?Windows-1252?Q?M+8Kqse6Pg8pOETZs1Aeow5i1BQWKLLHAVMSLCqcgpfUVMZJyzBTc+CS?=
+ =?Windows-1252?Q?FEDOpuc3NX2dNab/T7OTAI1KvmmVpQayuprx2Y694SavV8fuBUoe2YpC?=
+ =?Windows-1252?Q?HdrKIg3G70ca/PT+JBzS0ilCuyMNtNjcQQbAL4093jERZRqUV7i+tUUz?=
+ =?Windows-1252?Q?N89LYIyMtrbug0KWYMF4PmCPkPj4nEgxj6feDKstqPVaKcQIsuEqj2Pt?=
+ =?Windows-1252?Q?4AhtzEZUfYEnIPgsz9JFiqpMfEyhYh07U7nryup+MHKgSG1foebrhH91?=
+ =?Windows-1252?Q?DX0rKuOB81m+iqeZTjQCESuQWEt5MoGY1SX/alIfoaeLWwTmqbW+BL4V?=
+ =?Windows-1252?Q?Dcv2kSExA4u+Vx06t41us5Pdp3gtLuW9w4H6BL9Z0UICuIopcgaXjwTa?=
+ =?Windows-1252?Q?SAdQ/KGY7tohVpoTOSxwL2N1vIvrOY6MFTcBnARm+ekI982yAly3K+Ao?=
+ =?Windows-1252?Q?PckiL4iU0DzG63WYGECfW2OfIWMYU4y8ErneAMM7RxT4MgEl87xuZNqr?=
+ =?Windows-1252?Q?EPBfWui10Ig6jDL8TB2qY+4zls6SN1CFHRisHYnLrPKsXaV+0rayegos?=
+ =?Windows-1252?Q?P90TOVB/w303hgX4mVhMJJlAerNfUFmOAp+DEGIVSmPrpU9AwPh47PdX?=
+ =?Windows-1252?Q?gemvlTtBShqH7LNCCgzzCel8DsWcCIi4mg9v9QtQGuB6mHwY9oJT5wmn?=
+ =?Windows-1252?Q?SS7TOx5X2P4q7rmTDq7YsNFlRTZ6Ke3EcR/QhJ+fOvEHCN5LVdf45UHa?=
+ =?Windows-1252?Q?CkSr0C/l2YZMbi99FKQGjDAJM7Q0ntiDR6b+V/aQzvQh5q+r5C/+Ilqq?=
+ =?Windows-1252?Q?cfNhByuJIpP7jd0I/ytRxL2dEksXNr3ctMzICNFbTrH5Nv5YD8U9Y21+?=
+ =?Windows-1252?Q?cflyu5z4c5C2ygzMVbRLwJA4w7YGs9dQuvpmjA3mLW484ZZhawzp2bib?=
+ =?Windows-1252?Q?/SE4L6k/gO7CTGysLgD+VsqnDnI/185O8DeAF74VWGiNTb7qsen4K0LN?=
+ =?Windows-1252?Q?i9EeZE7AC6+pigNwF+mnNHK1B4cDZpU0MKof/ANwqk7fOOisfSK2wlV1?=
+ =?Windows-1252?Q?oQ7bmC0vvSiSXw=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_GVXPR08MB1169920CC46501582AEADF01C9D4BAGVXPR08MB11699eu_"
+MIME-Version: 1.0
+X-OriginatorOrg: t2group.co.uk
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: GVXPR08MB11699.eurprd08.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 5692f515-738a-45e9-8a58-08de8b17a8cb
+X-MS-Exchange-CrossTenant-originalarrivaltime: 26 Mar 2026 09:11:26.5029
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 27f4bd55-9671-4060-b3c3-75c0d18b0a71
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: d/pv7zUwx7rFIVEaR/ELmNe7mUAB5wrBu89ixEJknQIz0Q5Vq0pxpj2AwqkJZ5McqPaOc6RS+IAE1xJGSJgkPcxftrwKfi+hA8z+lYJHVnw=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB4PR08MB8175
+
+--_000_GVXPR08MB1169920CC46501582AEADF01C9D4BAGVXPR08MB11699eu_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+I hope you=92re well.
+My name is Armaan from T2 Group. We work with care providers across the UK =
+delivering government-funded workplace qualifications.
+Health & Social Care Qualifications:
+=95 Level 2 Adult Care
+=95 Level 3 Lead Adult Care Worker
+=95 Level 4 Lead Practitioner in Adult Care
+=95 Level 5 Leader in Adult Care
+Leadership & Management (Institute of Leadership & Management):
+=95 Level 3 Team Leader / Supervisor
+=95 Level 5 Operations / Departmental Manager
+These are the qualifications most people know as NVQs and they are delivere=
+d through online learning with support from a dedicated assessor.
+In many cases the courses can be fully funded depending on eligibility.
+If you=92d like more information, feel free to reply to this email or I=92d=
+ be happy to arrange a quick call.
+Kind regards,
+Armaan
+
+
+
+Armaan Uddin
+Business Development Consultant
+Telephone 02920027005
+
+[https://www.t2group.co.uk/images/emailfooter/we-are-exhibiting.jpg]
+Head Office Fern House, Unit 1 Links Court, Fortran Road, St. Mellons, Card=
+iff CF3 0LT
+Phone 02920 799 133 Web www.t2group.co.uk<http://www.t2group.co.uk> Email i=
+nfo@t2group.co.uk<mailto:info@t2group.co.uk?subject=3DEnquiry%20Email%20Sig=
+nature>
+Registration number 03908267 Registered in England & Wales
+Privacy Policy at www.t2group.co.uk/privacy.html#1<https://www.t2group.co.u=
+k/privacy-policy.html>
+
+[http://www.t2group.co.uk/images/emailfooter/logos.jpg]
+=93THINK before you PRINT - Help save paper=94
+
+This e-mail may contain proprietary and private information and is intended=
+ for the recipient(s) only. If an addressing or transmission error has misd=
+irected this e-mail, please notify the author by replying to this e-mail. I=
+f you are not the intended recipient(s) disclosure, distribution, copying o=
+r printing of this e-mail is strictly prohibited. Information or opinions i=
+n this message that do not relate to the business of t2 group shall be trea=
+ted as neither given nor endorsed by it. Neither t2 group nor the sender ac=
+cepts any responsibility for viruses or other destructive elements. The mes=
+sage has been scanned for known viruses on leaving t2 group but the recipie=
+nt is strongly advised to check for the latest viruses on its receipt.
+
+MelRose6258791ukgb
+
+--_000_GVXPR08MB1169920CC46501582AEADF01C9D4BAGVXPR08MB11699eu_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; background-color: rgb(255, 255, 255); margin: 1em 0px; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;">
+Hi,</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; background-color: rgb(255, 255, 255); margin: 1em 0px; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;">
+I hope you=92re well.</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; background-color: rgb(255, 255, 255); margin: 1em 0px; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;">
+My name is Armaan from T2 Group. We work with care providers across the UK =
+delivering government-funded workplace qualifications.</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; background-color: rgb(255, 255, 255); margin: 1em 0px; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;">
+<b>Health &amp; Social Care Qualifications:</b><br>
+=95 Level 2 Adult Care<br>
+=95 Level 3 Lead Adult Care Worker<br>
+=95 Level 4 Lead Practitioner in Adult Care<br>
+=95 Level 5 Leader in Adult Care</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; background-color: rgb(255, 255, 255); margin: 1em 0px; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;">
+<b>Leadership &amp; Management (Institute of Leadership &amp; Management):<=
+/b><br>
+=95 Level 3 Team Leader / Supervisor<br>
+=95 Level 5 Operations / Departmental Manager</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; background-color: rgb(255, 255, 255); margin: 1em 0px; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;">
+These are the qualifications most people know as NVQs and they are delivere=
+d through online learning with support from a dedicated assessor.</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; background-color: rgb(255, 255, 255); margin: 1em 0px; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;">
+In many cases the courses can be fully funded depending on eligibility.</di=
+v>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; background-color: rgb(255, 255, 255); margin: 1em 0px; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;">
+If you=92d like more information, feel free to reply to this email or I=92d=
+ be happy to arrange a quick call.</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; text-align: left; te=
+xt-indent: 0px; background-color: rgb(255, 255, 255); margin: 1em 0px; font=
+-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica=
+, sans-serif; font-size: 12pt; color: black;">
+Kind regards,<br>
+Armaan</div>
+<div class=3D"elementToProof" style=3D"direction: ltr; font-family: Aptos, =
+Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; fo=
+nt-size: 12pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+<br>
+<br>
+<table border=3D"0" width=3D"100%" style=3D"font-family:Arial, Helvetica, s=
+ans-serif; font-size:12px; =0A=
+color:#606060;">
+<tbody>
+<tr>
+<td width=3D"600" style=3D"padding-bottom:0px; height:30px;"></td>
+</tr>
+<tr>
+<td width=3D"600" style=3D"padding-bottom:0px; padding-left:0px;"><b style=
+=3D"color:#749a5f;">Armaan Uddin</b>
+</td>
+</tr>
+<tr>
+<td width=3D"600" style=3D"padding-bottom:0px; padding-top:0px; padding-lef=
+t:1px;">Business Development Consultant</td>
+</tr>
+<tr>
+<td width=3D"600" style=3D"padding-bottom:10px; padding-top:0px; =0A=
+padding-left:1px;">
+<b style=3D"color:#749a5f; margin-top:15px; padding-top:5px;">Telephone </b=
+>02920027005<br>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<table width=3D"600" border=3D"0">
+<tbody>
+<tr>
+<td><img alt=3D"" src=3D"https://www.t2group.co.uk/images/emailfooter/we-ar=
+e-exhibiting.jpg"></td>
+</tr>
+</tbody>
+</table>
+<table width=3D"600" border=3D"0" style=3D"font-family:Arial, Helvetica, sa=
+ns-serif; font-size:12px; color:#606060;">
+<tbody>
+<tr>
+<td style=3D"padding-top:10px;"><b style=3D"color:#749a5f; padding-right:6p=
+x;">Head Office</b> Fern House, Unit 1 Links Court, Fortran Road, St. Mello=
+ns, Cardiff CF3 0LT
+</td>
+</tr>
+<tr>
+<td style=3D"padding-bottom:10px;"><b style=3D"color:#749a5f; padding-right=
+:2px;">Phone</b> 02920 799 133
+<b style=3D"color:#749a5f; padding-right:2px; padding-left:10px">Web</b> <a=
+ target=3D"_blank" style=3D"text-decoration:none; color:#606060;" href=3D"h=
+ttp://www.t2group.co.uk">
+www.t2group.co.uk</a> <b style=3D"color:#749a5f;padding-right:2px; padding-=
+left:10px">
+Email</b> <a style=3D"text-decoration:none; color:#606060;" href=3D"mailto:=
+info@t2group.co.uk?subject=3DEnquiry Email Signature">
+info@t2group.co.uk</a></td>
+</tr>
+<tr>
+<td style=3D"padding-bottom:10px;"><b style=3D"color:#749a5f;padding-right:=
+2px;">Registration number</b> 03908267
+<b style=3D"color:#749a5f;padding-right:2px; padding-left:10px">Registered =
+in</b> England &amp; Wales</td>
+</tr>
+<tr>
+<td><b style=3D"color:#749a5f;padding-right:2px;">Privacy Policy at </b><a =
+target=3D"_blank" style=3D"text-decoration:none; font-weight:bold; color:#7=
+49a5f; " href=3D"https://www.t2group.co.uk/privacy-policy.html">www.t2group=
+.co.uk/privacy.html#1</a></td>
+</tr>
+</tbody>
+</table>
+<table width=3D"600" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#606060=
+;">
+<tbody>
+<tr>
+<td colspan=3D"3">&nbsp;</td>
+</tr>
+<!--<tr> <td style=3D"width:200px; text-align:center;"> <p style=3D"font-we=
+ight:100; margin-bottom:0;=0A=
+">Apprenticeships</p><a target=3D"_blank" style=3D"text-decoration:none; fo=
+nt-weight:bold; color:#749a5f; " href=3D"http://www.t2apprenticeships.co.uk=
+">www.t2apprenticeships.co.uk</a></td> <td style=3D"width:200px; text-align=
+:center;"><p style=3D"font-weight:100; margin-bottom:0;">Essential Skills</=
+p> <a target=3D"_blank" style=3D"text-decoration:none; font-weight:bold; co=
+lor:#749a5f; =0A=
+" href=3D"http://www.t2skills.co.uk">www.t2skills.co.uk</a></td> <td style=
+=3D"width:200px; text-align:center;"><p style=3D"font-weight:100; margin-bo=
+ttom:0;">Management Training</p> <a target=3D"_blank" style=3D"text-decorat=
+ion:none; font-weight:bold; color:#749a5f; " href=3D"http://www.t2managemen=
+ttraining.co.uk">www.t2managementtraining.co.uk</a></td> </tr> <tr><td cols=
+pan=3D"3">&nbsp;</td></tr>-->
+</tbody>
+</table>
+<table width=3D"600" border=3D"0" style=3D"margin-top:5px;">
+<tbody>
+<tr>
+<td style=3D"text-align:right;"><img alt=3D"" src=3D"http://www.t2group.co.=
+uk/images/emailfooter/logos.jpg"></td>
+</tr>
+</tbody>
+</table>
+<table width=3D"600" border=3D"0" style=3D"font-family:Arial, Helvetica, sa=
+ns-serif; font-size:12px; color:#606060; margin-top:5px;">
+<tbody>
+<tr>
+<td><b style=3D"color:#749a5f;">=93THINK before you PRINT - Help save paper=
+=94 </b>
+<p style=3D" font-size:11px; margin-top:10px; color:#999;">This e-mail may =
+contain proprietary and private information and is intended for the recipie=
+nt(s) only. If an addressing or transmission error has misdirected this e-m=
+ail, please notify the author by replying
+ to this e-mail. If you are not the intended recipient(s) disclosure, distr=
+ibution, copying or printing of this e-mail is strictly prohibited. Informa=
+tion or opinions in this message that do not relate to the business of t2 g=
+roup shall be treated as neither
+ given nor endorsed by it. Neither t2 group nor the sender accepts any resp=
+onsibility for viruses or other destructive elements. The message has been =
+scanned for known viruses on leaving t2 group but the recipient is strongly=
+ advised to check for the latest
+ viruses on its receipt.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div style=3D"visibility: hidden; width: 0px; =0A=
+height: 0px; overflow: hidden; color: white;">
+MelRose6258791ukgb</div>
+</body>
+</html>
+
+--_000_GVXPR08MB1169920CC46501582AEADF01C9D4BAGVXPR08MB11699eu_--

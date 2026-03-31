@@ -1,0 +1,659 @@
+Return-Path: <msprvs1=20540c9MRv6zs=bounces-1898-558@connect.sparkmailapp.com>
+Delivered-To: info@caregroovesupport.co.uk
+Received: from premium25.web-hosting.com
+	by premium25.web-hosting.com with LMTP
+	id kFVKAihuvmn5WzUArvfGlQ
+	(envelope-from <msprvs1=20540c9MRv6zs=bounces-1898-558@connect.sparkmailapp.com>)
+	for <info@caregroovesupport.co.uk>; Sat, 21 Mar 2026 06:08:40 -0400
+Return-path: <msprvs1=20540c9MRv6zs=bounces-1898-558@connect.sparkmailapp.com>
+Envelope-to: info@caregroovesupport.co.uk
+Delivery-date: Sat, 21 Mar 2026 06:08:40 -0400
+Received: from [198.54.122.200] (port=46495 helo=asp-relay-shared.jellyfish.systems)
+	by premium25.web-hosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.1)
+	(envelope-from <msprvs1=20540c9MRv6zs=bounces-1898-558@connect.sparkmailapp.com>)
+	id 1w3tG3-0000000EjxS-3BvS
+	for info@caregroovesupport.co.uk;
+	Sat, 21 Mar 2026 06:08:39 -0400
+Authentication-Results: asp-relay-shared.jellyfish.systems;
+	dkim=pass header.d=connect.sparkmailapp.com header.s=scph0922 header.b=Cz3+pY9d;
+	spf=pass (asp-relay-shared.jellyfish.systems: domain of "msprvs1=20540c9MRv6zs=bounces-1898-558@connect.sparkmailapp.com" designates 223.165.127.12 as permitted sender) smtp.mailfrom="msprvs1=20540c9MRv6zs=bounces-1898-558@connect.sparkmailapp.com";
+	dmarc=pass (policy=none) header.from=sparkmailapp.com
+Received: from ervqm5mg.connect.sparkmailapp.com (ervqm5mg.connect.sparkmailapp.com [223.165.127.12])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by asp-relay-shared.jellyfish.systems (Postfix) with ESMTPS id 4fdFWP1hZGz1855
+	for <info@caregroovesupport.co.uk>; Sat, 21 Mar 2026 10:08:33 +0000 (UTC)
+X-MSFBL: SqZqnUM4L/jFWimArhz+SQoPPmdAu6fPHd9CpfnAaQ0=|eyJzdWJhY2NvdW50X2l
+	kIjoiNTU4IiwiY3VzdG9tZXJfaWQiOiIxODk4IiwiciI6ImluZm9AY2FyZWdyb29
+	2ZXN1cHBvcnQuY28udWsiLCJ0ZW5hbnRfaWQiOiJzcGNldSIsIm1lc3NhZ2VfaWQ
+	iOiI2OWJlMWY2ZWJlNjk1MDU3NWNiZCJ9
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=connect.sparkmailapp.com; s=scph0922; t=1774087711;
+	i=@connect.sparkmailapp.com;
+	bh=JQaNqXD7y6zvvrVNl+JZKLSM8+mltK45Z/T4rjjiJzE=;
+	h=To:Message-ID:Date:Content-Type:List-Unsubscribe-Post:Subject:
+	 List-Unsubscribe:From:From:To:Cc:Subject;
+	b=Cz3+pY9djlyay4tC0pGuhTVgw/SMhuZlTAbwLwMCSORJFNeXbIsyXJ7qaOwcK0xfy
+	 WQRcly0YmbqjB6xraJ8fYKVUktYpCt70hYGnNXO+sKounyaAzM4ocYolp6DLV2Adv0
+	 80uYCgUubY27Pir3rOWX3k6t1C75T7NSF2CZQMYA=
+Received: from [10.95.192.254] ([10.95.192.254])
+	by i-0c21d3cf4c78e687f.mta3vrest.sd.prd.sparkpost (ecelerity 5.2.0.75207 r(msys-ecelerity:tags/5.2.0.3)) with REST
+	id DB/C5-49235-F1E6EB96; Sat, 21 Mar 2026 10:08:31 +0000
+To: info@caregroovesupport.co.uk
+Message-ID: <DB.C5.49235.F1E6EB96@i-0c21d3cf4c78e687f.mta3vrest.sd.prd.sparkpost>
+Date: Sat, 21 Mar 2026 10:08:31 +0000
+Content-Type: multipart/alternative; boundary="_----J3QQDC24GZK+V0Z5uSs8Yg===_2B/C5-49235-F1E6EB96"
+MIME-Version: 1.0
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Subject: Get all your accounts under one roof.
+List-Unsubscribe: <https://01.emailinboundprocessing.eu/enc_user/list_unsubscribe?d=%241%24dxnpD8WXLpsTZcfJFUYlqQ%3D%3D%24dtw18XlRjngWDRXiTYljxhBnevtENFL4K5CPBQDWn%2Fw9wFSg9XCyu6iPOi9v%0AQoIvFv6X9c5081NYlE09vktfrwSRStMCYhtyFssMrPbyxLQ6kVBGIX6bkSmk%0AibaLQiU%2FSKy6uXaYcCOE2p%2FyIqSup38A5E74fFiT6dwZkY3AXaCanQJCQ0kE%0A6iWeukMo7EJS5vbGWekpvMgMbQ2XEJxxDN9gyTtG0Xpk3RE8Vg5sbWipeQi%2F%0AaDtSALY14tokU2RsLrxgNgHobWyVoQ2PKfYTn2lV41w06mSJf%2FHzjtep9wyN%0A5uNdiqZlmAReV4heAbeO9RY4AuACNQxIYyOcDlGsG3Qw3iskHZBomNCbtEKM%0AAu7XbTGYVEaHASr3GGt7JZ3Lr9sGtANVSA6vBmtA9v03nA%3D%3D&1=1>,<mailto:4_ok199dx2zj6bilqymfang4y2mgbynfp2foyp2ajxit75yqthocvm97@unsubscribe.emailinboundprocessing.eu?subject=Unsubscribe%20pnrcgsq1by0q9cqezk4qeu9zumgt8t46mt9o0m3pzwtgrary92jnwovcfd&body=DO_NOT_DELETE-17nkfpz7twq8gj88zs3111r6oc8mhv9qm0y4jkosspvvonknkpjjaysye68q7kzdcd8yr7vknui3n02v684j4sto5ybof5px7v-DO_NOT_DELETE>
+From: "Alex from Spark" <team@connect.sparkmailapp.com>
+Reply-To: team@sparkmailapp.com
+X-Jellyfish-No-Auto-Response: 1
+
+--_----J3QQDC24GZK+V0Z5uSs8Yg===_2B/C5-49235-F1E6EB96
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="UTF-8"
+
+One account is connected=E2=80=94connect the rest today.=0ASpark           =
+    Welcome to Spark=0A=0AMake email simpler=0A=0AAdd all your personal and=
+ professional accounts to Spark=0Aand create a single home for everything. =
+Use features like Smart=0AInbox and Priority Email to bring order to your i=
+nbox.=0A=0AAdd your accounts =0A( https://clicks.sparkmailapp.com/f/a/r6z_h=
+Q90wG81V9hY7imz3Q~~/AAAHahA~/nUdprKuZpsJKhniiu76Bua0GeAvVz2MrXAdm-WYhsg_JKS=
+ck9nP9oXbUMWoVh0hV3-pz0EllWXSByKo0Qq2kL7DSStMeKKgHHdWJkqMevaLVEzz8X4bqoPKY4=
+Lh1lZhooVMMRgqFAII_mlxLcJoQUzYlc-mZWF_p1LbM0S75QmYBHkW2FNQTANKafbIJP060o0fh=
+yqArO-prMvFFlWO2aQ4p89-9yXwaqN_bTDvKacjmTOKs1c2-u7-dyRYCCnyi4B4sCU_IbWIx7-T=
+zPiTtVa_uGCtkFye_Pvsz_gVhjovT0_wBxychzQtwlqsz9C-2pUSySqQe2PyhZ4BlJPDVHA~~ )=
+=0A               Don=E2=80=99t stop at one =E2=80=94 take the next step no=
+w.=0A=0ACompatible with=0A=0AGMAIL OUTLOOK iCLOUD YAHOO IMAP=0AUpgrade to S=
+park Premium =0A( https://clicks.sparkmailapp.com/f/a/ppofTGnO1hzPcvmIq3Jfv=
+A~~/AAAHahA~/HMmM03S57Uwxg5rm7M1ZmKgeMaJju5jafb89I8L_TOrrMWGLpEKJswvOsXpARz=
+MNt55wxzVos17Tc3u1J2TBacUnN7vzjZSXxL0KdoRJ0Jdrm616Ei9zT2jaVeiQwRcCwioOc72m4=
+K5K8_nLzJyy9Xv_6ahusMWzMhDLQhHPI4sYyRS-CpQdvNd0uoRCJMqsOsleacFxXoHw__Jd0cjw=
+BaVCAzi7FNkNAFPwkzfsEY1SUJxCvV3Fbo2SbWk72W_wWy5t8vgV6vuRrlqudoXWIGQ9Tv1b4KE=
+kxz8MT-1tNLZmj9Hl08hLo48JBwgaphvgQN378TW0uU0rnAn8-SiezA~~ )=0A=0A=0ASpark w=
+orks across iOS, macOS, Android & Windows.=0A=0AAlex Tyagulsky, Spark=0ACo-=
+Founder=0A=0AGetting Started =0A( https://clicks.sparkmailapp.com/f/a/RLnkx=
+7NjquvE1MtT5cmecA~~/AAAHahA~/wKVO3qTrP-R-ZBnDnZ0pH1CMPyJJ4fVf7_KnBm4FTE9CUG=
+Xis9jV_U2FPuv60p-HwpHWw4QVeNhTMrSH6TennQNjaaLrnBpD4DZVHuwo2UKSn_rrIhoYQlDZY=
+AE6e96TyYJ7cpYvZgm3yFH8dmdd3mliHNUjLNd48Ft4-HnGpdPXsdpF0vKO-ho6sMNe56Gkipag=
+o0EoxzXW48fXk7GsJ0jqZ5Tw2xw-q7NJ6sOu081lSDpXnlb4S9lxpdP7wFfjx6XQZuKiKxTuaDs=
+BNbsCIYKraQjBRxLYN-p41aFLxK-Y0EmsIcMru-QWHWvHF7qP )=0A=0A=0ARead our how-to=
+ articles=0A=0AHelp Center =0A( https://clicks.sparkmailapp.com/f/a/K08rHjQ=
+wgT6C2QA4u1onrw~~/AAAHahA~/iM-ZzAlEs7BGQYyHs6TGAGstj8aCyuYqDUYK6jvzcI9-AeTG=
+KBCryTuX9waZ8KC8KSbJXl2nQNp2K1UMSW49hzSKKey9a7dPec4Bj8U7ns5UsLQH_kIXP9HEHCi=
+mRKxilnyNFoNhdZm1B4mWkBN_wuoOTjL4_cXpdO3tEKXDrcsR8NG12fyZBgqMX_ga4WVAvmv_Nk=
+dZ94G7edHFa0rdc7ZGDJ2u59hh-UijI-vOv2fsTM-B0YyNoR8FndYDKwiefi1OtTnn0l8F0xpk8=
+w6KQFrsqac60gB3fjokdbY1TD_GNkhFs4NGLXLN4PBgBOf8 )=0A=0A=0AGet help with com=
+mon issues=0A=0ANeed some help=3F Please feel free to contact us (=0Asuppor=
+t@sparkmailapp.com ).=0AIf you don't want to receive this type of email any=
+more, you can=0Aunsubscribe ( https://clicks.sparkmailapp.com/f/a/JlJFXPVdV=
+s3p17C7EVV5lQ~~/AAAHahA~/Ss4HMuo9IbtNFADmLIexnZT7LG2d2MWBw4l4OWMGQ_6qsUHScK=
+LaXNp9r5pPOZo8870-UUZhNcyxe9dquZKdIGBOWMWeNMxb0oArya6wMMd0aYP5UVL7kHs-4yPHB=
+18Z-xch6EmwT73B6hhcgeXcNDaTdQULWLwCJ65xPC_x2yLlc8O01K2V_G6RT8Bmg0GDE5X1_8ul=
+JP596zWJvgC4_DrnS1DZGTGAoGOywMRKumsfvmWXf1G0qsi47myT1-MbNN_PEHDQgAbaKgxcEs-=
+sHORPnrsw-QIBAh0cranI2P2VDzi9hcD1XRRNgzdmb5mYo6Je9ByfRqjUgsfSWr5HaosczMIcEE=
+mztQDENhBhdpmKNuuX0jxmWze08xIastty2coYEqeJaXQISccAB-tSjAI2ZR9SAJNwnTRgCF1gg=
+KRvr2YVDo6hgQRvyOWzfQYA7GGyvqjzjBrjv71yzAHeRoLsWBEv5zzmGvc18HeGXrinhMPBrpJj=
+NBXraLu39BCj8RTQB37H_AD7-rHSjnXtqVwHBC3cZkl26kWu_5ORhjK_tUTprh1QHA9wRS5SMaq=
+q5LuFaCljAChmCsq3NTuQeYetcCcDVsRLRgOtHC6ZW_uyFU8LPd6KNNeseME_baowRuGq1BOWK7=
+KJBQXQwwYM91PT5hzdyhcINTs3Hfqu_2Jxk1nf1XrwaelgJok99afSrahWgl9uHfeYAJjJxE8eS=
+-fhX5nNgKErAYk7a3XDesnmYkcvFtZZfyd8rckWeNn1nRDoXv68Vu76LTPnZ25_PbD09lHmui2U=
+G6RdaDVHTVA~ ).=0A=0ATerms of Service =0A( https://clicks.sparkmailapp.com/=
+f/a/tmNKvu2c5DVafF9eJF8J7w~~/AAAHahA~/wDxf2fDMzslsgpaH8wyf8ktVBL-Uw1JKxD-YC=
+P62XdJxTWmQGw7PxD0kMeytucjwWPU5e6r4AN37f4Xil2pgAUV_jUELH8BlAOpkX4doPY4GbjMv=
+xxHpTce_ynJja8aJ5bN7h-5vtbXBcBfnUY6CGGiqnlJcfnd8NGrJUWAFzxjKhbskMZVmq1q6tjK=
+YYoWmi9r6HtnzbFlCwQJ1fVVL7X-HRwh_7UgmMNny3rnrCb3TWVlJQdKFoXmI2XN4m-KGHsh6d_=
+8jl3GBdujnCIOK7JmjegzCM68ZHH2aZz9unCYeEn_23ofs9v7r_uvKZKyqv2u1AIg1f3lGTrX5x=
+H7Z6w~~ )=0A | Privacy Policy =0A( https://clicks.sparkmailapp.com/f/a/iueZ=
+fMkkM7FBYf96R802JA~~/AAAHahA~/xk3bcSbXgcj0nqT-PxudWpyAh_Ghb1XAer9dWe8RBY7a5=
+p3mjzxD28RvU3D-19Um4pYnBjvR8Kgf532aST_y5k7Nk_aFFCAxjNtm1lcjEjQirY9zP6NRPKmo=
+hM0pxz_W8mxQghfHJgzFVIZ5ew5IEz1NtFhzVHstmlHWmjoWrwlNc9ICfglbc0N1csvHIvR3_r0=
+sAQTtABt3gX44M0kQtGfe19_NQEiEjnhP4VjH1v5KIxOvL7NKgRZgzk82QbUWLDYne8PCpSMBWy=
+eLab_UPZRmEwaZ3eNYf43iO93N1UW0bLaG5NFXAMu8a-HmIdQU_P5k3AUZiTfx6I1fayB1Hw~~ =
+)=0A=0A=0AGlandore Business Centres, 26-27 Fitzwilliam Place,=0AFitzwilliam=
+ Hall, Dublin 2 D02T292=0A=0AApple, the Apple logo, Mac, MacBook, macOS, iP=
+ad, iPad=0Amini, iPadOS, iPad Pro, iPhone, Apple Watch, and Apple Vision Pr=
+o=0Aare trademarks of Apple Inc., registered in the U.S. and other=0Acountr=
+ies and regions.
+--_----J3QQDC24GZK+V0Z5uSs8Yg===_2B/C5-49235-F1E6EB96
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">=0A<html lang=3D"en" xmlns=3D=
+"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microsoft-com:vml" xm=
+lns:o=3D"urn:schemas-microsoft-com:office:office">=0A=0A<head>=0A<meta http=
+-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">=0A    <meta=
+ charset=3D"UTF-8">=0A    <meta content=3D"width=3Ddevice-width, initial-sc=
+ale=3D1" name=3D"viewport">=0A    <meta name=3D"x-apple-disable-message-ref=
+ormatting">=0A    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge=
+">=0A    <meta content=3D"telephone=3Dno" name=3D"format-detection">=0A=0A =
+   <title>Spark Reminder 1 B en</title>=0A=0A<!--[if mso]>=0A<style type=3D=
+"text/css">=0Ap {font-family: sans-serif !important;}=0A</style>=0A<![endif=
+]-->=0A=0A    <style type=3D"text/css">=0A        a[x-apple-data-detectors]=
+ {=0A            color:inherit!important;=0A            text-decoration:non=
+e!important;=0A            font-size:inherit!important;=0A            font-=
+family:inherit!important;=0A            font-weight:inherit!important;=0A  =
+          line-height:inherit!important;=0A        }=0A    </style>=0A=0A=
+=0A    <style type=3D"text/css">=0A        u + .body .gmail-screen { backgr=
+ound:#000; mix-blend-mode:screen; }=0A        u + .body .gmail-difference {=
+ background:#000; mix-blend-mode:difference; }=0A    </style>=0A=0A    <sty=
+le type=3D"text/css"> =0A=0A        @media screen and (max-width: 480px) {=
+=0A            .wrapper { padding: 0 !important; width: 100% !important; } =
+=0A            .content-block { width: 100% !important; margin-bottom: 0 !i=
+mportant; }=0A            .inner { padding-left: 20px !important; padding-r=
+ight: 20px !important; }=0A            .content-image { width: 100% !import=
+ant; height: auto !important; }=0A            .content-text { font-size: 18=
+px !important; line-height: 26px !important; }=0A            .content-block=
+-td { padding-left: 20px !important; padding-right: 20px !important; }=0A  =
+          .footer-link-title { font-size: 16px !important; line-height: 19p=
+x !important; }=0A            .footer-link-text { font-size: 14px !importan=
+t; line-height: 20px !important; }=0A            .footer-link-right { paddi=
+ng: 0 0 0 20px !important; }=0A            .footer-link-left { padding: 0 2=
+0px 0 0 !important; }=0A            .footer-link-center { padding: 0 !impor=
+tant; }=0A            .sign { font-size: 16px !important; }=0A            .=
+avatar-ceo { width: 54px !important; }=0A            .title { font-size: 6.=
+6vw !important; line-height: 1.25 !important; }=0A            .feature-icon=
+-td, .features-two-column-container-icon, .features-two-column-container-te=
+xt { width: 100% !important; }=0A            .feature-icon { display: block=
+ !important; !important; margin: 0 auto !important; padding-bottom: 16px !i=
+mportant; }=0A            .feature-title, .feature-text { text-align: cente=
+r !important; }=0A            .hero-image-bg { background-size: 100% 850px =
+!important; }=0A            .hero-image-td { padding-bottom: 0 !important; =
+}=0A            .button-td { width: 100% !important; display:block !importa=
+nt; }=0A            .button-text { width: 92% !important; max-width: 92% !i=
+mportant;}=0A            .clients-row { display: flex; flex-wrap: wrap; jus=
+tify-content: center;}=0A            .client-item {width: 33.33% !important=
+; text-align: center !important; padding: 8px 0 !important; }=0A           =
+ .table-clients-td { padding: 20px 6px !important; }=0A            #award-u=
+sers, #award-score { display: none !important; }=0A            #award-edito=
+rs { width: 60% !important; height: auto !important; display: block !import=
+ant; margin: 0 auto !important; }=0A            .features-small-three-td { =
+display: none !important; }=0A=0A        }=0A=0A    </style> =0A=0A    <sty=
+le type=3D"text/css">    =0A=0A        @media (prefers-color-scheme: dark) =
+{        =0A            .body, .layout { background-color: #232324 !importa=
+nt; }=0A            .td-logo { background: linear-gradient(90deg, rgba(255,=
+ 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%) !important; }=0A        =
+    #logo-spark-left { content: url(https://cdn-mailguru.readdle.com/images=
+/2023.05.12.Spark.AI/02.Short/a99c3bf2e58f49fcae1ba8e7c190d8f5.png) }=0A   =
+         #logo-spark-right { content: url(https://cdn-mailguru.readdle.com/=
+images/2023.05.12.Spark.AI/02.Short/de885d83cbae463baf7ff7d86d31059d.png) }=
+=0A            p, li { color: #cbd5df !important; }=0A            p a { col=
+or: #FFFFFF !important; text-decoration: underline !important; }=0A        =
+    .footer-link-title a { color: #47A9F8 !important; }=0A            .titl=
+e, .subtitle { color: #FFFFFF !important; }=0A            .card { backgroun=
+d: linear-gradient(180deg, rgba(34,34,34,0) 0%, rgba(34,34,34,0.5) 100%), u=
+rl('https://cdn-mailguru.readdle.com/images/2024.08_Spark.Meet.with/123626f=
+7ba234794add0f26cda3d46df.png') !important;}=0A            .table-footer { =
+background-color: #282828 !important; }=0A            .features-one-column-=
+container, .card { background-color: #2d2d2e !important; border: 1px solid =
+#2d2d2e !important; }=0A            .features-two-column-container-card { b=
+ackground-color: #2c2c31 !important;}=0A            .button-text { color:#F=
+FFFFF !important; }=0A            .button-stroke { border:1.5px solid #FFFF=
+FF !important; }=0A            .client-item { color: #cbd5df !important;}=
+=0A            .awards, .icon-iphone { filter: invert(100%) hue-rotate(180d=
+eg); }=0A        }=0A    </style> =0A=0A<!--[if gte mso 9]>=0A<xml>=0A<o:Of=
+ficeDocumentSettings>=0A<o:AllowPNG/>=0A<o:PixelsPerInch>96</o:PixelsPerInc=
+h>=0A</o:OfficeDocumentSettings>=0A</xml>=0A<![endif]-->=0A=0A</head>=0A=0A=
+<body class=3D"body" bgcolor=3D"#F7F7FA" style=3D"background-color: #F7F7FA=
+; mso-line-height-rule: exactly; font-family: Helvetica Neue, 'Helvetica Ne=
+ue', Helvetica, Arial, sans-serif; text-rendering: geometricprecision; colo=
+r: #333333; margin: 0; padding: 0; line-height: 28px;">=0D=0A<div style=3D"=
+color:transparent;visibility:hidden;opacity:0;font-size:0px;border:0;max-he=
+ight:1px;width:1px;margin:0px;padding:0px;border-width:0px!important;displa=
+y:none!important;line-height:0px!important;"><img border=3D"0" width=3D"1" =
+height=3D"1" src=3D"https://clicks.sparkmailapp.com/q/mLs-cm6NJ8E2Z7Nb9iyFe=
+w~~/AAAHahA~/2FEjBY6rdnAwLsAEpWGff5oRSLjvzzYH5ZrBsS0ypW-YKXKGj5iLEDU9xUtWUq=
+fPWhMj0WmWtMkUsKupttDP9Q~~" alt=3D""/></div>=0D=0A=0A<div style=3D"display:=
+none !important;visibility:hidden;mso-hide:all;font-size:1px;color:#ffffff;=
+line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">On=
+e account is connected=E2=80=94connect the rest today. </div>=0A<div style=
+=3D"display:none !important;visibility:hidden;mso-hide:all;font-size:1px;co=
+lor:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow=
+:hidden;">=CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=
+=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =
+=E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=
+=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =
+=E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=
+=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=
+=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=
+=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=
+=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =
+=CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=
+=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =
+=C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=
+=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =
+=EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=
+=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =
+=E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=
+=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =
+=E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=
+=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=
+=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=
+=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=
+=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =
+=CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=
+=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =
+=C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=
+=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =
+=EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=
+=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =
+=E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=
+=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =
+=E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=
+=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=
+=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=
+=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=
+=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =
+=CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=
+=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =
+=C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=
+=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =
+=EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=
+=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =
+=E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=
+=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =
+=E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=
+=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=
+=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=
+=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=
+=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =
+=CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=
+=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =
+=C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=
+=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =
+=EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=
+=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =
+=E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=
+=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =
+=E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=
+=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=
+=BF =CD=8F =E2=80=8C =C2=A0 =E2=80=87 =EF=BB=BF =CD=8F =E2=80=8C =C2=A0 =E2=
+=80=87 =EF=BB=BF </div>=0A=0A<table class=3D"layout" width=3D"100%" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center" bgcolor=3D"#F7F=
+7FA">=0A        <tr>=0A            <td>=0A                <table class=3D"w=
+rapper" width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" ali=
+gn=3D"center" style=3D" width: 100%; max-width: 800px; margin: 0 auto; padd=
+ing: 0; text-align: center;">=0A                    <tr>=0A                =
+        <td align=3D"center" class=3D"hero-image-bg" style=3D"background-im=
+age: url(https://cdn-mailguru.readdle.com/images/2024.12_Spark.Revamped.Onb=
+oarding/438b332745dc4874b502cc6064c41884.png); background-position: 50% 0%;=
+ background-repeat: no-repeat; background-size: 800px 620px;">=0A          =
+                  <table class=3D"wrapper" width=3D"800" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"width: 100%; max-w=
+idth: 800px;">=0A                                <tr>=0A                   =
+                 <td width=3D"800" class=3D"td-logo wrapper" bgcolor=3D"#B6=
+BDF9" style=3D"width: 100%; max-width: 800px; background: linear-gradient(9=
+0deg, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.7) 100%);">=0A    =
+                                    <table border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" align=3D"center">=0A                                      =
+      <tr>=0A                                                <td width=3D"4=
+4" valign=3D"middle" style=3D"padding: 8px 0;">=0A                         =
+                           <img class=3D"logo-spark" id=3D"logo-spark-left"=
+ alt=3D"" width=3D"77" height=3D"32" style=3D"display: block; height: auto;=
+ margin: 0; padding: 0;" src=3D"https://cdn-mailguru.readdle.com/images/202=
+3.05.12.Spark.AI/02.Short/1e972cd8ea1447929e34e51a64608d8e.png" border=3D"0=
+">=0A                                                </td>=0A              =
+                                  <td valign=3D"middle" style=3D"padding: 8=
+px 0; font-size: 32px; font-weight: 600; color: #111111;">=0A              =
+                                      <img class=3D"logo-spark" id=3D"logo-=
+spark-right" alt=3D"Spark" width=3D"25" height=3D"32" style=3D"display: blo=
+ck; height: auto; margin: 0; padding: 0;" src=3D"https://cdn-mailguru.readd=
+le.com/images/2023.05.12.Spark.AI/02.Short/bfd7705a0a234842907102da57dbfaa2=
+.png" border=3D"0">=0A                                                </td=
+>=0A                                            </tr>=0A                   =
+                     </table>=0A                                    </td>=
+=0A                                </tr>=0A                            </ta=
+ble>=0A=0A                            <table class=3D"content-block inner" =
+width=3D"620" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"cen=
+ter" style=3D"text-align: center; width: 100%; max-width: 620px;">=0A=0A   =
+                             <tr> <!-- hero plain -->=0A                   =
+                 <td>=0A                                        <table clas=
+s=3D"content-block main" width=3D"620" border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" align=3D"center" style=3D"width: 100%; max-width: 620px;">=0A=
+=0A                                            <tr>=0A                     =
+                           <td class=3D"inner" align=3D"center" style=3D"pa=
+dding: 64px 10px 0;">=0A=0A                                                =
+    <p class=3D"title" style=3D"padding: 0; margin: 0; font-weight: 700; fo=
+nt-size: 20px; line-height: 30px; color: #C5F4FF; text-align: center;">=0A =
+                                                   <span class=3D"gmail-scr=
+een"><span class=3D"gmail-difference">Welcome to Spark</span></span>       =
+ </p>=0A                                                </td>=0A           =
+                                 </tr>=0A=0A                               =
+             <tr>=0A                                                <td cla=
+ss=3D"inner" align=3D"center" style=3D"padding: 16px 10px 0;">=0A=0A       =
+                                             <p class=3D"title" style=3D"pa=
+dding: 0; margin: 0; font-weight: 700; font-size: 40px; line-height: 50px; =
+color: #FFFFFF; text-align: center;">=0A                                   =
+                 <span class=3D"gmail-screen"><span class=3D"gmail-differen=
+ce">Make email simpler</span></span>        </p>=0A                        =
+                        </td>=0A                                           =
+ </tr>=0A=0A                                            <tr>=0A            =
+                                    <td class=3D"inner" align=3D"center" st=
+yle=3D"padding: 16px 10px 0;">=0A=0A                                       =
+             <p class=3D"content-text" style=3D"padding: 0; margin: 0; font=
+-size: 18px; line-height: 24px; color: #FFFFFF; text-align: center;">=0A   =
+                                                 <span class=3D"gmail-scree=
+n"><span class=3D"gmail-difference">Add all your personal and professional =
+accounts to Spark and create a single home for everything. Use features lik=
+e Smart Inbox and Priority Email to bring order to your inbox.</span></span=
+>   </p>=0A                                                </td>=0A        =
+                                    </tr>=0A=0A                            =
+            </table>=0A                                    </td>=0A        =
+                        </tr> <!-- end of hero plain -->=0A=0A             =
+                   <tr> <!-- button get -->=0A                             =
+       <td class=3D"inner" style=3D"margin: 0; padding: 32px 0 0;">=0A     =
+                                   <table class=3D"content-block" width=3D"=
+38%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center" styl=
+e=3D"text-align: center; max-width: 200px;">=0A                            =
+                <tr> =0A                                                <td=
+ class=3D"button-td" style=3D"padding: 0; text-align: center;">=0A         =
+                                           <div class=3D"button" style=3D"p=
+adding: 0;">=0A<!--[if mso]>=0A                                            =
+        <v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"u=
+rn:schemas-microsoft-com:office:word" href=3D"https://clicks.sparkmailapp.c=
+om/f/a/r6z_hQ90wG81V9hY7imz3Q~~/AAAHahA~/nUdprKuZpsJKhniiu76Bua0GeAvVz2MrXA=
+dm-WYhsg_JKSck9nP9oXbUMWoVh0hV3-pz0EllWXSByKo0Qq2kL7DSStMeKKgHHdWJkqMevaLVE=
+zz8X4bqoPKY4Lh1lZhooVMMRgqFAII_mlxLcJoQUzYlc-mZWF_p1LbM0S75QmYBHkW2FNQTANKa=
+fbIJP060o0fhyqArO-prMvFFlWO2aQ4p89-9yXwaqN_bTDvKacjmTOKs1c2-u7-dyRYCCnyi4B4=
+sCU_IbWIx7-TzPiTtVa_uGCtkFye_Pvsz_gVhjovT0_wBxychzQtwlqsz9C-2pUSySqQe2PyhZ4=
+BlJPDVHA~~" style=3D"height:44px;v-text-anchor:middle;width:200px;" arcsize=
+=3D"50%" stroke=3D"f" fill=3D"t">=0A                                       =
+             <v:fill type=3D"frame" color=3D"#0C78FB" />=0A                =
+                                    <w:anchorlock/>=0A                     =
+                               <![endif]-->=0A                             =
+                           <a href=3D"https://sparkmailapp.com/dpl/add-acco=
+unts=3Futm_email-source=3Donboarding&utm_medium=3Demail&utm_email-audience=
+=3Dnew&utm_email_id=3Dn1-reminder-b&utm_email-campaign=3Dwelcome_onboarding=
+_feb2024" class=3D"button-text" style=3D"background-color:#0C78FB; backgrou=
+nd-position: 50% 0%; background-size: 100% 100%; border-radius:24px;color:#=
+ffffff;display:inline-block; vertical-align: middle; font-size:16px;font-we=
+ight:500;line-height:44px;text-align:center;text-decoration:none;width:200p=
+x;-webkit-text-size-adjust:none;"><span class=3D"gmail-screen"><span class=
+=3D"gmail-difference">Add your accounts</span></span></a>=0A               =
+                                     <!--[if mso]>=0A                      =
+                              </center>=0A                                 =
+                   </v:roundrect>=0A                                       =
+             <![endif]-->=0A                                               =
+     </div>=0A                                                </td>=0A     =
+                                       </tr>=0A                            =
+            </table>=0A                                    </td>=0A        =
+                        </tr> <!-- end of button -->=0A=0A                 =
+               <tr>=0A                                     <td class=3D"inn=
+er" align=3D"center" style=3D"padding: 16px 10px 0;">=0A=0A                =
+                        <p class=3D"content-text" style=3D"padding: 0; marg=
+in: 0; font-size: 18px; line-height: 24px; color: #111111; text-align: cent=
+er;">=0A                                                    Don=E2=80=99t s=
+top at one =E2=80=94 take the next step now. </p>=0A                       =
+             </td>=0A                                </tr>=0A=0A           =
+                     <tr> <!-- clients banner -->=0A                       =
+             <td>=0A                                        <table class=3D=
+"content-block main" width=3D"620" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" align=3D"center" style=3D"width: 100%; max-width: 620px;">=0A=0A  =
+                                          <tr>=0A                          =
+                      <td class=3D"inner" align=3D"center" style=3D"padding=
+: 48px 0 0;">=0A                                                    <p clas=
+s=3D"title" style=3D"padding: 0; margin: 0; font-weight: 400; font-size: 18=
+px; line-height: 27px; color: #222222; text-align: center;">=0A            =
+                                        Compatible with        </p>=0A     =
+                                           </td>=0A                        =
+                    </tr>=0A=0A                                        </ta=
+ble>=0A                                    </td>=0A                        =
+        </tr>=0A                                <tr>=0A                    =
+                <td style=3D"margin: 0; padding: 12px 10px 0;">=0A         =
+                               <table role=3D"presentation" class=3D"featur=
+es-one-column-container card" bgcolor=3D"#ffffff" width=3D"600" border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"width: 100%=
+; max-width: 600px; margin: 0; padding: 0; text-align: center; background-c=
+olor: #ffffff; border: 1px solid #EDEDF0; box-shadow: 0px 20px 40px rgba(34=
+, 41, 69, 0.1); border-radius: 12px; overflow: hidden;">=0A                =
+                            <tbody>                                        =
+  =0A                                                <tr>=0A               =
+                                     <td class=3D"table-clients-td" style=
+=3D"padding: 20px 39.5px;">=0A                                             =
+            <table role=3D"presentation" width=3D"100%" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"width: 100%; max-wi=
+dth: 100%; text-align: =0A                                                 =
+        center;">=0A                                                       =
+   <tr class=3D"clients-row">=0A                                           =
+                  <td class=3D"client-item" align=3D"center" style=3D"paddi=
+ng: 8px; font-size: 16px; font-weight: 700; line-height: 24px; color: #2222=
+22; width: 20%;">GMAIL</td>=0A                                             =
+                <td class=3D"client-item" align=3D"center" style=3D"padding=
+: 8px; font-size: 16px; font-weight: 700; line-height: 24px; color: #222222=
+; width: 20%;">OUTLOOK</td>=0A                                             =
+                <td class=3D"client-item" align=3D"center" style=3D"padding=
+: 8px; font-size: 16px; font-weight: 700; line-height: 24px; color: #222222=
+; width: 20%;">iCLOUD</td>=0A                                              =
+               <td class=3D"client-item" align=3D"center" style=3D"padding:=
+ 8px; font-size: 16px; font-weight: 700; line-height: 24px; color: #222222;=
+ width: 20%;">YAHOO</td>=0A                                                =
+             <td class=3D"client-item" align=3D"center" style=3D"padding: 8=
+px; font-size: 16px; font-weight: 700; line-height: 24px; color: #222222; w=
+idth: 20%;">IMAP</td>=0A                                                   =
+       </tr>  =0A                                                         <=
+/table>                                                                    =
+   =0A                                                    </td>=0A         =
+                                       </tr>=0A                            =
+                </tbody>=0A                                        </table>=
+=0A                                    </td>=0A                            =
+    </tr> <!-- end of clients banner-->                               =0A=
+=0A                                <tr> <!-- socialproof awards -->=0A     =
+                               <td class=3D"block-awards" align=3D"center" =
+style=3D"padding: 48px 0 0;">=0A                                        <ta=
+ble class=3D"block-awards-inner" border=3D"0" width=3D"100%" style=3D"paddi=
+ng: 0;" cellspacing=3D"0" cellpadding=3D"0" align=3D"center">=0A           =
+                                 <tr>=0A                                   =
+             <td align=3D"left">=0A                                        =
+            <img alt=3D"" id=3D"award-editors" class=3D"awards" width=3D"16=
+6" height=3D"auto" style=3D"display: block; height: auto; margin: 0; paddin=
+g: 0;" src=3D"https://cdn-mailguru.readdle.com/images/2024.12_Spark.Revampe=
+d.Onboarding/7ef4f0742817445fa4da5b302d801bb6.png" border=3D"0">=0A        =
+                                        </td>=0A=0A                        =
+                        <td class=3D"features-small-three-td" width=3D"16" =
+height=3D"16">=0A                                                </td>=0A=
+=0A                                                <td class=3D"award-users=
+-td" align=3D"center">=0A                                                  =
+  <img id=3D"award-users" class=3D"awards" alt=3D"" width=3D"185" height=3D=
+"auto" style=3D"display: block; height: auto; margin: 0; padding: 0;" src=
+=3D"https://cdn-mailguru.readdle.com/images/2024.12_Spark.Revamped.Onboardi=
+ng/ce1b608930504e7eb0b2abebdb6f9fc3.png" border=3D"0">=0A                  =
+                              </td>=0A=0A                                  =
+              <td class=3D"features-small-three-td" width=3D"16" height=3D"=
+16">=0A                                                </td>=0A=0A         =
+                                       <td class=3D"award-score-td" align=
+=3D"right">=0A                                                    <img alt=
+=3D"" id=3D"award-score" class=3D"awards" width=3D"147" height=3D"auto" sty=
+le=3D"display: block; height: auto; margin: 0; padding: 0;" src=3D"https://=
+cdn-mailguru.readdle.com/images/2024.12_Spark.Revamped.Onboarding/6a2d18289=
+4ca4af4bafb6e9576a9e4ad.png" border=3D"0">=0A                              =
+                  </td>=0A                                            </tr>=
+=0A                                        </table>=0A                     =
+               </td>=0A                                </tr> <!-- end of so=
+cialproof awards -->    =0A=0A                                <tr> <!-- upg=
+rade banner -->=0A                                    <td style=3D"margin: =
+0; padding: 48px 10px 48px;">=0A                                        <ta=
+ble role=3D"presentation" class=3D"card" bgcolor=3D"#E9F0FC" width=3D"600" =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"=
+width: 100%; max-width: 600px; padding: 0; text-align: center; border-radiu=
+s: 8px; overflow: hidden; background: url('https://cdn-mailguru.readdle.com=
+/images/2024.08_Spark.Meet.with/3114e60bb7ca43ff9e2e858b7f5b2c87.png'); bac=
+kground-position: center;">=0A                                            <=
+tbody>=0A                                                <tr>=0A           =
+                                         <td style=3D"padding: 40px 40px 20=
+px;">=0A                                                        <p class=3D=
+"feature-one-column-title" style=3D"margin: 0; padding: 0 0 10px; color: #0=
+16FFF; font-size: 20px; font-weight: 600; line-height: 30px; text-align: ce=
+nter;">=0A                                                            <a hr=
+ef=3D"https://clicks.sparkmailapp.com/f/a/ppofTGnO1hzPcvmIq3JfvA~~/AAAHahA~=
+/HMmM03S57Uwxg5rm7M1ZmKgeMaJju5jafb89I8L_TOrrMWGLpEKJswvOsXpARzMNt55wxzVos1=
+7Tc3u1J2TBacUnN7vzjZSXxL0KdoRJ0Jdrm616Ei9zT2jaVeiQwRcCwioOc72m4K5K8_nLzJyy9=
+Xv_6ahusMWzMhDLQhHPI4sYyRS-CpQdvNd0uoRCJMqsOsleacFxXoHw__Jd0cjwBaVCAzi7FNkN=
+AFPwkzfsEY1SUJxCvV3Fbo2SbWk72W_wWy5t8vgV6vuRrlqudoXWIGQ9Tv1b4KEkxz8MT-1tNLZ=
+mj9Hl08hLo48JBwgaphvgQN378TW0uU0rnAn8-SiezA~~" style=3D"color: #016FFF; tex=
+t-decoration: none;"><b>Upgrade to Spark Premium</b></a>                   =
+       </p>=0A=0A                                                          =
+  <p class=3D"feature-one-column-text" style=3D"margin: 0; padding: 0 0 20p=
+x; color: #777777; font-size: 18px; line-height: 25.2px; text-align: center=
+;">=0A                                                            Spark wor=
+ks across iOS, macOS, Android &amp; Windows.        </p>=0A                =
+                                        </td>=0A                           =
+                         </tr>=0A                                          =
+      </tbody>=0A                                            </table>=0A   =
+                                     </td>=0A                              =
+      </tr> <!-- end of upgrade banner -->=0A=0A                           =
+ </table>=0A                        </td>=0A                    </tr>=0A   =
+             </table>=0A            </td>=0A        </tr>=0A</table>=0A=0A<=
+table class=3D"layout table-footer" width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" align=3D"center" bgcolor=3D"#FBFBFD">=0A    <tr>=
+=0A        <td>=0A            <table class=3D"wrapper" width=3D"800" border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"width:=
+ 100%; max-width: 800px; margin: 0 auto; padding: 0; text-align: center;">=
+=0A                <tbody>=0A                    <tr>=0A                   =
+      <td>=0A                            =0A                            <ta=
+ble class=3D"content-block" width=3D"600" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0" align=3D"center" style=3D"text-align: center; width: 100%; =
+max-width: 600px;">=0A                                <tbody>=0A           =
+                        <tr> <!-- sign -->=0A                              =
+          <td style=3D"padding: 16px 20px 16px;">=0A=0A                    =
+                        <table border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"center">=0A                                                =
+<tr>=0A                                                    <td>=0A         =
+                                               <img class=3D"avatar-ceo" al=
+t=3D"" width=3D"54" style=3D"display: inline-block; height: auto; margin: 0=
+; vertical-align: middle; padding: 0 16px 0 0;" src=3D"https://cdn-mailguru=
+.readdle.com/images/%202022.10.01_spark.onboarding/Common/e9e383631fe3445f=
+a7724ecacb940332.png" border=3D"0">=0A                                     =
+               </td>=0A                                                    =
+<td>=0A                                                        <p class=3D"=
+sign" style=3D"padding: 0; margin: 0; font-size: 18px; line-height: 26px; c=
+olor: #333333; text-align: left;"> =0A                                     =
+                       <b>Alex Tyagulsky</b>, Spark Co-Founder             =
+                       </p>=0A                                             =
+       </td>=0A                                                </tr>=0A    =
+                                        </table>=0A=0A                     =
+                   </td>=0A                                    </tr> <!-- e=
+nd of sign -->=0A=0A                                </tbody>=0A            =
+                </table>=0A                        </td>=0A                =
+    </tr>=0A=0A                    <tr> <!-- gradient line -->=0A          =
+              <td align=3D"center">=0A                            <img id=
+=3D"gradient-line" alt=3D"" width=3D"100%" height=3D"5" style=3D"display: b=
+lock; margin: 0; padding: 0;" src=3D"https://cdn-mailguru.readdle.com/image=
+s/%202022.10.01_spark.onboarding/Common/7cfa5437213b485abe4f9118ef8ab950.pn=
+g" border=3D"0">=0A                        </td>=0A                    </tr=
+> <!-- end of gradient line -->=0A=0A                    <tr> <!-- footer l=
+inks -->=0A                        <td style=3D"padding: 40px 28px 0;">=0A=
+=0A                            <table border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" align=3D"center" style=3D"width: 100%; max-width: 464px;">=0A  =
+                              <tr>=0A                                    <t=
+d align=3D"left" class=3D"footer-link-left" style=3D"padding: 0 40px 0 0; w=
+idth: 23vh;">=0A                                        <p class=3D"footer-=
+link-title" id=3D"link-started" style=3D"padding: 0 ;margin: 0; font-size: =
+16px; line-height: 26px; text-align: left;"> =0A                           =
+                 <a href=3D"https://clicks.sparkmailapp.com/f/a/RLnkx7Njquv=
+E1MtT5cmecA~~/AAAHahA~/wKVO3qTrP-R-ZBnDnZ0pH1CMPyJJ4fVf7_KnBm4FTE9CUGXis9jV=
+_U2FPuv60p-HwpHWw4QVeNhTMrSH6TennQNjaaLrnBpD4DZVHuwo2UKSn_rrIhoYQlDZYAE6e96=
+TyYJ7cpYvZgm3yFH8dmdd3mliHNUjLNd48Ft4-HnGpdPXsdpF0vKO-ho6sMNe56Gkipago0Eoxz=
+XW48fXk7GsJ0jqZ5Tw2xw-q7NJ6sOu081lSDpXnlb4S9lxpdP7wFfjx6XQZuKiKxTuaDsBNbsCI=
+YKraQjBRxLYN-p41aFLxK-Y0EmsIcMru-QWHWvHF7qP" style=3D"text-decoration: none=
+; color: #47A9F8; font-weight: 700;">Getting Started</a>              </p>=
+=0A=0A                                        <p class=3D"footer-link-text"=
+ id=3D"link-started-text" style=3D"padding: 0 ;margin: 0; font-size: 14px; =
+line-height: 20px; color: #333333; text-align: left;"> =0A                 =
+                           Read our how-to articles                        =
+ </p>=0A                                    </td>=0A=0A                    =
+                <td align=3D"center" divider=3D"footer-divider-vertical" st=
+yle=3D"border-right: 2px solid #D3D3D5; font-size: 1px; width: 2px;">=0A   =
+                                 </td>=0A=0A                               =
+     <td align=3D"right" class=3D"footer-link-right" style=3D"padding: 0 0 =
+0 40px; width: 25vh;">=0A                                        <p class=
+=3D"footer-link-title" id=3D"link-help" style=3D"padding: 0; margin: 0; fon=
+t-size: 16px; line-height: 26px; text-align: left;"> =0A                   =
+                         <a href=3D"https://clicks.sparkmailapp.com/f/a/K08=
+rHjQwgT6C2QA4u1onrw~~/AAAHahA~/iM-ZzAlEs7BGQYyHs6TGAGstj8aCyuYqDUYK6jvzcI9-=
+AeTGKBCryTuX9waZ8KC8KSbJXl2nQNp2K1UMSW49hzSKKey9a7dPec4Bj8U7ns5UsLQH_kIXP9H=
+EHCimRKxilnyNFoNhdZm1B4mWkBN_wuoOTjL4_cXpdO3tEKXDrcsR8NG12fyZBgqMX_ga4WVAvm=
+v_NkdZ94G7edHFa0rdc7ZGDJ2u59hh-UijI-vOv2fsTM-B0YyNoR8FndYDKwiefi1OtTnn0l8F0=
+xpk8w6KQFrsqac60gB3fjokdbY1TD_GNkhFs4NGLXLN4PBgBOf8" style=3D"text-decorati=
+on: none; color: #47A9F8; font-weight: 700;">Help Center</a>              <=
+/p>=0A=0A                                        <p class=3D"footer-link-te=
+xt" id=3D"link-help-text" style=3D"padding: 0 ;margin: 0; font-size: 14px; =
+line-height: 20px; color: #333333; text-align: left;"> =0A                 =
+                           Get help with common issues                     =
+  </p>=0A                                    </td>=0A                      =
+          </tr>=0A                            </table>=0A                  =
+      </td>=0A                    </tr> <!-- end of footer links -->=0A=0A =
+                   <tr>=0A                        <td>=0A                  =
+          <table class=3D"content-block" width=3D"600" border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" align=3D"center" style=3D"text-align: center; =
+width: 100%; max-width: 600px;">=0A                                <tr> <!-=
+- footer unsub -->=0A                                    <td class=3D"inner=
+" style=3D"padding: 42px 20px 0;">=0A                                      =
+  <p class=3D"footer-unsub" style=3D"font-size: 14px; color: #333333; line-=
+height: 20px; margin: 0; padding: 0; text-align: center; -webkit-text-size-=
+adjust: none;">=0A                                            Need some hel=
+p=3F Please feel free to <a style=3D"text-decoration: underline; color: #11=
+1111;" href=3D"mailto:support@sparkmailapp.com">contact us</a>.<br>If you d=
+on't want to receive this type of email anymore, you can <a href=3D"https:/=
+/clicks.sparkmailapp.com/f/a/JlJFXPVdVs3p17C7EVV5lQ~~/AAAHahA~/Ss4HMuo9IbtN=
+FADmLIexnZT7LG2d2MWBw4l4OWMGQ_6qsUHScKLaXNp9r5pPOZo8870-UUZhNcyxe9dquZKdIGB=
+OWMWeNMxb0oArya6wMMd0aYP5UVL7kHs-4yPHB18Z-xch6EmwT73B6hhcgeXcNDaTdQULWLwCJ6=
+5xPC_x2yLlc8O01K2V_G6RT8Bmg0GDE5X1_8ulJP596zWJvgC4_DrnS1DZGTGAoGOywMRKumsfv=
+mWXf1G0qsi47myT1-MbNN_PEHDQgAbaKgxcEs-sHORPnrsw-QIBAh0cranI2P2VDzi9hcD1XRRN=
+gzdmb5mYo6Je9ByfRqjUgsfSWr5HaosczMIcEEmztQDENhBhdpmKNuuX0jxmWze08xIastty2co=
+YEqeJaXQISccAB-tSjAI2ZR9SAJNwnTRgCF1ggKRvr2YVDo6hgQRvyOWzfQYA7GGyvqjzjBrjv7=
+1yzAHeRoLsWBEv5zzmGvc18HeGXrinhMPBrpJjNBXraLu39BCj8RTQB37H_AD7-rHSjnXtqVwHB=
+C3cZkl26kWu_5ORhjK_tUTprh1QHA9wRS5SMaqq5LuFaCljAChmCsq3NTuQeYetcCcDVsRLRgOt=
+HC6ZW_uyFU8LPd6KNNeseME_baowRuGq1BOWK7KJBQXQwwYM91PT5hzdyhcINTs3Hfqu_2Jxk1n=
+f1XrwaelgJok99afSrahWgl9uHfeYAJjJxE8eS-fhX5nNgKErAYk7a3XDesnmYkcvFtZZfyd8rc=
+kWeNn1nRDoXv68Vu76LTPnZ25_PbD09lHmui2UG6RdaDVHTVA~" style=3D"text-decoratio=
+n: underline; color: #111111;">unsubscribe</a>.                            =
+                </p>=0A                                    </td>=0A        =
+                        </tr> <!-- footer end of unsub -->=0A              =
+                  <tr> <!-- footer unsub -->=0A                            =
+        <td class=3D"inner" style=3D"padding: 8px 20px 0;">=0A             =
+                           <p class=3D"footer-unsub" style=3D"font-size: 14=
+px; color: #333333; line-height: 20px; margin: 0; padding: 0; text-align: c=
+enter; -webkit-text-size-adjust: none;">=0A                                =
+            <a style=3D"text-decoration: underline; color: #111111;" href=
+=3D"https://clicks.sparkmailapp.com/f/a/tmNKvu2c5DVafF9eJF8J7w~~/AAAHahA~/w=
+Dxf2fDMzslsgpaH8wyf8ktVBL-Uw1JKxD-YCP62XdJxTWmQGw7PxD0kMeytucjwWPU5e6r4AN37=
+f4Xil2pgAUV_jUELH8BlAOpkX4doPY4GbjMvxxHpTce_ynJja8aJ5bN7h-5vtbXBcBfnUY6CGGi=
+qnlJcfnd8NGrJUWAFzxjKhbskMZVmq1q6tjKYYoWmi9r6HtnzbFlCwQJ1fVVL7X-HRwh_7UgmMN=
+ny3rnrCb3TWVlJQdKFoXmI2XN4m-KGHsh6d_8jl3GBdujnCIOK7JmjegzCM68ZHH2aZz9unCYeE=
+n_23ofs9v7r_uvKZKyqv2u1AIg1f3lGTrX5xH7Z6w~~">Terms of Service</a> | <a styl=
+e=3D"text-decoration: underline; color: #111111;" href=3D"https://clicks.sp=
+arkmailapp.com/f/a/iueZfMkkM7FBYf96R802JA~~/AAAHahA~/xk3bcSbXgcj0nqT-PxudWp=
+yAh_Ghb1XAer9dWe8RBY7a5p3mjzxD28RvU3D-19Um4pYnBjvR8Kgf532aST_y5k7Nk_aFFCAxj=
+Ntm1lcjEjQirY9zP6NRPKmohM0pxz_W8mxQghfHJgzFVIZ5ew5IEz1NtFhzVHstmlHWmjoWrwlN=
+c9ICfglbc0N1csvHIvR3_r0sAQTtABt3gX44M0kQtGfe19_NQEiEjnhP4VjH1v5KIxOvL7NKgRZ=
+gzk82QbUWLDYne8PCpSMBWyeLab_UPZRmEwaZ3eNYf43iO93N1UW0bLaG5NFXAMu8a-HmIdQU_P=
+5k3AUZiTfx6I1fayB1Hw~~">Privacy Policy</a>                                 =
+           </p>=0A                                    </td>=0A             =
+                   </tr> <!-- footer end of unsub -->=0A                   =
+             <tr> <!-- footer unsub -->=0A                                 =
+   <td class=3D"inner" style=3D"padding: 8px 20px 0;">=0A                  =
+                      <p class=3D"footer-unsub" style=3D"font-size: 14px; c=
+olor: #333333; line-height: 20px; margin: 0; padding: 0; text-align: center=
+; -webkit-text-size-adjust: none;">=0A                                     =
+       Glandore Business Centres, 26-27 Fitzwilliam Place, Fitzwilliam Hall=
+, Dublin 2 D02T292                </p>=0A                                  =
+  </td>=0A                                </tr> <!-- footer end of unsub --=
+>=0A                                <tr> <!-- footer unsub -->=0A          =
+                          <td class=3D"inner" style=3D"padding: 20px 20px 3=
+2px;">=0A                                        <p class=3D"footer-unsub" =
+style=3D"font-size: 11px; color: #777777; line-height: 15px; margin: 0; pad=
+ding: 0; text-align: center; -webkit-text-size-adjust: none;">=0A          =
+                                  Apple, the Apple logo, Mac, MacBook, macO=
+S, iPad, iPad mini, iPadOS, iPad Pro, iPhone, Apple Watch, and Apple Vision=
+ Pro are trademarks of Apple Inc., registered in the U.S. and other countri=
+es and regions.                </p>=0A                                    <=
+/td>=0A                                </tr> <!-- footer end of unsub -->=
+=0A                            </table>=0A                        </td>=0A =
+                   </tr>=0A                </tbody>=0A            </table>=
+=0A        </td>=0A    </tr>=0A</table>=0A</body>=0A</html>
+--_----J3QQDC24GZK+V0Z5uSs8Yg===_2B/C5-49235-F1E6EB96--
+

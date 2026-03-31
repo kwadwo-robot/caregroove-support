@@ -1,0 +1,90 @@
+Return-Path: <bounce+8a870e.54e65-info=caregroovesupport.co.uk@matrix-cr.net>
+Delivered-To: info@caregroovesupport.co.uk
+Received: from premium25.web-hosting.com
+	by premium25.web-hosting.com with LMTP
+	id 0FVjFwvavWndDAwArvfGlQ
+	(envelope-from <bounce+8a870e.54e65-info=caregroovesupport.co.uk@matrix-cr.net>)
+	for <info@caregroovesupport.co.uk>; Fri, 20 Mar 2026 19:36:43 -0400
+Return-path: <bounce+8a870e.54e65-info=caregroovesupport.co.uk@matrix-cr.net>
+Envelope-to: info@caregroovesupport.co.uk
+Delivery-date: Fri, 20 Mar 2026 19:36:43 -0400
+Received: from [198.54.122.200] (port=60517 helo=asp-relay-shared.jellyfish.systems)
+	by premium25.web-hosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.1)
+	(envelope-from <bounce+8a870e.54e65-info=caregroovesupport.co.uk@matrix-cr.net>)
+	id 1w3jOV-00000003MYp-0FF1
+	for info@caregroovesupport.co.uk;
+	Fri, 20 Mar 2026 19:36:43 -0400
+Authentication-Results: asp-relay-shared.jellyfish.systems;
+	dkim=pass header.d=matrix-cr.net header.s=pic header.b=m8XakLu9;
+	spf=pass (asp-relay-shared.jellyfish.systems: domain of "bounce+8a870e.54e65-info=caregroovesupport.co.uk@matrix-cr.net" designates 159.112.248.26 as permitted sender) smtp.mailfrom="bounce+8a870e.54e65-info=caregroovesupport.co.uk@matrix-cr.net";
+	dmarc=pass (policy=reject) header.from=matrix-cr.net
+Received: from v526.v5199064d.use4.send.mailgun.net (v526.v5199064d.use4.send.mailgun.net [159.112.248.26])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by asp-relay-shared.jellyfish.systems (Postfix) with ESMTPS id 4fczVF1RXwz16HF
+	for <info@caregroovesupport.co.uk>; Fri, 20 Mar 2026 23:36:37 +0000 (UTC)
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=matrix-cr.net; q=dns/txt; s=pic; t=1774049796; x=1774056996;
+ h=Content-Type: Content-Transfer-Encoding: Subject: Subject: Date: To: To: From: From: MIME-Version: Message-ID: Sender: Sender: List-Unsubscribe: List-Unsubscribe-Post;
+ bh=gyTcs26V5FnBFnWV65URsbYey2AVW1ip/9w+CwH8la8=;
+ b=m8XakLu9MsuKPWFp7q2qeqE+cILQBwRbeXL7dnTb8uDsEEVfneE4sbUlFV55k0j60PgibcytfbNaQ5GSI+rPkSEkiGzJe0BobhxaMcwzwKqIJ2qNc1znQD8Fh2R/F+KMuuaEt2/IXbOs182fVCUsnKznc3LGgzeM6n83bT6snsE=
+X-Mailgun-Sid: WyJlYzZlZSIsImluZm9AY2FyZWdyb292ZXN1cHBvcnQuY28udWsiLCI1NGU2NSJd
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <mailto:u+mq6tkndfgy2sm2b5grrtiyjugrrginrumnsdamldmnrgkolfgi3wgzlbmrrdcndbg5qsm2j5gy4dmmjvmy2tsljumy2gcljuhbqtqljymiywillbhftdszddhfqwemlggustimddn5wsm4r5nfxgm3zfgqyggylsmvtxe33pozsxg5lqobxxe5bomnxs45llez2d2jjsiethmpjs@matrix-cr.net>,
+ <http://email.matrix-cr.net/u/eJwUx8EOgyAMANCvkRtGSEE49LBPKW3ZzLLVMPX7F49PMIHm5F4IDATQJAPLEpibVo0rK0kLQCu5DXPJIfVUPXQgD4WKLy2Ip9qrcKUWeppgYfu4gdu32w0a-hxml_7OfbdxzGzz-XYHTvHhLoz_AAAA__-6VCeg>
+Received: from MTX-CRWeb01 (unknown [20.49.158.15]) by
+ 36cae614aa65a66b2074b54482c9adb8641b28f62aa9f82451da1fd96ee84256 with SMTP id
+ 69bdda043988ca445dc59194; Fri, 20 Mar 2026 23:36:36 GMT
+X-Mailgun-Sending-Ip: 159.112.248.26
+Sender: system@matrix-cr.net
+X-SMTPAPI: {"unique_args":{"message_id":"68615f59-4f4a-48a8-8b1d-a9f9dc9ab1f5"},
+ "category":
+ ["PasswordSend"],"filters":{"bypass_list_management":{"settings":{"enable":1}}}}
+Message-ID: <68615f59-4f4a-48a8-8b1d-a9f9dc9ab1f5@com>
+MIME-Version: 1.0
+From: system@matrix-cr.net
+To: info@caregroovesupport.co.uk
+Date: 20 Mar 2026 23:36:36 +0000
+Subject: Matrix-CR User Details
+Content-Transfer-Encoding: base64
+Content-Type: text/html; charset="utf-8"
+X-Jellyfish-No-Auto-Response: 1
+
+PGh0bWw+DQo8aGVhZD4NCiAgIDxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVu
+dD0idGV4dC9odG1sIj4NCiAgIDx0aXRsZT5NYXRyaXgtQ1IuTmV0PC90aXRsZT4NCiAgIDxzdHls
+ZSB0eXBlPSJ0ZXh0L2NzcyI+DQogICAgICBib2R5IHsNCgkJIGZvbnQtZmFtaWx5OiBBcmlhbDsN
+CgkJIGZvbnQtc2l6ZTogMTRweDsNCiAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNGRkZGRkY7
+DQogICAgICB9DQoJICAuZm9vdGVyIHsNCiAgICAgICAgIGZvbnQtZmFtaWx5OiBBcmlhbDsNCiAg
+ICAgICAgIGZvbnQtc2l6ZTogMTFweDsNCiAgICAgICAgIGZvbnQtd2VpZ2h0OiBub3JtYWw7DQog
+ICAgICAgICBtYXJnaW46IDA7DQogICAgICAgICBwYWRkaW5nLXRvcDogMTBweDsNCiAgICAgIH0N
+CiAgIDwvc3R5bGU+DQo8L2hlYWQ+DQo8Ym9keT4NCkhlcmUgYXJlIHlvdXIgbG9naW4gZGV0YWls
+cyBmb3IgTWF0cml4LUNSLk5ldA0KPGJyPjxicj5Vc2VySUQ6IGluZm9AY2FyZWdyb292ZXN1cHBv
+cnQuY28udWs8YnI+UGFzc3dvcmQ6IHRiWU40azM4PGJyPjxicj5LaW5kIFJlZ2FyZHMNCjxicj4g
+TWF0cml4LVNDTSBMaW1pdGVkDQo8YnI+PGJyPlRvIGxvZyBpbnRvIHlvdXIgYWNjb3VudCBwbGVh
+c2UgZ28gdG8gPGEgaHJlZj0id3d3Lm1hdHJpeC1jci5uZXQiPnd3dy5NYXRyaXgtQ1IubmV0PC9h
+Pg0KPGJyPjxicj5ETyBOT1QgUkVQTFkgVE8gVEhJUyBNRVNTQUdFIC0gdGhpcyBlbWFpbCBhY2Nv
+dW50IGlzIG5vdCBtb25pdG9yZWQuDQo8YnI+Tm90ZTogVGhlIGluZm9ybWF0aW9uIGNvbnRhaW5l
+ZCBpbiB0aGlzIG1lc3NhZ2UgbWF5IGJlIHByaXZpbGVnZWQgYW5kIGNvbmZpZGVudGlhbCBhbmQg
+cHJvdGVjdGVkIGZyb20gZGlzY2xvc3VyZS4gSWYgdGhlIHJlYWRlciBvZiB0aGlzIG1lc3NhZ2Ug
+aXMgbm90IHRoZSBpbnRlbmRlZCByZWNpcGllbnQsIG9yIGFuIGVtcGxveWVlIG9yIGFnZW50IHJl
+c3BvbnNpYmxlIGZvciBkZWxpdmVyaW5nIHRoaXMgbWVzc2FnZSB0byB0aGUgaW50ZW5kZWQgcmVj
+aXBpZW50LCB5b3UgYXJlIGhlcmVieSBub3RpZmllZCB0aGF0IGFueSBkaXNzZW1pbmF0aW9uLCBk
+aXN0cmlidXRpb24gb3IgY29weWluZyBvZiB0aGlzIGNvbW11bmljYXRpb24gaXMgc3RyaWN0bHkg
+cHJvaGliaXRlZC4gSWYgeW91IGhhdmUgcmVjZWl2ZWQgdGhpcyBjb21tdW5pY2F0aW9uIGluIGVy
+cm9yLCBwbGVhc2Ugbm90aWZ5IHVzIGltbWVkaWF0ZWx5IGJ5IHJlcGx5aW5nIHRvIHRoZSBtZXNz
+YWdlIGFuZCBkZWxldGluZyBpdCBmcm9tIHlvdXIgY29tcHV0ZXIuDQo8YnI+PGJyPk1hdHJpeC1T
+Q00gTHRkIGlzIGEgbGltaXRlZCBsaWFiaWxpdHkgY29tcGFueSByZWdpc3RlcmVkIGluIEVuZ2xh
+bmQgYW5kIFdhbGVzIHdpdGggcmVnaXN0ZXJlZCBudW1iZXIgMDIyMjc5NjIgYW5kIGl0cyByZWdp
+c3RlcmVkIG9mZmljZSBhdCBQYXJ0aXMgSG91c2UsIERhdnkgQXZlbnVlLCBLbm93bGhpbGwsIE1p
+bHRvbiBLZXluZXMsIE1LNSA4SEosIFVuaXRlZCBLaW5nZG9tLlZBVCBudW1iZXI6IDI0OTU3MzQ2
+OA0KCjxicj4KPGRpdiBzdHlsZT0idGV4dC1hbGlnbjogY2VudGVyOyBmb250LXNpemU6IDEwcHgi
+PlRvIHVuc3Vic2NyaWJlIGZyb20gcmVjZWl2aW5nIDxiPmFsbDwvYj4gbm90aWZpY2F0aW9ucyBm
+cm9tIE1hdHJpeCBDUi5OZXQsIHBsZWFzZSBjbGljayBoZXJlOiA8YSBocmVmPSJodHRwOi8vZW1h
+aWwubWF0cml4LWNyLm5ldC91L2VKd1V4OEVPZ3lBTUFOQ3ZrUnRHU0VFNDlMQlBLVzNaekxMVk1Q
+WDdGNDlQTUlIbTVGNElEQVRRSkFQTEVwaWJWbzBySzBrTFFDdTVEWFBKSWZWVVBYUWdENFdLTHky
+SXA5cXJjS1VXZXBwZ1lmdTRnZHUzMncwYS1oeG1sXzdPZmJkeHpHenotWFlIVHZIaExvel9BQUFB
+X18tNlZDZWciPnVuc3Vic2NyaWJlPC9hPjwvZGl2Pgo8aW1nIHdpZHRoPSIxIiBoZWlnaHQ9IjEi
+IGFsdD0iIiBzcmM9Imh0dHA6Ly9lbWFpbC5tYXRyaXgtY3IubmV0L28vZUp3VXlsRU93aUFNQU5E
+VHlCOEx1QmJvQjRjcDBPcGl0QXU2bmRfczh5VnZWQVJKNktUR25DRUFaVXJ1V1NFVHJvM1d0UWhR
+YktPeFpGSWFJV2dVVE5sdE5aVVVVWkU4S0xDSHdzV1hGb2ZuNjNYaUZoVnZFTHE5M2F6YlItMENU
+M2xNczFPLXg3N2JfQzNkbHVQbHpucl9Cd0FBX19fYlZpZnAiPjwvYm9keT4NCjwvaHRtbD4NCg==

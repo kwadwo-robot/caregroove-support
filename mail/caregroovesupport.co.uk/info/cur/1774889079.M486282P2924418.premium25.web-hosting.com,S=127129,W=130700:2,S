@@ -1,0 +1,3571 @@
+Return-Path: <bounce-MWV7HWQDMK5ULPI4WRYOW54MKI.100216@bounce.mail01.hsbc.co.uk>
+Delivered-To: info@caregroovesupport.co.uk
+Received: from premium25.web-hosting.com
+	by premium25.web-hosting.com with LMTP
+	id KPycG3eoymmCnywArvfGlQ
+	(envelope-from <bounce-MWV7HWQDMK5ULPI4WRYOW54MKI.100216@bounce.mail01.hsbc.co.uk>)
+	for <info@caregroovesupport.co.uk>; Mon, 30 Mar 2026 12:44:39 -0400
+Return-path: <bounce-MWV7HWQDMK5ULPI4WRYOW54MKI.100216@bounce.mail01.hsbc.co.uk>
+Envelope-to: info@caregroovesupport.co.uk
+Delivery-date: Mon, 30 Mar 2026 12:44:39 -0400
+Received: from [198.54.122.200] (port=43609 helo=asp-relay-shared.jellyfish.systems)
+	by premium25.web-hosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.1)
+	(envelope-from <bounce-MWV7HWQDMK5ULPI4WRYOW54MKI.100216@bounce.mail01.hsbc.co.uk>)
+	id 1w7FjD-0000000CICv-0jLH
+	for info@caregroovesupport.co.uk;
+	Mon, 30 Mar 2026 12:44:39 -0400
+Authentication-Results: asp-relay-shared.jellyfish.systems;
+	dkim=pass header.d=mail01.hsbc.co.uk header.s=10dkim1 header.b=KiDHZllA;
+	dkim=pass header.d=s10.y.mc.salesforce.com header.s=fbldkim10 header.b=TJF1laeU;
+	spf=pass (asp-relay-shared.jellyfish.systems: domain of bounce-MWV7HWQDMK5ULPI4WRYOW54MKI.100216@bounce.mail01.hsbc.co.uk designates 13.111.19.12 as permitted sender) smtp.mailfrom=bounce-MWV7HWQDMK5ULPI4WRYOW54MKI.100216@bounce.mail01.hsbc.co.uk;
+	dmarc=pass (policy=reject) header.from=hsbc.co.uk
+Received: from mta.mail01.hsbc.co.uk (mta.mail01.hsbc.co.uk [13.111.19.12])
+	(using TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))
+	(No client certificate requested)
+	by asp-relay-shared.jellyfish.systems (Postfix) with ESMTPS id 4fkxt75hQgz25fs
+	for <info@caregroovesupport.co.uk>; Mon, 30 Mar 2026 16:44:31 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=10dkim1; d=mail01.hsbc.co.uk;
+ h=From:To:Subject:Date:List-Help:MIME-Version:Reply-To:Message-ID:Content-Type;
+ i=hsbcuk@mail01.hsbc.co.uk;
+ bh=N1XOHDadzdXhYchICEZxBO6b+cP9XE+jELOKUPQBJWk=;
+ b=KiDHZllAMsy2+Byr05Ld2FAgCPaDGyZAn2EU0ey2ntWcGRCX3nMd4OJMnnXN5r9WPRkApgWxd1St
+   itgG+Ert2PyaGRX4SH8AKGemzGFDN+fHyrfcXhzF28AFM6TA0SPrxr6SG19O0jwUchajHcdTwmMi
+   5t8On8Okw2qUbist0K4rPahJwbx/NjlGJ+7O4goPtVd8Zpusr15A5l3Jk9bDVMxkSwA3In62cX/5
+   splNuo4R4kAcvOwfKNnra06JseHx+GvVlEUvGpXFBVg6N7Tzj29nQFxOmqN3UB8hk5aC3A15AMgU
+   5bUWFMxitPDit16zuZYXWQWkRj7sT0AI6pLvIg==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=fbldkim10; d=s10.y.mc.salesforce.com;
+ h=From:To:Subject:Date:List-Help:MIME-Version:Reply-To:Message-ID:Content-Type;
+ bh=N1XOHDadzdXhYchICEZxBO6b+cP9XE+jELOKUPQBJWk=;
+ b=TJF1laeUT/C/xhujGlnwjh/ABfXWMJI/z3IwaTcKZCt+Jj37ZrQarP5ilL17ZDywdG4lA2ohfmHB
+   0KC9iiyqnS9OZtMkLMz2y1uXj7IoqOcYvhG6d/OXi70kHd7Vj5aUw5nQEYewh9ZLAymF1eEWCD7/
+   TLqz5/QjhqNoUaboCROmKT1XKnb1qXQxmn7YEIMX3xGeUr3gTk4Xxf3qo3iCKX68lDmDXbyhRzzh
+   8gYyHPlbMNf4UJ3OUlhto0CKqx9A3WKbYnW8RvyShiinTomFbtDRMUA5mgIq7HYiHechvvYVgsHU
+   9fqdUlPzRWa4F58wfuyhXAayQsya+UJ4kAQLeQ==
+Received: by mta.mail01.hsbc.co.uk id hpak7a2fmd49 for <info@caregroovesupport.co.uk>; Mon, 30 Mar 2026 16:44:31 +0000 (envelope-from <bounce-MWV7HWQDMK5ULPI4WRYOW54MKI.100216@bounce.mail01.hsbc.co.uk>)
+From: "HSBC UK" <hsbcuk@mail01.hsbc.co.uk>
+To: <info@caregroovesupport.co.uk>
+Subject: Mr Suetor, there's more to explore in our App
+Date: Mon, 30 Mar 2026 10:44:30 -0600
+List-Help: <https://click.mail01.hsbc.co.uk/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiIxMDAwMDE3MzkiLCJzIjoiMzcwNzA4NTUwIiwibGlkIjoiMTEiLCJqIjoiNDA2NzIxOSIsImpiIjoiMiIsImQiOiIxMDAyMTYifQ.RgPNq2cdgJCeS5uX5Eb-NZaWo9Jy0yNOhWvCnSu-rc0>
+MIME-Version: 1.0
+Reply-To: "HSBC UK" <reply-GFDD3HTWIYZUPE3GLQPMINBRNE.100216@mail01.hsbc.co.uk>
+X-SFMC-Stack: 10
+x-job: 100001739_4067219
+Message-ID: <86d7d552-018f-4fdc-9661-30b3ed8dd8e4@dfw1s10mta2.xt.local>
+Content-Type: multipart/alternative;
+	boundary="DQJ7q7ME7H1Y=_?:"
+
+This is a multi-part message in MIME format.
+
+--DQJ7q7ME7H1Y=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+
+ HSBC
+
+
+ 
+ 
+
+
+ 
+ 
+ HSBC UK
+ 
+Trouble viewing this email? 
+https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6ImQzOWQ1MTU5LTZhNzctNDhlNS1iYTkwLTgzZjU2NGQ2YmRjNCIsImRla1ZlcnNpb24iOjEsIml2IjoiNUdScmI5UDYyNmIvMVhMRDg5Um9rdz09IiwiY2lwaGVyVGV4dCI6IjF4V3U1K3ZncUQ4TklaV0VxNXFQVnJWOXhETUJkN21NZFEyQzJidSsrZkw0UDZnUm1JazVyd0IxeHpVemU0VkpZNHhmc1dtSWpINXo1VzlRODJPSXBWUXlTWllBd3Z2a1pHdHYwL3JicHYvVmNzUHoxR2lUIiwiYXV0aFRhZyI6ImZuUGxiMUR6WTRpbFZESkpsZ0RDK3c9PSJ9 
+View in browser 
+
+
+
+
+ 
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+
+
+
+ Untap our App
+
+
+ 
+ 
+
+
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+Hi Mr Suetor,
+
+ 
+
+You recently opened an account with us. So you're probably still finding your way around the HSBC UK Mobile Banking app. From making payments to growing your savings, it's been designed to make everyday banking and future planning, quick, easy and convenient for you.
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+
+
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+
+
+
+
+ Here's how…
+
+
+
+
+
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ See where you're spending - with Spending insights you'll see exactly where your money's going every month, including your top spending categories and biggest purchases - so you could spot ways to cut back. Just select the menu icon and then 'Plan' to find your insights.
+
+
+ 
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Plan ahead - our Balance Forecast tool makes it easy to see how much you've got left for the month once bills and direct debits leave your account, helping you create a plan until your next payday. Scroll to the bottom of the home screen to get started.
+
+
+ 
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Make a budget - create a budget, then track it across the month using handy visual guides to make sure you're sticking to the plan. To make your budget, go to the 'Plan' area of the App.
+
+
+ 
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+
+
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ And there's more where that came from…
+
+To discover all our App's clever ways of helping you stay in control of your money, visit our Mobile Money Management hub.
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6IjlmNzg5ZDA0LTk0MzctNDViMS04MGJlLTZlYTMzMDk1M2FlMCIsImRla1ZlcnNpb24iOjEsIml2IjoicHZLemlVaXNvOTdkYXc0M0FINjFtZz09IiwiY2lwaGVyVGV4dCI6IlFWTEZ6aWxrWW94ZGVtSHA3R25ZeS9IbWxJMng2dldhRm1vRmZXT1BtclJUMVZCWlJkMkJBYUtnLzFscWM5VXpjcXcvUEI4YnJjRCtIRlNaTkh3SEJ4VndxdXlaY2NlbThyT0pTS3lqM3QxckRqY0FmcldhIiwiYXV0aFRhZyI6IndQNGNWSmswZkFjSEZYQ3E3Smx4eHc9PSJ9 
+Find out more
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+
+
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Need to top up your new account? 
+
+You can transfer funds directly from another account or pay in cash by visiting us in branch. You just need your sort code and account number. You can find these when you log in to the app.
+
+ 
+
+Need help finding your details? Here's a 
+https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6IjE3ZTc2MGVjLTM4ZTEtNDQ5Mi04ZmVhLWQ0OWNkZmU4ZTVkNCIsImRla1ZlcnNpb24iOjEsIml2IjoidGZQdnhGTzNXcGFSTUU3WTZQNU9SQT09IiwiY2lwaGVyVGV4dCI6IkpuWTNhb2JpVEtFaldLekpBM2ExbE13bmxsa0hwYUtFdXNSTDhlbTBnd3g1aTl6NmN4MkFXb25uNm5KelNvSThHM2JNNGdWb3gvMnpxb3JOc295YVJKT3o2ZmIyNm5pMTgrL0VVN2RhbHBFd1R0am8vazVFIiwiYXV0aFRhZyI6Ii9iT3FpczJ5akpwRWs3UHA5dmJxZUE9PSJ9 
+quick guide  to show you how. 
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+
+
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ Sometimes you have to ask a human being
+
+Apps and tools are handy but they can't do everything. Our colleagues are on-hand to support you when you need it. Here's how you contact them:
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6ImEyMDJiYmI5LWZhYTctNDQyZC1iZjA1LTEyZmVhMTNkMmFhYSIsImRla1ZlcnNpb24iOjEsIml2IjoiMERCR0trR1A1UWNBZHRrNjVIa1RUUT09IiwiY2lwaGVyVGV4dCI6IkgrL0t4SmxBaTRyVFNENzJGWE5mS1lXM25uUTNhK3BDRlNzdUJ4NmpFcnMrQ0J5YUxWLzZaa3pOVnBSZm9oREhLcEFyamtnZlNySGFQUkVVWXBvY3hhWWJrUS92eGhqUU1FWXFRWS9sQndCMjJUcmtlUk5OIiwiYXV0aFRhZyI6InNkbzlFUlJpbWh6RnBodVJEKy9HR0E9PSJ9 
+Call us – on 03457 404 404, check our opening hours
+
+https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6IjZjNGUyYTc2LTA3YTgtNGE5Ni05NDhmLTk5ODEzYjA3YzY0ZSIsImRla1ZlcnNpb24iOjEsIml2IjoiQ1pTTmVYY084cHNySGRLZkdKaldSZz09IiwiY2lwaGVyVGV4dCI6IlNPdVlJNVlQVUFmT0ZaQVhuWjNHR3RwTG9mRW82MTQ2MVA2VDhxSDIzOXZLQ21jMUVkczVDR0t2WFd5Q2pvekZnZzRaL1VweEhFRmZHK09NOVZRVUR3VEhVRFRkcjcwSmxJMTVkdzd5bXlzZDBwOFltTlpHIiwiYXV0aFRhZyI6IlFWOGI0NHoxVkJRUEJNZFFOTjJ2dlE9PSJ9 
+Visit a branch, come and see us in person, find your nearest one
+
+Chat to us in the app - tap &#39;Support&#39; to see this option, send us a message and we&#39;ll reply as soon as we can.
+
+
+
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+Thanks,
+
+ 
+
+Your HSBC UK Banking Team
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6ImE3YjJiYmU4LTQzY2EtNDVmNy04ZjcyLTBlNDllMGExYjM2NCIsImRla1ZlcnNpb24iOjEsIml2IjoiNlM0TDFGeENJZ2pSaGpvNnIxNFgyQT09IiwiY2lwaGVyVGV4dCI6IjkzV21hbHRVWDZuVmYxa0NVLy83QzBjSkQyeFpBWDhmWE9tMXM3dzdhcFFiL2V6SFBKMHcyRHdENVIvNDc5T1YzYnRQemx2MnFkbEdwdEJQc0lLM0ljMGNUU3huZkV6cExndlVYRUlpQ05HR09qcXZYaGZZIiwiYXV0aFRhZyI6IjJVYW0wRSt3Z3JjaHpSeE5MR2Q4VEE9PSJ9 
+Visit hsbc.co.uk
+
+
+
+
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+Your security is our priority
+
+In our emails, HSBC will never ask you for confidential information or to confirm your security details. Links within our emails will only take you to information pages. Please forward any suspicious emails to 
+mailto:phishing@hsbc.co.uk 
+phishing@hsbc.co.uk .
+
+For further information visit our 
+https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6ImY1YmYyZWQwLTBjMmMtNGJiOC05OGVlLTdiYmYzZmMyZGYxYSIsImRla1ZlcnNpb24iOjEsIml2IjoiSVYyTEVmVEdCU2JJNW5EbXozeXhtZz09IiwiY2lwaGVyVGV4dCI6InNnSXkrOGxBRklGeEdWcWIydjMwNGgzSmF6ZTFKeUdDUlZrZFU3Rk9Kb1VGaGMyQjNFRG42TUNBU2w0aGx4OTBTWGxramVNajYwajIxUGw2aWUrNW41U2pmQSt4MzJvaFhZc1I5TVlGSnNqbWNPYlBmTEdhIiwiYXV0aFRhZyI6IlNQYlUrWHFKNzdtZmxLTjhEN0hmYWc9PSJ9 
+Security Centre .
+
+https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6ImI4MTA1Yzc2LTZhODYtNDMxMi04NTI3LTU1ZTBlMjEzMWQyYSIsImRla1ZlcnNpb24iOjEsIml2IjoiazliSXd6WVBJazlzd2R0dXJmVzE5QT09IiwiY2lwaGVyVGV4dCI6IkxzaEE3R2lGOXVKNnFNQmhlb0kvNFVPaC9FMkFjbGl4ZDdDa1Fwd3hoWG9uZVEzMHhTVnZyN3krRzdzYzFyS2hOaGUvMjhadlErZGF0enpoSWQzeHE1RDQ0RkpDRGp5VDFzakROZzhpVDJ6QjIyNnQ5YlgwIiwiYXV0aFRhZyI6IjUxcTNQT0VoM2ZHcmtQamdVa0lPUEE9PSJ9 
+About us
+https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6IjBkMDBhMThlLWQ4MGYtNDExNS04OGZlLWRjMzY5NjllYWY5OSIsImRla1ZlcnNpb24iOjEsIml2IjoiTTZYbmwxQ0NuVFh3cmhSOEdTWEFCQT09IiwiY2lwaGVyVGV4dCI6Ik04WW9BYU1Vd2F0ZVQrMk5NN25vNTN4dGN3a0RWZGhPdXhkUGFMQ0FuZFpQQ2VraWxjZVRIRXF6RkNhZDVuT0NXb1lYTTJ4bUt3V1UyT09BSTFhQ2lDcTlJQ2ZyZU5JenBlZVhVSUtkTmZDdUZId1pKY0FFIiwiYXV0aFRhZyI6IkJaVFk0NEFqVm9LSUtyMGdKK3Q0MGc9PSJ9 
+Contact us
+https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6IjAxYjYwZTdiLWZmMTItNDMwOC05M2RlLWU2ODc2ZTQyZmUwNiIsImRla1ZlcnNpb24iOjEsIml2IjoidHZpM0VLTmZMVXowajUvSmxUak04Zz09IiwiY2lwaGVyVGV4dCI6Ik5xOEl4Nkl3d1FpcDBCTnRsZEdmUzRNeG1pbmJpSHl6OFUvZUsrQ3J6NnZQTnMweVhRcnpabG1yTndLbXhZb1BBdkNTbmU5eU9vMit6VkJYZytPVGpoQmlCbU5VUndlMitMY1FvMTh0VFBTUG44bVZPTXp5IiwiYXV0aFRhZyI6ImpiN05VRmVENDVPT0VHSUdZMVJIQnc9PSJ9 
+Find a branch
+https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6IjJlNzcxZjUwLWEzMzEtNDIzMy1hMTA1LWU2MmE5OWEyNzlkNSIsImRla1ZlcnNpb24iOjEsIml2IjoidGxnZjZUeXJZQzF4TzBZRU9iYTNWUT09IiwiY2lwaGVyVGV4dCI6ImVwVERtMEkzRzkwOWhSamRpNks5cFhHMFJVbU5KR3N3OHJKVUFOTG5mNFVsZ2VoYTY3bG5oZjBwVFR0Q0VMV0UwMmpNaHN1ZUtsNFNmYkVwSFc5ZUdVVFRDbDFONXc2MldCL3BQS3RnTFhFN1JnUTV0cmRWIiwiYXV0aFRhZyI6IlhoSjlzU2tkYjE0WlJOTUtYVTNuRGc9PSJ9 
+Update contact preferences
+https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6IjBjZWNmZDFlLTJlNzgtNDhkOC1iODhmLTc2ODJlOGU1ZjU3YyIsImRla1ZlcnNpb24iOjEsIml2Ijoic1E2SDI5VkNabjUvQS9CVVNQckpSZz09IiwiY2lwaGVyVGV4dCI6IjVwQ1pqbGlZS1J5RHFVNkNCV2QxL2EwQlhIeW1rSHlkNytzMXlwK1hEY3o3aXlxTUVidzlZZ3UyMVAxejhWYktnbzljZHZzRUhQUDlkeVp2dFJOM054WlhnL3RBenJPeERvZmIxVUptZm44RDhGUkkrc2xHIiwiYXV0aFRhZyI6IjgvMTNKbSsxRTNjM0ZsZUQrMERPc3c9PSJ9 
+Security centre
+
+HSBC UK Bank plc is registered in England & Wales with number 09928412. Registered office: 1 Centenary Square, Birmingham, B1 1HQ, United Kingdom. Authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority. Financial Services Register number: 765112. © HSBC Group 2026. All Rights Reserved.
+
+https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6IjI0OTJiODdmLTdmYTctNDBmOC04MTJjLWY0YzgwNmJjOGQ2MSIsImRla1ZlcnNpb24iOjEsIml2IjoiVG9EaFlWWHQ1d1dVZ0JYY2FteHdFUT09IiwiY2lwaGVyVGV4dCI6IlBBMlYzV3hQWlo5dytQbVJZMmhhQSs4WC9RYTZ3ZnhDRWFzVjJFMzJXZUJKTWZxM2J6TCtuSWRQV3dKWlAyNG8rSjhKUVdGKzFOaHdCYThPK3FHbFZRWUZvOGJSYXpkT2dPRmhWZTNuQlpTQUZkeHFiSEFSIiwiYXV0aFRhZyI6IjJIQUZydzc2b2FWVkJnV2p4dEZyTnc9PSJ9 
+Privacy Notice 
+
+We maintain strict security standards and procedures to prevent unauthorised access to information about you. HSBC will never contact you by email or otherwise to ask you to validate personal information such as your user ID, password, or account numbers. If you receive such a request, please call our Online Security Team on 0345 600 2290.
+
+To make sure we are communicating effectively, we may monitor your interest in our emails. We may be able to tell when you've opened them, and how you've interacted with them. This includes information about how long you spend reading our emails and which links you select. We may also collect technical information about your device and internet connection, and set cookies. We use trusted service providers to help us. For more details, read our 
+https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6IjhiYWRlNDc3LWNkNTYtNGJkMi1iOTk2LTY1ZWZlYjdjOGE1MSIsImRla1ZlcnNpb24iOjEsIml2IjoiRzlnNzNPRzN5RmhFanVUbVE4TnVHUT09IiwiY2lwaGVyVGV4dCI6Ims5OWxUcDZTcTRXR0o3eDNBbVJ0cHpPUVEvNEdYb1Npb0pZaWZsVVk5RU9laTJmemV2NEJ2VWRxSFpZUklBKy9PS3k2T1IrdDNmNkQ5OFZkQ2I2QlB0YVdIbjhWNzVFYjJEdmM0YmZJV0VTTzVPWkR3MjRaIiwiYXV0aFRhZyI6Ii9vUDN4VjBKdm9FKzFwWWVmeFh2a1E9PSJ9 
+Privacy Notice  and our 
+https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6ImIwNzFkMjIwLWQ2MjQtNDM0Ny1iZTI3LTkwNDA1ZDkyNjVjOSIsImRla1ZlcnNpb24iOjEsIml2Ijoia3V6bms3V1lzVzRheUZOTFBxSnluZz09IiwiY2lwaGVyVGV4dCI6IkRlaEcrM0V3WGdwZjg3SmJ6REdkdkdHQTRlQ3dSTGErK3JwdFJjQ3o5Nkl3dUNaaUlOSjUxbGlpSGVCaXJJY25Dem5EWUhCYi9DL2Z3V0Rpd2NmSVZqZHMydWdvVndLUzdPZVR0Wml4YmhySVUwcytvbktlIiwiYXV0aFRhZyI6Ikw5L0JZT0xCeDhoV04yemE2Q2hYQWc9PSJ9 
+Cookie Notice .
+
+This email is confidential. It may also be legally privileged. If you are not the addressee you may not copy, forward, disclose or use any part of it. If you have received this message in error, please delete it and all copies from your system and notify the sender immediately by return email. Internet communications cannot be guaranteed to be timely, secure, error or virus free. The sender does not accept liability for any errors or omissions. Please do not reply to this email. Should you wish to get in touch, please 
+https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6ImIwODUzN2VmLTQyOWQtNDc5ZC04NzYyLTAwYWJiMGRmZTE2MCIsImRla1ZlcnNpb24iOjEsIml2IjoiL0doUkxGbU0rTCtsN2l1em4zMmVEUT09IiwiY2lwaGVyVGV4dCI6IlVsWDAwWjc0YmJTMmxLb2hURVRQM3p4ZHV4eURodWtuVHFmaFluenJ2aDRHTDA0cTByaVJpZWNCMG9mTmpSK1FqT0tFZDMxTXRLejRXR255T3pybzBaWDMwcGt1TGNIOGFGRXNXWXo0djZYdUs3T2ZmWjROIiwiYXV0aFRhZyI6InJQaFlhZkk3T3VqUmxmZlNtUzR0d1E9PSJ9 
+Contact us .
+
+
+ 
+ 
+                                                             
+ 
+ 
+
+
+--DQJ7q7ME7H1Y=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" xml:lang="en">
+
+<!-- head tag should goes here -->
+<head>
+  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" style="-webkit-font-smoothing: antialiased;">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="x-apple-disable-message-reformatting">
+
+<title>HSBC</title>
+
+
+
+
+    <style type="text/css">
+        @media screen and (max-width:490px){.cta-buttons-component__single,.cta-buttons-component__item{width:100% !important}
+}
+@media screen and (max-width:479px){.padding--R13{height:32px !important}
+}
+@font-face{font-family:Universe Next HSBC;font-weight:400;src:url("https://www.hsbc.co.uk/etc.clientlibs/hsbc/vam/clientlibs/clientlib-site/resources/fonts/UniversNextforHSBCW15-Rg.woff") format("woff")}
+@font-face{font-family:Universe Next HSBC;font-weight:700;src:url("https://www.hsbc.co.uk/etc.clientlibs/hsbc/vam/clientlibs/clientlib-site/resources/fonts/UniversNextforHSBCW15-Bd.woff") format("woff")}
+@font-face{font-family:Universe Next HSBC;font-weight:300;src:url("https://www.hsbc.co.uk/etc.clientlibs/hsbc/vam/clientlibs/clientlib-site/resources/fonts/UniversNextforHSBCW15-Lt.woff") format("woff")}
+@font-face{font-weight:350;font-family:"Univers Next for HSBC";font-style:normal;src:url("https://www.hsbc.co.uk/etc.clientlibs/hsbc/vam/clientlibs/clientlib-site/resources/fonts/HSBC_MtUnivers_LatinW01-Lt.woff2") format("woff2"),url("https://www.hsbc.co.uk/etc.clientlibs/hsbc/vam/clientlibs/clientlib-site/resources/fonts/HSBC_MtUnivers_LatinW01-Lt.woff") format("woff");font-display:swap}
+@font-face{font-weight:400;font-family:"Univers Next for HSBC";font-style:normal;src:url("https://www.hsbc.co.uk/etc.clientlibs/hsbc/vam/clientlibs/clientlib-site/resources/fonts/HSBC_MtUnivers_LatinW01-Rg.woff2") format("woff2"),url("https://www.hsbc.co.uk/etc.clientlibs/hsbc/vam/clientlibs/clientlib-site/resources/fonts/HSBC_MtUnivers_LatinW01-Rg.woff") format("woff");font-display:swap}
+@font-face{font-weight:500;font-family:"Univers Next for HSBC";font-style:normal;src:url("https://www.hsbc.co.uk/etc.clientlibs/hsbc/vam/clientlibs/clientlib-site/resources/fonts/HSBC_MtUnivers_LatinW01-Md.woff2") format("woff2"),url("https://www.hsbc.co.uk/etc.clientlibs/hsbc/vam/clientlibs/clientlib-site/resources/fonts/HSBC_MtUnivers_LatinW01-Md.woff") format("woff");font-display:swap}
+.ReadMsgBody{width:100%}
+.ExternalClass{width:100%}
+span.yshortcuts{color:#000;background-color:none;border:0}
+span.yshortcuts:hover,span.yshortcuts:active,span.yshortcuts:focus{color:#000;background-color:none;border:0}
+@media screen and (max-width:490px){.a_button--first,.a_link--first{margin-right:0 !important}
+.a_button>tbody>tr>td{width:276px !important}
+.cta-buttons-component__spacer,.cta-buttons-component__item,.contentcard__item-content,.button__spacer,.responsive-image__image-wrapper--mobile,.responsive-image__image-wrapper--mobile a,.full-width-tile-item__image--mobile,.legal-note__body-copy-separator,.paired-card__spacer{display:block !important}
+.button__item,.pictograms__items-row th,.quote__cell,.quote__cell--middle,.quote--horizontal,.full-width-tile-item__image,.full-width-tile-item__text-side,.paired-card__item-wrapper{display:block !important;width:100% !important}
+}
+@media screen and (max-width:490px){.marketing-image-links__row{padding:0 22px !important}
+.marketing-image-links__wrapper{padding:0 15px 15px 0 !important}
+.marketing-image-links__spacer{display:none !important}
+.marketing-image-links .bottom-spacer-element tr td{height:17px !important}
+}
+@media screen and (min-width:490px) and (max-width:768px){.marketing-image-links__wrapper{padding:0 15px 15px 0 !important}
+.marketing-image-links__spacer{display:none !important}
+}
+@media screen and (max-width:490px){.bar__row{padding-right:22px !important}
+.bar__col{display:block}
+.bar__col tbody,.bar__col tr,.bar__col td{display:block}
+.bar__col td{width:auto !important;text-align:center !important;padding:10px 0 !important}
+.bar__col td+td{border-left:none !important;border-right:none !important;border-top:solid 1px transparent !important;text-align:center !important;padding:10px 0 !important}
+.bar__col td+td{border-left:0;border-right:0;border-top:solid 1px #333 !important}
+}
+@media screen and (max-width:490px){.contentcard{margin-bottom:20px}
+.contentcard--mso>tbody>tr>td{padding-bottom:20px}
+.contentcard__row{padding-right:22px !important}
+.contentcard__title{font-size:18px !important}
+.contentcard__item-image{display:block !important;height:auto !important;width:auto !important;padding-left:0 !important;padding-right:0 !important}
+}
+@media screen{.contentcard__item-content{word-break:break-word !important}
+}
+@media screen and (max-width:490px){.button__item{display:block !important;width:100% !important}
+.button__spacer{display:block !important}
+.cta__row{padding:0 22px !important}
+}
+@media screen and (max-width:490px){.cta-btn-wrapper-table{width:100% !important}
+.cta-btn{max-width:100% !important}
+}
+@media screen and (max-width:490px){.helpbox-component__body-wrapper{padding:0 22px !important}
+}
+@media screen and (max-width:490px){.introduction__row{padding-right:22px !important}
+.introduction__hero.introduction__row{padding-right:0 !important}
+.introduction__apply{z-index:1;position:relative}
+.introduction__apply-title{font-size:18px !important}
+.introduction__apply-description{font-size:14px !important}
+.introduction__apply-description img.imagelink{height:17px !important}
+.introduction__availability{z-index:1;position:relative}
+.introduction__apply{background:#fff}
+.introduction__availability{background:#fff}
+}
+@media screen and (max-width:490px){.keyline__row{padding:0 22px !important}
+}
+@media screen and (max-width:490px){.footer__top{padding-left:22px !important;padding-right:22px !important}
+.footer__bottom{padding-left:22px !important;padding-right:22px !important}
+}
+@media screen and (max-width:490px){.marketing-email-header__content-wrapper{padding:0 22px !important}
+.marketing-email-header__logo_wrapper img{min-height:34px;max-height:34px}
+}
+@media screen and (max-width:479px){.header__content-wrapper{padding:0 22px !important}
+}
+@media screen and (max-width:490px){.contact-bar__row{padding:0 22px !important}
+}
+@media screen and (max-width:490px){.rebrand-content-card__row{padding:0 22px !important}
+}
+@media screen and (max-width:490px){.table-component__body-wrapper{padding:0 22px !important}
+.table-component__main-wrapper tbody tr td,.table-component__main-wrapper tbody tr th{padding:16px 10px !important}
+}
+@media screen and (max-width:490px){.offertable__lastrow{margin-bottom:20px !important}
+.offertable__lastrow--mso>tbody>tr>td,.offertable__lastrow--mso>tr>td{padding-bottom:20px !important}
+.offertable_subHeading{font-size:18px !important}
+.offertable__col--wide .offertable__item-wrapper{width:auto !important;display:block !important;padding-left:9px !important;padding-right:9px !important}
+.offertable__item-wrapper.offertable__item-wrapper--empty{display:none !important}
+.offertable__item .offertable__item-image img,.offertable__item--wide .offertable__item-image img{max-width:100% !important}
+.offertable__item--wide .offertable__item-title{font-size:17px !important}
+}
+@media screen and (min-width:490px) and (max-width:768px){.offertable__col.offertable__col--wide.offertable-tablet .offertable__item-wrapper{width:40% !important;padding-left:9px !important;padding-right:9px !important}
+.offertable__col.offertable__col--wide.offertable-tablet .offertable__item-wrapper .offertable__item-image img{max-width:100% !important}
+.offertable__col.offertable__col--wide.offertable-tablet .offertable__item-wrapper .hide-on-tablet{display:none !important}
+}
+@media screen and (max-width:490px){.pictograms__wrapper>tbody>tr>td,.pictograms__wrapper>tr>td{padding-left:22px !important;padding-right:22px !important}
+}
+@media screen{.pictogram__item-main-wrapper--triple div,.pictogram__item-main-wrapper div{margin:0;padding:0;display:inline-block;width:100%}
+}
+@media screen and (max-width:490px){.quote__row{max-width:320px !important;padding-left:22px !important;padding-right:22px !important}
+.quote__cell{height:auto !important}
+.quote__cell{min-width:276px}
+.quote__tile{margin:auto !important}
+.quote__asset,.quote__customer{height:170px !important}
+.quote__customer .quote--height-helper{height:170px !important}
+.quote__customer .quote__image-wrapper{width:160px !important}
+.quote__customer .quote__image-wrapper .quote__image{width:120px !important}
+.quote__customer .quote__details{width:auto !important}
+.quote__testimony .quote__text--left{padding-left:8px !important}
+.quote__testimony .quote__text--right{padding-right:8px !important}
+.quote--horizontal{height:auto !important}
+.quote--horizontal .quote__testimony{height:auto !important}
+.quote__customer--horizontal{height:170px !important}
+.quote__triangle--up-wrapper--horizontal{display:table-row !important}
+.quote__triangle-cell--left>table{width:160px !important}
+.quote__triangle--up--horizontal{display:table-cell !important}
+.quote__triangle--left,.quote__triangle--right{display:none !important}
+}
+@media screen and (max-width:490px){.connect-with-us>tbody>tr>td,.connect-with-us>tr>td{padding:10px 22px !important}
+.connect-with-us__heading,.connect-with-us__icons-wrapper{display:block !important;width:100% !important;padding:10px 0}
+.connect-with-us__icons-wrapper--ltr{float:left !important}
+.connect-with-us__icons-wrapper--rtl{float:right !important}
+.connect-with-us__icon-item--ltr{padding:0 15px 0 0 !important}
+.connect-with-us__icon-item--rtl{padding:0 0 0 15px !important}
+.connect-with-us__icon,.connect-with-us__icon-link{width:28px !important;height:28px !important}
+}
+@media screen and (max-width:490px){.hero-component__body-wrapper{padding:0 22px !important}
+.hero-component__body-wrapper--header{padding-top:32px !important}
+}
+@media screen and (max-width:490px){.bodycopy__row{padding-left:22px !important;padding-right:22px !important}
+}
+@media screen and (max-width:479px){.text__row{padding-left:22px !important;padding-right:22px !important}
+}
+@media screen and (max-width:479px){.preheader__row{padding-left:22px !important;padding-right:22px !important}
+}
+@media screen and (max-width:490px){.bullets__row{padding-left:22px !important;padding-right:22px !important}
+}
+@media screen and (max-width:490px){.responsive-image__image-wrapper--desktop{display:none !important}
+.responsive-image__image-wrapper--desktop a{display:none !important}
+}
+@media screen and (max-width:490px){.full-width-tile>tbody>tr>td,.full-width-tile>tr>td{padding-left:22px !important;padding-right:22px !important}
+}
+@media screen and (max-width:490px){.padding-right,.padding-left{padding:0 !important}
+.full-width-tile-item__image--desktop{display:none !important}
+.full-width-tile-item__image--left{padding-bottom:32px !important}
+.full-width-tile-item__image--right{padding-top:32px !important}
+}
+@media screen and (max-width:560px){.side-by-side-hero-component__image-wrapper,.side-by-side-hero-component__content-wrapper{width:100% !important;display:block !important}
+.side-by-side-hero-component__content-wrapper{padding:0 22px !important}
+.side-by-side-hero-component .cta-btn-wrapper-table{width:100% !important}
+}
+@media screen and (max-width:490px){.checklist-component__body-wrapper{padding:0 22px !important}
+.checklist-component__items-container{width:100% !important;display:block !important;padding-right:unset !important}
+.checklist-component__items-container--divider{display:none}
+}
+@media screen and (max-width:490px){td.checkbox-mark__container{padding-top:0}
+}
+@media screen and (max-width:490px){.legal-note__wrapper{padding:0 22px !important}
+.legal-note__body-copy--double{width:100% !important;max-width:100% !important;display:block !important}
+}
+@media screen and (max-width:490px){.list__row{padding:0 22px !important}
+}
+@media screen and (max-width:560px){.interest-rate-tables-component__body-wrapper{padding:0 22px !important}
+.interest-rate-tables-component__item-wrapper,.interest-rate-tables-component__item-inside-wrapper{width:100% !important;display:block !important}
+.interest-rate-tables-component__item-inside-wrapper{padding:16px !important}
+.interest-rate-tables-component__item-side-wrapper{display:none !important}
+}
+@media screen and (max-width:490px){.paired-card__row{padding:0 22px !important}
+}
+@media screen and (max-width:490px){.feedback-component__body-wrapper{padding:0 22px !important}
+.feedback-component .cta-btn-wrapper-table-tertiary{width:100%}
+}
+@media screen and (max-width:490px){.flex-table--desktop{display:none !important}
+.flex-table--mobile{display:table !important;height:auto !important;max-height:none !important}
+.flex-table__body-wrapper{padding:0 22px !important}
+}
+@media screen and (max-width:490px){.hero-overlay-component__body-wrapper{height:426px !important}
+.hero-overlay-component__image-wrapper,.hero-overlay-component__no-img-wrapper{padding:0 22px !important}
+.hero-overlay-component__image-wrapper--content-center{padding:0 22px !important}
+.hero-overlay-component__buttons-wrapper{padding:0 0 32px !important}
+}
+@media screen and (max-width:479px){.call-to-action__row{padding:0 22px !important}
+}
+@media screen and (max-width:479px){.new-button__spacer{display:block !important;width:100% !important}
+.call-to-action-wrapper{display:block !important;width:100% !important}
+.call-to-action-button-wrapper-table{width:100% !important}
+.call-to-action-button-wrapper-table--chevron{display:inline-block}
+.call-to-action-button{max-width:100% !important}
+.call-to-action-button--chevronLink{height:auto !important}
+.call-to-action-button-wrapper-table .call-to-action-button--chevronLink{width:auto !important}
+}
+@media screen and (max-width:479px){.tc-footer__row{padding-left:22px !important;padding-right:22px !important}
+}
+@media screen and (max-width:479px){.links--padding-R13{height:24px !important}
+}
+table.body{width:100%;max-width:768px;text-align:center;text-align:center;margin-left:auto;margin-right:auto;font-family:"Universe Next HSBC",Arial,Helvetica,sans-serif}
+table.body>tbody{text-align:left}
+table.body--mso{width:768px}
+table.body>tbody{text-align:left}
+.body{border-right:solid 1px #ccc;border-left:solid 1px #ccc}
+.body__wrapper{overflow:hidden}
+.body{color:#333}
+
+    </style>
+
+
+<style type="text/css">
+    @media (prefers-color-scheme: dark ) {
+        .dark-mode-img { display:block !important; width: auto !important; overflow: visible !important; float: none !important; max-height:inherit !important; max-width:inherit !important; line-height: auto !important; margin-top:0px !important; visibility:inherit !important; }
+
+        .light-mode-img { display:none; display:none !important; }
+    }
+
+    [data-ogsc] .dark-mode-img { display:block !important; width: auto !important; overflow: visible !important; float: none !important; max-height:inherit !important; max-width:inherit !important; line-height: auto !important; margin-top:0px !important; visibility:inherit !important; }
+
+    [data-ogsc] .light-mode-img { display:none; display:none !important; }
+</style>
+
+<!--[if (mso)|(IE)]> 
+<style type="text/css">     body, table, td, th, a, span, p, strong, em, u {         font-family: Arial, Helvetica, sans-serif !important;     }      .text__title {         font-family: Arial, Helvetica, sans-serif !important;     }      .marketing-email-header__description a {         font-family: Arial, Helvetica, sans-serif !important;     }      .footer__top-description a {         font-family: Arial, Helvetica, sans-serif !important;     }      .footer__top-title h2 {         font-size: 23px !important;         font-weight: 300 !important;     }      .footer__top-description p {         font-weight: 400 !important;     }      @media (prefers-color-scheme: dark ) {         .call-to-action-button--secondary { border: 1px solid #FFFFFF !important; }         
+ .call-to-action-button--secondary__span { color: #FFFFFF !important; }          .call-to-action-button--primary { border: 1px solid #DB0011 !important; background-color: #DB0011 !important; }          .text-link { color: #FFFFFF !important; }     } </style> <![endif]-->
+
+<!--[if gte mso 9]> <style>     ul, ol {         margin-left: 40px !important;         margin-right: 40px !important;     }      .text__body ul, .text__title ul {         margin-left: 35px !important;         margin-right: 0 !important;     }      .text__body ul.rtl, .text__title ul.rtl {         margin-left: 0 !important;         margin-right: 35px !important;     } </style>  <xml>     <o:OfficeDocumentSettings>         <o:AllowPNG/>         <o:PixelsPerInch>96</o:PixelsPerInch>     </o:OfficeDocumentSettings> </xml> <![endif]--></td></tr></table>
+</head>
+
+
+  
+<body style="margin: 0; padding: 0; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;"><style type="text/css">
+div.preheader 
+{ display: none !important; } 
+</style>
+<div class="preheader" style="font-size: 1px; display: none !important;">Here are 3 features we think you'll love
+</div>
+ <!--[if gte mso 9]>   <table role="presentation" class="body--mso" align="center" width="768" dir="ltr">    <tbody>     <tr>      <td>       <![endif]-->
+      <table role="presentation" class="body" dir="ltr" style="border-collapse: collapse; border-spacing: 0; margin: 0; mso-table-lspace: 0; mso-table-rspace: 0; border: 0; border-left: solid 1px #ccc; color: #333; border-right: solid 1px #ccc; margin-left: auto; margin-right: auto; font-family: 'Universe Next HSBC', Arial, Helvetica, 'Sans-serif'; text-align: center; width: 100%; max-width: 768px;" width="100%" align="center">
+       <tbody style="text-align: left;" align="left">
+        <tr>
+         <td align="center" valign="top" style="border-collapse: collapse; padding: 0; mso-line-height-rule: exactly; vertical-align: top;">
+          <center class="body__wrapper" style="overflow: hidden;">
+           
+           
+
+
+            <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+ <table class="table-el-wrapper marketing-email-header" role="presentation" dir="ltr" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0; font-family: 'Universe Next HSBC', Arial, Helvetica, sans-serif; color: #333333;" width="100%">
+            
+    <tr>
+        <td class="marketing-email-header__content-wrapper" style="border-collapse: collapse; mso-line-height-rule: exactly; box-sizing: border-box; vertical-align: middle; padding: 0 45px; width: 100%;" width="100%" valign="middle">
+            
+            <table class="table-el-wrapper" role="presentation" dir="ltr" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+                
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <tr>
+        <td class="marketing-email-header__hidden-preheader" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; visibility: hidden; mso-hide: all; font-size: 1px; color: #ffffff; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; display: none;" valign="top">
+            HSBC UK
+        </td>
+    </tr>
+    <tr>
+        <th class="marketing-email-header__description" align="right" style="font-size: 16px; font-size: 16px; font-size: 1rem; line-height: 1.5; font-weight: 400; width: 100%; padding: 16px 0 32px;" width="100%">
+            
+                <span><div>Trouble viewing this email?&nbsp;<a href="https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6ImI3OWE0OWU3LWZmNjYtNDNlNC04Yzk4LTIzNjAyZWVkMzdmZiIsImRla1ZlcnNpb24iOjEsIml2IjoiZUJwZkJkemE4eHY2SjVuQzhIR0VVQT09IiwiY2lwaGVyVGV4dCI6IjVKbHFvRXFWYlp6THJiMENkeG1hS3hocVZkK1AvMGlHdW85dG1QR280ZjBHT1JSMHh2WC9vdStMMjdJME9BOGZRZ05xZUcrblMybDRVb1FkbXh3czhkVGpvaTh1blo5NEdsOEYzTnJ6Ry9vbm1jTHdjWVJRIiwiYXV0aFRhZyI6ImFYaFNoQjJiSEN6eDFPT2lMeTZkbnc9PSJ9" style="color: #333; text-decoration: underline;">View in browser</a><br>
+</div>
+</span>
+            
+        </th>
+    </tr>
+    <tr>
+        <td class="marketing-email-header__logo_wrapper" align="left" style="border-collapse: collapse; mso-line-height-rule: exactly; vertical-align: top; padding: 0 0 32px; width: 100%;" width="100%" valign="top">
+            
+                
+                    <img class="light-mode-img" src="https://www.hsbc.co.uk/content/dam/hsbc/gb/messages/email/salesforce/personal-banking/header/HSBC-mass-uk-logo-198x44.png" height="auto" width="auto" alt="HSBC UK Logo " style="-ms-interpolation-mode: bicubic; margin: 0; padding: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; max-width: 100%; display: block; min-height: 43px; max-height: 43px; width: auto; border: 0;"/>
+                
+                
+                    <!--[if !mso]><!-->
+                    <div class="dark-mode-img" style="display: none; overflow: hidden; float: left; width: 0; max-height: 0; max-width: 0; line-height: 0; visibility: hidden;">
+                        <img src="https://www.hsbc.co.uk/content/dam/hsbc/en/messages/email/salesforce/personal-banking/logos/market-identifier/hsbc-mass-uk-logo-ondark-198x44.png" height="auto" width="auto" alt="HSBC UK Logo " style="-ms-interpolation-mode: bicubic; margin: 0; padding: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; max-width: 100%; display: block; min-height: 43px; max-height: 43px; width: auto; border: 0;"/>
+                    </div>
+                    <!--<![endif]-->
+                
+            
+        </td>
+    </tr>
+
+            </table>
+        </td>
+    </tr>
+    <tr>
+        
+    </tr>
+
+        </table>
+
+    
+
+
+    
+
+
+</td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+ 
+
+
+
+
+    
+    
+    
+
+
+
+
+    
+        
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+        
+            
+        
+
+        
+        
+            
+    
+    
+    
+    
+    
+    <table class="table-el-wrapper hero-component" role="presentation" dir="ltr" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0; font-family: 'Universe Next HSBC', Arial, Helvetica, sans-serif; color: #333333;" width="100%">
+        <tr>
+            <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">
+                
+                <table role="presentation" class="table-el-wrapper" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+                    
+                    <tr>
+                        <td class="hero-component__image-wrapper" align="center" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; width: 100%;" width="100%" valign="top">
+                            
+                                <img src="https://www.hsbc.co.uk/content/dam/hsbc/gb/messages/email/salesforce/personal-banking/hero/15518-man-mobile-1536x700.jpg" alt="man-mobile" aria-hidden="true" width="768" style="-ms-interpolation-mode: bicubic; margin: 0; padding: 0; line-height: 100%; outline: none; text-decoration: none; display: block; width: 100%; max-width: 100%; min-width: 100%; height: auto; border: 0;" height="auto"/>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        
+                        
+                            
+                        
+
+                        
+                        
+
+                        
+                        
+
+                        
+                        
+
+                        
+                        
+
+                        
+                        <td class="hero-component__body-wrapper" style="border-collapse: collapse; mso-line-height-rule: exactly; vertical-align: top; padding: 0 45px;" valign="top">
+                            
+    <table class="table-el-wrapper" role="presentation" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+        <tr>
+            <td class="hero-component__body-wrapper--header" style="border-collapse: collapse; mso-line-height-rule: exactly; vertical-align: top; padding: 40px 0 32px;" valign="top">
+                <h1 align="left" style="margin: 0; mso-line-height-rule: exactly; margin-top: 0; margin-bottom: 0; font-size: 33px; font-size: 33px; font-size: 2.0625rem; line-height: 1.2; font-weight: 300;">
+                    
+                        
+
+
+
+
+    Untap our App
+
+
+                    
+                </h1>
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td class="hero-component__body-wrapper--key-line" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">
+                <hr style="margin: 0; border-top: 1px solid #D7D8D6;"/>
+            </td>
+            
+        </tr>
+    </table>
+
+                        </td>
+                    </tr>
+                </table>
+                
+    <table class="spacer-element" role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+        <tr>
+            <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; height: 32px;" height="32" valign="top"></td>
+        </tr>
+    </table>
+
+            </td>
+        </tr>
+    </table>
+
+        
+
+        
+        
+
+        
+            
+        
+    
+
+
+    
+
+
+
+
+</td></tr></table>
+            <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+ 
+
+
+
+
+    
+    
+    
+
+
+
+
+    
+        
+
+    
+    
+
+    
+    
+
+        
+        
+
+        
+        
+            
+                
+            
+
+            
+            
+    
+        <!--[if (mso)|(IE)]>
+        <table role="presentation" dir="ltr" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+            <tbody>
+            <tr>
+                <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">
+        <![endif]-->
+        <table role="presentation" class="text table-el-wrapper" dir="ltr" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+            <tbody>
+            <tr>
+                <td class="text__row" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; padding-left: 45px; padding-right: 45px;" valign="top">
+                    
+    <!--[if (mso)|(IE)]>     <table role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">         <tbody>         <tr>             <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">     <![endif]-->
+    <table role="presentation" class="table-el-wrapper" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+        <tbody>
+        
+        
+        <tr>
+            
+    
+    
+
+    <td class="text__body s5Light" style="border-collapse: collapse; padding: 0; vertical-align: top; letter-spacing: 0px; mso-line-height-rule: at-least; color: #333333; font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 16px; line-height: 24px; font-weight: 350;" valign="top">
+    
+    
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+    <span style='font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 16px; line-height: 24px; font-weight: 350;'><p style="margin: 0"><span style="font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 16px; line-height: 24px; font-weight: 400;">Hi Mr Suetor,</span></p> 
+<p style="margin: 0">&nbsp;</p> 
+<p style="margin: 0"><span style="font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 16px; line-height: 24px; font-weight: 400;">You recently opened an account with us. So you're probably still finding your way around the HSBC UK Mobile Banking app. From making payments to growing your savings, it's been designed to make everyday banking and future planning, quick, easy and convenient for you.</span></p></span>
+
+
+</td>
+    
+
+        </tr>
+        </tbody>
+    </table>
+    
+    <table role="presentation" class="table-el-wrapper" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+        
+    
+    
+    
+    <tr><td class="padding--R8" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; height: 32px;" height="32" valign="top"></td></tr>
+    
+
+    </table>
+
+
+    <!--[if (mso)|(IE)]>             </td>         </tr>         </tbody>     </table>     <![endif]-->
+
+                </td>
+                
+            </tr>
+            </tbody>
+        </table>
+        <!--[if (mso)|(IE)]>                 </td>             </tr>             </tbody>         </table>         <![endif]-->
+    
+
+
+            
+            
+            
+                
+            
+        
+    
+
+
+    
+        
+
+    
+    
+    
+
+    
+    
+        
+            
+        
+
+        
+        
+            
+    
+
+    
+    <table role="presentation" class="keyline table-el-wrapper" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+        <tbody>
+        <tr>
+            <td class="keyline__row" style="border-collapse: collapse; mso-line-height-rule: exactly; vertical-align: top; padding: 0 45px;" valign="top">
+                <table role="presentation" class="keyline__col" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; max-width: 678px; text-align: center; margin-left: auto; margin-right: auto;" width="100%" align="center">
+                    <tbody style="text-align: left;" align="left">
+                    <tr>
+                        <td class="keyline__element" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; border-bottom: 2px solid #D7D8D6;" valign="top"></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <table class="spacer-element" role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+        <tr>
+            <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; height: 32px;" height="32" valign="top"></td>
+        </tr>
+    </table>
+
+
+        
+
+        
+        
+
+        
+            
+        
+    
+
+
+    
+
+
+
+
+</td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+ 
+
+
+
+
+    
+    
+    
+
+
+
+
+    
+        
+
+    
+
+    
+        
+        
+
+        
+        
+            
+            
+
+            
+            
+    
+
+    <!--[if (mso)|(IE)]>
+    <table role="presentation" class="bullets--mso" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 768px;" width="768">
+        <tbody>
+        <tr>
+            <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">
+    <![endif]-->
+    <table role="presentation" class="bullets table-el-wrapper" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0; font-family: 'Universe Next HSBC', Arial, Helvetica, sans-serif; color: #333333;" width="100%">
+        <tbody>
+            <tr>
+                <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">
+                    
+                </td>
+            </tr>
+            <tr>
+                <td class="bullets__row" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; padding-left: 45px; padding-right: 45px;" valign="top">
+                        <!--[if (mso)|(IE)]>                         <table role="presentation" class="bullets__col--mso" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">                             <tbody>                             <tr>                                 <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">                         <![endif]-->
+                        <table role="presentation" class="bullets__col" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+                            <tbody>
+                                
+                                    <tr>
+                                        <td class="bullets__title" align="left" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; padding-bottom: 32px; color: #333333;" valign="top">
+                                            <h2 style="margin: 0; mso-line-height-rule: exactly; margin-top: 0; margin-bottom: 0; font-size: 28px; font-size: 28px; font-size: 1.75rem; line-height: 1.3; font-weight: 300;">
+
+
+
+
+    Here's how…
+
+</h2>
+                                        </td>
+                                    </tr>
+                                
+                                <tr>
+                                    <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">
+                                        <div>
+
+
+
+    
+    
+
+    
+    
+
+        
+            
+        
+
+        
+    
+    
+    
+    
+
+    
+    <!--[if (mso)|(IE)]>     <table role="presentation" class="bullets__item--mso" dir="ltr" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">         <tbody>         <tr>             <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">     <![endif]-->
+                <table role="presentation" class="bullets__item" dir="ltr" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+                    <tbody>
+                        <tr align="left">
+                            
+                                <td class="bullets__item-image bullets__item-image--ltr" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; width: 40px; height: 40px; vertical-align: top; padding-right: 18px;" width="40" height="40" valign="top">
+                                    
+    <img class="bullets__icon" width="40" height="40" src="https://www.hsbc.co.uk/content/dam/hsbc/gb/messages/email/salesforce/common/pictograms-2022/1-1/data-chart.png" alt="data-chart" style="-ms-interpolation-mode: bicubic; margin: 0; padding: 0; border: 0 none; line-height: 100%; outline: none; text-decoration: none; max-width: 100%; height: 40px;"/>
+
+                                </td>
+                            
+                            
+                            
+                                <td class="bullets__item-content bullets__item-content--modified" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: middle;" valign="middle">
+                                    
+    <table role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+        <tbody>
+            
+                <tr>
+                    <td align="left" class="bullets__item-description bullets__item-description--modified" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; font-size: 16px; font-size: 16px; font-size: 1rem; line-height: 1.5; font-weight: 400; padding-top: 0; color: #333333;" valign="top">
+                        
+
+
+
+
+    <strong style="font-weight: 700;">See where you're spending -</strong>&nbsp;with Spending insights you'll see exactly where your money's going every month, including your top spending categories and biggest purchases - so you could spot ways to cut back.&nbsp;Just select the menu icon and then 'Plan' to find your insights.
+
+
+                    </td>
+                </tr>
+            
+        </tbody>
+    </table>
+
+                                </td>
+                            
+                            
+                            
+                            
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="bullets__item-spacer" role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+                    <tr>
+                        <td style="border-collapse: collapse; mso-line-height-rule: exactly; vertical-align: top; padding: 20px 0;" valign="top">
+                            <hr style="margin: 0; border-top: 1px solid #D7D8D6;"/>
+                        </td>
+                    </tr>
+                </table>
+    <!--[if (mso)|(IE)]>             </td>         </tr>         </tbody>     </table>     <![endif]-->
+
+
+
+        
+            
+        
+    
+
+</div>
+                                    
+                                        <div>
+
+
+
+    
+    
+
+    
+    
+
+        
+            
+        
+
+        
+    
+    
+    
+    
+
+    
+    <!--[if (mso)|(IE)]>     <table role="presentation" class="bullets__item--mso" dir="ltr" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">         <tbody>         <tr>             <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">     <![endif]-->
+                <table role="presentation" class="bullets__item" dir="ltr" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+                    <tbody>
+                        <tr align="left">
+                            
+                                <td class="bullets__item-image bullets__item-image--ltr" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; width: 40px; height: 40px; vertical-align: top; padding-right: 18px;" width="40" height="40" valign="top">
+                                    
+    <img class="bullets__icon" width="40" height="40" src="https://www.hsbc.co.uk/content/dam/hsbc/ciiom/messages/email/salesforce/common/pictograms-2022/1-1/calendar.png" alt="Calendar" style="-ms-interpolation-mode: bicubic; margin: 0; padding: 0; border: 0 none; line-height: 100%; outline: none; text-decoration: none; max-width: 100%; height: 40px;"/>
+
+                                </td>
+                            
+                            
+                            
+                                <td class="bullets__item-content bullets__item-content--modified" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: middle;" valign="middle">
+                                    
+    <table role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+        <tbody>
+            
+                <tr>
+                    <td align="left" class="bullets__item-description bullets__item-description--modified" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; font-size: 16px; font-size: 16px; font-size: 1rem; line-height: 1.5; font-weight: 400; padding-top: 0; color: #333333;" valign="top">
+                        
+
+
+
+
+    <strong style="font-weight: 700;">Plan ahead&nbsp;-</strong> our Balance Forecast tool makes it easy to see how much you've got left for the month once bills and direct debits leave your account, helping you create a plan until your next payday. Scroll to the bottom of the home screen to get started.
+
+
+                    </td>
+                </tr>
+            
+        </tbody>
+    </table>
+
+                                </td>
+                            
+                            
+                            
+                            
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="bullets__item-spacer" role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+                    <tr>
+                        <td style="border-collapse: collapse; mso-line-height-rule: exactly; vertical-align: top; padding: 20px 0;" valign="top">
+                            <hr style="margin: 0; border-top: 1px solid #D7D8D6;"/>
+                        </td>
+                    </tr>
+                </table>
+    <!--[if (mso)|(IE)]>             </td>         </tr>         </tbody>     </table>     <![endif]-->
+
+
+
+        
+            
+        
+    
+
+</div>
+                                    
+                                        <div>
+
+
+
+    
+    
+
+    
+    
+
+        
+            
+        
+
+        
+    
+    
+    
+    
+
+    
+    <!--[if (mso)|(IE)]>     <table role="presentation" class="bullets__item--mso" dir="ltr" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">         <tbody>         <tr>             <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">     <![endif]-->
+                <table role="presentation" class="bullets__item" dir="ltr" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+                    <tbody>
+                        <tr align="left">
+                            
+                                <td class="bullets__item-image bullets__item-image--ltr" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; width: 40px; height: 40px; vertical-align: top; padding-right: 18px;" width="40" height="40" valign="top">
+                                    
+    <img class="bullets__icon" width="40" height="40" src="https://www.hsbc.co.uk/content/dam/hsbc/gb/messages/email/salesforce/common/pictograms-2022/1-1/card-and-coins.png" alt="card-and-coins" style="-ms-interpolation-mode: bicubic; margin: 0; padding: 0; border: 0 none; line-height: 100%; outline: none; text-decoration: none; max-width: 100%; height: 40px;"/>
+
+                                </td>
+                            
+                            
+                            
+                                <td class="bullets__item-content bullets__item-content--modified" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: middle;" valign="middle">
+                                    
+    <table role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+        <tbody>
+            
+                <tr>
+                    <td align="left" class="bullets__item-description bullets__item-description--modified" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; font-size: 16px; font-size: 16px; font-size: 1rem; line-height: 1.5; font-weight: 400; padding-top: 0; color: #333333;" valign="top">
+                        
+
+
+
+
+    <strong style="font-weight: 700;">Make a budget&nbsp;-</strong> create a budget, then track it across the month using handy visual guides to make sure you're sticking to the plan. To make your budget, go to the 'Plan' area of the App.
+
+
+                    </td>
+                </tr>
+            
+        </tbody>
+    </table>
+
+                                </td>
+                            
+                            
+                            
+                            
+                        </tr>
+                    </tbody>
+                </table>
+                
+    <!--[if (mso)|(IE)]>             </td>         </tr>         </tbody>     </table>     <![endif]-->
+
+
+
+        
+            
+        
+    
+
+</div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--[if (mso)|(IE)]>                                     </td>                                 </tr>                             </tbody>                         </table>                         <![endif]-->
+                </td>
+            </tr>
+            <tr>
+                <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">
+                    
+    <table class="spacer-element" role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+        <tr>
+            <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; height: 32px;" height="32" valign="top"></td>
+        </tr>
+    </table>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--[if (mso)|(IE)]>             </td>         </tr>         </tbody>     </table>     <![endif]-->
+
+
+            
+            
+        
+    
+
+
+    
+        
+
+    
+    
+    
+
+    
+    
+        
+            
+        
+
+        
+        
+            
+    
+
+    
+    <table role="presentation" class="keyline table-el-wrapper" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+        <tbody>
+        <tr>
+            <td class="keyline__row" style="border-collapse: collapse; mso-line-height-rule: exactly; vertical-align: top; padding: 0 45px;" valign="top">
+                <table role="presentation" class="keyline__col" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; max-width: 678px; text-align: center; margin-left: auto; margin-right: auto;" width="100%" align="center">
+                    <tbody style="text-align: left;" align="left">
+                    <tr>
+                        <td class="keyline__element" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; border-bottom: 2px solid #D7D8D6;" valign="top"></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <table class="spacer-element" role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+        <tr>
+            <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; height: 32px;" height="32" valign="top"></td>
+        </tr>
+    </table>
+
+
+        
+
+        
+        
+
+        
+            
+        
+    
+
+
+    
+
+
+
+
+</td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+ 
+
+
+
+
+    
+    
+    
+
+
+
+
+    
+        
+
+    
+    
+
+    
+    
+
+        
+        
+
+        
+        
+            
+                
+            
+
+            
+            
+    
+        <!--[if (mso)|(IE)]>
+        <table role="presentation" dir="ltr" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+            <tbody>
+            <tr>
+                <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">
+        <![endif]-->
+        <table role="presentation" class="text table-el-wrapper" dir="ltr" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+            <tbody>
+            <tr>
+                <td class="text__row" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; padding-left: 45px; padding-right: 45px;" valign="top">
+                    
+    <!--[if (mso)|(IE)]>     <table role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">         <tbody>         <tr>             <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">     <![endif]-->
+    <table role="presentation" class="table-el-wrapper" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+        <tbody>
+        <tr>
+            <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">
+                
+                
+                
+    
+    
+    
+
+    
+    
+    
+        <h2 class="text__title s2Regular" style="font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 28px; line-height: 36px; font-weight: 400; letter-spacing: 0px; mso-line-height-rule: at-least; color: #333333; margin: 0;">
+            
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+    <span style='font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 28px; line-height: 36px; font-weight: 400;'><span style="font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 23px; line-height: 30px; font-weight: 350;">And there's more where that came from…</span></span>
+
+
+
+        </h2>
+        
+    
+
+
+
+            </td>
+        </tr>
+        
+    
+    <tr><td class="padding--R4" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; height: 16px;" height="16" valign="top"></td></tr>
+    
+    
+    
+
+        <tr>
+            
+    
+    
+
+    <td class="text__body s5Light" style="border-collapse: collapse; padding: 0; vertical-align: top; letter-spacing: 0px; mso-line-height-rule: at-least; color: #333333; font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 16px; line-height: 24px; font-weight: 350;" valign="top">
+    
+    
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+    <span style='font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 16px; line-height: 24px; font-weight: 350;'><span style="font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 16px; line-height: 24px; font-weight: 400;">To discover all our App's clever ways of helping you stay in control of your money, visit our Mobile Money Management hub.</span></span>
+
+
+</td>
+    
+
+        </tr>
+        </tbody>
+    </table>
+    
+    <table role="presentation" class="table-el-wrapper" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+        
+    
+    
+    
+    <tr><td class="padding--R8" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; height: 32px;" height="32" valign="top"></td></tr>
+    
+
+    </table>
+
+
+    <!--[if (mso)|(IE)]>             </td>         </tr>         </tbody>     </table>     <![endif]-->
+
+                </td>
+                
+            </tr>
+            </tbody>
+        </table>
+        <!--[if (mso)|(IE)]>                 </td>             </tr>             </tbody>         </table>         <![endif]-->
+    
+
+
+            
+            
+            
+                
+            
+        
+    
+
+
+    
+        
+    
+    
+
+    
+    
+
+        
+        
+            
+                
+            
+
+            
+    <table role="presentation" class="table-el-wrapper" dir="ltr" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+        <tbody>
+        <tr>
+            <td class="call-to-action__row" align="left" style="border-collapse: collapse; mso-line-height-rule: exactly; vertical-align: top; padding: 0 45px;" valign="top">
+                
+    <table role="presentation" cellpadding="0" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+        <tr align="left">
+            
+            
+            
+                
+                    
+
+
+
+
+    
+    
+    
+        <th class="call-to-action-wrapper">
+            
+    
+    
+    <a class="call-to-action-button-a-tag" target="_blank" rel="noopener noreferrer" href="https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6IjAzYzE3MTZlLWZlNjItNDMyZS04MjdjLTcyNWM2NjcxZWNlMyIsImRla1ZlcnNpb24iOjEsIml2IjoiL0Z6YXlQTzlvem92c1RldlFHSVMyQT09IiwiY2lwaGVyVGV4dCI6InFwdTJVNUpYc3cxNDVjS0NNZ2loUUlpWFJuNUw2bE1nYURWRU1GZVAxUEZidThhVEVmOFBYdnlQdTB4RmNLcDRlQ3JYVGRBTVVoVktIemlFNW53NFNHMXNNb1loTTRYOFhOckk4NzJqT2kreE42OUFZaExZIiwiYXV0aFRhZyI6IkZVb2ZPSVRtZkRoSWJXd3loaUV6aFE9PSJ9" aria-label="Find out more Find out more Opens in new window" style="text-decoration: none; color: #333333; display: inline-block;">
+        
+            
+    
+    
+        <table class="call-to-action-button-wrapper-table" role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed; width: auto;" width="auto">
+            <tr>
+                <th dir="ltr" class="call-to-action-button call-to-action-button--primary" style="text-decoration: none; font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-weight: 500; line-height: 24px; font-size: 16px; font-size: 16px; font-size: 1rem; width: 100%; word-wrap: normal; vertical-align: middle; max-width: 319px; padding: 10px 16px; border: 1px solid #db0011; background-color: #db0011; box-sizing: border-box; text-align: center;" width="100%" valign="middle" bgcolor="#db0011" align="center">
+                    <!--[if (mso)|(IE)]>                     <table role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">                         <tr>                             <th dir="ltr">                                 <a class="call-to-action-button-a-tag outlook" target="_blank" rel="noopener noreferrer" href="https://www.hsbc.co.uk/ways-to-bank/mobile/money-management/?cid=EML_UK_EN_M5718_0&eid=EML_UK_EN_M5718_0" x-cq-linkchecker="skip" aria-label="Find out more Find out more Opens in new window" style="text-decoration: none; color: #333333; display: inline-block;">                     <![endif]-->
+                    <span class="call-to-action-button--primary__span" style="text-decoration: none; color: #ffffff;">Find out more</span>
+                    <!--[if (mso)|(IE)]>                     </a></th>                     </tr>                     </table>                     <![endif]-->
+                </th>
+            </tr>
+        </table>
+    
+
+        
+        
+        
+    </a>
+
+        </th>
+        
+    
+
+
+
+                
+            
+        </tr>
+    </table>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <table role="presentation" class="table-el-wrapper" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+        
+    
+    
+    
+    <tr><td class="padding--R8" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; height: 32px;" height="32" valign="top"></td></tr>
+    
+
+    </table>
+
+
+
+            
+                
+            
+        
+    
+
+
+    
+        
+
+    
+    
+    
+
+    
+    
+        
+            
+        
+
+        
+        
+            
+    
+
+    
+    <table role="presentation" class="keyline table-el-wrapper" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+        <tbody>
+        <tr>
+            <td class="keyline__row" style="border-collapse: collapse; mso-line-height-rule: exactly; vertical-align: top; padding: 0 45px;" valign="top">
+                <table role="presentation" class="keyline__col" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; max-width: 678px; text-align: center; margin-left: auto; margin-right: auto;" width="100%" align="center">
+                    <tbody style="text-align: left;" align="left">
+                    <tr>
+                        <td class="keyline__element" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; border-bottom: 2px solid #D7D8D6;" valign="top"></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <table class="spacer-element" role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+        <tr>
+            <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; height: 32px;" height="32" valign="top"></td>
+        </tr>
+    </table>
+
+
+        
+
+        
+        
+
+        
+            
+        
+    
+
+
+    
+        
+
+    
+    
+
+    
+    
+
+        
+        
+
+        
+        
+            
+                
+            
+
+            
+            
+    
+        <!--[if (mso)|(IE)]>         <table role="presentation" dir="ltr" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">             <tbody>             <tr>                 <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">         <![endif]-->
+        <table role="presentation" class="text table-el-wrapper" dir="ltr" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+            <tbody>
+            <tr>
+                <td class="text__row" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; padding-left: 45px; padding-right: 45px;" valign="top">
+                    
+    <!--[if (mso)|(IE)]>     <table role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">         <tbody>         <tr>             <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">     <![endif]-->
+    <table role="presentation" class="table-el-wrapper" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+        <tbody>
+        <tr>
+            <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">
+                
+                
+                
+    
+    
+    
+
+    
+    
+    
+        <h2 class="text__title s2Regular" style="font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 28px; line-height: 36px; font-weight: 400; letter-spacing: 0px; mso-line-height-rule: at-least; color: #333333; margin: 0;">
+            
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+    <span style='font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 28px; line-height: 36px; font-weight: 400;'><span style="font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 23px; line-height: 30px; font-weight: 350;">Need to top up your new account?&nbsp;</span></span>
+
+
+
+        </h2>
+        
+    
+
+
+
+            </td>
+        </tr>
+        
+    
+    <tr><td class="padding--R4" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; height: 16px;" height="16" valign="top"></td></tr>
+    
+    
+    
+
+        <tr>
+            
+    
+    
+
+    <td class="text__body s5Light" style="border-collapse: collapse; padding: 0; vertical-align: top; letter-spacing: 0px; mso-line-height-rule: at-least; color: #333333; font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 16px; line-height: 24px; font-weight: 350;" valign="top">
+    
+    
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+    <span style='font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 16px; line-height: 24px; font-weight: 350;'><p style="margin: 0"><span style="font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 16px; line-height: 24px; font-weight: 400;">You can transfer funds directly from another account or pay in cash by visiting us in branch. You just need your sort code and account number. You can find these when you log in to the app.</span></p> 
+<p style="margin: 0">&nbsp;</p> 
+<p style="margin: 0"><span style="font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 16px; line-height: 24px; font-weight: 400;">Need help finding your details? Here's a <a href="https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6IjQzNjZhNDdlLTZiYzItNGQyNC1iZmI1LTMzYjY5M2JlZjI1ZiIsImRla1ZlcnNpb24iOjEsIml2IjoieU5QNENhcjFLRWtENjZHYzQxRUhoQT09IiwiY2lwaGVyVGV4dCI6ImR5SElpazVPVDk5L0RUc0hvVTVnSjJMYnNkcUdwdHdlaGF0emFZVDdzZDNTWVpQN0FhV3IzYlY2VnptaUllSUVCb1l2Y0RsNktEbjJuUElyVEo3a0kyTVRISTJrSkVqSTAvZ0pxdlVvU1FQcm9aempVUWVFIiwiYXV0aFRhZyI6Ik9mYWM4aXRNbnVRall4TWNqYVFrU0E9PSJ9" style="color: #333; text-decoration: underline; ">quick guide</a> to show you how.&nbsp;</span></p></span>
+
+
+</td>
+    
+
+        </tr>
+        </tbody>
+    </table>
+    
+    <table role="presentation" class="table-el-wrapper" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+        
+    
+    
+    
+    <tr><td class="padding--R8" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; height: 32px;" height="32" valign="top"></td></tr>
+    
+
+    </table>
+
+
+    <!--[if (mso)|(IE)]>             </td>         </tr>         </tbody>     </table>     <![endif]-->
+
+                </td>
+                
+            </tr>
+            </tbody>
+        </table>
+        <!--[if (mso)|(IE)]>                 </td>             </tr>             </tbody>         </table>         <![endif]-->
+    
+
+
+            
+            
+            
+                
+            
+        
+    
+
+
+    
+        
+
+    
+    
+    
+
+    
+    
+        
+            
+        
+
+        
+        
+            
+    
+
+    
+    <table role="presentation" class="keyline table-el-wrapper" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+        <tbody>
+        <tr>
+            <td class="keyline__row" style="border-collapse: collapse; mso-line-height-rule: exactly; vertical-align: top; padding: 0 45px;" valign="top">
+                <table role="presentation" class="keyline__col" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; max-width: 678px; text-align: center; margin-left: auto; margin-right: auto;" width="100%" align="center">
+                    <tbody style="text-align: left;" align="left">
+                    <tr>
+                        <td class="keyline__element" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; border-bottom: 2px solid #D7D8D6;" valign="top"></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <table class="spacer-element" role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+        <tr>
+            <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; height: 32px;" height="32" valign="top"></td>
+        </tr>
+    </table>
+
+
+        
+
+        
+        
+
+        
+            
+        
+    
+
+
+    
+        
+
+    
+    
+
+    
+    
+
+        
+        
+
+        
+        
+            
+                
+            
+
+            
+            
+    
+        <!--[if (mso)|(IE)]>         <table role="presentation" dir="ltr" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">             <tbody>             <tr>                 <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">         <![endif]-->
+        <table role="presentation" class="text table-el-wrapper" dir="ltr" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+            <tbody>
+            <tr>
+                <td class="text__row" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; padding-left: 45px; padding-right: 45px;" valign="top">
+                    
+    <!--[if (mso)|(IE)]>     <table role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">         <tbody>         <tr>             <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">     <![endif]-->
+    <table role="presentation" class="table-el-wrapper" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+        <tbody>
+        <tr>
+            <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">
+                
+                
+                
+    
+    
+    
+
+    
+    
+    
+        <h2 class="text__title s2Regular" style="font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 28px; line-height: 36px; font-weight: 400; letter-spacing: 0px; mso-line-height-rule: at-least; color: #333333; margin: 0;">
+            
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+    <span style='font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 28px; line-height: 36px; font-weight: 400;'><span style="font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 23px; line-height: 30px; font-weight: 350;">Sometimes you have to ask a human being</span></span>
+
+
+
+        </h2>
+        
+    
+
+
+
+            </td>
+        </tr>
+        
+    
+    <tr><td class="padding--R4" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; height: 16px;" height="16" valign="top"></td></tr>
+    
+    
+    
+
+        <tr>
+            
+    
+    
+
+    <td class="text__body s5Light" style="border-collapse: collapse; padding: 0; vertical-align: top; letter-spacing: 0px; mso-line-height-rule: at-least; color: #333333; font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 16px; line-height: 24px; font-weight: 350;" valign="top">
+    
+    
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+    <span style='font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 16px; line-height: 24px; font-weight: 350;'><span style="font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 16px; line-height: 24px; font-weight: 400;">Apps and tools are handy but they can't do everything. Our colleagues are on-hand to support you when you need it. Here's how you contact them:</span></span>
+
+
+</td>
+    
+
+        </tr>
+        </tbody>
+    </table>
+    
+    <table role="presentation" class="table-el-wrapper" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+        
+    
+    
+    
+    <tr><td class="padding--R8" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; height: 32px;" height="32" valign="top"></td></tr>
+    
+
+    </table>
+
+
+    <!--[if (mso)|(IE)]>             </td>         </tr>         </tbody>     </table>     <![endif]-->
+
+                </td>
+                
+            </tr>
+            </tbody>
+        </table>
+        <!--[if (mso)|(IE)]>                 </td>             </tr>             </tbody>         </table>         <![endif]-->
+    
+
+
+            
+            
+            
+                
+            
+        
+    
+
+
+    
+
+
+
+
+</td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"></td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+ 
+
+
+
+
+    
+    
+    
+
+
+
+
+    
+        
+    
+        
+
+    
+
+    
+
+        
+        
+
+        
+        
+
+            
+            
+
+            
+            
+                
+                    
+                
+
+                
+                
+    
+    
+
+    
+    <table role="presentation" class="contact-bar" dir="ltr" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; max-width: 768px; font-family: 'Universe Next HSBC', Arial, Helvetica, sans-serif; color: #333333;" width="100%">
+        <tbody align="left">
+        <tr>
+            
+    
+
+    <td class="contact-bar__row contact-bar__row--default" style="border-collapse: collapse; mso-line-height-rule: exactly; vertical-align: top; width: 100%; padding: 0 45px; background-color: #F0EFF0;" width="100%" bgcolor="#F0EFF0" valign="top">
+        
+    
+        <table role="presentation" class="contact-bar__col" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; max-width: 678px;" width="100%">
+            <tbody dir="ltr">
+            
+                <tr class="contact-bar__item">
+                    <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 20px 0; vertical-align: middle;" valign="middle">
+                        <table role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                            <tr>
+                                <td class="contact-bar__icon contact-bar__icon--padding-right" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; padding-right: 10px; vertical-align: middle;" valign="middle">
+                                    <span style="display: block; max-width: 25px; height: 25px;">
+                                        <img src="https://www.hsbc.co.uk/content/dam/hsbc/gb/messages/email/salesforce/common/pictograms-2022/1-1/mobile-phone.png" width="25" height="25" alt="Call us " style="-ms-interpolation-mode: bicubic; margin: 0; padding: 0; border: 0 none; line-height: 100%; outline: none; text-decoration: none; display: block; max-width: 25px; height: 25px;"/>
+                                    </span>
+                                </td>
+                                
+                                <td class="contact-bar__link" valign="middle" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: middle;">
+                                    <table role="presentation" dir="ltr" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                        <tr>
+                                            <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: middle;" valign="middle">
+                                                
+    
+    
+    
+    
+    
+    
+
+    <a class="cta-btn-a-tag" target="_blank" rel="noopener noreferrer" href="https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6IjQxMjNlNDlmLWY2MjctNDE1Ni1hN2JlLWViZWEyYzUyMWYwMyIsImRla1ZlcnNpb24iOjEsIml2IjoiYWE5UkRBMmh6Vm14a3Z1ZVYrVFBLUT09IiwiY2lwaGVyVGV4dCI6IkdXZzdiOXUvcXU4RU5RcmszQ3h4R1pGdUJIUUtZZHVIempOVTEzUG9JdU1Ga1pPelF5bkFxOCtjRDlqSTN3bnBXd1RCTTFBVExoRFRvd3FNb2NMaXhaZVpBZW5rOGZ4cHIxRU1EYUhOV2JHUys1NVg1TThwIiwiYXV0aFRhZyI6IkVOT2pDb3lod3VMRmw1a0I2ZVR4L0E9PSJ9" aria-label="Call us – on 03457 404 404, check our opening hours  Opens in new window" style="color: #333333; text-decoration: none; font-weight: normal; line-height: 1.3; font-size: 16px; font-size: 16px; font-size: 1rem; display: inline-block;">
+        <span class="cta-btn--link__span" style="text-decoration: none; font-size: 16px; font-size: 16px; font-size: 1rem; line-height: 1.5; padding: 0 3px 0 0; font-family: 'Universe Next HSBC', Arial, Helvetica, sans-serif; color: #333333; color: #333333; font-weight: normal;">Call us – on 03457 404 404, check our opening hours</span>
+        
+    
+    
+    
+        <span class="cta-btn__chevron">
+            <img src="https://www.hsbc.co.uk/etc.clientlibs/hsbc/vam/clientlibs/clientlib-site/resources/images/rebrandPremier/right-arrow-big.png" width="7" height="auto" alt="" style="-ms-interpolation-mode: bicubic; margin: 0; padding: 0; border: 0 none; height: auto; line-height: 100%; outline: none; text-decoration: none; max-width: 100%;"/>
+        </span>
+    
+
+    </a>
+
+
+                                            </td>
+                                            
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="contact-bar__keyline" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">
+                        <hr style="margin: 0; border-top: 1px solid #D7D8D6; border-bottom: 0;"/>
+                    </td>
+                </tr>
+            
+                <tr class="contact-bar__item">
+                    <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 20px 0; vertical-align: middle;" valign="middle">
+                        <table role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                            <tr>
+                                <td class="contact-bar__icon contact-bar__icon--padding-right" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; padding-right: 10px; vertical-align: middle;" valign="middle">
+                                    <span style="display: block; max-width: 25px; height: 25px;">
+                                        <img src="https://www.hsbc.co.uk/content/dam/hsbc/gb/messages/email/salesforce/common/pictograms-2022/1-1/staff.png" width="25" height="25" alt="staff" style="-ms-interpolation-mode: bicubic; margin: 0; padding: 0; border: 0 none; line-height: 100%; outline: none; text-decoration: none; display: block; max-width: 25px; height: 25px;"/>
+                                    </span>
+                                </td>
+                                
+                                <td class="contact-bar__link" valign="middle" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: middle;">
+                                    <table role="presentation" dir="ltr" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                        <tr>
+                                            <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: middle;" valign="middle">
+                                                
+    
+    
+    
+    
+    
+    
+
+    <a class="cta-btn-a-tag" target="_blank" rel="noopener noreferrer" href="https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6ImU1ZTA5MzU1LTQ5MGUtNGUwZC1hZDczLWY0Zjc5ZmZiM2Q4ZSIsImRla1ZlcnNpb24iOjEsIml2Ijoia2QxWTJEeDZIYUw3eXJoUWJSb0RMUT09IiwiY2lwaGVyVGV4dCI6IlRpYmpaN2xEeEJFZHBRTHJoUVdWelB0dTBwQzVVSnNmR2c3NlhKcTVvQmxMb1lWWWY4RW1EMHNnbkFIbXdUbTEvTHFRZTNCakRPN05ETWhuc0E5SjdHYWZsTTk4Tmt5UjNWallQSG9kb3Z2S3VGQnRHZ010IiwiYXV0aFRhZyI6IjdzME15R2V3RDBuc1pwK1V6M3cyVEE9PSJ9" aria-label="Visit a branch, come and see us in person, find your nearest one  Opens in new window" style="color: #333333; text-decoration: none; font-weight: normal; line-height: 1.3; font-size: 16px; font-size: 16px; font-size: 1rem; display: inline-block;">
+        <span class="cta-btn--link__span" style="text-decoration: none; font-size: 16px; font-size: 16px; font-size: 1rem; line-height: 1.5; padding: 0 3px 0 0; font-family: 'Universe Next HSBC', Arial, Helvetica, sans-serif; color: #333333; color: #333333; font-weight: normal;">Visit a branch, come and see us in person, find your nearest one</span>
+        
+    
+    
+    
+        <span class="cta-btn__chevron">
+            <img src="https://www.hsbc.co.uk/etc.clientlibs/hsbc/vam/clientlibs/clientlib-site/resources/images/rebrandPremier/right-arrow-big.png" width="7" height="auto" alt="" style="-ms-interpolation-mode: bicubic; margin: 0; padding: 0; border: 0 none; height: auto; line-height: 100%; outline: none; text-decoration: none; max-width: 100%;"/>
+        </span>
+    
+
+    </a>
+
+
+                                            </td>
+                                            
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="contact-bar__keyline" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">
+                        <hr style="margin: 0; border-top: 1px solid #D7D8D6; border-bottom: 0;"/>
+                    </td>
+                </tr>
+            
+                <tr class="contact-bar__item">
+                    <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 20px 0; vertical-align: middle;" valign="middle">
+                        <table role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                            <tr>
+                                <td class="contact-bar__icon contact-bar__icon--padding-right" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; padding-right: 10px; vertical-align: middle;" valign="middle">
+                                    <span style="display: block; max-width: 25px; height: 25px;">
+                                        <img src="https://www.hsbc.co.uk/content/dam/hsbc/gb/messages/email/salesforce/common/pictograms-2022/1-1/chat-1.png" width="25" height="25" alt="chat" style="-ms-interpolation-mode: bicubic; margin: 0; padding: 0; border: 0 none; line-height: 100%; outline: none; text-decoration: none; display: block; max-width: 25px; height: 25px;"/>
+                                    </span>
+                                </td>
+                                <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: middle;" valign="middle">
+                                    <table role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                        <tr>
+                                            <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: middle;" valign="middle">
+                                                <span class="contact-bar__text" style="color: #333333; font-size: 16px; font-size: 16px; font-size: 1rem; line-height: 1.5; font-weight: 400;">Chat to us in the app - tap &#39;Support&#39; to see this option, send us a message and we&#39;ll reply as soon as we can.</span>
+                                            </td>
+                                            
+                                        </tr>
+                                    </table>
+                                </td>
+                                
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                
+            
+            </tbody>
+        </table>
+    
+    
+
+    </td>
+
+        </tr>
+        </tbody>
+    </table>
+    
+    <table class="spacer-element" role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+        <tr>
+            <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; height: 32px;" height="32" valign="top"></td>
+        </tr>
+    </table>
+
+
+
+                
+                
+
+                
+                    
+                
+            
+        
+    
+
+
+    
+
+
+
+
+</td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+ 
+
+
+
+
+    
+    
+    
+
+
+
+
+    
+        
+
+    
+    
+
+    
+    
+
+        
+        
+
+        
+        
+            
+                
+            
+
+            
+            
+    
+        <!--[if (mso)|(IE)]>
+        <table role="presentation" dir="ltr" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+            <tbody>
+            <tr>
+                <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">
+        <![endif]-->
+        <table role="presentation" class="text table-el-wrapper" dir="ltr" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+            <tbody>
+            <tr>
+                <td class="text__row" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; padding-left: 45px; padding-right: 45px;" valign="top">
+                    
+    <!--[if (mso)|(IE)]>     <table role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">         <tbody>         <tr>             <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">     <![endif]-->
+    <table role="presentation" class="table-el-wrapper" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+        <tbody>
+        
+        
+        <tr>
+            
+    
+    
+
+    <td class="text__body s5Light" style="border-collapse: collapse; padding: 0; vertical-align: top; letter-spacing: 0px; mso-line-height-rule: at-least; color: #333333; font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 16px; line-height: 24px; font-weight: 350;" valign="top">
+    
+    
+    
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    
+    <span style='font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 16px; line-height: 24px; font-weight: 350;'><p style="margin: 0">&nbsp;</p> 
+<p style="margin: 0"><span style="font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 16px; line-height: 24px; font-weight: 400;">Thanks,</span></p> 
+<p style="margin: 0"><span style="font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 16px; line-height: 24px; font-weight: 400;">&nbsp;</span></p> 
+<p style="margin: 0"><span style="font-family: Univers Next for HSBC, Arial, Helvetica, sans-serif; font-style: normal; font-size: 16px; line-height: 24px; font-weight: 400;"><strong>Your HSBC UK Banking Team</strong></span></p></span>
+
+
+</td>
+    
+
+        </tr>
+        </tbody>
+    </table>
+    
+    <table role="presentation" class="table-el-wrapper" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+        
+    
+    
+    
+    <tr><td class="padding--R8" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; height: 32px;" height="32" valign="top"></td></tr>
+    
+
+    </table>
+
+
+    <!--[if (mso)|(IE)]>             </td>         </tr>         </tbody>     </table>     <![endif]-->
+
+                </td>
+                
+            </tr>
+            </tbody>
+        </table>
+        <!--[if (mso)|(IE)]>                 </td>             </tr>             </tbody>         </table>         <![endif]-->
+    
+
+
+            
+            
+            
+                
+            
+        
+    
+
+
+    
+        
+
+    
+
+    
+
+        
+        
+
+        
+        
+
+            
+            
+
+            
+            
+                
+                    
+                
+
+                
+                
+    
+    
+
+    
+    <table role="presentation" class="contact-bar" dir="ltr" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; max-width: 768px; font-family: 'Universe Next HSBC', Arial, Helvetica, sans-serif; color: #333333;" width="100%">
+        <tbody align="left">
+        <tr>
+            
+    
+
+    <td class="contact-bar__row contact-bar__row--default" style="border-collapse: collapse; mso-line-height-rule: exactly; vertical-align: top; width: 100%; padding: 0 45px; background-color: #F0EFF0;" width="100%" bgcolor="#F0EFF0" valign="top">
+        
+    
+        <table role="presentation" class="contact-bar__col" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; max-width: 678px;" width="100%">
+            <tbody dir="ltr">
+            
+                <tr class="contact-bar__item">
+                    <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 20px 0; vertical-align: middle;" valign="middle">
+                        <table role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                            <tr>
+                                <td class="contact-bar__icon contact-bar__icon--padding-right" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; padding-right: 10px; vertical-align: middle;" valign="middle">
+                                    <span style="display: block; max-width: 25px; height: 25px;">
+                                        <img src="https://www.hsbc.co.uk/content/dam/hsbc/gb/messages/email/salesforce/common/contact-bar/Contact-bar-website-icon-50x50.png" width="25" height="25" alt style="-ms-interpolation-mode: bicubic; margin: 0; padding: 0; border: 0 none; line-height: 100%; outline: none; text-decoration: none; display: block; max-width: 25px; height: 25px;"/>
+                                    </span>
+                                </td>
+                                
+                                <td class="contact-bar__link" valign="middle" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: middle;">
+                                    <table role="presentation" dir="ltr" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                        <tr>
+                                            <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: middle;" valign="middle">
+                                                
+    
+    
+    
+    
+    
+    
+
+    <a class="cta-btn-a-tag" target="_blank" rel="noopener noreferrer" href="https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6IjRmZjU3MDVmLWQzYTgtNDIxMy05YTZlLTMyNTFlYThkZmY0OCIsImRla1ZlcnNpb24iOjEsIml2IjoiVEI5SzZ2NDdBOHVUZ1N3anpiU3Brdz09IiwiY2lwaGVyVGV4dCI6IlhoR2hUWFlRZ2NOczVtOWVZR0RLOXVsZm82UHhqeFVyaGFqMWQ4ZlE3NGxuaENQSDBucUg4Q2hHU1NlV3FSTnpORTUwalZTUHg0Tml2L0R4dDcxSWtHUllyWVI4WXFsTUgwcnEvanNEeTVPQkxDUE50S21UIiwiYXV0aFRhZyI6ImcySy84UEczdlVpUVpGaXRoSHhpcVE9PSJ9" aria-label="Visit hsbc.co.uk  Opens in new window" style="color: #333333; text-decoration: none; font-weight: normal; line-height: 1.3; font-size: 16px; font-size: 16px; font-size: 1rem; display: inline-block;">
+        <span class="cta-btn--link__span" style="text-decoration: none; font-size: 16px; font-size: 16px; font-size: 1rem; line-height: 1.5; padding: 0 3px 0 0; font-family: 'Universe Next HSBC', Arial, Helvetica, sans-serif; color: #333333; color: #333333; font-weight: normal;">Visit hsbc.co.uk</span>
+        
+    
+    
+    
+        <span class="cta-btn__chevron">
+            <img src="https://www.hsbc.co.uk/etc.clientlibs/hsbc/vam/clientlibs/clientlib-site/resources/images/rebrandPremier/right-arrow-big.png" width="7" height="auto" alt="" style="-ms-interpolation-mode: bicubic; margin: 0; padding: 0; border: 0 none; height: auto; line-height: 100%; outline: none; text-decoration: none; max-width: 100%;"/>
+        </span>
+    
+
+    </a>
+
+
+                                            </td>
+                                            
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                
+            
+            </tbody>
+        </table>
+    
+    
+
+    </td>
+
+        </tr>
+        </tbody>
+    </table>
+    
+    <table class="spacer-element" role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+        <tr>
+            <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; height: 32px;" height="32" valign="top"></td>
+        </tr>
+    </table>
+
+
+
+                
+                
+
+                
+                    
+                
+            
+        
+    
+
+
+    
+
+
+
+
+</td></tr></table><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"></td></tr></table>
+
+ <table dir="ltr" role="presentation" class="footer" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; z-index: 1; position: relative; max-width: 768px; font-family: 'Universe Next HSBC', Arial, Helvetica, sans-serif; color: #333333;" width="100%">
+        <tbody>
+        
+            
+            <tr>
+                <td class="footer__top footer__row" style="border-collapse: collapse; mso-line-height-rule: exactly; vertical-align: top; padding: 0 45px 16px; background-color: #FFFFFF;" bgcolor="#FFFFFF" valign="top">
+                    
+    <table class="footer__row-wrapper" dir="ltr" role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+        <tbody>
+        <tr>
+            <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">
+                
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="footer__top-description" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; font-size: 16px; font-size: 16px; font-size: 1rem; line-height: 1.2; color: #333333;" valign="top">
+                
+                
+                
+                
+
+                <div align="left">
+                    
+                        <p style="margin: 0;margin-top: 0;margin-bottom: 16px"><strong>Your security is our priority</strong></p>
+<p style="margin-top: 0; margin-bottom: 16px">In our emails, HSBC will never ask you for confidential information or to confirm your security details. Links within our emails will only take you to information pages. Please forward any suspicious emails to&nbsp;<a href="mailto:phishing@hsbc.co.uk" style="color: #333; text-decoration: underline;">phishing@hsbc.co.uk</a><span>.</span><br>
+</p>
+<p style="margin-top: 0; margin-bottom: 16px">For further information visit our&nbsp;<a href="https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6ImI4ZTFiMjAyLTNlZTYtNDE4Yy05NGIzLTM3MzcyMTJmOTFmMiIsImRla1ZlcnNpb24iOjEsIml2IjoiSGcrSXEzVlpoZkZ2czYvRnF5S2hDZz09IiwiY2lwaGVyVGV4dCI6Im5oSGljTysrTGgxRWFNVVJCNW9iNXd5djlxeGF6eWt2a2laSmc0b3RmK01CQTVlZmVHOTJWdnEvbVBDTFdZWHprejFSWVo3TzRXSEVxeXhRWFZLZDMxRlV0WHZBclBJZUQ0aXJkVm1GOFcrenI4V3JJcUVLIiwiYXV0aFRhZyI6IlljU3JMRkJkVXAzZlVWUzFlOENzOGc9PSJ9" style="color: #333; text-decoration: underline;">Security Centre</a>.</p>
+
+                    
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+                </td>
+            </tr>
+        
+        <tr>
+            
+    
+
+    <td class="footer__bottom footer__row footer__bottom--bg-mass" style="border-collapse: collapse; mso-line-height-rule: exactly; vertical-align: top; padding: 0 45px; background-color: #D7D8D6;" bgcolor="#D7D8D6" valign="top">
+        
+    
+
+    <table dir="ltr" role="presentation" class="table-el-wrapper" style="border: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; max-width: 768px; width: 100%; padding: 0; margin: 0; border-spacing: 0;" width="100%">
+        <tbody>
+        <tr>
+            
+
+            <td class="footer__bottom-wrapper" align="left" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; padding-top: 12px; font-size: 14px; font-size: 14px; font-size: 0.875rem;" valign="top">
+                
+    <!--[if (mso)|(IE)]><table dir="ltr" class="ghost-table" role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><tr><td dir="ltr" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top"><![endif]-->
+    <table dir="ltr" class="footer__bottom-links" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+        <tr align="left">
+            <th class="footer__bottom-links-container" style="padding: 20px 20px 0 0; display: inline-block;">
+                
+    <a href="https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6ImYzNDc1MzA1LTQwNjgtNDUxZS1hMDFhLWFhZjc5MDE3Yzg2NCIsImRla1ZlcnNpb24iOjEsIml2IjoiaERFSnBzUERCWVhCdnlYVjRCa1BnZz09IiwiY2lwaGVyVGV4dCI6InVab3JwdjIxc1NIbDk2Y09UZXhudTVrQkFBYjNReWM3TkNHM3IzOTByemE3R3ZQdmk1U2dEbFFRVHZkanBRcXp6UmdRWWtzdUhqcExKWlF6K2o1NkpZNWhUYVp2T1FPRU1RbW13OE1GaGNHL0pkWGdHUStDIiwiYXV0aFRhZyI6Ik9rc2xsRFA2UG5vbGptRk5wbTg1QXc9PSJ9" aria-label="About us About us Opens in new window" style="text-decoration: none; color: #333333;">
+        <span class="footer__bottom-links-text" style="font-weight: 400; text-decoration: underline; color: #333333;">About us</span>
+        
+    </a>
+
+            </th>
+        
+            <th class="footer__bottom-links-container" style="padding: 20px 20px 0 0; display: inline-block;">
+                
+    <a href="https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6IjQwM2MzNGRhLWVhOTYtNGI1My04NTljLTJiMmRlZTk1ZWFlMiIsImRla1ZlcnNpb24iOjEsIml2IjoiSEtpeTNiQ2hLbTkvRXFsb2RDamlJQT09IiwiY2lwaGVyVGV4dCI6IjdueTJXQStkSndtck5vOVNjaTAxZ055cHk2VDMraHdBTFJlWFlQK0pENHhiN0QwMHg5M01rem9xM0ExNXRaREhrazkrU2xHNFcrNWFOTEZJSWpZRFBUaWswcHJ4ZnlZY3FMTGRzS0VxYjM4U3FXaDBLT0lnIiwiYXV0aFRhZyI6IjdsbzBzVWdpTmdNOU9LVFNtdkYvSmc9PSJ9" aria-label="Contact us Contact us Opens in new window" style="text-decoration: none; color: #333333;">
+        <span class="footer__bottom-links-text" style="font-weight: 400; text-decoration: underline; color: #333333;">Contact us</span>
+        
+    </a>
+
+            </th>
+        
+            <th class="footer__bottom-links-container" style="padding: 20px 20px 0 0; display: inline-block;">
+                
+    <a href="https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6ImQwY2Y5YjY0LWY1MjEtNDc0My1iMjIxLTI1MDdkM2YxNTRkYyIsImRla1ZlcnNpb24iOjEsIml2IjoiYlVKeDFrbnM3SFhTU2tOZDN5QlZxZz09IiwiY2lwaGVyVGV4dCI6IlNaOUdqcTZ6akZGRW4wUVF1cWx6eEdNQjFZMWFURG93S3NpK0lIRFZualFSS2ZNVi94Z09mSmJicngwSHFQRjR6YmZ3TXJET0tTdExmZ1VmbjVkVTVuYzNkaHUvNm9CdFFuSFdTZXpzZGRKS1ExM2ZJRldxIiwiYXV0aFRhZyI6IkswdCtCUitmbDFUbWR6ZDJHNy9xZ0E9PSJ9" aria-label="Find a branch Find a branch Opens in new window" style="text-decoration: none; color: #333333;">
+        <span class="footer__bottom-links-text" style="font-weight: 400; text-decoration: underline; color: #333333;">Find a branch</span>
+        
+    </a>
+
+            </th>
+        
+            <th class="footer__bottom-links-container" style="padding: 20px 20px 0 0; display: inline-block;">
+                
+    <a href="https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6IjM5MDViYjUwLWUyY2MtNGE2NS04ZmU5LTYxYTFkOTZlMzhhMSIsImRla1ZlcnNpb24iOjEsIml2IjoiYjJoM1BMRjNYandDQlZFcU05Rk5FUT09IiwiY2lwaGVyVGV4dCI6IktybzFiUW1kT0ZCRXBqQVFyM1l2YU94QXg4eU9zcXRucnNxWHZ0Rlp0UmE0WlVIT2ROVjhKMHhqOU1JZGlnWWZFS1lkNUJnT3oxOUFHMzJNZS91dmZEbERrYjl2UFBKdmFIYzhzWGRlUEFJRlVTb3owVTBSIiwiYXV0aFRhZyI6IlgwQWJmWXg3KzY5OE9VT1J2Mjg4OGc9PSJ9" aria-label="Update contact preferences Update contact preferences Opens in new window" style="text-decoration: none; color: #333333;">
+        <span class="footer__bottom-links-text" style="font-weight: 400; text-decoration: underline; color: #333333;">Update contact preferences</span>
+        
+    </a>
+
+            </th>
+        
+            <th class="footer__bottom-links-container" style="padding: 20px 20px 0 0; display: inline-block;">
+                
+    <a href="https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6IjZiNzI3NDgzLWMxY2ItNDgxNy04M2IyLTg0YTM4NGNlNDZiYiIsImRla1ZlcnNpb24iOjEsIml2IjoiZkM4YjNGWk52K0RrYmF6ZnBCOWtLZz09IiwiY2lwaGVyVGV4dCI6InVBcmR5cFNFM293a1BVTVdCb0Y2WG1UMUVVeHc5UlpGSisyOTU3NmxqZlB5TzBlcGc5NzNET2hXcmxQR3dhaG03UGUvWkVJckRUTkFqSkVMTEZnSm0vUy9sMHlVRHdCOEx4dmNWazIvNE9SdHJOK2tIMlFxIiwiYXV0aFRhZyI6Ik0wQ01rUXNzV0FtYjlMK1hUSlFQQUE9PSJ9" aria-label="Security centre Security centre Opens in new window" style="text-decoration: none; color: #333333;">
+        <span class="footer__bottom-links-text" style="font-weight: 400; text-decoration: underline; color: #333333;">Security centre</span>
+        
+    </a>
+
+            </th>
+        </tr>
+    </table>
+    <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
+
+            </td>
+            
+            
+        </tr>
+
+        <tr>
+            <td class="footer__bottom-description" style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; line-height: 1.2; padding-top: 18px; color: #333333;" valign="top">
+                
+                
+                
+                
+                <div align="left">
+                    
+                        <p style="margin: 0;font-size: 0.875rem;margin-top: 14px;margin-bottom: 0"><strong>HSBC UK Bank plc is registered in England &amp; Wales with number 09928412. Registered office: 1 Centenary Square, Birmingham, B1 1HQ, United Kingdom. Authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority. Financial Services Register number: 765112. © HSBC Group 2026. All Rights Reserved.</strong><br>
+</p>
+<p style="margin-bottom: 0; margin-top: 14px; font-size: 14px; font-size: 14px; font-size: 0.875rem;"><a href="https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6ImMzYzU0ZmZmLTMxODctNDRiZC1hYmVjLThjZjQ3NWUzNjlmOCIsImRla1ZlcnNpb24iOjEsIml2IjoibW9IYUhZK20xV0FzTjdoMk1PNmZwQT09IiwiY2lwaGVyVGV4dCI6Im1wWGh2N0pwNFdkVUdJVXRZZW9HM0VrRTR0ZVlESUJhdFFpUlU3UjhiR1hLM3BNODhqWHZpNXExU0xteENkUXlNSVQ3STUydTdhMXkxbDMvZHRsM0NTMU1oQlRrVXcrYWdkb2RqNmJWWUN3M3VIWXc3cCtrIiwiYXV0aFRhZyI6InJYTFdYZjkyMlhjSkxVeUVGT1JURHc9PSJ9" style="color: #333; text-decoration: underline;">Privacy Notice</a></p>
+<p style="margin-bottom: 0; margin-top: 14px; font-size: 14px; font-size: 14px; font-size: 0.875rem;">We maintain strict security standards and procedures to prevent unauthorised access to information about you. HSBC will never contact you by email or otherwise to ask you to validate personal information such as your user ID, password, or account numbers. If you receive such a request, please call our Online Security Team on 0345 600 2290.</p>
+<p style="margin-bottom: 0; margin-top: 14px; font-size: 14px; font-size: 14px; font-size: 0.875rem;">To make sure we are communicating effectively, we may monitor your interest in our emails. We may be able to tell when you've opened them, and how you've interacted with them. This includes information about how long you spend reading our emails and which links you select. We may also collect technical information about your device and internet connection, and set cookies. We use trusted service providers to help us. For more details, read our 
+<a href="https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6ImI1MTNiZTE3LWI3OWYtNGEyMS1hYTQ2LTA0NTBmZmU4MjRkNCIsImRla1ZlcnNpb24iOjEsIml2IjoibG1YMFp4WjFDNktUdFd2eERJMndXdz09IiwiY2lwaGVyVGV4dCI6InJ0ckRJamZVWWlWdkJTVXRIeGJyTG9XMW5lbWRSdkxucUsrem9GYUNXeVIzM29BZ3YzNm9DQUxwU3Rxa3FhM0JROSs3ZG94TjdCOUJoUEtHajJmMkFmY1FsTGh3NG5LV1pmUm5GblVMb3BPMWEvRU1qYkJiIiwiYXV0aFRhZyI6IkgwR0U4b2FQWi9ZQjl4Q1V1SERpY2c9PSJ9" style="color: #333; text-decoration: underline;">Privacy Notice</a> and our 
+<a href="https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6IjNiNjM2MzZiLTExY2MtNDUwZC1iZDM4LTZjMzhlNjhmYTQyNyIsImRla1ZlcnNpb24iOjEsIml2IjoiZzI4aTZNdys4bkxjbkdoSkZ2NU9ZUT09IiwiY2lwaGVyVGV4dCI6ImtuQ3RsRE1XdnAwTGhMQUhpaVdhUWZLZ00wYnRDdVh5NXRKRUFKYXhvM0k5QXhaRm15ZzNNOXRlT1ZqOS9RNFk5RXlMSiszeXgwTDBEQVVNb1A4V2x2bVpHZFZMNVJpRGJ5TG96RDd5Y3R5Y2FFa1cvazVoIiwiYXV0aFRhZyI6IlF2UU1CUXlnL3hhVytaa1oxVXZsR0E9PSJ9" style="color: #333; text-decoration: underline;">Cookie Notice</a>.<br>
+</p>
+<p style="margin-bottom: 0; margin-top: 14px; font-size: 14px; font-size: 14px; font-size: 0.875rem;">This email is confidential. It may also be legally privileged. If you are not the addressee you may not copy, forward, disclose or use any part of it. If you have received this message in error, please delete it and all copies from your system and notify the sender immediately by return email. Internet communications cannot be guaranteed to be timely, secure, error or virus free. The sender does not accept liability for any errors or omissions. Please do not reply to this email. Should you wish to get in touch, please&nbsp;
+<a href="https://click.mail01.hsbc.co.uk/?qs=eyJkZWtJZCI6IjAzMWU1MDg0LThiODQtNDM1OS05Mzc4LWVhNzAyOTk2ZjBjZiIsImRla1ZlcnNpb24iOjEsIml2IjoiQklCUnpHVjlpSkluQXlrY0JWYkN0QT09IiwiY2lwaGVyVGV4dCI6Im03ZTEzekN5TnY2cnlkNyt0VmluWmFMaHNFUE92YldKazBBMk5zNEFGRGl3TGVlSWJUcHl0VE81QjBidDN5NHdxcy9EM3l0SHlRZDlPelNLVFAzMXZ2ZVlwbmYxdXljRWdGSE1aWDJJa2ljREtSd0ZWc0swIiwiYXV0aFRhZyI6IkIzMDdOSXBNL2ZXKzk1aW1kL1c3Snc9PSJ9" style="color: #333; text-decoration: underline;">Contact us</a>.</p>
+
+                    
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top;" valign="top">
+                
+                
+    <table class="spacer-element" role="presentation" style="border: 0; border-spacing: 0; border-collapse: collapse; margin: 0; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" width="100%">
+        <tr>
+            <td style="border-collapse: collapse; mso-line-height-rule: exactly; padding: 0; vertical-align: top; height: 32px;" height="32" valign="top"></td>
+        </tr>
+    </table>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    </td>
+
+    
+
+    
+
+    
+
+        </tr>
+        </tbody>
+    </table>
+
+    
+
+
+    
+
+
+            
+          </center>
+         </td>
+        </tr>
+       </tbody>
+      </table>
+      <!--[if gte mso 9]>       </td>      </tr>     </tbody>    </table>   <![endif]-->
+ <!-- prevent Gmail on iOS font size manipulation -->
+ <div style="display:none; white-space:nowrap; font:15px courier; line-height:0;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+  
+  <!-- open counter should goes here -->
+  <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><div style="font-size:0; line-height:0;"><img src="https://click.mail01.hsbc.co.uk/open.aspx?FSKIWV24AVPEHAIH6SDVGGBIT4.100216&d=100216&bmt=0" width="1" height="1" alt=""></custom></div>
+<!-- replace below with BU specific return path pixel-->
+<img src="https://pixel.app.returnpath.net/pixel.gif?r=ddc45778db9f13fae5cbbea255b028437ba7fd8a" width="1" height="1"></td></tr></table>
+  
+</body>
+</html>
+
+--DQJ7q7ME7H1Y=_?:--
+
