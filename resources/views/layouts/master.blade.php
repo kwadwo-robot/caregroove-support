@@ -175,6 +175,25 @@
             display: grid !important;
         }
 
+        /* Apply For Job Button */
+        .apply-job-btn {
+            background: linear-gradient(135deg, #0066cc, #2d8659);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .apply-job-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            color: white;
+        }
+
         /* Hero Section */
         .hero {
             background: linear-gradient(135deg, #0066cc 0%, #0052a3 50%, #2d8659 100%);
@@ -960,7 +979,7 @@
                         <a href="tel:07874240205">07874 240205</a>
                     </div>
                     <div class="top-bar-item">
-                        <a href="{{ route('careers') }}" style="background: linear-gradient(135deg, #0066cc, #2d8659); color: white; padding: 8px 20px; border-radius: 20px; text-decoration: none; font-weight: 600; font-size: 0.9rem; display: inline-block; transition: all 0.3s ease;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 5px 15px rgba(0,0,0,0.2)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">Apply For Job</a>
+                        <a href="{{ route('careers') }}" class="apply-job-btn">Apply For Job</a>
                     </div>
                 </div>
             </div>
