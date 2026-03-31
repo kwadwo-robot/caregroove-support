@@ -162,6 +162,15 @@
 
         <!-- Modal Body -->
         <div style="padding: 2rem;">
+            <!-- Success Message (Hidden by default) -->
+            <div id="successMessage" style="display: none; background: linear-gradient(135deg, #28a745, #20c997); border: none; color: white; padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem; text-align: center;">
+                <div style="font-size: 2rem; margin-bottom: 0.5rem;">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h3 style="margin: 0.5rem 0; font-size: 1.3rem; font-weight: 700;">Application Submitted Successfully!</h3>
+                <p style="margin: 0.5rem 0; font-size: 0.95rem;">Thank you for your interest. We will review your application and contact you soon.</p>
+            </div>
+
             <p style="color: #555; margin-bottom: 1.5rem; font-size: 0.95rem;">Position: <strong id="selectedPosition" style="color: #0066cc;"></strong></p>
 
             @if($errors->any())
@@ -180,7 +189,7 @@
                 </div>
             @endif
 
-            <form method="POST" action="{{ route('careers.submit') }}" enctype="multipart/form-data">
+            <form id="applicationForm" method="POST" action="{{ route('careers.submit') }}" enctype="multipart/form-data">
                 @csrf
 
                 <div style="margin-bottom: 1.5rem;">
@@ -264,13 +273,35 @@ function openApplicationModal(position) {
     document.getElementById('selectedPosition').textContent = position;
     document.getElementById('positionInput').value = position;
     document.getElementById('positionDisplay').value = position;
+    document.getElementById('successMessage').style.display = 'none';
+    document.getElementById('applicationForm').style.display = 'block';
     document.body.style.overflow = 'hidden';
 }
 
 function closeApplicationModal() {
     document.getElementById('applicationModal').style.display = 'none';
     document.body.style.overflow = 'auto';
+    document.getElementById('successMessage').style.display = 'none';
+    document.getElementById('applicationForm').style.display = 'block';
 }
+
+function showSuccessMessage() {
+    document.getElementById('applicationForm').style.display = 'none';
+    document.getElementById('successMessage').style.display = 'block';
+    setTimeout(function() {
+        closeApplicationModal();
+    }, 3000);
+}
+
+// Handle form submission
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('applicationForm');
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            showSuccessMessage();
+        });
+    }
+});
 
 // Close modal when clicking outside of it
 window.onclick = function(event) {
