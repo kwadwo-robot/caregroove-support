@@ -155,4 +155,41 @@ class PageController extends Controller
         return view('pages.services.supported-living');
     }
 
+
+    public function submitAppointment(Request $request)
+    {
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email',
+            'phone' => 'required|string|max:20',
+            'date' => 'required|date',
+            'time' => 'required|string',
+            'service' => 'required|string|max:255',
+        ]);
+
+        try {
+            $emailContent = "Appointment Booking Confirmation\n\n";
+            $emailContent .= "Name: " . $validated['name'] . "\n";
+            $emailContent .= "Email: " . $validated['email'] . "\n";
+            $emailContent .= "Phone: " . $validated['phone'] . "\n";
+            $emailContent .= "Preferred Date: " . $validated['date'] . "\n";
+            $emailContent .= "Preferred Time: " . $validated['time'] . "\n";
+            $emailContent .= "Service: " . $validated['service'] . "\n\n";
+            $emailContent .= "We will contact you shortly to confirm this appointment.";
+
+            Mail::raw($emailContent, function($message) use ($validated) {
+                $message->to('info@caregroovesupport.co.uk')
+                    ->subject('New Appointment Booking - ' . $validated['name']);
+            });
+
+            Mail::raw($emailContent, function($message) use ($validated) {
+                $message->to($validated['email'])
+                    ->subject('Appointment Booking Confirmation');
+            });
+
+            return response()->json(['success' => true, 'message' => 'Appointment booked successfully']);
+        } catch (\Exception $e) {
+            return response()->json(['success' => false, 'message' => 'Error booking appointment'], 500);
+        }
     }
+}
