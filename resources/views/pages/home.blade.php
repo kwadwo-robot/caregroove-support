@@ -291,7 +291,7 @@
 <style>
 .appointment-modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000; align-items: center; justify-content: center; }
 .appointment-modal.active { display: flex; }
-.appointment-modal-content { background: white; border-radius: 12px; padding: 2.5rem; max-width: 500px; width: 90%; box-shadow: 0 10px 40px rgba(0,0,0,0.2); position: relative; }
+.appointment-modal-content { background: white; border-radius: 12px; padding: 2.5rem; max-width: 500px; width: 90%; max-height: 90vh; overflow-y: auto; box-shadow: 0 10px 40px rgba(0,0,0,0.2); position: relative; }
 .appointment-modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; }
 .appointment-modal-header h2 { margin: 0; color: #0066cc; font-size: 1.8rem; font-weight: 700; }
 .appointment-modal-close { background: none; border: none; font-size: 1.8rem; color: #999; cursor: pointer; }
