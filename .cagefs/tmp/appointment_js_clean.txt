@@ -1,0 +1,54 @@
+function openAppointmentModal() {
+    document.getElementById('appointmentModal').classList.add('active');
+    document.getElementById('appointmentForm').style.display = 'block';
+    document.getElementById('appointmentSuccessMessage').classList.remove('active');
+}
+
+function closeAppointmentModal() {
+    document.getElementById('appointmentModal').classList.remove('active');
+    document.getElementById('appointmentForm').reset();
+    document.getElementById('appointmentForm').style.display = 'block';
+    document.getElementById('appointmentSuccessMessage').classList.remove('active');
+}
+
+document.getElementById('appointmentForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const formData = new FormData(this);
+    const data = {
+        name: formData.get('name'),
+        email: formData.get('email'),
+        phone: formData.get('phone'),
+        date: formData.get('date'),
+        time: formData.get('time'),
+        service: formData.get('service')
+    };
+    
+    fetch('{{ route("submit-appointment") }}', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+        },
+        body: JSON.stringify(data)
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            document.getElementById('appointmentForm').style.display = 'none';
+            document.getElementById('appointmentSuccessMessage').classList.add('active');
+            setTimeout(() => {
+                closeAppointmentModal();
+            }, 3000);
+        }
+    })
+    .catch(error => console.error('Error:', error));
+});
+
+// Close modal when clicking outside
+document.getElementById('appointmentModal').addEventListener('click', function(e) {
+    if (e.target === this) {
+        closeAppointmentModal();
+    }
+});
+</script>

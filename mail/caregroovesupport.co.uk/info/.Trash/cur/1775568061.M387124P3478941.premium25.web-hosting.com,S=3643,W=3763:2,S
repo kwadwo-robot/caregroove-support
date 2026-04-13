@@ -1,0 +1,120 @@
+Return-Path: <info@caregroovesupport.co.uk>
+Delivered-To: info@caregroovesupport.co.uk
+Received: from premium25.web-hosting.com
+	by premium25.web-hosting.com with LMTP
+	id 8DJtFb0E1WmdFTUArvfGlQ
+	(envelope-from <info@caregroovesupport.co.uk>)
+	for <info@caregroovesupport.co.uk>; Tue, 07 Apr 2026 09:21:01 -0400
+Return-path: <info@caregroovesupport.co.uk>
+Envelope-to: info@caregroovesupport.co.uk
+Delivery-date: Tue, 07 Apr 2026 09:21:01 -0400
+Received: from carebbux (helo=[127.0.0.1])
+	by premium25.web-hosting.com with local-smtp (Exim 4.99.1)
+	(envelope-from <info@caregroovesupport.co.uk>)
+	id 1wA6MX-0000000EeRb-0N7l
+	for info@caregroovesupport.co.uk;
+	Tue, 07 Apr 2026 09:21:01 -0400
+From: CareGroove Support Ltd <info@caregroovesupport.co.uk>
+To: info@caregroovesupport.co.uk
+Subject: New Contact Form Submission from Demi Brooks
+Message-ID: <d768a2c2bb42b1330d9262380f434e6a@caregroovesupport.co.uk>
+MIME-Version: 1.0
+Date: Tue, 07 Apr 2026 13:21:01 +0000
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Sender:  <carebbux@premium25.web-hosting.com>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=3D"UTF-8">
+    <sty=
+le>
+        body { font-family: 'Outfit', Arial, sans-serif; color: #333;=
+ line-height: 1.6; }
+        .container { max-width: 600px; margin: 0 aut=
+o; padding: 20px; }
+        .header { background: linear-gradient(135deg,=
+ #0066cc 0%, #2d8659 100%); color: white; padding: 20px; border-radius: 8px=
+ 8px 0 0; }
+        .content { background: #f9f9f9; padding: 20px; border=
+-radius: 0 0 8px 8px; }
+        .field { margin-bottom: 15px; }
+       =
+ .label { font-weight: 600; color: #0066cc; }
+        .value { color: #55=
+5; margin-top: 5px; }
+        .footer { text-align: center; margin-top: 2=
+0px; color: #999; font-size: 12px; }
+    </style>
+</head>
+<body>
+  =
+  <div class=3D"container">
+                    <div class=3D"header">
+=
+                <h2 style=3D"margin: 0;">New Contact Form Submission</h2>=
+
+            </div>
+            <div class=3D"content">
+             =
+   <p>A new contact form submission has been received:</p>
+              =
+ =20
+                <div class=3D"field">
+                    <div class=
+=3D"label">Name:</div>
+                    <div class=3D"value">Demi Broo=
+ks</div>
+                </div>
+                <div class=3D"field">=
+
+                    <div class=3D"label">Email:</div>
+                =
+    <div class=3D"value"><a href=3D"mailto:demibrooks.dev@gmail.com">demibr=
+ooks.dev@gmail.com</a></div>
+                </div>
+                <di=
+v class=3D"field">
+                    <div class=3D"label">Phone:</div>=
+
+                    <div class=3D"value"><a href=3D"tel:1201201200">1201=
+201200</a></div>
+                </div>
+                <div class=3D"f=
+ield">
+                    <div class=3D"label">Subject:</div>
+        =
+            <div class=3D"value">Re: caregroovesupport.co.uk - google organ=
+ic search results</div>
+                </div>
+                <div cla=
+ss=3D"field">
+                    <div class=3D"label">Message:</div>
+ =
+                   <div class=3D"value">Hello caregroovesupport.co.uk,
+
+Would you like to generate more leads and boost your website traffic effect=
+ively?
+
+Mind if interested to hear more about it?
+
+Well wishes,
+Demi Brooks| Digital Marketing Manager
+
+
+Note: - If you=E2=80=99re not Interested in our Services, send us  &quot;No=
+&quot;</div>
+                </div>
+            </div>
+       =20
+   =
+     <div class=3D"footer">
+            <p>&copy; 2026 CareGroove Support=
+ Ltd. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</=
+html>
+

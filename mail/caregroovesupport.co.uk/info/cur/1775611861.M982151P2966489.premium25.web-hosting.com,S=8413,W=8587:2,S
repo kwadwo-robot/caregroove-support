@@ -1,0 +1,174 @@
+Return-Path: <annorjennifer0@gmail.com>
+Delivered-To: info@caregroovesupport.co.uk
+Received: from premium25.web-hosting.com
+	by premium25.web-hosting.com with LMTP
+	id YJNoOtWv1WnZQy0ArvfGlQ
+	(envelope-from <annorjennifer0@gmail.com>)
+	for <info@caregroovesupport.co.uk>; Tue, 07 Apr 2026 21:31:01 -0400
+Return-path: <annorjennifer0@gmail.com>
+Envelope-to: info@caregroovesupport.co.uk
+Delivery-date: Tue, 07 Apr 2026 21:31:01 -0400
+Received: from asp-relay-shared.jellyfish.systems ([198.54.122.200]:32485)
+	by premium25.web-hosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.1)
+	(envelope-from <annorjennifer0@gmail.com>)
+	id 1wAHkz-0000000Ccif-2RR8
+	for info@caregroovesupport.co.uk;
+	Tue, 07 Apr 2026 21:31:01 -0400
+Authentication-Results: asp-relay-shared.jellyfish.systems;
+	dkim=pass header.d=gmail.com header.s=20251104 header.b=o48TAwPU;
+	dmarc=pass (policy=none) header.from=gmail.com;
+	arc=pass ("google.com:s=arc-20240605:i=1");
+	spf=pass (asp-relay-shared.jellyfish.systems: domain of annorjennifer0@gmail.com designates 209.85.219.43 as permitted sender) smtp.mailfrom=annorjennifer0@gmail.com
+Received: from mail-qv1-f43.google.com (mail-qv1-f43.google.com [209.85.219.43])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by asp-relay-shared.jellyfish.systems (Postfix) with ESMTPS id 4fr59x20JjzC0rN
+	for <info@caregroovesupport.co.uk>; Wed, 08 Apr 2026 01:31:01 +0000 (UTC)
+Received: by mail-qv1-f43.google.com with SMTP id 6a1803df08f44-8a154cc6a48so72005666d6.0
+        for <info@caregroovesupport.co.uk>; Tue, 07 Apr 2026 18:31:01 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1775611860; cv=none;
+        d=google.com; s=arc-20240605;
+        b=Er0MTar+roK+HVkoZZmVJoSedS5vmwsMRrdtFBbrfEfXhHQECChGxpeFaAypsjoUdp
+         An1/tT8MU654xGzzV16RD1vw5lVdf1sgazpnXTu6IHdaGp1rJxJXPzVGFJwOD70H5AXK
+         3Zqiugan9Y8r6PbsjQ/jJ44PjCTW4PqXvRkop7KGqrVgo8C4e/X86I5snI41upDt15mf
+         dvfxf9s0ClrOyuQwZ+CS4D03XY9nJEeQPd5qVtm0zPsoF4yCkx+NWfemgS0TwZxlhLap
+         TR4qu4E44HnM1832HhoCumBJKxh3U6veHUdr0koOFF1NJvySEgfwb3O76CS5T58S+nj/
+         pGVA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :dkim-signature;
+        bh=CWc5uWxWOJEppq0FcYfB1TAd7s6kpNJzb8qQeuuYEjM=;
+        fh=IK4IRtiFmxBVjlkQbTY6XCZUhGKVRS1u35RRkRxA+18=;
+        b=BWi9oCsY87rstCJKjqt8Hn787FLcheKRaQS5SziCBcNTALMyQRQBi5HCaBX8pbVgIO
+         NdqugVD7xhBhbH2nsN2q6DAK5XUYNXIrTt4ckOpZFQp1+zclj151cnyh2bFbEIwPmJn5
+         LUvJTIprG+eTWhcfPDoT9VY9DofEb4QvL8SBA1TRgXAM9nCF2q9PC6LYy4yu9DjJ9T2L
+         gM2EcbEfSrSKs/j1UB6aHDiZ2YcZSiyAmn+/L+XycQwZdoaanAabaXPMWhN30UEyyFxN
+         fcwItsCX36bi0UVONoHp2SSwOPyJB/UHOevu7OHhvAzfwX2tU+0eM/q5F8AfsAuzEMwZ
+         W9Bg==;
+        darn=caregroovesupport.co.uk
+ARC-Authentication-Results: i=1; mx.google.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20251104; t=1775611860; x=1776216660; darn=caregroovesupport.co.uk;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=CWc5uWxWOJEppq0FcYfB1TAd7s6kpNJzb8qQeuuYEjM=;
+        b=o48TAwPUoZfWMNj3Oy5Qq4tVubnxB6NrkhpTKaQFdu8X9jJqEilAQ5wUUadxWS9dc8
+         m1zBkGmxGRQFta+BzbI6a4+jY9QANQcR/3Q23YcL/KPXEw0TaPmWxcBMPEmcPhiuVf1B
+         25yI6JUKo6Nou141jg2V9eLVZy3WkvkwzDYQ4YTm6dKobcmxqj39XFxgOUZmn2IFPkDa
+         EMM26/cTkd0i6lZBJQ8S+QWxrqWKYoF68qXiChUVOaNf9zKJwcsyfsSCeUp3GxKGTPT1
+         mMkAL/S3G1ZY2YAG5fLsYEP/PLWbirdjfHtDvfvXZ1dPQHMUFd6bDpDC9vnIGiB2YgVo
+         qj6g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20251104; t=1775611860; x=1776216660;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-gg:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=CWc5uWxWOJEppq0FcYfB1TAd7s6kpNJzb8qQeuuYEjM=;
+        b=IhTtVlJLA9z2tkQPeUCwztlBkq8yIp+muuheePEZRSavLc2cr1TBMhn0mu54Pbdbwg
+         /WoCaPTqqZq/7QDtQ5zKvlnLOGrLNoK/SGda9Hy0F3YPC/XxBilM+pV5wR/GzdggOfal
+         YmnnVkdLZRVNM/Uw9EB+JL3s1aKfcp/J904CTXPuwSm14H7lhMXXSATIeCb72tEqrXyN
+         pyFRhTseyxNujRGnr1qvij7Q+TyC05Gmg5ELqX0/TP+cFjwQOFD5CfpcVHkmUbO+fQg9
+         Ds71ijoL7V/SxoyePpvPvRrFVYI6tBqbAY4XHBY15cX9Uldg0LqRTKPWEnOFK0HnqKzC
+         pqOg==
+X-Gm-Message-State: AOJu0Yxk2KKy4GTpncjeP890OGL+99nUSeK2ZmaxKcaS4s6YmVqHNFw6
+	XwRqyfB6zxYNSx2M18DN8xidTUlaYQJHPQF3QVCOc4mGA9S3DpJszbBdPp7vB9GcwtO6hq9LCXT
+	O1L71VzOy3hYedP+ins7SdIpjzyvRFMKEqPvV
+X-Gm-Gg: AeBDieutpaayjAxqzFckHWKH6d1hQBoPIV//9RdqFyZI4tKgH710dtbZrZYI1DGJvd+
+	erHtIGS0T0WbviqWuJ1vg5F1JH9y5QMSkeC4D90JrAn6xUbO24YeyEBp/P95Pr2wz5OgIz+3IeO
+	RTdzLkKamXT8IFWfIsJfY8PhbsETWhNE46BcwHO5rE0y1avvv6oOO1q4AKgqCjZbk/x3oAL5Abz
+	qEUhQS8KN/PnYfY/5yEw2ywDcaFMfc6/05Ls4zs5gWqJVwlAZf7RnBZJQuzP9yspoPQfkRAb6ze
+	2JgJuvbuLPGMj2wStqUT3Xb3Xp0fDMufP0TvXVbaZmn3ONCI1/9J
+X-Received: by 2002:ad4:5ba9:0:b0:8a1:3aa8:9141 with SMTP id
+ 6a1803df08f44-8a7041fd300mr323883346d6.28.1775611860376; Tue, 07 Apr 2026
+ 18:31:00 -0700 (PDT)
+MIME-Version: 1.0
+References: <B66AE5DA-13EB-4309-A970-F9B6746C1CC6@gmail.com> <a6725be1-e49b-4cd2-973c-afb175ced172@Spark>
+In-Reply-To: <a6725be1-e49b-4cd2-973c-afb175ced172@Spark>
+From: Jennypher Gennypher <annorjennifer0@gmail.com>
+Date: Wed, 8 Apr 2026 02:30:49 +0100
+X-Gm-Features: AQROBzDlq5OwSZ0T2nANJswSS_Dg6_f_IoLtaFhWagJIKOJZHPk50pqamezrpI4
+Message-ID: <CAP3kKozsXbOajnR7PGs15Rob-=mzV_twSEbyuZ_nL7XsMY2eNQ@mail.gmail.com>
+Subject: Re: My cv as carer
+To: info@caregroovesupport.co.uk
+Content-Type: multipart/alternative; boundary="000000000000326035064ee8daba"
+
+--000000000000326035064ee8daba
+Content-Type: text/plain; charset="UTF-8"
+
+Thank you, looking forward to it.
+
+On Wed, 8 Apr 2026 at 02:09, <info@caregroovesupport.co.uk> wrote:
+
+> Dear Jennypher,
+>
+> Thank you for your application for the position of Care Worker / Support
+> Worker with CareGroove Support Ltd.
+>
+> We appreciate the time and effort you have taken to apply and your
+> interest in joining our team.
+>
+> Your application is currently under review, and we will be in touch with
+> you as soon as possible regarding the outcome.
+>
+> Thank you once again for considering a career with CareGroove Support Ltd.
+>
+> Kind regards,
+> CareGroove Support Ltd Recruitment Team
+>
+> Sent with Spark <https://sparkmailapp.com/source?from=signature>
+> On Mar 31, 2026, 15:41 +0100, Jennypher Annor <annorjennifer0@gmail.com>,
+> wrote:
+>
+>
+> Sent from my iPhone
+>
+>
+
+--000000000000326035064ee8daba
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div>Thank you, looking forward to it.</div><div><br><div class=3D"gmail_qu=
+ote gmail_quote_container"><div dir=3D"ltr" class=3D"gmail_attr">On Wed, 8 =
+Apr 2026 at 02:09, &lt;<a href=3D"mailto:info@caregroovesupport.co.uk">info=
+@caregroovesupport.co.uk</a>&gt; wrote:<br></div><blockquote class=3D"gmail=
+_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left-width:1px;border-left=
+-style:solid;padding-left:1ex;border-left-color:rgb(204,204,204)">
+
+
+
+<div>
+<div name=3D"messageBodySection">
+<div>Dear Jennypher,</div>
+<div>=C2=A0</div>
+<div>Thank you for your application for the position of Care Worker / Suppo=
+rt Worker with CareGroove Support Ltd.</div>
+<div>=C2=A0</div>
+<div>We appreciate the time and effort you have taken to apply and your int=
+erest in joining our team.</div>
+<div>=C2=A0</div>
+<div>Your application is currently under review, and we will be in touch wi=
+th you as soon as possible regarding the outcome.</div>
+<div>=C2=A0</div>
+<div>Thank you once again for considering a career with CareGroove Support =
+Ltd.</div>
+<div>=C2=A0</div>
+<div>Kind regards,<br>
+CareGroove Support Ltd Recruitment Team</div>
+</div>
+<div name=3D"messageSentWithSparkSection"><br>
+Sent with <a href=3D"https://sparkmailapp.com/source?from=3Dsignature" targ=
+et=3D"_blank">Spark</a></div>
+<div name=3D"messageReplySection">On Mar 31, 2026, 15:41 +0100, Jennypher A=
+nnor &lt;<a href=3D"mailto:annorjennifer0@gmail.com" target=3D"_blank">anno=
+rjennifer0@gmail.com</a>&gt;, wrote:<br>
+<blockquote type=3D"cite"><br>
+Sent from my iPhone</blockquote>
+</div>
+</div>
+
+</blockquote></div></div>
+
+--000000000000326035064ee8daba--

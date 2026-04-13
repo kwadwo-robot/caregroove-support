@@ -1,0 +1,121 @@
+Return-Path: <info@caregroovesupport.co.uk>
+Delivered-To: info@caregroovesupport.co.uk
+Received: from premium25.web-hosting.com
+	by premium25.web-hosting.com with LMTP
+	id oAxcEHOIzWnjEy4ArvfGlQ
+	(envelope-from <info@caregroovesupport.co.uk>)
+	for <info@caregroovesupport.co.uk>; Wed, 01 Apr 2026 17:04:51 -0400
+Return-path: <info@caregroovesupport.co.uk>
+Envelope-to: info@caregroovesupport.co.uk
+Delivery-date: Wed, 01 Apr 2026 17:04:51 -0400
+Received: from carebbux (helo=[127.0.0.1])
+	by premium25.web-hosting.com with local-smtp (Exim 4.99.1)
+	(envelope-from <info@caregroovesupport.co.uk>)
+	id 1w82k7-0000000Cq6Q-03Vf
+	for info@caregroovesupport.co.uk;
+	Wed, 01 Apr 2026 17:04:51 -0400
+From: CareGroove Support Ltd <info@caregroovesupport.co.uk>
+To: info@caregroovesupport.co.uk
+Subject: New Contact Form Submission from Daviddoubs
+Message-ID: <02a291a7fbc2f8deb1c1b36680481136@caregroovesupport.co.uk>
+MIME-Version: 1.0
+Date: Wed, 01 Apr 2026 21:04:51 +0000
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Sender:  <carebbux@premium25.web-hosting.com>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=3D"UTF-8">
+    <sty=
+le>
+        body { font-family: 'Outfit', Arial, sans-serif; color: #333;=
+ line-height: 1.6; }
+        .container { max-width: 600px; margin: 0 aut=
+o; padding: 20px; }
+        .header { background: linear-gradient(135deg,=
+ #0066cc 0%, #2d8659 100%); color: white; padding: 20px; border-radius: 8px=
+ 8px 0 0; }
+        .content { background: #f9f9f9; padding: 20px; border=
+-radius: 0 0 8px 8px; }
+        .field { margin-bottom: 15px; }
+       =
+ .label { font-weight: 600; color: #0066cc; }
+        .value { color: #55=
+5; margin-top: 5px; }
+        .footer { text-align: center; margin-top: 2=
+0px; color: #999; font-size: 12px; }
+    </style>
+</head>
+<body>
+  =
+  <div class=3D"container">
+                    <div class=3D"header">
+=
+                <h2 style=3D"margin: 0;">New Contact Form Submission</h2>=
+
+            </div>
+            <div class=3D"content">
+             =
+   <p>A new contact form submission has been received:</p>
+              =
+ =20
+                <div class=3D"field">
+                    <div class=
+=3D"label">Name:</div>
+                    <div class=3D"value">Daviddoub=
+s</div>
+                </div>
+                <div class=3D"field">
+=
+                    <div class=3D"label">Email:</div>
+                   =
+ <div class=3D"value"><a href=3D"mailto:no.reply.ArthurPeeters@gmail.com">n=
+o.reply.ArthurPeeters@gmail.com</a></div>
+                </div>
+      =
+          <div class=3D"field">
+                    <div class=3D"label">=
+Phone:</div>
+                    <div class=3D"value"><a href=3D"tel:8726=
+9662271">87269662271</a></div>
+                </div>
+                <=
+div class=3D"field">
+                    <div class=3D"label">Subject:</d=
+iv>
+                    <div class=3D"value">A sophisticated approach to =
+email circulation.</div>
+                </div>
+                <div cl=
+ass=3D"field">
+                    <div class=3D"label">Message:</div>
+=
+                    <div class=3D"value">Good morning! caregroovesupport.co=
+.uk,=20
+Your website appeared while I was exploring online.=20
+We provide a tool for contacting website owners.=20
+The platform enables efficient communication with websites.=20
+ =20
+ =20
+Feel free to contact us if you are curious.=20
+=20
+Have a wonderful day.=20
+Contact us.=20
+Telegram - https://t.me/FeedbackFormEU=20
+WhatsApp - +375259112693=20
+WhatsApp  https://wa.me/+375259112693</div>
+                </div>
+    =
+        </div>
+       =20
+        <div class=3D"footer">
+            <p=
+>&copy; 2026 CareGroove Support Ltd. All rights reserved.</p>
+        </d=
+iv>
+    </div>
+</body>
+</html>
+

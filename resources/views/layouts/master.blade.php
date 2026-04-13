@@ -1046,6 +1046,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('contact') }}"><i class="fas fa-envelope"></i> Contact</a>
+                    <li class="nav-item">
+                        <button onclick="openAppointmentModal()" class="nav-link" style="background: none; border: none; cursor: pointer; padding: 0.5rem 1rem; color: white; font-weight: 600; border-radius: 4px; transition: all 0.3s; margin-left: 0.5rem;"><i class="fas fa-calendar-check"></i> Book Now</button>
+                    </li>
                     </li>
                 </ul>
             </div>

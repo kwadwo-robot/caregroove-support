@@ -1,0 +1,550 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202604 will be lost/reset.
+# Last config file used to build this data file was /home/carebbux/tmp/awstats/ssl/awstats.caregroovesupport.co.uk.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2095                
+POS_TIME 2773                
+POS_VISITOR 10665               
+POS_DAY 14909               
+POS_DOMAIN 3541                
+POS_LOGIN 4010                
+POS_ROBOT 4165                
+POS_WORMS 4811                
+POS_EMAILSENDER 4942                
+POS_EMAILRECEIVER 5085                
+POS_SESSION 15286               
+POS_FILESIZE 16294               
+POS_REQUESTTIME 16425               
+POS_SIDER 15482               
+POS_FILETYPES 5220                
+POS_DOWNLOADS 5403                
+POS_OS 5451                
+POS_BROWSER 5719                
+POS_SCREENSIZE 6654                
+POS_UNKNOWNREFERER 6728                
+POS_UNKNOWNREFERERBROWSER 7416                
+POS_ORIGIN 8065                
+POS_SEREFERRALS 8204                
+POS_PAGEREFS 8369                
+POS_SEARCHWORDS 8587                
+POS_KEYWORDS 8780                
+POS_MISC 2437                
+POS_ERRORS 8882                
+POS_CLUSTER 3866                
+POS_SIDER_404 9030                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20260413072650 38 7773 12459812103946
+FirstTime 20260401013610
+LastTime 20260413043032
+LastUpdate 20260413093343 38 0 38 0 0
+TotalVisits 109                 
+TotalUnique 105                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 105                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 9 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 6 10 57855
+1 2 12 1415069 9 13 89431
+2 4 6 234296 4 9 14974
+3 4 16 1619109 22 31 339323
+4 13 66 7374192 7 19 222278
+5 6 26 2065940 23 26 148080
+6 7 39 4340136 7 9 75619
+7 2 2 26352 3 9 108334
+8 12 13 227894 6 21 1419673
+9 8 18 1593537 7 20 1183718
+10 10 23 1883103 3 7 134227
+11 6 15 1352313 10 14 162390
+12 4 14 1445911 11 14 221043
+13 7 8 323341 31 40 344753
+14 9 9 248234 24 25 265191
+15 20 58 5493601 11 38 269729
+16 6 41 2767941 14 40 196470
+17 3 3 162687 18 23 561472
+18 1 1 14574 9 20 907220
+19 19 39 1154986 5 14 512308
+20 7 7 33623 16 19 87890
+21 2 12 1416757 11 22 61846
+22 6 35 4212700 12 19 212520
+23 2 3 117148 2 5 4056
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 17
+us 59 89 4553153
+gb 31 121 10498262
+se 19 20 300504
+ao 15 113 10996057
+ca 9 11 686267
+ua 7 7 371944
+in 5 14 1356297
+ch 4 41 5161193
+br 2 2 23535
+ro 2 12 1413961
+ph 1 1 14574
+bg 1 1 14574
+pl 1 1 0
+bd 1 11 1402183
+ru 1 10 1314183
+no 1 1 14574
+ie 1 11 1402183
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+bot[\s_+:,\.\;\/\\-] 106 2090307 20260413072650 72
+GPTBot/ 27 337142 20260411034224 0
+Googlebot/ 22 106314 20260412093401 13
+facebookexternalhit/ 19 2481411 20260407090434 0
+Velen 19 193280 20260410143909 0
+robot 18 432 20260412050327 18
+unknown 6 144 20260410221518 6
+no_user_agent 4 137510 20260411232958 2
+curl 3 43722 20260407171949 0
+Applebot/ 2 13665 20260409033420 1
+survey 2 137658 20260410102444 0
+crawl 1 14576 20260412034053 0
+Googlebot\-Image/ 1 88000 20260412194627 0
+spider 1 14574 20260405160059 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+html 100 1976091 0 0
+jpeg 28 2112000 0 0
+xml 5 4475 0 0
+Unknown 55 669142 0 0
+png 61 7575326 0 0
+webp 217 27186410 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+android10 26 4
+android 4 4
+win10 95 46
+android12 5 5
+macosx 1 1
+win7 1 1
+macosx9 1 1
+win8.1 1 1
+os/2 2 0
+macosx11 1 1
+linux 34 15
+ios_iphone 104 18
+macosx15 120 33
+Unknown 29 25
+androidmarshmallow 42 5
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 46
+chrome117.0.5938.132 10 1
+safari26.3.1 29 8
+chrome139.0.0.0 1 1
+safari17.3.1 4 4
+chrome105.0.0.0 2 1
+firefox142.0 10 5
+chrome120.0.0.0 2 2
+safari18.5 11 1
+chrome134.0.0.0 2 2
+firefox149.0 11 1
+firefox115 1 1
+chrome145.0.0.0 1 1
+chrome144.0.0.0 12 2
+chrome137.0.0.0 5 5
+Unknown 22 19
+safari17.1.2 4 4
+chrome132.0.0.0 3 3
+chrome146.0.0.0 73 22
+chrome129.0.0.0 4 4
+chrome78.0.3904.108 2 2
+chrome130.0.0.0 69 6
+firefox120.0 1 1
+chrome138.0.0.0 1 1
+chrome115.0.0.0 5 5
+chrome140.0.0.0 4 4
+chrome114.0.0.0 3 3
+chrome146.0.7680.177 4 4
+chrome142.0.0.0 8 4
+netscape5.0 1 1
+chrome136.0.0.0 4 4
+chrome58.0.3029.110 5 5
+chrome106.0.0.0 1 1
+firefox123 4 4
+chrome44.0.2403.157 1 1
+safari26.3 33 3
+chrome143.0.7499.110 2 2
+safari 41 4
+chrome138.0.7204.23 11 1
+firefox47.0 1 1
+chrome141.0.0.0 2 2
+safari26.0 1 1
+mozilla 9 6
+safari26.2 1 1
+safari15.6.8 10 1
+chrome88.0.4240.193 2 2
+firefox148.0 33 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+OutlookMobileCloudService-Autodetect/1.0.0 20260407200116
+req/v3_(https://github.com/imroc/req) 20260406190918
+axios/1.13.5 20260410113042
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20260409084436
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20260411105713
+python-requests/2.32.4 20260409094748
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko;_compatible;_GoogleOther)_Chrome/146.0.7680.177_Safari/537.36 20260412092214
+okhttp/5.3.0 20260405152939
+GoogleOther 20260407085607
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 9
+okhttp/5.3.0 20260405152939
+Microsoft_Office/16.0_(Windows_NT_10.0;_Microsoft_Outlook_16.0.14334;_Pro) 20260407201241
+GoogleOther 20260407085607
+python-requests/2.32.4 20260409094748
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20260411105713
+axios/1.13.5 20260410113042
+req/v3_(https://github.com/imroc/req) 20260406190918
+OutlookMobileCloudService-Autodetect/1.0.0 20260407200116
+com.apple.WebKit.Networking/21623.2.7.11.7_Network/5569.81.5_macOS/26.3.1 20260401042338
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 100 144
+From1 0 0
+From2 22 22
+From3 1 2
+From4 37 298
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 22 22
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+https://www.facebook.com 1 1
+https://mail.caregroovesupport.co.uk 0 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+co 16
+https+//caregroovesupport.co.uk/ 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 3
+co 16
+https 1
+//caregroovesupport.co.uk/ 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 2 2484
+405 22 707858
+206 2 22465
+404 197 638011
+302 3 748
+301 1 795
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 44
+//2020/wp-includes/wlwmanifest.xml 1 -
+//test/wp-includes/wlwmanifest.xml 2 -
+/bot-connect.js 4 -
+//news/wp-includes/wlwmanifest.xml 2 -
+/static/style/sys_files/index.js 4 -
+/.well-known/security.txt 1 -
+/admin 11 -
+//2019/wp-includes/wlwmanifest.xml 2 -
+//wp1/wp-includes/wlwmanifest.xml 2 -
+//wordpress/wp-includes/wlwmanifest.xml 2 -
+/assets/js/qr_modal.js 3 -
+/css/support_parent.css 3 -
+/wp-login.php 7 -
+//2018/wp-includes/wlwmanifest.xml 1 -
+//wp2/wp-includes/wlwmanifest.xml 2 -
+/assets/js/auth.js 4 -
+/ads.txt 1 -
+//media/wp-includes/wlwmanifest.xml 1 -
+//shop/wp-includes/wlwmanifest.xml 2 -
+/static/style/protect/index.js 4 -
+/apple-touch-icon-precomposed.png 1 -
+//cms/wp-includes/wlwmanifest.xml 2 -
+/shell.php 3 -
+//site/wp-includes/wlwmanifest.xml 2 -
+/.well-known/traffic-advice 1 -
+//blog/wp-includes/wlwmanifest.xml 2 -
+/js/lkk_ch.js 4 -
+//website/wp-includes/wlwmanifest.xml 2 -
+/wp-admin 1 -
+/Microsoft-Server-ActiveSync 2 -
+/.well-known/autoconfig/mail/config-v1.1.xml 2 -
+//web/wp-includes/wlwmanifest.xml 2 -
+/webshell 3 -
+//wp/wp-includes/wlwmanifest.xml 2 -
+/js/twint_ch.js 3 -
+/images/vector-supported-living.png 1 -
+/sitemap.xml 76 -
+/webshell.php 4 -
+/shell 3 -
+//sito/wp-includes/wlwmanifest.xml 2 -
+//wp-includes/wlwmanifest.xml 2 -
+/api 11 -
+/apple-touch-icon.png 3 -
+/assets/js/message.js 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 105
+92.22.233.53 19 39 1117801 20260407201241
+154.161.109.155 7 35 1025327 20260403061543
+154.161.127.249 5 47 5940181 20260401042914
+95.216.69.175 4 4 209257 20260410140822
+178.22.106.230 4 41 5161193 20260406163456
+37.19.223.110 3 3 162687 20260401170451
+106.219.164.150 3 3 27540 20260407092102
+178.17.254.38 3 15 1655029 20260402102308
+54.234.10.77 3 3 11778 20260410113042
+192.36.109.115 2 2 18411 20260410083224
+37.120.205.21 2 12 1413961 20260408033604
+167.94.146.50 2 3 117152 20260401123215
+93.158.90.67 2 2 23784 20260401105218
+52.54.164.12 2 13 1504757 20260405153021
+52.125.141.24 2 2 734 20260407200116
+66.249.65.195 2 2 23556 20260412092214
+34.21.86.67 2 2 137462 20260412055444
+189.41.40.139 2 2 23535 20260401042630
+66.132.195.90 2 3 117152 20260409084436
+178.104.6.148 2 2 14574 20260409132833
+167.94.146.55 2 3 117148 20260408103642
+170.64.210.5 2 2 137462 20260409133634
+205.169.39.6 1 10 1314183 20260406150536
+146.190.148.106 1 1 7371 20260402150422
+209.38.155.211 1 1 11778 20260402110345
+192.36.109.98 1 1 9223 20260410083226
+167.99.15.219 1 2 102574 20260412031135
+95.181.237.52 1 10 1314183 20260406220412
+137.184.120.55 1 1 7336 20260402144119
+142.93.207.118 1 2 102574 20260402042027
+198.235.24.240 1 1 68731 20260411105713
+94.11.186.182 1 10 1314183 20260410120032
+137.184.227.215 1 1 7411 20260402151532
+198.235.24.44 1 1 68731 20260407094229
+198.235.24.152 1 1 68731 20260411062054
+2.122.167.79 1 11 1400495 20260401013610
+82.132.186.164 1 11 1402183 20260402222716
+104.168.28.15 1 1 14574 20260404193942
+192.36.109.75 1 1 9210 20260410083225
+64.226.110.159 1 2 102574 20260406042646
+180.149.1.43 1 11 1402183 20260410063058
+192.36.109.116 1 1 9210 20260403085022
+64.23.146.71 1 1 10846 20260402152531
+205.169.39.25 1 1 14574 20260409214953
+132.145.203.19 1 1 14574 20260404202205
+129.212.200.6 1 1 14574 20260401081132
+146.247.229.2 1 1 14574 20260410221520
+154.161.114.37 1 11 1402183 20260402222731
+168.144.77.242 1 2 102576 20260411054102
+66.249.74.130 1 1 11778 20260407085607
+143.198.145.73 1 1 7384 20260402153409
+66.249.74.129 1 1 11778 20260410190702
+64.23.237.39 1 1 8212 20260402151510
+80.4.204.173 1 11 1065307 20260409050907
+5.133.192.200 1 1 9223 20260411154804
+154.161.252.173 1 10 1314183 20260408064416
+4.43.184.113 1 1 14574 20260407021921
+154.161.235.62 1 10 1314183 20260404110811
+93.158.90.70 1 1 9223 20260401105219
+185.12.248.5 1 1 14574 20260411154801
+198.235.24.45 1 1 68731 20260409133200
+137.184.178.51 1 1 8995 20260402143316
+137.184.34.111 1 1 7414 20260402145714
+198.235.24.57 1 1 68731 20260401225423
+206.189.245.72 1 1 14574 20260405054924
+35.89.247.227 1 1 14574 20260405110526
+92.40.189.216 1 1 0 20260409132623
+205.210.31.248 1 1 68731 20260407091531
+138.197.126.110 1 2 102574 20260404025321
+146.190.43.201 1 2 102574 20260408034835
+209.38.171.212 1 1 14574 20260406190918
+192.36.109.123 1 1 14574 20260403085020
+193.186.4.106 1 1 0 20260411043003
+94.247.172.129 1 1 14576 20260409125428
+54.161.86.215 1 1 10090 20260401041653
+45.148.10.245 1 1 14574 20260408183339
+66.249.74.128 1 1 10846 20260402222055
+23.27.145.1 1 1 14574 20260402070813
+143.244.146.93 1 2 102574 20260402133048
+91.134.35.95 1 1 14574 20260404234920
+209.38.135.252 1 1 7414 20260402143159
+209.38.147.55 1 1 11778 20260402070422
+103.196.9.189 1 10 1314183 20260410062527
+192.36.109.96 1 1 9188 20260403085022
+24.144.91.233 1 1 7849 20260402150722
+24.199.108.120 1 1 7829 20260402152049
+192.36.109.99 1 1 14574 20260410083223
+54.215.102.38 1 1 14574 20260403204134
+205.210.31.158 1 1 68731 20260411044942
+209.38.139.185 1 1 7818 20260402143424
+164.92.89.189 1 1 7436 20260402151437
+159.65.52.21 1 2 102574 20260410022346
+209.38.75.236 1 1 10288 20260402150415
+31.13.115.10 1 11 1402183 20260407090351
+188.28.191.109 1 11 1402183 20260407213511
+185.13.98.57 1 1 9210 20260411154804
+185.12.150.110 1 1 9188 20260411154803
+93.158.90.71 1 1 9188 20260401105217
+103.253.244.63 1 1 14574 20260409094748
+54.193.73.209 1 1 14574 20260411014252
+143.198.153.77 1 1 11778 20260402150501
+86.19.139.241 1 10 1126507 20260413043032
+137.184.113.26 1 2 102582 20260408064841
+192.36.109.102 1 1 14574 20260404024055
+5.133.192.105 1 2 102574 20260403231245
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 13
+20260401 20 73 7779640 11
+20260402 30 80 4979932 25
+20260403 9 22 1043638 7
+20260404 6 16 1475053 6
+20260405 4 15 1533905 3
+20260406 15 84 8826157 6
+20260407 23 50 3194805 9
+20260408 9 31 3076800 7
+20260409 12 23 1446950 9
+20260410 17 46 4422705 12
+20260411 10 11 365538 10
+20260412 4 5 251814 3
+20260413 1 10 1126507 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 2
+2mn-5mn 2
+0s-30s 99
+5mn-15mn 3
+30s-2mn 2
+15mn-30mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 19
+/ 100 1976091 81 73
+/contact 10 273793 1 5
+/services/homecare/hospital-discharge 6 51582 4 5
+/services/homecare/palliative-care 6 51720 5 5
+/careers 6 61739 1 2
+/autodiscover/autodiscover.xml 5 4475 1 2
+/services/supported-living 5 54230 2 2
+/services/specialist/multiple-sclerosis 4 36752 4 4
+/services/homecare/overnight-care 2 14872 1 1
+/services/specialist/mental-health 2 14822 1 1
+/services/homecare/live-in 2 14828 1 1
+/services/homecare/personal-care 2 15658 1 1
+/services/specialist/dementia 2 14768 1 1
+/services/homecare/visiting-care 2 16424 1 2
+/about 2 17990 2 1
+/services/homecare/respite-care 1 7818 1 1
+/services/specialist/gastrostomy 1 7386 0 1
+/services/specialist/epilepsy 1 7424 0 0
+/services/specialist/tracheostomy 1 7336 1 1
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 6
+0-44 155
+5K+ 619
+1K-2K 89
+2K-5K 64
+500-1K 1
+100-500 5
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

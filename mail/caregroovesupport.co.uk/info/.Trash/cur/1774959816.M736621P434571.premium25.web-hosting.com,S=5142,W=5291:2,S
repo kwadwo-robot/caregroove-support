@@ -1,0 +1,149 @@
+Return-Path: <>
+Delivered-To: info@caregroovesupport.co.uk
+Received: from premium25.web-hosting.com
+	by premium25.web-hosting.com with LMTP
+	id 6PWgK8i8y2mLoQYArvfGlQ
+	(envelope-from <>)
+	for <info@caregroovesupport.co.uk>; Tue, 31 Mar 2026 08:23:36 -0400
+Return-path: <>
+Envelope-to: info@caregroovesupport.co.uk
+Delivery-date: Tue, 31 Mar 2026 08:23:36 -0400
+Received: from mailnull by premium25.web-hosting.com with local (Exim 4.99.1)
+	id 1w7Y88-00000001wz9-256J
+	for info@caregroovesupport.co.uk;
+	Tue, 31 Mar 2026 08:23:36 -0400
+X-Failed-Recipients: testmail@gmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@premium25.web-hosting.com>
+To: info@caregroovesupport.co.uk
+References: <459cdb6c7ad45c228069fa34803ca2fd@caregroovesupport.co.uk>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1774959816-eximdsn-879762745
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1w7Y88-00000001wz9-256J@premium25.web-hosting.com>
+Date: Tue, 31 Mar 2026 08:23:36 -0400
+
+--1774959816-eximdsn-879762745
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  testmail@gmail.com
+    host gmail-smtp-in.l.google.com [142.250.113.26]
+    SMTP error from remote mail server after RCPT TO:<testmail@gmail.com>:
+    552-5.2.2 The recipient's inbox is out of storage space and inactive. Please
+    552-5.2.2 direct the recipient to
+    552 5.2.2  https://support.google.com/mail/?p=OverQuotaPerm 586e51a60fabf-41d04d34260si8704258fac.203 - gsmtp
+
+--1774959816-eximdsn-879762745
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; premium25.web-hosting.com
+
+Action: failed
+Final-Recipient: rfc822;testmail@gmail.com
+Status: 5.0.0
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 552-5.2.2 The recipient's inbox is out of storage space and inactive. Please
+ 552-5.2.2 direct the recipient to
+ 552 5.2.2  https://support.google.com/mail/?p=OverQuotaPerm 586e51a60fabf-41d04d34260si8704258fac.203 - gsmtp
+
+--1774959816-eximdsn-879762745
+Content-type: message/rfc822
+
+Return-path: <info@caregroovesupport.co.uk>
+Received: from carebbux (helo=[127.0.0.1])
+	by premium25.web-hosting.com with local-smtp (Exim 4.99.1)
+	(envelope-from <info@caregroovesupport.co.uk>)
+	id 1w7Y87-00000001wxM-0isg
+	for testmail@gmail.com;
+	Tue, 31 Mar 2026 08:23:35 -0400
+From: CareGroove Support Ltd <info@caregroovesupport.co.uk>
+To: testmail@gmail.com
+Subject: We Received Your Message - CareGroove Support Ltd
+Message-ID: <459cdb6c7ad45c228069fa34803ca2fd@caregroovesupport.co.uk>
+MIME-Version: 1.0
+Date: Tue, 31 Mar 2026 12:23:35 +0000
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=3D"UTF-8">
+    <sty=
+le>
+        body { font-family: 'Outfit', Arial, sans-serif; color: #333;=
+ line-height: 1.6; }
+        .container { max-width: 600px; margin: 0 aut=
+o; padding: 20px; }
+        .header { background: linear-gradient(135deg,=
+ #0066cc 0%, #2d8659 100%); color: white; padding: 20px; border-radius: 8px=
+ 8px 0 0; }
+        .content { background: #f9f9f9; padding: 20px; border=
+-radius: 0 0 8px 8px; }
+        .field { margin-bottom: 15px; }
+       =
+ .label { font-weight: 600; color: #0066cc; }
+        .value { color: #55=
+5; margin-top: 5px; }
+        .footer { text-align: center; margin-top: 2=
+0px; color: #999; font-size: 12px; }
+    </style>
+</head>
+<body>
+  =
+  <div class=3D"container">
+                    <div class=3D"header">
+=
+                <h2 style=3D"margin: 0;">Thank You for Contacting Us</h2>=
+
+            </div>
+            <div class=3D"content">
+             =
+   <p>Dear Test,</p>
+                <p>Thank you for reaching out to Car=
+eGroove Support Ltd. We have received your message and appreciate you takin=
+g the time to contact us.</p>
+                <p>We will review your inqu=
+iry and get back to you as soon as possible, typically within 24 hours duri=
+ng business hours.</p>
+               =20
+                <h3 style=3D"co=
+lor: #0066cc; margin-top: 30px;">Your Message Details:</h3>
+             =
+   <div class=3D"field">
+                    <div class=3D"label">Subject=
+:</div>
+                    <div class=3D"value">TEST</div>
+           =
+     </div>
+                <div class=3D"field">
+                    <=
+div class=3D"label">Message:</div>
+                    <div class=3D"valu=
+e">Hello this is a test mail for delivery purpose</div>
+                <=
+/div>
+
+                <p style=3D"margin-top: 30px;">If you have any u=
+rgent matters, please feel free to call us at <strong>07874240205</strong>.=
+</p>
+                <p>Best regards,<br><strong>CareGroove Support Ltd T=
+eam</strong></p>
+            </div>
+       =20
+        <div class=3D"fo=
+oter">
+            <p>&copy; 2026 CareGroove Support Ltd. All rights rese=
+rved.</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+--1774959816-eximdsn-879762745--

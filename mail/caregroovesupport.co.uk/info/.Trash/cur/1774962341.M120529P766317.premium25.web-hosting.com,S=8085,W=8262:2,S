@@ -1,0 +1,177 @@
+Return-Path: <info@caregroovesupport.co.uk>
+Delivered-To: info@caregroovesupport.co.uk
+Received: from premium25.web-hosting.com
+	by premium25.web-hosting.com with LMTP
+	id SM0sBKXGy2ltsQsArvfGlQ
+	(envelope-from <info@caregroovesupport.co.uk>)
+	for <info@caregroovesupport.co.uk>; Tue, 31 Mar 2026 09:05:41 -0400
+Return-path: <info@caregroovesupport.co.uk>
+Envelope-to: info@caregroovesupport.co.uk
+Delivery-date: Tue, 31 Mar 2026 09:05:41 -0400
+Received: from carebbux (helo=[127.0.0.1])
+	by premium25.web-hosting.com with local-smtp (Exim 4.99.1)
+	(envelope-from <info@caregroovesupport.co.uk>)
+	id 1w7Ymq-00000003TdA-3E8i
+	for info@caregroovesupport.co.uk;
+	Tue, 31 Mar 2026 09:05:40 -0400
+From: CareGroove Support Ltd <info@caregroovesupport.co.uk>
+To: info@caregroovesupport.co.uk
+Subject: New Job Application for Care Coordinators - Test Postion
+Message-ID: <69ad8b7044289d2fa11067e1e3bd897a@caregroovesupport.co.uk>
+MIME-Version: 1.0
+Date: Tue, 31 Mar 2026 13:05:40 +0000
+Content-Type: multipart/mixed; boundary=x4-v9Kmn
+Sender:  <carebbux@premium25.web-hosting.com>
+
+--x4-v9Kmn
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=3D"UTF-8">
+    <sty=
+le>
+        body { font-family: 'Outfit', Arial, sans-serif; color: #333;=
+ line-height: 1.6; }
+        .container { max-width: 600px; margin: 0 aut=
+o; padding: 20px; }
+        .header { background: linear-gradient(135deg,=
+ #0066cc 0%, #2d8659 100%); color: white; padding: 20px; border-radius: 8px=
+ 8px 0 0; }
+        .content { background: #f9f9f9; padding: 20px; border=
+-radius: 0 0 8px 8px; }
+        .field { margin-bottom: 15px; }
+       =
+ .label { font-weight: 600; color: #0066cc; }
+        .value { color: #55=
+5; margin-top: 5px; }
+        .footer { text-align: center; margin-top: 2=
+0px; color: #999; font-size: 12px; }
+    </style>
+</head>
+<body>
+  =
+  <div class=3D"container">
+                    <div class=3D"header">
+=
+                <h2 style=3D"margin: 0;">New Job Application Received</h2>=
+
+            </div>
+            <div class=3D"content">
+             =
+   <p>A new job application has been submitted:</p>
+               =20
+  =
+              <div class=3D"field">
+                    <div class=3D"lab=
+el">Position:</div>
+                    <div class=3D"value">Care Coordin=
+ators</div>
+                </div>
+                <div class=3D"field"=
+>
+                    <div class=3D"label">Name:</div>
+                =
+    <div class=3D"value">Test Postion</div>
+                </div>
+    =
+            <div class=3D"field">
+                    <div class=3D"label=
+">Email:</div>
+                    <div class=3D"value"><a href=3D"mailto=
+:shadrackadupoku@gmail.com">shadrackadupoku@gmail.com</a></div>
+         =
+       </div>
+                <div class=3D"field">
+                   =
+ <div class=3D"label">Phone:</div>
+                    <div class=3D"valu=
+e"><a href=3D"tel:889900077888">889900077888</a></div>
+                </=
+div>
+                <div class=3D"field">
+                    <div cla=
+ss=3D"label">Experience:</div>
+                    <div class=3D"value">1=
+0 years experience on the job</div>
+                </div>
+            =
+</div>
+       =20
+        <div class=3D"footer">
+            <p>&copy; =
+2026 CareGroove Support Ltd. All rights reserved.</p>
+        </div>
+  =
+  </div>
+</body>
+</html>
+
+--x4-v9Kmn
+Content-Type: application/pdf; name="cv-Test Postion.pdf"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; name="cv-Test Postion.pdf";
+ filename="cv-Test Postion.pdf"
+
+JVBERi0xLjcKMSAwIG9iago8PCAvVHlwZSAvQ2F0YWxvZwovT3V0bGluZXMgMiAwIFIKL1BhZ2Vz
+IDMgMCBSID4+CmVuZG9iagoyIDAgb2JqCjw8IC9UeXBlIC9PdXRsaW5lcyAvQ291bnQgMCA+Pgpl
+bmRvYmoKMyAwIG9iago8PCAvVHlwZSAvUGFnZXMKL0tpZHMgWzYgMCBSCl0KL0NvdW50IDEKL1Jl
+c291cmNlcyA8PAovUHJvY1NldCA0IDAgUgovRm9udCA8PCAKL0YxIDggMCBSCi9GMiA5IDAgUgo+
+PgovRXh0R1N0YXRlIDw8IAovR1MxIDEwIDAgUgovR1MyIDExIDAgUgo+Pgo+PgovTWVkaWFCb3gg
+WzAuMDAwIDAuMDAwIDU5NS4yODAgODQxLjg5MF0KID4+CmVuZG9iago0IDAgb2JqClsvUERGIC9U
+ZXh0IF0KZW5kb2JqCjUgMCBvYmoKPDwKL1Byb2R1Y2VyICj+/wBkAG8AbQBwAGQAZgAgADMALgAx
+AC4ANQAgACsAIABDAFAARABGKQovQ3JlYXRpb25EYXRlIChEOjIwMjYwMzA3MTUzNTExKzAwJzAw
+JykKL01vZERhdGUgKEQ6MjAyNjAzMDcxNTM1MTErMDAnMDAnKQovVGl0bGUgKP7/AEYAdQBuAGQA
+IABMAG8AYQBkAHMAIABSAGUAcABvAHIAdCkKPj4KZW5kb2JqCjYgMCBvYmoKPDwgL1R5cGUgL1Bh
+Z2UKL01lZGlhQm94IFswLjAwMCAwLjAwMCA1OTUuMjgwIDg0MS44OTBdCi9QYXJlbnQgMyAwIFIK
+L0NvbnRlbnRzIDcgMCBSCj4+CmVuZG9iago3IDAgb2JqCjw8IC9GaWx0ZXIgL0ZsYXRlRGVjb2Rl
+Ci9MZW5ndGggMTg1MSA+PgpzdHJlYW0KeJylWMluG0cQvfMr+pgA8bj3xTfZkowYtuSQdILA8IGR
+qAURRYWiEfhL8gH50byqXmbExRQQwBj5Fbura3ldVTOjv0Y2dVJ5EazuvAtiIZpAseBOOOs77e1O
+id6S2C5JkjQ1VfCbuB/JTkYvZOdNwlMnKcZvR7rTTvwtpHgnPgvxBf+57K0yXYgaVvUHZMmdmIx+
+Gb18O1Hi+pH+avq7rX91PXo9bcYEB6EW00vx8lQLFTsppldCfP7h9Ov9pXi/nF0+ivH8Ybla//hF
+TN+JkylUWinF8PlUpYudcS6rVCI1jeer69n97eNsfbu8F/+I+a/Lrxc385U4XS4vxeTrAx0iPt7N
+1lfL1aKd1udDq5KPKvHRdl4qeD6UaBnZFGcBTReVI6iMYmiNFBe0nJaRQFr+3WgNiOT5QNCGDI20
+ebnXBgLVJavp9ygTQ5escIixDgw1dl+MINDQ6qPEckW/25ShN55gCIahcZGWKxirWCCjFIDGwZWA
+UwxDGMLQK03LdSfpdAgMnQ4jERWC5BJg0JKhdGwMXOT9kVkHaL1kGJB3wEimEkT8sBwBNPl3ogwg
+e04QkXYuh7lAWi6ZhFWCVJDIs0VljyX/hioVsvD0TNVFPTAKl0il2NsM7PwTpyBJbFfxGndAB9UH
+BdixhhY1SJK2fVhxC7VOfdSBnQzDtEAS4iBvFs6bQVqBtTPDvENiyYpKDGCOROEN4ci0q8QiSXKx
+MY/utGTqZWISVjYNmMu3XvtG7VoFKvOHuKao1Aldi9VApDk1VSlha007lnDUsSghw4JGoJUR1XDC
+LqnmGuGEoGTX6LigbWdUDh8Fh7D3toWPcEqq7KAAB+2wI4iaAMJe65YiwknKkiJKYtCwN2QaUJIJ
+Wx0bDQh76wsNNFvhu8hWZCIFHUokMtUI6xK+TEaSGJfpTGQlbL1rdCaMtYXOpIskXhHhZYlE4L/1
+zlSMHa5UuNBniO9dv4VvZdOYb+3gyHyrm035zjeTc00Y+JRrRnM6V5QWk1xxBkHLFalFNderFvRc
+zwZZyfWupS1Xw5bVXC37tJdqWnlRam2lTanFPa9Kra7EK5W88rJU+p64pRNUZrdekom/0VpaJvpy
+Vpo0XXg8UZzwxEp0vNpyylKbEF3cGZtr1GourtCOd7b32qPNZo9HZKPJsYmWejxJgtEsCYZD700O
+jgfvAZ3JoXOoBZwpaz0LLJVeVfIM+iCjgDo4hsqlvFylrE5ShQNUIcdaceeRNoc2xJLYFLLAw1OC
+yuVMKO5rsVQEE1JeHmUpGVRUwBOXoZLcNYPMJSZ5nZd770vquGv6kkmfWeZZGe6nMXm5Y9qBy5F/
+dy4v15ZJ5ziSyHNyZTnTikpxXl4SH0HaAfTEMoxST0Q0dRRBP3S0NVnkOF+9xDomu+PBgcgsq1UE
+la9OcOu3zKXiE9f2IKvPBHF7SojKHONi/t370hxCjShBXX2miJNAOY54LOokdY6cL2o9McSSXuVY
+EHIIKdvcmmSsbCBoQxlbiC3czCz/TlwiqLWqXCMoU6pFpPTCwFwjphKMFKjMZIKYZ/NyYjoJCtPp
+HnBn1UzNaLIyS8RHLvqBd/d06hEVopcCeVEqy8AbO12m0+n59Oi9OP10djwR78+Pjk+OBwPv7hm6
+qPQpItmpzdBITtH5r/lJSuyWA1Wa7eqfWZWCJxIjg08O1NB1eFa6Tc/i4PytiHTUJb7v4nR8dDY5
+ejP9+fxsctDFqnO/j+qgb0bS+0z6X74Z6VDu3X7fxicfz8dTcXw0PTnoVFW23ylMGR9mK6Gl9gNt
+CW0MT8+tABweNAFNmqyIeH/CYQaO2tIDcDCuC4ZKsBkeYRjNRjifKwUGEindtkMbnuw4Wxlq364d
+Tr0Ld+Q5hysapWjrvtOPPpx/OpseOD8hgzG08xPd/PC881NCBQv7zx+fnJ6MT87eHAiB5sJqmwke
+zcTYZ5mgE2oIbbXImdXbJmwUgeEWBD75tL3l9e/fN9dYmhFiM5fCINXzQmYwAwbauy9kZ+fTk+GF
+jsx9auR5fMHggeK557OCxygY0JUXomdVllCf23ezK4cVNSKz/ca/6xr12xy898Fub1PulbFtw6ZB
+MLERb2jingJWmS6p+MQatv6w7Rq9qX4hepodjkmj9r6gTMenLygi0sjwYhiWunNvXKQ0bf2mSQvR
+k6s3ckjaYQCGWiffHtfz/nvLppr+Q9OG4kbIfY6+nt3/KS7nD8vH27W4Wi0X4my5Wt/MFg/r5b34
+uLpdzFbfhgGoGvcGYHJxs1zebX8ach7vPbhi7VOd85EF/We4XZKwJfEYtHz/qa4X5LeAsO/6kC6F
+oXDxRLsqY+Kur3J7WnhAAUuxvDLKGoHQGtP05vZR4N/sXiyvrm4vbmd3KBv85ex6fj9fzdbzS/HH
+N7G+mR/4wNYNSoVnM/pnqZAGk6GEc/Q+kMy2MW/bicjn4K6L2VrQHXavVJsO/gP5zHCPCmVuZHN0
+cmVhbQplbmRvYmoKOCAwIG9iago8PCAvVHlwZSAvRm9udAovU3VidHlwZSAvVHlwZTEKL05hbWUg
+L0YxCi9CYXNlRm9udCAvSGVsdmV0aWNhCi9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nCj4+CmVu
+ZG9iago5IDAgb2JqCjw8IC9UeXBlIC9Gb250Ci9TdWJ0eXBlIC9UeXBlMQovTmFtZSAvRjIKL0Jh
+c2VGb250IC9IZWx2ZXRpY2EtQm9sZAovRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZwo+PgplbmRv
+YmoKMTAgMCBvYmoKPDwgL1R5cGUgL0V4dEdTdGF0ZQovQk0gL05vcm1hbAovQ0EgMQo+PgplbmRv
+YmoKMTEgMCBvYmoKPDwgL1R5cGUgL0V4dEdTdGF0ZQovQk0gL05vcm1hbAovY2EgMQo+PgplbmRv
+YmoKeHJlZgowIDEyCjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDAwOSAwMDAwMCBuIAowMDAw
+MDAwMDc0IDAwMDAwIG4gCjAwMDAwMDAxMjAgMDAwMDAgbiAKMDAwMDAwMDMyNiAwMDAwMCBuIAow
+MDAwMDAwMzU1IDAwMDAwIG4gCjAwMDAwMDA1NTAgMDAwMDAgbiAKMDAwMDAwMDY1MyAwMDAwMCBu
+IAowMDAwMDAyNTc3IDAwMDAwIG4gCjAwMDAwMDI2ODQgMDAwMDAgbiAKMDAwMDAwMjc5NiAwMDAw
+MCBuIAowMDAwMDAyODUzIDAwMDAwIG4gCnRyYWlsZXIKPDwKL1NpemUgMTIKL1Jvb3QgMSAwIFIK
+L0luZm8gNSAwIFIKL0lEWzxiYTg1OWNiZDVmODM3M2Y1ODU1YTU4YmU2ZmEzYmM3NT48YmE4NTlj
+YmQ1ZjgzNzNmNTg1NWE1OGJlNmZhM2JjNzU+XQo+PgpzdGFydHhyZWYKMjkxMAolJUVPRgo=
+--x4-v9Kmn--
+

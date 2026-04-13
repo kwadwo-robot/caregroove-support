@@ -1,0 +1,71 @@
+Return-Path: <noreply@support.whatsapp.com>
+Delivered-To: info@caregroovesupport.co.uk
+Received: from premium25.web-hosting.com
+	by premium25.web-hosting.com with LMTP
+	id MKPaC3z+1GkmzDIArvfGlQ
+	(envelope-from <noreply@support.whatsapp.com>)
+	for <info@caregroovesupport.co.uk>; Tue, 07 Apr 2026 08:54:20 -0400
+Return-path: <noreply@support.whatsapp.com>
+Envelope-to: info@caregroovesupport.co.uk
+Delivery-date: Tue, 07 Apr 2026 08:54:20 -0400
+Received: from asp-relay-shared.jellyfish.systems ([198.54.122.200]:42816)
+	by premium25.web-hosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.1)
+	(envelope-from <noreply@support.whatsapp.com>)
+	id 1wA5wi-0000000E95g-2PX9
+	for info@caregroovesupport.co.uk;
+	Tue, 07 Apr 2026 08:54:19 -0400
+Authentication-Results: asp-relay-shared.jellyfish.systems;
+	dkim=pass header.d=support.whatsapp.com header.s=s2048-2018-q2 header.b=GnyZY3wo;
+	dmarc=pass (policy=reject) header.from=support.whatsapp.com;
+	spf=pass (asp-relay-shared.jellyfish.systems: domain of noreply@support.whatsapp.com designates 69.171.232.142 as permitted sender) smtp.mailfrom=noreply@support.whatsapp.com
+Received: from 69-171-232-142.mail-mail.facebook.com (69-171-232-142.mail-mail.facebook.com [69.171.232.142])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by asp-relay-shared.jellyfish.systems (Postfix) with ESMTPS id 4fqmNk3HMtzC29p
+	for <info@caregroovesupport.co.uk>; Tue, 07 Apr 2026 12:54:14 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=support.whatsapp.com;
+	s=s2048-2018-q2; t=1775566454;
+	bh=jF/nPqV2QA4P7Jgz/E9b93CSXcZLbqeOcYMoltjabhg=;
+	h=From:To:Subject:Mime-Version:Content-Type:Date;
+	b=GnyZY3woevQLl30WzfmPOYf5j/jhkDSYwchvDiQqMNpcVLmyY9IUn78uOFJeMCbMf
+	 cO3j8MH3SE6WWCtJB1+g3I2uhtcESuPswEujpKcfTH2oz5N6vCuUUfqjx4uvVKMnxz
+	 WGbed7ZwlYRpzSfVCHjl0LDRrfRfZrAsIi9avzkyeHzTOjYasgYK+aJduh/x4KTqBQ
+	 xItYUtEiIRDYyaky0l6J4pAt1mBg1pNNoG5VI6CoFHYaQetScEf0BebYJBWxOlUZCo
+	 Ivopas1s/N28Bw5RC5MuvRAbmUrp3rdp6vKdvtj2jQdMe+8QHgoKz57Nq36ikCZQfy
+	 mLp8yxRCrFxBA==
+From: "WhatsApp Business" <noreply@support.whatsapp.com>
+To: info@caregroovesupport.co.uk
+Subject: WhatsApp Verification Code: 776-119
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary="Next_Part(1523bceb0860908cf081240014bed7e5)"
+Content-Transfer-Encoding: 7bit
+Date: Tue, 07 Apr 2026 05:54:14 -0700
+Message-ID: <31790334-1e1a-4093-b121-fcfa63888701@support.whatsapp.com>
+X-Jellyfish-No-Auto-Response: 1
+
+--Next_Part(1523bceb0860908cf081240014bed7e5)
+Content-Type: text/plain; charset="utf-8"; format="flowed"
+Content-Transfer-Encoding: quoted-printable
+
+We received a request to add info@caregroovesupport.co.uk to your WhatsApp account. To verify your email:
+
+Open WhatsApp on your phone
+
+Go to Settings > Account > Email address
+
+Enter this code:
+
+776-119
+
+Don't share this code or email with anyone. If you didn't request verification, you can safely ignore this.
+
+--Next_Part(1523bceb0860908cf081240014bed7e5)
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>We received a request to add info@caregroovesupport.co.uk to your WhatsApp account. To verify your email:<br><br>Open WhatsApp on your phone<br>Go to Settings > Account > Email address<br>Enter this code:<br><br>776-119<br><br>Don't share this code or email with anyone. If you didn't request verification, you can safely ignore this.</html>
+--Next_Part(1523bceb0860908cf081240014bed7e5)--
+.
+

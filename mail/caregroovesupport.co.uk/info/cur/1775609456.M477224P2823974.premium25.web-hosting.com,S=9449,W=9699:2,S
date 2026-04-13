@@ -1,0 +1,250 @@
+Return-Path: <pm_bounces@postmark-retpath.readdle.com>
+Delivered-To: info@caregroovesupport.co.uk
+Received: from premium25.web-hosting.com
+	by premium25.web-hosting.com with LMTP
+	id n9FbG3Cm1WkmFysArvfGlQ
+	(envelope-from <pm_bounces@postmark-retpath.readdle.com>)
+	for <info@caregroovesupport.co.uk>; Tue, 07 Apr 2026 20:50:56 -0400
+Return-path: <pm_bounces@postmark-retpath.readdle.com>
+Envelope-to: info@caregroovesupport.co.uk
+Delivery-date: Tue, 07 Apr 2026 20:50:56 -0400
+Received: from asp-relay-shared.jellyfish.systems ([198.54.122.200]:33256)
+	by premium25.web-hosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.1)
+	(envelope-from <pm_bounces@postmark-retpath.readdle.com>)
+	id 1wAH8B-0000000Bqdh-3z0Z
+	for info@caregroovesupport.co.uk;
+	Tue, 07 Apr 2026 20:50:56 -0400
+Authentication-Results: asp-relay-shared.jellyfish.systems;
+	dkim=pass header.d=pm.mtasv.net header.s=pm20250806 header.b=gYQhDury;
+	dkim=pass header.d=readdle.com header.s=20170201131539pm header.b="D/elksIA";
+	dmarc=pass (policy=reject) header.from=readdle.com;
+	spf=pass (asp-relay-shared.jellyfish.systems: domain of pm_bounces@postmark-retpath.readdle.com designates 104.245.209.215 as permitted sender) smtp.mailfrom=pm_bounces@postmark-retpath.readdle.com
+Received: from mta215a-ord.mtasv.net (mta215a-ord.mtasv.net [104.245.209.215])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by asp-relay-shared.jellyfish.systems (Postfix) with ESMTPS id 4fr4HZ24bXzBrSN
+	for <info@caregroovesupport.co.uk>; Wed, 08 Apr 2026 00:50:50 +0000 (UTC)
+X-KumoRef: eyJfQF8iOiJcXF8vIiwicmVjaXBpZW50IjoiaW5mb0BjYXJlZ3Jvb3Zlc3VwcG9ydC5jby51ayJ9
+DKIM-Signature: v=1; a=rsa-sha256; d=pm.mtasv.net; s=pm20250806; c=relaxed/relaxed;
+	bh=tChfkhY2PQQPSJV5M9VabMchB2XtNSgqB9KrzAiLBVI=;
+	h=from:to:subject:date:mime-version:content-type:sender:cc:date:message-id;
+	t=1775609449; x=1776214249;
+	b=gYQhDuryTlhYnjIsquO2So/3VNRoUC9pr+aL8rgzVJ8sZA2SH8ZkEp6VVg2karwxIcpFHsAUc
+	FqPsXg2R/JR1EVF24q3HiCNsa+V8BprnOgck2U1/mbcJVZySlslQEpYA17uGeb8aNyRfa6BWx9E
+	sBHzz3DfTSz/ZuMa+COXfQ8YTNRg+S+vGuD78Ce46m6nAyjF7Wo9u4DbhdXprr+CvPsGIXMHJ9J
+	VvFOVXNXOu9jPvvTijUGBaJ5k29iWH40J7QqSM45fh4tOMsrfsXwOyy+0uU8cdQAHjxPKxyXEgL
+	ZAthtTyvqh8HDOnbhNO2tlnSC69PUXc51t2Awj14WyXQ==;
+CFBL-Address: fbl-report@acems1.com; report=arf
+X-Mailer: ActiveCampaign Mailer
+Received: from ip-172-26-31-18.us-east-2.compute.internal (172.26.31.18)
+  by production-pmta-useast2.internal.postmarkapp.com (KumoMTA 10.97.241.223) 
+  with ESMTP id fca4231332e411f1ba9102d56d663375 for <info@caregroovesupport.co.uk>;
+  Wed, 8 Apr 2026 00:50:49 +0000
+DKIM-Signature: v=1; a=rsa-sha256; d=readdle.com; s=20170201131539pm;
+	c=relaxed/relaxed; i=spark@readdle.com; t=1775609449; x=1775782249;
+	h=date:date:from:from:message-id:reply-to:sender:subject:subject:to:to:cc:
+	feedback-id:mime-version:content-type:content-transfer-encoding;
+	bh=tChfkhY2PQQPSJV5M9VabMchB2XtNSgqB9KrzAiLBVI=;
+	b=D/elksIAIAFmxY+LcLFIZlqzWU++zkd/AVoZkXeiDRUY2jD5DnFGVk8UetI/efdXcXD1YwKBVb9
+	BJV6QpKVTIz/sq6xLhEEkKVvCiVAPIcsLyzrachQh5EthWaIwkaUDldN6HktAErYt8UuNQLPhXhaI
+	1+q0tNiNzP9NJKwHs+g=
+From: Spark <spark@readdle.com>
+Date: Wed, 08 Apr 2026 00:50:49 +0000
+Subject: New email account login in Spark
+Message-Id: <699538a2-fba0-4553-84a8-f32852ff1da4@mtasv.net>
+To: info@caregroovesupport.co.uk
+Auto-Submitted: auto-generated
+Feedback-ID: s2706952-_:s2706952:a133135:postmark
+X-Complaints-To: abuse@postmarkapp.com
+X-Job: 133135_2706952
+X-PM-Message-Id: 699538a2-fba0-4553-84a8-f32852ff1da4
+X-PM-RCPT: |bTB8MTMzMTM1fDI3MDY5NTJ8aW5mb0BjYXJlZ3Jvb3Zlc3VwcG9ydC5jby51aw==|
+X-PM-Message-Options: v1;1.yBfrJiCsQSdUJrb4FHU1ew.n48NuKX7Sqf_U21qFp-Ts9Yg-0b5V31hq5oGFrm8tv5E6cE-ng8WbTd6qqDKwPJGrmIXJCJ2GCsIQ5LfSAKwNb7EKx4WW0ScHhgvuipFSDZ0p2NDu4WMnpGFljj5ZcR3e21UQV7H7Kmt-hlVLzMfoEh_7zCeSiNJ8SEv9eLjrD_wskBvaECqmXARRas23419
+X-PM-Message-Details: v1;1.Bli5Ym2wK-HpbfH0fcTylw.2Ex9yXr7Lk5LwHOoiHhB68N6jWR0MA3C48vxwqd2BloXzd4TSqLturARhuP2O0lP
+MIME-Version: 1.0
+X-virtual-MTA: ord-104-245-209-215
+X-PM-MTA-Pool: transactional-2
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-Jellyfish-No-Auto-Response: 1
+
+<!DOCTYPE html><html><head>
+    <title>Spark Mail</title>
+
+    <meta content=3D"width=3Ddevice-width, initial-scale=3D1.0" name=3D"vie=
+wport"/>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html,charset=3Dutf-8"=
+/>
+
+
+   =20
+
+<style type=3D"text/css">
+.slogan:before {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.slogan:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #191c23 !important;
+    color: #fff !important;
+  }
+  h4 {
+    color: #fff !important;
+  }
+  p {
+    color: #ebebeb !important;
+  }
+  hr {
+    background-color: #393d47 !important;
+  }
+  .username {
+    color: #75acff !important;
+  }
+  .content-block {
+    border-color: #34373F !important;
+  }
+  #header-icon {
+    background: #191c23 !important;
+  }
+  .quote-container {
+    border-color: #393d47 !important;
+  }
+  .quote-container>table {
+    background-color: #24272e !important;
+    border-bottom: 1px solid #393d47 !important;
+  }
+  .quote-email-details, .content-text-small {
+    color: #d5dade !important;
+  }
+  .chat-sender {
+    color: #fff !important;
+  }
+  .chat-message {
+    background-color: #24272e !important;
+    color: #d5dade !important;
+  }
+  table.chat-message {
+    border: solid 1px rgb(64,64,64) !important;
+  }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 4=
+80px) {
+  .wrapper {
+    margin: 0 !important;
+    width: auto !important;
+  }
+  .content-block {
+    padding: 0 25px !important;
+    border-right: 0px !important;
+    border-left: 0px !important;
+    border-radius: 0 !important;
+  }
+  .footer {
+    padding: 0;
+  }
+  h4 {
+    width: 100% !important;
+  }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 5=
+68px) and (device-aspect-ratio: 40/71);
+@media only screen and (min-device-width : 374px) and (max-device-width : 3=
+76px);
+@media only screen and (min-device-width : 413px) and (max-device-width : 4=
+15px);
+@media only screen and (min-device-width : 768px) and (max-device-width : 1=
+024px);
+@media only screen {
+  a {
+    color: rgb(62,129,222);
+  }
+}
+</style></head>
+<body style=3D"background: #fff; color: #3c3c3c; font-family: -apple-system=
+, BlinkMacSystemFont, Helvetica, Arial, sans-serif; line-height: 28px; marg=
+in: 0; padding: 0; text-align: center;">
+
+<!--[if mso]><table width=3D"602" border=3D"0" cellspacing=3D"0" cellpaddin=
+g=3D"0" align=3D"center"><tr><td><![endif]-->
+<div class=3D"wrapper" style=3D"margin: 0 auto; min-width: min-content; pad=
+ding-top: 40px; text-align: center; width: 602px;" align=3D"center">
+    <div class=3D"content-block" style=3D"border: 1px solid rgba(0, 0, 0, 0=
+.1); border-radius: 4px; margin: 0 auto; max-width: 100%; padding: 0 50px; =
+text-align: center;" align=3D"center">
+
+       <img id=3D"header-icon" src=3D"https://app.smartmailcloud.com/assets=
+/emails/spark-tr2.png" border=3D"0" width=3D"80" height=3D"80" alt=3D"" sty=
+le=3D"background: #fff; display: inline-block; margin: -40px auto 22px; pad=
+ding: 0;"/>
+
+       =20
+<h4 style=3D"color: #323232; font-size: 18px; font-weight: 400; line-height=
+: 24px; margin: 0 auto 15px; text-align: center; width: 90%;" align=3D"cent=
+er">Your email address - <b>info@caregroovesupport.co.uk</b> - was used to =
+login in Spark.</h4>
+
+<hr style=3D"background-color: rgba(0, 0, 0, 0.1); border: none; height: 1p=
+x; margin: 20px auto;"/>
+
+<table>
+    <tbody>
+    <tr>
+        <td align=3D"left" width=3D"60">
+            <img id=3D"icon-device" style=3D"display: block; margin: 0; pad=
+ding: 0;" src=3D"https://storage.googleapis.com/spark-assets/assets/emails/=
+device-mac_2x.png" border=3D"0" width=3D"60" height=3D"60" alt=3D""/>
+        </td>
+        <td align=3D"right">
+            <p id=3D"text-device-name" class=3D"content-text-small" style=3D=
+"color: rgb(52, 54, 58); font-size: 16px; font-weight: 500; line-height: 24=
+px; margin: 0; padding: 2px 30px 0 0; text-align: left;" align=3D"left">
+                <b>Windows, Windows 10.0.22631</b>
+                <br/>United Kingdom 92.22.233.53
+            </p>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+
+
+
+        <p class=3D"slogan" style=3D"color: rgb(176,176,176); display: flex=
+; flex-direction: row; font-size: 14px; font-weight: 250; line-height: 0.1e=
+m; margin: 66px 0 20px; text-align: center;" align=3D"center">Smart. Focuse=
+d. Email</p>
+
+        <p class=3D"copyrights" style=3D"-webkit-text-size-adjust: none; co=
+lor: rgb(176,176,176); font-size: 10px; line-height: 14px; margin: 0; paddi=
+ng: 6px 0 42px; text-align: center;" align=3D"center">
+            Got a question? Write to <a href=3D"mailto:
+support@sparkmailapp.com
+" style=3D"color: rgb(62,129,222); text-decoration: none;">
+support@sparkmailapp.com
+</a>
+            <br/>
+            =C2=A9 2026 Spark Mail Limited, Glandore Business Centre, Grand=
+ Canal House, 1 Grand Canal Street Upper, Dublin 4, D04 Y7R5, Ireland
+        </p>
+    </div>
+</div>
+<!--[if mso]></td></tr></table><![endif]-->
+
+
+
+</body></html>

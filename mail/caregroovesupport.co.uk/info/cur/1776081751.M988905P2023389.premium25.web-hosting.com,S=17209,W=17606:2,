@@ -1,0 +1,397 @@
+Return-Path: <mark@ls1print.co.uk>
+Delivered-To: info@caregroovesupport.co.uk
+Received: from premium25.web-hosting.com
+	by premium25.web-hosting.com with LMTP
+	id YJiCOVfb3Gnd3x4ArvfGlQ
+	(envelope-from <mark@ls1print.co.uk>)
+	for <info@caregroovesupport.co.uk>; Mon, 13 Apr 2026 08:02:31 -0400
+Return-path: <mark@ls1print.co.uk>
+Envelope-to: info@caregroovesupport.co.uk
+Delivery-date: Mon, 13 Apr 2026 08:02:31 -0400
+Received: from asp-relay-shared.jellyfish.systems ([198.54.122.200]:52429)
+	by premium25.web-hosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.99.1)
+	(envelope-from <mark@ls1print.co.uk>)
+	id 1wCFzs-00000008VCZ-1N7A
+	for info@caregroovesupport.co.uk;
+	Mon, 13 Apr 2026 08:02:31 -0400
+Authentication-Results: asp-relay-shared.jellyfish.systems;
+	dkim=none;
+	spf=pass (asp-relay-shared.jellyfish.systems: domain of mark@ls1print.co.uk designates 23.239.3.185 as permitted sender) smtp.mailfrom=mark@ls1print.co.uk;
+	dmarc=pass (policy=none) header.from=ls1print.co.uk
+Received: from relay.outboundrelay.com (relay.outboundrelay.com [23.239.3.185])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (2048 bits) server-digest SHA256)
+	(No client certificate requested)
+	by asp-relay-shared.jellyfish.systems (Postfix) with ESMTPS id 4fvQy62d6Mz17vT
+	for <info@caregroovesupport.co.uk>; Mon, 13 Apr 2026 12:02:22 +0000 (UTC)
+Received: from mxa.outboundrelay.com (mxa.outboundrelay.com [23.239.20.33])
+	by relay.outboundrelay.com (Postfix) with ESMTPS id B420421027
+	for <info@caregroovesupport.co.uk>; Mon, 13 Apr 2026 12:02:18 +0000 (UTC)
+Received: from mail-wr1-f52.google.com ([209.85.221.52])
+	by mxa.outboundrelay.com with esmtpsa  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.2)
+	(envelope-from <mark@ls1print.co.uk>)
+	id 1wCFze-000000097eF-36ak
+	for info@caregroovesupport.co.uk;
+	Mon, 13 Apr 2026 12:02:18 +0000
+Received: by mail-wr1-f52.google.com with SMTP id ffacd0b85a97d-43cf5f6d2eeso201353f8f.0
+        for <info@caregroovesupport.co.uk>; Mon, 13 Apr 2026 05:02:18 -0700 (PDT)
+X-Gm-Message-State: AOJu0Yww9zu555RnjTRO65f1ZE2CzIjFFNvMownY0oZiuzbX4WkfYTgP
+	Rh4BlDL4nmSC08taEVyoTUT4llohdKOAM5aOmaVJHkSjHJ4yyUPyAkjUOHRVNV202SVhOvKqQ8K
+	14u2vLQKTm2CrPxGU7EACGrVLHXmeDAo=
+X-Received: by 2002:a05:6000:1609:b0:43d:6f15:40eb with SMTP id
+ ffacd0b85a97d-43d6f154b14mr3202570f8f.7.1776081732418; Mon, 13 Apr 2026
+ 05:02:12 -0700 (PDT)
+MIME-Version: 1.0
+References: <45b952b6-b0f2-4d78-b794-fe6b8cbf94e9@Spark> <CAJ196Tax5azT_BEBLxcu0NEqLv91-swC9wQzuW1F3W-ons_mPQ@mail.gmail.com>
+ <7addcead-6b52-4c67-a557-65a9a5304867@Spark> <CAJ196TbuKnPdZZ9BHb4WB8QR2qEDuRJsKLnc55Pf4so9kW-p0A@mail.gmail.com>
+ <5a56e81c-fc11-42cf-a96a-fe81a2d8b704@Spark> <CAJ196TY65JyBJoFOHpqXo5ZVAw2giqTtjwL5+bcwxFOB9Hxywg@mail.gmail.com>
+In-Reply-To: <CAJ196TY65JyBJoFOHpqXo5ZVAw2giqTtjwL5+bcwxFOB9Hxywg@mail.gmail.com>
+From: Mark Penny <mark@ls1print.co.uk>
+Date: Mon, 13 Apr 2026 13:02:00 +0100
+X-Gmail-Original-Message-ID: <CAJ196Tax0KHWechs25yvcQ7-egAU-yhQd8-hEeQ-7WSJVHg=HQ@mail.gmail.com>
+X-Gm-Features: AQROBzAGdiX4QpIq7BscGH1mBIe7ZFUvOKhk928wyF6RwHdTBPHhehSNQCukF00
+Message-ID: <CAJ196Tax0KHWechs25yvcQ7-egAU-yhQd8-hEeQ-7WSJVHg=HQ@mail.gmail.com>
+Subject: Re: Print A5 Size
+To: info@caregroovesupport.co.uk
+Content-Type: multipart/alternative; boundary="000000000000c0c26a064f56407a"
+X-AuthUser: e4hsqjtgcq
+
+--000000000000c0c26a064f56407a
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+ready to collect im here till 3pm
+Kind Regards
+Mark Penny
+
+<http://www.ls1print.co.uk>
+*T:* 0113 252 1787
+*M:* 07955 410156
+LS1 Print, Matrix House, Leeds LS10 1NZ
+Save the environment, think before you print this email
+Northern Impression Ltd trading as LS1 Print Reg: 9089916 VAT number: 191
+3354 12
+*Join us & keep up to date with all our exclusive offers*
+<http://www.ls1print.co.uk>
+
+
+On Thu, Apr 9, 2026 at 12:57=E2=80=AFPM Mark Penny <mark@ls1print.co.uk> wr=
+ote:
+
+> in production will email you when ready monday
+> Kind Regards
+> Mark Penny
+>
+> <http://www.ls1print.co.uk>
+> *T:* 0113 252 1787
+> *M:* 07955 410156
+> LS1 Print, Matrix House, Leeds LS10 1NZ
+> Save the environment, think before you print this email
+> Northern Impression Ltd trading as LS1 Print Reg: 9089916 VAT number: 191
+> 3354 12
+> *Join us & keep up to date with all our exclusive offers*
+> <http://www.ls1print.co.uk>
+>
+>
+> On Thu, Apr 9, 2026 at 12:56=E2=80=AFPM <info@caregroovesupport.co.uk> wr=
+ote:
+>
+>> Hi Mark,
+>> Thanks, payment completed now.
+>>
+>> Regards,
+>> Cyril
+>> On 9 Apr 2026 at 12:51 +0100, Mark Penny <mark@ls1print.co.uk>, wrote:
+>>
+>> Hi Cyril
+>>
+>> link here
+>> https://mms.tponlinepayments2.com/Pages/PublicPages/PayByLink.aspx?Payme=
+ntLinkUID=3D3b40131d-f12b-42b8-a94a-27eec3387fb7
+>>
+>> Soon as paid we will print needs paying before 3pm today
+>>
+>> Mark
+>> Kind Regards
+>> Mark Penny
+>>
+>> <http://www.ls1print.co.uk>
+>> *T:* 0113 252 1787
+>> *M:* 07955 410156
+>> LS1 Print, Matrix House, Leeds LS10 1NZ
+>> Save the environment, think before you print this email
+>> Northern Impression Ltd trading as LS1 Print Reg: 9089916 VAT number:
+>> 191 3354 12
+>> *Join us & keep up to date with all our exclusive offers*
+>> <http://www.ls1print.co.uk>
+>>
+>>
+>> On Thu, Apr 9, 2026 at 12:45=E2=80=AFPM <info@caregroovesupport.co.uk> w=
+rote:
+>>
+>>> Thanks Mark
+>>> Please go ahead with the payment link
+>>>
+>>> Regards,
+>>> Cyril
+>>> On 8 Apr 2026 at 13:40 +0100, Mark Penny <mark@ls1print.co.uk>, wrote:
+>>>
+>>> the artwork does not have any bleed so will need to be printed with
+>>> white boarder 500 of each for monday would be =C2=A3100 let me know asa=
+p as I
+>>> will need to send you payment link
+>>> Kind Regards
+>>> Mark Penny
+>>>
+>>> <http://www.ls1print.co.uk>
+>>> *T:* 0113 252 1787
+>>> *M:* 07955 410156
+>>> LS1 Print, Matrix House, Leeds LS10 1NZ
+>>> Save the environment, think before you print this email
+>>> Northern Impression Ltd trading as LS1 Print Reg: 9089916 VAT number:
+>>> 191 3354 12
+>>> *Join us & keep up to date with all our exclusive offers*
+>>> <http://www.ls1print.co.uk>
+>>>
+>>>
+>>> On Wed, Apr 8, 2026 at 1:36=E2=80=AFPM <info@caregroovesupport.co.uk> w=
+rote:
+>>>
+>>>> Kindly help me print 500 copies each (Size is A5)
+>>>> Kindly let me have the quote.
+>>>> How much it=E2=80=99ll cost me if I=E2=80=99m getting them by Monday.
+>>>> Thanks
+>>>>
+>>>> Regards,
+>>>> Cyril
+>>>>
+>>>
+
+--000000000000c0c26a064f56407a
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div>ready to collect im here till 3pm <br clear=3D"all"><=
+/div><div><div dir=3D"ltr" class=3D"gmail_signature" data-smartmail=3D"gmai=
+l_signature"><div dir=3D"ltr"><div>Kind Regards</div><div>Mark Penny</div><=
+div><br></div><div><span><a href=3D"http://www.ls1print.co.uk" target=3D"_b=
+lank"><img src=3D"http://www.tabdesign.co.uk/logo-sig.png"></a></span></div=
+><div><div><font size=3D"2"><span style=3D"font-family:arial,helvetica,sans=
+-serif"><b>T:</b></span><span style=3D"font-family:arial,helvetica,sans-ser=
+if"> </span><span style=3D"font-family:arial,helvetica,sans-serif">0113 252=
+ 1787<br></span></font></div><font size=3D"2">
+
+</font><div><div><font size=3D"2" face=3D"arial, helvetica, sans-serif"><b>=
+M:</b>=C2=A007955 410156</font><font size=3D"2"><br><span>LS1 Print,=C2=A0M=
+atrix House,=C2=A0Leeds LS10 1NZ</span></font><br></div><font face=3D"arial=
+, helvetica, sans-serif"><font size=3D"1"><b></b></font></font></div>
+
+<div><font face=3D"arial, helvetica, sans-serif"><font size=3D"1" color=3D"=
+#666666">Save <font size=3D"1">the environment, think before you print this=
+ email<br></font></font></font><font face=3D"arial, helvetica, sans-serif">=
+<font size=3D"1" color=3D"#666666"><font size=3D"1"><span>Northern Impressi=
+on Ltd trading as LS1</span></font></font></font><font face=3D"arial, helve=
+tica, sans-serif"><font size=3D"1" color=3D"#666666"><font size=3D"1"><span=
+> Print Reg: 9089916 VAT number: 191 3354 12</span><br></font></font></font=
+></div><div><font face=3D"arial, helvetica, sans-serif"><font size=3D"1" co=
+lor=3D"#666666"><font size=3D"1"><font size=3D"2"><b>Join us &amp; keep up =
+to date with all our exclusive offers</b></font><br></font></font></font></=
+div><a href=3D"http://www.ls1print.co.uk" target=3D"_blank"></a></div></div=
+></div></div><br></div><br><div class=3D"gmail_quote gmail_quote_container"=
+><div dir=3D"ltr" class=3D"gmail_attr">On Thu, Apr 9, 2026 at 12:57=E2=80=
+=AFPM Mark Penny &lt;<a href=3D"mailto:mark@ls1print.co.uk">mark@ls1print.c=
+o.uk</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"mar=
+gin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:1=
+ex"><div dir=3D"ltr"><div>in production will email you when ready monday <b=
+r clear=3D"all"></div><div><div dir=3D"ltr" class=3D"gmail_signature"><div =
+dir=3D"ltr"><div>Kind Regards</div><div>Mark Penny</div><div><br></div><div=
+><span><a href=3D"http://www.ls1print.co.uk" target=3D"_blank"><img src=3D"=
+http://www.tabdesign.co.uk/logo-sig.png"></a></span></div><div><div><font s=
+ize=3D"2"><span style=3D"font-family:arial,helvetica,sans-serif"><b>T:</b><=
+/span><span style=3D"font-family:arial,helvetica,sans-serif"> </span><span =
+style=3D"font-family:arial,helvetica,sans-serif">0113 252 1787<br></span></=
+font></div><font size=3D"2">
+
+</font><div><div><font size=3D"2" face=3D"arial, helvetica, sans-serif"><b>=
+M:</b>=C2=A007955 410156</font><font size=3D"2"><br><span>LS1 Print,=C2=A0M=
+atrix House,=C2=A0Leeds LS10 1NZ</span></font><br></div><font face=3D"arial=
+, helvetica, sans-serif"><font size=3D"1"><b></b></font></font></div>
+
+<div><font face=3D"arial, helvetica, sans-serif"><font size=3D"1" color=3D"=
+#666666">Save <font size=3D"1">the environment, think before you print this=
+ email<br></font></font></font><font face=3D"arial, helvetica, sans-serif">=
+<font size=3D"1" color=3D"#666666"><font size=3D"1"><span>Northern Impressi=
+on Ltd trading as LS1</span></font></font></font><font face=3D"arial, helve=
+tica, sans-serif"><font size=3D"1" color=3D"#666666"><font size=3D"1"><span=
+> Print Reg: 9089916 VAT number: 191 3354 12</span><br></font></font></font=
+></div><div><font face=3D"arial, helvetica, sans-serif"><font size=3D"1" co=
+lor=3D"#666666"><font size=3D"1"><font size=3D"2"><b>Join us &amp; keep up =
+to date with all our exclusive offers</b></font><br></font></font></font></=
+div><a href=3D"http://www.ls1print.co.uk" target=3D"_blank"></a></div></div=
+></div></div><br></div><br><div class=3D"gmail_quote"><div dir=3D"ltr" clas=
+s=3D"gmail_attr">On Thu, Apr 9, 2026 at 12:56=E2=80=AFPM &lt;<a href=3D"mai=
+lto:info@caregroovesupport.co.uk" target=3D"_blank">info@caregroovesupport.=
+co.uk</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D"ma=
+rgin:0px 0px 0px 0.8ex;border-left:1px solid rgb(204,204,204);padding-left:=
+1ex">
+
+
+
+<div>
+<div name=3D"messageBodySection">
+<div>Hi Mark,</div>
+<div>Thanks, payment completed now.</div>
+<div>=C2=A0</div>
+<div>Regards,</div>
+<div>Cyril=C2=A0</div>
+</div>
+<div name=3D"messageReplySection">On 9 Apr 2026 at 12:51 +0100, Mark Penny =
+&lt;<a href=3D"mailto:mark@ls1print.co.uk" target=3D"_blank">mark@ls1print.=
+co.uk</a>&gt;, wrote:<br>
+<blockquote type=3D"cite">
+<div dir=3D"ltr">Hi Cyril<br>
+<br>
+<div>link here <span id=3D"m_122071704091724538m_-3799708156285573002gmail-=
+PageDCPH_ctl00_PayByLinkAdministrationDCPH_LRT_PLAN8439314_RightDCPH_Right_=
+PLAN8439314_lbPayByLinkURL"><a href=3D"https://mms.tponlinepayments2.com/Pa=
+ges/PublicPages/PayByLink.aspx?PaymentLinkUID=3D3b40131d-f12b-42b8-a94a-27e=
+ec3387fb7" target=3D"_blank">https://mms.tponlinepayments2.com/Pages/Public=
+Pages/PayByLink.aspx?PaymentLinkUID=3D3b40131d-f12b-42b8-a94a-27eec3387fb7<=
+/a></span></div>
+<div><br></div>
+<div>Soon as paid we will print needs paying before 3pm today<br></div>
+<br>
+Mark
+<div>
+<div dir=3D"ltr" class=3D"gmail_signature">
+<div dir=3D"ltr">
+<div>Kind Regards</div>
+<div>Mark Penny</div>
+<div><br></div>
+<div><span><a href=3D"http://www.ls1print.co.uk" target=3D"_blank"><img src=
+=3D"http://www.tabdesign.co.uk/logo-sig.png"></a></span></div>
+<div>
+<div><font size=3D"2"><span style=3D"font-family:arial,helvetica,sans-serif=
+"><b>T:</b></span> <span style=3D"font-family:arial,helvetica,sans-serif"><=
+/span><span style=3D"font-family:arial,helvetica,sans-serif">0113 252 1787<=
+br></span></font></div>
+<font size=3D"2"></font>
+<div>
+<div><font size=3D"2" face=3D"arial, helvetica, sans-serif"><b>M:</b>=C2=A0=
+07955 410156</font><font size=3D"2"><br>
+<span>LS1 Print,=C2=A0Matrix House,=C2=A0Leeds LS10 1NZ</span></font><br></=
+div>
+<font face=3D"arial, helvetica, sans-serif"><font size=3D"1"><b></b></font>=
+</font></div>
+<div><font face=3D"arial, helvetica, sans-serif"><font size=3D"1" color=3D"=
+#666666">Save <font size=3D"1">the environment, think before you print this=
+ email<br></font></font></font><font face=3D"arial, helvetica, sans-serif">=
+<font size=3D"1" color=3D"#666666"><font size=3D"1"><span>Northern Impressi=
+on Ltd trading as LS1</span></font></font></font> <font face=3D"arial, helv=
+etica, sans-serif"><font size=3D"1" color=3D"#666666"><font size=3D"1"><spa=
+n>Print Reg: 9089916 VAT number: 191 3354 12</span><br></font></font></font=
+></div>
+<div><font face=3D"arial, helvetica, sans-serif"><font size=3D"1" color=3D"=
+#666666"><font size=3D"1"><font size=3D"2"><b>Join us &amp; keep up to date=
+ with all our exclusive offers</b></font><br></font></font></font></div>
+<a href=3D"http://www.ls1print.co.uk" target=3D"_blank"></a></div>
+</div>
+</div>
+</div>
+<br></div>
+<br>
+<div class=3D"gmail_quote">
+<div dir=3D"ltr" class=3D"gmail_attr">On Thu, Apr 9, 2026 at 12:45=E2=80=AF=
+PM &lt;<a href=3D"mailto:info@caregroovesupport.co.uk" target=3D"_blank">in=
+fo@caregroovesupport.co.uk</a>&gt; wrote:<br></div>
+<blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-=
+left:1px solid rgb(204,204,204);padding-left:1ex">
+<div>
+<div name=3D"messageBodySection">
+<div>Thanks Mark</div>
+<div>Please go ahead with the payment link</div>
+<div>=C2=A0</div>
+<div>Regards,</div>
+<div>Cyril=C2=A0</div>
+</div>
+<div name=3D"messageReplySection">On 8 Apr 2026 at 13:40 +0100, Mark Penny =
+&lt;<a href=3D"mailto:mark@ls1print.co.uk" target=3D"_blank">mark@ls1print.=
+co.uk</a>&gt;, wrote:<br>
+<blockquote type=3D"cite">
+<div dir=3D"ltr">
+<div>the artwork does not have any bleed so will need to be printed with wh=
+ite boarder 500 of each for monday would be =C2=A3100 let me know asap as I=
+ will need to send you payment link<br clear=3D"all"></div>
+<div>
+<div dir=3D"ltr" class=3D"gmail_signature">
+<div dir=3D"ltr">
+<div>Kind Regards</div>
+<div>Mark Penny</div>
+<div><br></div>
+<div><span><a href=3D"http://www.ls1print.co.uk" target=3D"_blank"><img src=
+=3D"http://www.tabdesign.co.uk/logo-sig.png"></a></span></div>
+<div>
+<div><font size=3D"2"><span style=3D"font-family:arial,helvetica,sans-serif=
+"><b>T:</b></span> <span style=3D"font-family:arial,helvetica,sans-serif"><=
+/span><span style=3D"font-family:arial,helvetica,sans-serif">0113 252 1787<=
+br></span></font></div>
+<font size=3D"2"></font>
+<div>
+<div><font size=3D"2" face=3D"arial, helvetica, sans-serif"><b>M:</b>=C2=A0=
+07955 410156</font><font size=3D"2"><br>
+<span>LS1 Print,=C2=A0Matrix House,=C2=A0Leeds LS10 1NZ</span></font><br></=
+div>
+<font face=3D"arial, helvetica, sans-serif"><font size=3D"1"><b></b></font>=
+</font></div>
+<div><font face=3D"arial, helvetica, sans-serif"><font size=3D"1" color=3D"=
+#666666">Save <font size=3D"1">the environment, think before you print this=
+ email<br></font></font></font><font face=3D"arial, helvetica, sans-serif">=
+<font size=3D"1" color=3D"#666666"><font size=3D"1"><span>Northern Impressi=
+on Ltd trading as LS1</span></font></font></font> <font face=3D"arial, helv=
+etica, sans-serif"><font size=3D"1" color=3D"#666666"><font size=3D"1"><spa=
+n>Print Reg: 9089916 VAT number: 191 3354 12</span><br></font></font></font=
+></div>
+<div><font face=3D"arial, helvetica, sans-serif"><font size=3D"1" color=3D"=
+#666666"><font size=3D"1"><font size=3D"2"><b>Join us &amp; keep up to date=
+ with all our exclusive offers</b></font><br></font></font></font></div>
+<a href=3D"http://www.ls1print.co.uk" target=3D"_blank"></a></div>
+</div>
+</div>
+</div>
+<br></div>
+<br>
+<div class=3D"gmail_quote">
+<div dir=3D"ltr" class=3D"gmail_attr">On Wed, Apr 8, 2026 at 1:36=E2=80=AFP=
+M &lt;<a href=3D"mailto:info@caregroovesupport.co.uk" target=3D"_blank">inf=
+o@caregroovesupport.co.uk</a>&gt; wrote:<br></div>
+<blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-=
+left:1px solid rgb(204,204,204);padding-left:1ex">
+<div>
+<div name=3D"messageBodySection">
+<div>Kindly help me print 500 copies each (Size is A5)</div>
+<div>Kindly let me have the quote.</div>
+<div>How much it=E2=80=99ll cost me if I=E2=80=99m getting them by Monday.<=
+/div>
+<div>Thanks=C2=A0</div>
+<div>=C2=A0</div>
+<div>Regards,</div>
+<div>Cyril</div>
+</div>
+</div>
+</blockquote>
+</div>
+</blockquote>
+</div>
+</div>
+</blockquote>
+</div>
+</blockquote>
+</div>
+</div>
+
+</blockquote></div>
+</blockquote></div>
+
+--000000000000c0c26a064f56407a--

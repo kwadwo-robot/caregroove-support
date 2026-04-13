@@ -1,0 +1,416 @@
+.hero-btn-outline:hover { background: #f0f4ff; color: #0052a3; }
+.slider-dots { position: absolute; bottom: 22px; left: 50%; transform: translateX(-50%); display: flex; gap: 10px; z-index: 10; }
+.slider-dot { width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,0.5); cursor: pointer; border: 2px solid white; transition: background 0.3s; }
+.slider-dot.active { background: white; }
+.slider-arrow { position: absolute; top: 50%; transform: translateY(-50%); z-index: 10; background: rgba(255,255,255,0.2); border: 2px solid white; color: white; width: 46px; height: 46px; border-radius: 50%; display: flex; align-items: center; justify-content: center; cursor: pointer; font-size: 1.2rem; transition: background 0.3s; backdrop-filter: blur(4px); }
+.slider-arrow:hover { background: rgba(255,255,255,0.4); }
+.slider-prev { left: 20px; }
+.slider-next { right: 20px; }
+@media(max-width:768px){ .hero-slider{height:480px;} .hero-text h1{font-size:2rem;} .hero-text p{font-size:1rem;} }
+</style>
+
+<div class="hero-slider" id="heroSlider">
+    <!-- Slide 1 -->
+    <div class="hero-slide active" style="background-image: url('/images/vector-personal-care.webp');">
+        <div class="hero-slide-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Supporting Independence with Compassion</h1>
+                <p>Professional Home Care Services in Leeds &amp; West Yorkshire</p>
+                <div class="hero-btns">
+                    <button onclick="openAppointmentModal()" class="hero-btn-primary" style="border: none; cursor: pointer;">Book an Appointment</button>
+                    <a href="{{ route('services.supported-living') }}" class="hero-btn-outline">Supported Living</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Slide 2 -->
+    <div class="hero-slide" style="background-image: url('/images/vector-dementia-care.webp');">
+        <div class="hero-slide-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Compassionate Care, Every Step of the Way</h1>
+                <p>Specialist and Homecare Services Tailored to Every Individual</p>
+                <div class="hero-btns">
+                    <a href="{{ route('services.homecare.live-in') }}" class="hero-btn-primary">Live-In Care</a>
+                    <a href="{{ route('about') }}" class="hero-btn-outline">About Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Slide 3 -->
+    <div class="hero-slide" style="background-image: url('/images/vector-supported-living.webp');">
+        <div class="hero-slide-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Trusted, Regulated Care Across England</h1>
+                <p>Person-Centred Support for Individuals Living Safely &amp; Independently</p>
+                <div class="hero-btns">
+                    <a href="{{ route('careers') }}" class="hero-btn-primary">Join Our Team</a>
+                    <a href="{{ route('contact') }}" class="hero-btn-outline">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Arrows -->
+    <div class="slider-arrow slider-prev" onclick="changeSlide(-1)">&#8249;</div>
+    <div class="slider-arrow slider-next" onclick="changeSlide(1)">&#8250;</div>
+    <!-- Dots -->
+    <div class="slider-dots">
+        <div class="slider-dot active" onclick="goToSlide(0)"></div>
+        <div class="slider-dot" onclick="goToSlide(1)"></div>
+        <div class="slider-dot" onclick="goToSlide(2)"></div>
+    </div>
+</div>
+
+<script>
+(function(){
+    var current = 0;
+    var slides = document.querySelectorAll('.hero-slide');
+    var dots = document.querySelectorAll('.slider-dot');
+    var timer;
+    function showSlide(n){
+        slides[current].classList.remove('active');
+        dots[current].classList.remove('active');
+        current = (n + slides.length) % slides.length;
+        slides[current].classList.add('active');
+        dots[current].classList.add('active');
+    }
+    window.changeSlide = function(dir){ clearInterval(timer); showSlide(current + dir); startAuto(); };
+    window.goToSlide = function(n){ clearInterval(timer); showSlide(n); startAuto(); };
+    function startAuto(){ timer = setInterval(function(){ showSlide(current + 1); }, 5000); }
+    startAuto();
+})();
+</script>
+
+<!-- Services Section - 3 Columns -->
+<section style="padding: 80px 0; background: #f8f9fa;">
+    <div class="container">
+        <div style="text-align: center; margin-bottom: 4rem;" data-aos="fade-up">
+            <h2 style="font-size: 2.5rem; color: #0066cc; font-weight: 800; margin-bottom: 0.5rem;">Our Care Services</h2>
+            <p style="font-size: 1.15rem; color: #666;">Quality Care Tailored to Your Needs</p>
+            <div style="width: 80px; height: 4px; background: linear-gradient(90deg, #0066cc, #2d8659); margin: 1.5rem auto;"></div>
+        </div>
+
+        <div class="row">
+            <!-- Personal Care -->
+            <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="0">
+                <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; height: 100%; display: flex; flex-direction: column;">
+                    <img src="/images/vector-personal-care.webp" alt="Personal Care" style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 2rem; flex-grow: 1; display: flex; flex-direction: column;">
+                        <h4 style="color: #0066cc; font-weight: 700; margin-bottom: 0.8rem; font-size: 1.2rem;">Personal Care</h4>
+                        <p style="color: #666; font-size: 0.95rem; flex-grow: 1;">Compassionate personal care support tailored to your needs, including bathing, dressing, and grooming.</p>
+                        <a href="{{ route('services.homecare.personal-care') }}" style="color: #0066cc; text-decoration: none; font-weight: 600; margin-top: 1rem;">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dementia Care -->
+            <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; height: 100%; display: flex; flex-direction: column;">
+                    <img src="/images/vector-dementia-care.webp" alt="Dementia Care" style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 2rem; flex-grow: 1; display: flex; flex-direction: column;">
+                        <h4 style="color: #0066cc; font-weight: 700; margin-bottom: 0.8rem; font-size: 1.2rem;">Dementia Care</h4>
+                        <p style="color: #666; font-size: 0.95rem; flex-grow: 1;">Specialized care for individuals with dementia, providing understanding and compassionate support.</p>
+                        <a href="{{ route('services.specialist.dementia') }}" style="color: #0066cc; text-decoration: none; font-weight: 600; margin-top: 1rem;">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Live-In Care -->
+            <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; height: 100%; display: flex; flex-direction: column;">
+                    <img src="/images/vector-live-in-care.webp" alt="Live-In Care" style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 2rem; flex-grow: 1; display: flex; flex-direction: column;">
+                        <h4 style="color: #0066cc; font-weight: 700; margin-bottom: 0.8rem; font-size: 1.2rem;">Live-In Care</h4>
+                        <p style="color: #666; font-size: 0.95rem; flex-grow: 1;">24/7 live-in care support in your own home, providing round-the-clock assistance and companionship.</p>
+                        <a href="{{ route('services.homecare.live-in') }}" style="color: #0066cc; text-decoration: none; font-weight: 600; margin-top: 1rem;">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Respite Care -->
+            <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="0">
+                <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; height: 100%; display: flex; flex-direction: column;">
+                    <img src="/images/vector-respite-care.webp" alt="Respite Care" style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 2rem; flex-grow: 1; display: flex; flex-direction: column;">
+                        <h4 style="color: #0066cc; font-weight: 700; margin-bottom: 0.8rem; font-size: 1.2rem;">Respite Care</h4>
+                        <p style="color: #666; font-size: 0.95rem; flex-grow: 1;">Temporary care to give carers a well-deserved break while ensuring quality support for loved ones.</p>
+                        <a href="{{ route('services.homecare.respite-care') }}" style="color: #0066cc; text-decoration: none; font-weight: 600; margin-top: 1rem;">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Palliative Care -->
+            <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; height: 100%; display: flex; flex-direction: column;">
+                    <img src="/images/vector-palliative-care.webp" alt="Palliative Care" style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 2rem; flex-grow: 1; display: flex; flex-direction: column;">
+                        <h4 style="color: #0066cc; font-weight: 700; margin-bottom: 0.8rem; font-size: 1.2rem;">Palliative Care</h4>
+                        <p style="color: #666; font-size: 0.95rem; flex-grow: 1;">Compassionate end-of-life care and support, ensuring comfort and dignity during this important time.</p>
+                        <a href="{{ route('services.homecare.palliative-care') }}" style="color: #0066cc; text-decoration: none; font-weight: 600; margin-top: 1rem;">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hospital Discharge -->
+            <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); transition: all 0.3s ease; height: 100%; display: flex; flex-direction: column;">
+                    <img src="/images/vector-hospital-discharge.webp" alt="Hospital Discharge" style="width: 100%; height: 200px; object-fit: cover;">
+                    <div style="padding: 2rem; flex-grow: 1; display: flex; flex-direction: column;">
+                        <h4 style="color: #0066cc; font-weight: 700; margin-bottom: 0.8rem; font-size: 1.2rem;">Hospital Discharge</h4>
+                        <p style="color: #666; font-size: 0.95rem; flex-grow: 1;">Support following hospital discharge, helping you transition safely back to home with professional care.</p>
+                        <a href="{{ route('services.homecare.hospital-discharge') }}" style="color: #0066cc; text-decoration: none; font-weight: 600; margin-top: 1rem;">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section with Image - TWO COLUMNS -->
+<section style="padding: 80px 0;">
+    <div class="container">
+        <div class="row align-items-center" style="display: flex; align-items: center; gap: 3rem;">
+            <!-- Left Column - Text -->
+            <div class="col-lg-6" data-aos="fade-right" style="flex: 1;">
+                <h2 style="font-size: 2.5rem; color: #0066cc; font-weight: 800; margin-bottom: 1rem;">About CareGroove</h2>
+                <p style="color: #555; font-size: 1.05rem; line-height: 1.8; margin-bottom: 1.5rem; font-weight: 600;">
+                    Caring for You with Dignity and Respect
+                </p>
+                <p style="color: #555; font-size: 1.05rem; line-height: 1.8; margin-bottom: 1.5rem;">
+                    At CareGroove Support Ltd, we provide compassionate, reliable care that helps our clients live safely and independently at home.
+                </p>
+                <div style="margin-bottom: 2rem;">
+                    <p style="color: #555; display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.8rem;">
+                        <i class="fas fa-check-circle" style="color: #2d8659; font-size: 1.2rem;"></i>
+                        <span>CQC Registered & Trusted Provider</span>
+                    </p>
+                    <p style="color: #555; display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.8rem;">
+                        <i class="fas fa-check-circle" style="color: #2d8659; font-size: 1.2rem;"></i>
+                        <span>Experienced & Friendly Team</span>
+                    </p>
+                    <p style="color: #555; display: flex; align-items: center; gap: 0.8rem;">
+                        <i class="fas fa-check-circle" style="color: #2d8659; font-size: 1.2rem;"></i>
+                        <span>Person-Centred Care Approach</span>
+                    </p>
+                </div>
+                <a href="{{ route('about') }}" style="background: #0066cc; color: white; border: none; padding: 0.9rem 2rem; border-radius: 8px; font-size: 1.05rem; font-weight: 600; text-decoration: none; display: inline-block;">Learn More About Us →</a>
+            </div>
+            
+            <!-- Right Column - Image -->
+            <div class="col-lg-6" data-aos="fade-left" style="flex: 1;">
+                <img src="/images/vector-personal-care.webp" alt="About CareGroove" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); display: block;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Why Choose Us Section -->
+<section style="padding: 80px 0; background: linear-gradient(135deg, #f0f8ff 0%, #f0fff4 100%);">
+    <div class="container">
+        <div style="text-align: center; margin-bottom: 4rem;" data-aos="fade-up">
+            <span style="display: inline-block; background: #e8f0fe; color: #0066cc; font-size: 0.85rem; font-weight: 700; padding: 0.4rem 1rem; border-radius: 50px; margin-bottom: 1rem; letter-spacing: 1px; text-transform: uppercase;">Why Us</span>
+            <h2 style="font-size: 2.5rem; color: #1a1a2e; font-weight: 800; margin-bottom: 0.5rem;">Why Choose CareGroove?</h2>
+            <p style="font-size: 1.1rem; color: #666;">What sets us apart from the rest</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem;">
+            <div data-aos="fade-up" data-aos-delay="0" style="display: flex; flex-direction: column; align-items: flex-start; gap: 1rem;">
+                <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #0066cc, #0052a3); border-radius: 14px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                    <i class="fas fa-award" style="color: white; font-size: 1.4rem;"></i>
+                </div>
+                <div>
+                    <h4 style="color: #1a1a2e; font-weight: 700; margin-bottom: 0.5rem; font-size: 1.05rem;">CQC Registered</h4>
+                    <p style="color: #666; line-height: 1.7; font-size: 0.93rem;">We are a registered and regulated care provider, meeting all CQC standards for quality and safety.</p>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="100" style="display: flex; flex-direction: column; align-items: flex-start; gap: 1rem;">
+                <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #2d8659, #1e6b45); border-radius: 14px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                    <i class="fas fa-users" style="color: white; font-size: 1.4rem;"></i>
+                </div>
+                <div>
+                    <h4 style="color: #1a1a2e; font-weight: 700; margin-bottom: 0.5rem; font-size: 1.05rem;">Experienced Team</h4>
+                    <p style="color: #666; line-height: 1.7; font-size: 0.93rem;">Our care professionals are highly trained, experienced, and committed to excellence in every interaction.</p>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="200" style="display: flex; flex-direction: column; align-items: flex-start; gap: 1rem;">
+                <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #0066cc, #0052a3); border-radius: 14px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                    <i class="fas fa-heart" style="color: white; font-size: 1.4rem;"></i>
+                </div>
+                <div>
+                    <h4 style="color: #1a1a2e; font-weight: 700; margin-bottom: 0.5rem; font-size: 1.05rem;">Person-Centred Care</h4>
+                    <p style="color: #666; line-height: 1.7; font-size: 0.93rem;">Every care plan is individually tailored to each person's unique needs, preferences, and circumstances.</p>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="300" style="display: flex; flex-direction: column; align-items: flex-start; gap: 1rem;">
+                <div style="width: 60px; height: 60px; background: linear-gradient(135deg, #2d8659, #1e6b45); border-radius: 14px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                    <i class="fas fa-clock" style="color: white; font-size: 1.4rem;"></i>
+                </div>
+                <div>
+                    <h4 style="color: #1a1a2e; font-weight: 700; margin-bottom: 0.5rem; font-size: 1.05rem;">24/7 Support</h4>
+                    <p style="color: #666; line-height: 1.7; font-size: 0.93rem;">We provide round-the-clock availability and emergency support whenever you or your loved ones need us.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section style="background: linear-gradient(135deg, #0066cc 0%, #0052a3 50%, #2d8659 100%); color: white; text-align: center; padding: 120px 0;">
+    <div class="container" data-aos="zoom-in">
+        <h2 style="font-size: 2.8rem; margin-bottom: 1.5rem; font-family: 'Outfit', sans-serif; font-weight: 800;">Ready to Get Started?</h2>
+        <p style="font-size: 1.2rem; margin-bottom: 2.5rem; opacity: 0.95;">Contact us today to discuss your care needs and how we can help.</p>
+        <a href="{{ route('contact') }}" style="background: white; color: #0066cc; border: none; padding: 1rem 2.5rem; border-radius: 8px; font-size: 1.1rem; font-weight: 600; text-decoration: none; display: inline-block;">Get in Touch</a>
+    </div>
+</section>
+
+<!-- Appointment Modal -->
+<style>
+.appointment-modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); z-index: 1000; align-items: center; justify-content: center; }
+.appointment-modal.active { display: flex; }
+.appointment-modal-content { background: white; border-radius: 12px; padding: 2.5rem; max-width: 500px; width: 90%; max-height: 90vh; overflow-y: auto; box-shadow: 0 10px 40px rgba(0,0,0,0.2); position: relative; }
+.appointment-modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; }
+.appointment-modal-header h2 { margin: 0; color: #0066cc; font-size: 1.8rem; font-weight: 700; }
+.appointment-modal-close { background: none; border: none; font-size: 1.8rem; color: #999; cursor: pointer; }
+.appointment-modal-close:hover { color: #333; }
+.appointment-form-group { margin-bottom: 1.2rem; }
+.appointment-form-group label { display: block; margin-bottom: 0.5rem; color: #333; font-weight: 600; font-size: 0.95rem; }
+.appointment-form-group input, .appointment-form-group select { width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 6px; font-size: 0.95rem; font-family: inherit; }
+.appointment-form-group input:focus, .appointment-form-group select:focus { outline: none; border-color: #0066cc; box-shadow: 0 0 0 3px rgba(0,102,204,0.1); }
+.appointment-submit-btn { background: linear-gradient(135deg, #0066cc, #2d8659); color: white; border: none; padding: 0.9rem 2rem; border-radius: 6px; font-size: 1rem; font-weight: 700; cursor: pointer; width: 100%; transition: opacity 0.3s; }
+.appointment-submit-btn:hover { opacity: 0.9; }
+.appointment-cancel-btn { background: #f0f0f0; color: #333; border: none; padding: 0.9rem 2rem; border-radius: 6px; font-size: 1rem; font-weight: 700; cursor: pointer; width: 100%; margin-top: 0.8rem; transition: background 0.3s; }
+.appointment-cancel-btn:hover { background: #e0e0e0; }
+.appointment-success-message { display: none; text-align: center; }
+.appointment-success-message.active { display: block; }
+.appointment-success-icon { font-size: 3rem; color: #2d8659; margin-bottom: 1rem; }
+.appointment-success-message h3 { color: #2d8659; font-size: 1.5rem; margin-bottom: 0.5rem; }
+.appointment-success-message p { color: #666; margin-bottom: 1.5rem; }
+</style>
+
+<div class="appointment-modal" id="appointmentModal">
+    <div class="appointment-modal-content">
+        <div class="appointment-modal-header">
+            <h2>Book an Appointment</h2>
+            <button class="appointment-modal-close" onclick="closeAppointmentModal()">&times;</button>
+        </div>
+        
+        <div class="appointment-success-message" id="appointmentSuccessMessage">
+            <div class="appointment-success-icon">✓</div>
+            <h3>Appointment Booked Successfully!</h3>
+            <p>Thank you for booking an appointment with us. We will contact you shortly to confirm the details.</p>
+        </div>
+        
+        <form id="appointmentForm" class="appointment-form" style="display: block;">
+            <div class="appointment-form-group">
+                <label for="appointmentName">Full Name *</label>
+                <input type="text" id="appointmentName" name="name" placeholder="Enter your full name" required>
+            </div>
+            
+            <div class="appointment-form-group">
+                <label for="appointmentEmail">Email Address *</label>
+                <input type="email" id="appointmentEmail" name="email" placeholder="your@email.com" required>
+            </div>
+            
+            <div class="appointment-form-group">
+                <label for="appointmentPhone">Phone Number *</label>
+                <input type="tel" id="appointmentPhone" name="phone" placeholder="07874 240205" required>
+            </div>
+            
+            <div class="appointment-form-group">
+                <label for="appointmentDate">Preferred Date *</label>
+                <input type="date" id="appointmentDate" name="date" required>
+            </div>
+            
+            <div class="appointment-form-group">
+                <label for="appointmentTime">Preferred Time *</label>
+                <select id="appointmentTime" name="time" required>
+                    <option value="">Select a time</option>
+                    <option value="09:00">09:00 AM</option>
+                    <option value="10:00">10:00 AM</option>
+                    <option value="11:00">11:00 AM</option>
+                    <option value="14:00">02:00 PM</option>
+                    <option value="15:00">03:00 PM</option>
+                    <option value="16:00">04:00 PM</option>
+                </select>
+            </div>
+            
+            <div class="appointment-form-group">
+                <label for="appointmentService">Service Interested In *</label>
+                <select id="appointmentService" name="service" required>
+                    <option value="">Select a service</option>
+                    <option value="Personal Care">Personal Care</option>
+                    <option value="Dementia Care">Dementia Care</option>
+                    <option value="Live-In Care">Live-In Care</option>
+                    <option value="Respite Care">Respite Care</option>
+                    <option value="Palliative Care">Palliative Care</option>
+                    <option value="Hospital Discharge">Hospital Discharge</option>
+                </select>
+            </div>
+            
+            <button type="submit" class="appointment-submit-btn">Book Appointment</button>
+            <button type="button" class="appointment-cancel-btn" onclick="closeAppointmentModal()">Cancel</button>
+        </form>
+    </div>
+</div>
+
+<script>
+function openAppointmentModal() {
+    document.getElementById('appointmentModal').classList.add('active');
+    document.getElementById('appointmentForm').style.display = 'block';
+    document.getElementById('appointmentSuccessMessage').classList.remove('active');
+}
+
+function closeAppointmentModal() {
+    document.getElementById('appointmentModal').classList.remove('active');
+    document.getElementById('appointmentForm').reset();
+    document.getElementById('appointmentForm').style.display = 'block';
+    document.getElementById('appointmentSuccessMessage').classList.remove('active');
+}
+
+document.getElementById('appointmentForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const formData = new FormData(this);
+    const data = {
+        name: formData.get('name'),
+        email: formData.get('email'),
+        phone: formData.get('phone'),
+        date: formData.get('date'),
+        time: formData.get('time'),
+        service: formData.get('service')
+    };
+    
+    fetch('{{ route("submit-appointment") }}', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+        },
+        body: JSON.stringify(data)
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            document.getElementById('appointmentForm').style.display = 'none';
+            document.getElementById('appointmentSuccessMessage').classList.add('active');
+            setTimeout(() => {
+                closeAppointmentModal();
+            }, 3000);
+        }
+    })
+    .catch(error => console.error('Error:', error));
+});
+
+// Close modal when clicking outside
+document.getElementById('appointmentModal').addEventListener('click', function(e) {
+    if (e.target === this) {
+        closeAppointmentModal();
+    }
+});
+</script>
+@endsection

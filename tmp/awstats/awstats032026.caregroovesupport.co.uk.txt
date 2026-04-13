@@ -8,35 +8,35 @@ AWSTATS DATA FILE 8.0 (build 20240604)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2091                
-POS_TIME 2765                
-POS_VISITOR 7205                
-POS_DAY 7780                
-POS_DOMAIN 3361                
-POS_LOGIN 3635                
-POS_ROBOT 3790                
-POS_WORMS 3952                
-POS_EMAILSENDER 4083                
-POS_EMAILRECEIVER 4226                
-POS_SESSION 7923                
-POS_FILESIZE 8155                
-POS_REQUESTTIME 8282                
-POS_SIDER 8079                
-POS_FILETYPES 4361                
-POS_DOWNLOADS 4473                
-POS_OS 4594                
-POS_BROWSER 4727                
-POS_SCREENSIZE 4931                
-POS_UNKNOWNREFERER 5005                
-POS_UNKNOWNREFERERBROWSER 5207                
-POS_ORIGIN 5316                
-POS_SEREFERRALS 5448                
-POS_PAGEREFS 5592                
-POS_SEARCHWORDS 5780                
-POS_KEYWORDS 5932                
-POS_MISC 2428                
-POS_ERRORS 5991                
-POS_CLUSTER 3491                
-POS_SIDER_404 6106                
+POS_TIME 2766                
+POS_VISITOR 7209                
+POS_DAY 7784                
+POS_DOMAIN 3365                
+POS_LOGIN 3639                
+POS_ROBOT 3794                
+POS_WORMS 3956                
+POS_EMAILSENDER 4087                
+POS_EMAILRECEIVER 4230                
+POS_SESSION 7927                
+POS_FILESIZE 8159                
+POS_REQUESTTIME 8286                
+POS_SIDER 8083                
+POS_FILETYPES 4365                
+POS_DOWNLOADS 4477                
+POS_OS 4598                
+POS_BROWSER 4731                
+POS_SCREENSIZE 4935                
+POS_UNKNOWNREFERER 5009                
+POS_UNKNOWNREFERERBROWSER 5211                
+POS_ORIGIN 5320                
+POS_SEREFERRALS 5452                
+POS_PAGEREFS 5596                
+POS_SEARCHWORDS 5784                
+POS_KEYWORDS 5936                
+POS_MISC 2429                
+POS_ERRORS 5995                
+POS_CLUSTER 3495                
+POS_SIDER_404 6110                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -48,10 +48,10 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20260329235005 4 351 3482595871886
+LastLine 20260401081129 7 904 10963963227518
 FirstTime 20260316151945
 LastTime 20260329074751
-LastUpdate 20260330090537 4 0 4 0 0
+LastUpdate 20260401090334 7 0 6 0 0
 TotalVisits 9                   
 TotalUnique 9                   
 MonthHostsKnown 0                   
@@ -60,43 +60,43 @@ END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-AddToFavourites 0 19 0
+AddToFavourites 0 20 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
 DirectorSupport 0 0 0
 TotalMisc 0 0 0
-WindowsMediaPlayerSupport 0 0 0
-FlashSupport 0 0 0
-PDFSupport 0 0 0
-RealPlayerSupport 0 0 0
-JavaEnabled 0 0 0
-JavascriptDisabled 0 0 0
-QuickTimeSupport 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
 0 0 0 0 4 4 3180
-1 1 1 12135 10 10 7950
+1 1 1 12135 11 11 8745
 2 0 0 0 4 5 3180
 3 0 0 0 7 9 6360
-4 1 2 100135 4 7 5565
+4 1 2 100135 6 10 7950
 5 0 0 0 4 6 4770
 6 0 0 0 14 15 11925
-7 1 1 12498 12 16 80218
-8 0 0 0 4 5 3975
+7 1 1 12498 16 22 84988
+8 0 0 0 5 7 4770
 9 0 0 0 9 11 8745
-10 0 0 0 7 9 7155
+10 0 0 0 7 10 7950
 11 0 0 0 7 10 7155
 12 0 0 0 4 5 3975
-13 0 0 0 5 5 3975
+13 0 0 0 5 6 4770
 14 0 0 0 5 5 3975
-15 11 19 25856 82 105 115833
+15 11 19 25856 82 106 116628
 16 0 0 0 19 19 15105
 17 0 0 0 8 10 7155
 18 0 0 0 16 22 17490
 19 0 0 0 5 5 3975
-20 0 0 0 9 12 10434
+20 0 0 0 10 13 11229
 21 0 0 0 8 10 7950
-22 0 0 0 11 31 25092
+22 0 0 0 14 34 27477
 23 0 0 0 5 6 4770
 END_TIME
 
@@ -143,8 +143,8 @@ END_EMAILRECEIVER
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
 BEGIN_FILETYPES 3
 txt 8 728 0 0
-png 1 88000 0 0
 html 14 61896 0 0
+png 1 88000 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -154,24 +154,24 @@ END_DOWNLOADS
 
 # OS ID - Hits
 BEGIN_OS ID - Hits - Pages 6
-win7 1 1
-win10 2 2
-linux 2 1
 Unknown 14 6
-macosx14 1 1
+win10 2 2
 macosx15 3 3
+win7 1 1
+macosx14 1 1
+linux 2 1
 END_OS
 
 # Browser ID - Hits - Pages
 BEGIN_BROWSER 8
-chrome115.0.0.0 2 2
 netscape5.0 6 6
-chrome120.0.0.0 1 1
-chrome121.0.0.0 2 2
 chrome142.0.0.0 2 1
-Unknown 8 0
 chrome76.0.3809.132 1 1
 chrome41.0.2228.0 1 1
+chrome121.0.0.0 2 2
+chrome115.0.0.0 2 2
+Unknown 8 0
+chrome120.0.0.0 1 1
 END_BROWSER
 
 # Screen size - Hits
@@ -222,47 +222,47 @@ END_KEYWORDS
 # Errors - Hits - Bandwidth
 BEGIN_ERRORS 3
 403 5 6210
+301 265 206700
 404 70 92922
-301 247 193185
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
 BEGIN_SIDER_404 35
-/api/swagger.json 2 -
-/actuator/env 2 -
-/info.php 2 -
-/webjars/swagger-ui/index.html 2 -
-/v2/_catalog 2 -
-/api/graphql 2 -
-/swagger/v1/swagger.json 2 -
-/sitemap.xml 1 -
-/api 2 -
-/server 2 -
-/debug/default/view 2 -
-/.vscode/sftp.json 2 -
-/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
-/graphql/api 2 -
-/swagger-ui.html 2 -
 /.DS_Store 2 -
-/swagger.json 2 -
-/api-docs/swagger.json 2 -
-/trace.axd 2 -
-/.env 2 -
+/swagger/swagger-ui.html 2 -
 /graphql 2 -
-/config.json 2 -
+/login.action 2 -
+/sitemap.xml 1 -
+/.vscode/sftp.json 2 -
+/info.php 2 -
+/about 2 -
 /@vite/env 2 -
 /v3/api-docs 2 -
 /v2/api-docs 2 -
-/console/ 2 -
-/.well-known/security.txt 2 -
-/s/834313e2032313e25363e28363/_/ 2 -
-/.well-known/pki-validation/18B292BB5E8682A086B190CEB30B51CB.txt 3 -
+/debug/default/view 2 -
 /api/gql 2 -
+/api 2 -
+/.well-known/security.txt 2 -
+/api/graphql 2 -
+/console/ 2 -
 /telescope/requests 2 -
-/swagger/swagger-ui.html 2 -
 /swagger/index.html 2 -
-/login.action 2 -
-/about 2 -
+/.well-known/pki-validation/18B292BB5E8682A086B190CEB30B51CB.txt 3 -
+/s/834313e2032313e25363e28363/_/ 2 -
+/config.json 2 -
+/webjars/swagger-ui/index.html 2 -
+/swagger-ui.html 2 -
+/v2/_catalog 2 -
+/api-docs/swagger.json 2 -
+/swagger.json 2 -
+/graphql/api 2 -
+/server 2 -
+/swagger/v1/swagger.json 2 -
+/trace.axd 2 -
+/actuator/env 2 -
+/.env 2 -
+/api/swagger.json 2 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
@@ -272,19 +272,19 @@ BEGIN_VISITOR 16
 143.110.213.72 3 3 8814 20260316152119
 139.59.231.238 3 3 8850 20260316152120
 195.123.244.84 2 2 1866 20260316152040
-34.31.137.48 1 1 12135 20260326010856
 34.204.197.113 1 1 1866 20260316152506
-47.84.138.69 1 1 12498 20260329074751
+137.184.92.202 1 2 100135 20260325040239
 52.57.46.129 1 1 1866 20260316151945
 18.158.213.240 1 1 1866 20260316151945
-137.184.92.202 1 2 100135 20260325040239
+34.31.137.48 1 1 12135 20260326010856
+47.84.138.69 1 1 12498 20260329074751
 34.40.31.46 0 1 91 
-34.133.72.112 0 1 91 
 91.199.212.132 0 2 182 
 35.236.25.141 0 1 91 
+34.175.21.15 0 1 91 
 34.142.198.90 0 1 91 
 35.243.102.37 0 1 91 
-34.175.21.15 0 1 91 
+34.133.72.112 0 1 91 
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
@@ -309,12 +309,12 @@ END_SIDER
 
 # Payload Range - Payload Frequency
 BEGIN_FILESIZE 6
-500-1K 261
-5K+ 6
-44-100 8
 1K-2K 82
-0-44 6
+500-1K 279
+44-100 8
 2K-5K 2
+0-44 7
+5K+ 6
 END_FILESIZE
 
 # Request Time Range - Request Time Frequency

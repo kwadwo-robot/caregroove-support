@@ -1,0 +1,108 @@
+Return-Path: <info@caregroovesupport.co.uk>
+Delivered-To: info@caregroovesupport.co.uk
+Received: from premium25.web-hosting.com
+	by premium25.web-hosting.com with LMTP
+	id KG6cGMe8y2mLoQYArvfGlQ
+	(envelope-from <info@caregroovesupport.co.uk>)
+	for <info@caregroovesupport.co.uk>; Tue, 31 Mar 2026 08:23:35 -0400
+Return-path: <info@caregroovesupport.co.uk>
+Envelope-to: info@caregroovesupport.co.uk
+Delivery-date: Tue, 31 Mar 2026 08:23:35 -0400
+Received: from carebbux (helo=[127.0.0.1])
+	by premium25.web-hosting.com with local-smtp (Exim 4.99.1)
+	(envelope-from <info@caregroovesupport.co.uk>)
+	id 1w7Y87-00000001wxM-0TsP
+	for info@caregroovesupport.co.uk;
+	Tue, 31 Mar 2026 08:23:35 -0400
+From: CareGroove Support Ltd <info@caregroovesupport.co.uk>
+To: info@caregroovesupport.co.uk
+Subject: New Contact Form Submission from Test
+Message-ID: <b07d29ab69444de568930aee758d4df3@caregroovesupport.co.uk>
+MIME-Version: 1.0
+Date: Tue, 31 Mar 2026 12:23:35 +0000
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Sender:  <carebbux@premium25.web-hosting.com>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=3D"UTF-8">
+    <sty=
+le>
+        body { font-family: 'Outfit', Arial, sans-serif; color: #333;=
+ line-height: 1.6; }
+        .container { max-width: 600px; margin: 0 aut=
+o; padding: 20px; }
+        .header { background: linear-gradient(135deg,=
+ #0066cc 0%, #2d8659 100%); color: white; padding: 20px; border-radius: 8px=
+ 8px 0 0; }
+        .content { background: #f9f9f9; padding: 20px; border=
+-radius: 0 0 8px 8px; }
+        .field { margin-bottom: 15px; }
+       =
+ .label { font-weight: 600; color: #0066cc; }
+        .value { color: #55=
+5; margin-top: 5px; }
+        .footer { text-align: center; margin-top: 2=
+0px; color: #999; font-size: 12px; }
+    </style>
+</head>
+<body>
+  =
+  <div class=3D"container">
+                    <div class=3D"header">
+=
+                <h2 style=3D"margin: 0;">New Contact Form Submission</h2>=
+
+            </div>
+            <div class=3D"content">
+             =
+   <p>A new contact form submission has been received:</p>
+              =
+ =20
+                <div class=3D"field">
+                    <div class=
+=3D"label">Name:</div>
+                    <div class=3D"value">Test</div=
+>
+                </div>
+                <div class=3D"field">
+      =
+              <div class=3D"label">Email:</div>
+                    <div =
+class=3D"value"><a href=3D"mailto:testmail@gmail.com">testmail@gmail.com</a=
+></div>
+                </div>
+                <div class=3D"field">
+=
+                    <div class=3D"label">Phone:</div>
+                   =
+ <div class=3D"value"><a href=3D"tel:67888999000">67888999000</a></div>
+ =
+               </div>
+                <div class=3D"field">
+           =
+         <div class=3D"label">Subject:</div>
+                    <div cla=
+ss=3D"value">TEST</div>
+                </div>
+                <div cla=
+ss=3D"field">
+                    <div class=3D"label">Message:</div>
+ =
+                   <div class=3D"value">Hello this is a test mail for deliv=
+ery purpose</div>
+                </div>
+            </div>
+        =
+
+        <div class=3D"footer">
+            <p>&copy; 2026 CareGroove S=
+upport Ltd. All rights reserved.</p>
+        </div>
+    </div>
+</body=
+>
+</html>
+
